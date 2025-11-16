@@ -20,13 +20,10 @@ struct SignupView: View {
 
                 ScrollView {
                     VStack(spacing: 25) {
-                        Text("🏰")
-                            .font(.system(size: 60))
-                            .padding(.top, 30)
-                        
                         Text("Join Munich Quest!")
                             .font(.title)
                             .fontWeight(.bold)
+                            .padding(.top, 30)
                         
                         VStack(spacing: 15) {
                             TextField("Username", text: $username)
@@ -47,11 +44,15 @@ struct SignupView: View {
                                 .cornerRadius(10)
 
                             SecureField("Password", text: $password)
+                                .textInputAutocapitalization(.never)
+                                .autocorrectionDisabled()
                                 .padding()
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
 
                             SecureField("Confirm Password", text: $confirmPassword)
+                                .textInputAutocapitalization(.never)
+                                .autocorrectionDisabled()
                                 .padding()
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
