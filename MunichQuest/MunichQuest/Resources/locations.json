@@ -4979,11 +4979,13 @@
       "venues": [
         {
           "name": "Hohenschwangau Castle",
-          "description": "King Ludwig II's childhood residence - yellow castle below Neuschwanstein. Less crowded, equally beautiful! Combination tickets available."
+          "description": "King Ludwig II's childhood residence - yellow castle below Neuschwanstein. Less crowded, equally beautiful! Combination tickets available.",
+          "icon": "🏰"
         },
         {
           "name": "Marienbrücke (Mary's Bridge)",
-          "description": "Bridge spanning Pöllat Gorge with THE iconic Neuschwanstein view. Must-visit for photos! 10-min walk from castle."
+          "description": "Bridge spanning Pöllat Gorge with THE iconic Neuschwanstein view. Must-visit for photos! 10-min walk from castle.",
+          "icon": "🌉"
         }
       ],
       "quizIds": []
