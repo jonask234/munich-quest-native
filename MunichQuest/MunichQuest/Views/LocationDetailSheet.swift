@@ -9,6 +9,7 @@ struct LocationDetailSheet: View {
     let location: LocationData
     var autoTriggered: Bool = false
     @State private var showQuiz = false
+    @State private var showLocationGuide = false
 
     private var distanceToLocation: Double? {
         locationManager.distance(to: location)
@@ -155,6 +156,31 @@ struct LocationDetailSheet: View {
                             }
                             .foregroundColor(isCompleted ? .green : Color(red: 0.4, green: 0.49, blue: 0.92))
                             .disabled(isCompleted)
+
+                            // Location Guide button (for completed locations)
+                            if isCompleted {
+                                Button(action: { showLocationGuide = true }) {
+                                    HStack {
+                                        Image(systemName: "info.circle.fill")
+                                            .font(.title2)
+                                        VStack(alignment: .leading) {
+                                            Text("View Location Guide")
+                                                .font(.headline)
+                                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                            Text("Transportation, venues, tips & more")
+                                                .font(.caption)
+                                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92).opacity(0.8))
+                                        }
+                                        Spacer()
+                                        Image(systemName: "chevron.right")
+                                    }
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color(red: 0.4, green: 0.49, blue: 0.92).opacity(0.1))
+                                    .cornerRadius(10)
+                                }
+                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                            }
                         } else {
                             // Locked (not nearby)
                             HStack {
@@ -205,6 +231,12 @@ struct LocationDetailSheet: View {
         .sheet(isPresented: $showQuiz) {
             QuizView(location: location)
                 .environmentObject(gameManager)
+        }
+        .sheet(isPresented: $showLocationGuide) {
+            if let progress = gameManager.userProgress {
+                LocationStatsDetailSheet(location: location, progress: progress)
+                    .environmentObject(gameManager)
+            }
         }
         .onAppear {
             // Auto-trigger quiz if location detail was auto-opened due to proximity

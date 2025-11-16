@@ -126,9 +126,17 @@ struct StatsView: View {
         guard let nextMonday = calendar.nextDate(after: now, matching: DateComponents(weekday: 2), matchingPolicy: .nextTime) else {
             return "7 days"
         }
-        let components = calendar.dateComponents([.day], from: now, to: nextMonday)
+        let components = calendar.dateComponents([.day, .hour], from: now, to: nextMonday)
         let days = components.day ?? 0
-        return "\(days) Days Left"
+        let hours = components.hour ?? 0
+
+        if days == 0 {
+            // Less than 1 day remaining - show hours
+            return "\(hours) Hour\(hours == 1 ? "" : "s") Left"
+        } else {
+            // 1 or more days remaining - show days
+            return "\(days) Day\(days == 1 ? "" : "s") Left"
+        }
     }
 }
 
@@ -617,12 +625,17 @@ struct AchievementCard: View {
         case .uncommon:
             return .green
         case .rare:
-            return .blue
+            return Color(red: 0.0, green: 0.7, blue: 0.9) // Cyan - distinct from app theme
         case .epic:
             return .purple
         case .legendary:
             return Color(red: 0.95, green: 0.75, blue: 0.0)
         }
+    }
+
+    // App theme color for progress bars
+    private var appThemeColor: Color {
+        return Color(red: 0.4, green: 0.49, blue: 0.92)
     }
 
     private var rarityText: String {
@@ -675,7 +688,7 @@ struct AchievementCard: View {
                 if !isUnlocked {
                     VStack(spacing: 4) {
                         ProgressView(value: progress)
-                            .tint(rarityColor)
+                            .tint(appThemeColor)
                             .scaleEffect(x: 1, y: 1.2)
 
                         Text("\(Int(progress * 100))%")
@@ -958,7 +971,7 @@ struct AchievementDetailSheet: View {
         switch achievement.rarity {
         case .common: return .gray
         case .uncommon: return .green
-        case .rare: return .blue
+        case .rare: return Color(red: 0.0, green: 0.7, blue: 0.9) // Cyan - distinct from app theme
         case .epic: return .purple
         case .legendary: return Color(red: 0.95, green: 0.75, blue: 0.0)
         }

@@ -352,6 +352,7 @@ class GameManager: ObservableObject {
 
         // Get all achievements from StatsView
         let allAchievements = Achievement.allAchievements
+        var anyUnlocked = false
 
         for achievement in allAchievements {
             // Skip if already unlocked
@@ -367,10 +368,16 @@ class GameManager: ObservableObject {
                 progress.achievements.insert(achievement.id)
                 progress.addXP(achievement.xpReward)
                 print("🏆 Achievement unlocked: \(achievement.title) (+\(achievement.xpReward) XP)")
+                anyUnlocked = true
             }
         }
 
         userProgress = progress
+
+        // Save to Firestore if any achievements were unlocked
+        if anyUnlocked {
+            saveUserProgress()
+        }
     }
 
     private func checkAchievementCondition(_ condition: AchievementCondition, progress: UserProgress) -> Bool {
