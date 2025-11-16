@@ -6399,6 +6399,405 @@
         ]
       },
       "quizIds": []
+    },
+    "sup_isar": {
+      "id": "sup_isar",
+      "name": "SUP (Stand-Up Paddleboarding) on Isar",
+      "emoji": "🏄‍♂️",
+      "coordinates": {
+        "lat": 48.1178,
+        "lng": 11.5608
+      },
+      "radius": 200,
+      "category": "sports",
+      "district": "Thalkirchen-Obersendling",
+      "difficulty": "medium",
+      "unlockLevel": 2,
+      "description": "Rent a stand-up paddleboard and glide down the scenic Isar river! Beginner-friendly calm sections or adventure through rapids. Unique way to see Munich from the water. Equipment rental and lessons available!",
+      "shortDescription": "Paddleboard down the scenic Isar river",
+      "imageUrl": "/images/locations/sup.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "U3 Thalkirchen (10 min walk)",
+          "Bus 135 Thalkirchen (5 min walk)"
+        ],
+        "walking": "45 minutes from Marienplatz - bike or take U-Bahn"
+      },
+      "visitInfo": {
+        "hours": "May-September: Daily 10 AM - 7 PM. Weather dependent. Book online or walk-in.",
+        "bestTime": "Summer mornings (9-11 AM) for calm water. Weekdays less crowded. Avoid after heavy rain (strong current)!",
+        "events": [
+          "Beginner SUP courses",
+          "Guided river tours",
+          "SUP yoga sessions",
+          "Sunset paddles"
+        ],
+        "tips": [
+          "Rental €15-25 for 2-3 hours",
+          "Beginners start in calm sections - safe and fun!",
+          "Waterproof bag for phone/valuables",
+          "Wear swimsuit - you WILL fall in (it's part of the fun!)",
+          "Life jackets provided",
+          "Lessons available €40-50",
+          "Can paddle from Thalkirchen to Flaucher",
+          "No experience needed - instruction included",
+          "Bring sunscreen and water",
+          "Wetsuit rental available for cooler days",
+          "Book ahead on weekends!",
+          "One of Munich's coolest summer activities!"
+        ]
+      }
+    },
+    "mikes_bike_tours": {
+      "id": "mikes_bike_tours",
+      "name": "Mike's Bike Tours Munich",
+      "emoji": "🚴",
+      "coordinates": {
+        "lat": 48.1376,
+        "lng": 11.5753
+      },
+      "radius": 100,
+      "category": "culture",
+      "district": "Altstadt-Lehel",
+      "difficulty": "easy",
+      "unlockLevel": 1,
+      "description": "Famous bike tours through Munich with expert guides! City highlights tour, beer garden tour, Third Reich historical tour, Neuschwanstein day trip. Fun, informative, and the best way to see Munich efficiently!",
+      "shortDescription": "Guided bike tours - city highlights & beer gardens",
+      "imageUrl": "/images/locations/bike_tours.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "S/U Marienplatz (5 min walk)",
+          "At Hofbräuhaus meeting point"
+        ],
+        "walking": "5 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Tours daily: City tour 10:30 AM & 2 PM. Beer Garden tour 5:30 PM. Meet at Hofbräuhaus courtyard.",
+        "bestTime": "Book online 1-2 days ahead (tours sell out!). Morning tour less crowded. Beer garden tour very popular - book early!",
+        "events": [
+          "Classic Munich City Tour (4 hours)",
+          "Beer Garden Tour (3.5 hours + beer!)",
+          "Third Reich Walking Tour (2.5 hours)",
+          "Neuschwanstein Castle Day Trip (10 hours)"
+        ],
+        "tips": [
+          "City tour €28, Beer Garden tour €38 (includes beer!)",
+          "Bikes and helmets included",
+          "English-speaking guides - super entertaining!",
+          "4-hour city tour covers major sights efficiently",
+          "Beer garden tour includes traditional Bavarian beer!",
+          "Suitable for all fitness levels - casual pace",
+          "Rain or shine - tours run year-round",
+          "Book at mikesbike tours.com",
+          "Also rentrentals available if you want to explore solo",
+          "Tips appreciated for guides (€5-10)",
+          "One of Munich's highest-rated activities!",
+          "Perfect introduction to Munich!"
+        ]
+      }
+    },
+    "jochen_schweizer_arena": {
+      "id": "jochen_schweizer_arena",
+      "name": "Jochen Schweizer Arena",
+      "emoji": "🪂",
+      "coordinates": {
+        "lat": 48.0531,
+        "lng": 11.7158
+      },
+      "radius": 250,
+      "category": "sports",
+      "district": "Taufkirchen (outside Munich)",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Massive adventure sports complex! Indoor skydiving, surfing, trampolines, climbing, bodyflying. Experience extreme sports safely indoors. Perfect for adrenaline junkies and unique experiences!",
+      "shortDescription": "Indoor skydiving, surfing & adventure sports",
+      "imageUrl": "/images/locations/jochen_schweizer.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "S7 to Taufkirchen, then bus 222 (15 min)",
+          "Or taxi from Taufkirchen S-Bahn (~10 min)"
+        ],
+        "walking": "Outside Munich - take S-Bahn + bus or taxi"
+      },
+      "visitInfo": {
+        "hours": "Mon-Fri 2 PM - 10 PM, Sat-Sun 10 AM - 10 PM. Activities require booking ahead!",
+        "bestTime": "Book 1-2 weeks ahead online! Weekday afternoons less busy. Great for rainy days or special occasions.",
+        "events": [
+          "Indoor skydiving (bodyflying)",
+          "Indoor surfing lessons",
+          "Trampoline park",
+          "Climbing walls",
+          "Adventure packages"
+        ],
+        "tips": [
+          "Indoor skydiving €60-90 for 2 flights!",
+          "First-time flyers - no experience needed",
+          "Surfing lessons €50-70 per hour",
+          "Trampoline park day pass €20-25",
+          "Combination packages available (save money!)",
+          "Perfect gift experience!",
+          "Instructors guide you through everything",
+          "Age limits vary by activity (usually 4+)",
+          "Book at jochen-schweizer-arena.de",
+          "One of Europe's largest indoor adventure arenas",
+          "Great for birthday parties and groups",
+          "Allow 2-3 hours for visit",
+          "Bring socks for trampoline park!"
+        ]
+      }
+    },
+    "eisbachwelle_surf_school": {
+      "id": "eisbachwelle_surf_school",
+      "name": "Eisbach Wave Surf School",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 48.1433,
+        "lng": 11.5889
+      },
+      "radius": 100,
+      "category": "sports",
+      "district": "Altstadt-Lehel",
+      "difficulty": "hard",
+      "unlockLevel": 4,
+      "description": "Learn to surf the famous Eisbach river wave! Professional instruction for Munich's iconic standing wave. Advanced only - requires strong swimming and surfing background. Unique urban surfing experience!",
+      "shortDescription": "Surf lessons on the famous Eisbach wave",
+      "imageUrl": "/images/locations/eisbach_lessons.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "U4/U5 Lehel (5 min walk)",
+          "Tram 16 Nationalmuseum (3 min walk)"
+        ],
+        "walking": "15 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Lessons by appointment only. Summer (May-Sept) best. Contact surf schools directly for booking.",
+        "bestTime": "Book months ahead! Lessons require advanced surfing experience. Early morning slots available. Not for beginners!",
+        "events": [
+          "Private surf lessons on Eisbach",
+          "Group workshops",
+          "Technique coaching",
+          "Safety briefings required"
+        ],
+        "tips": [
+          "Lessons €80-150 per hour (private)",
+          "ADVANCED SURFERS ONLY - dangerous for beginners!",
+          "Must have ocean surfing experience",
+          "Cold water year-round - wetsuit essential",
+          "Strong current - excellent swimming required",
+          "Liability waiver mandatory",
+          "Book with certified Munich river surf instructors",
+          "Watching is free - surfing requires skill!",
+          "Alternative: Floßlände wave easier for learning",
+          "Most surfers have years of experience",
+          "Respect the queue - surfers take turns",
+          "One of the world's most famous river waves!"
+        ]
+      }
+    },
+    "mueller_wellenbad": {
+      "id": "mueller_wellenbad",
+      "name": "Müller'sches Volksbad Sauna & Spa",
+      "emoji": "🧖",
+      "coordinates": {
+        "lat": 48.1308,
+        "lng": 11.5911
+      },
+      "radius": 100,
+      "category": "wellness",
+      "district": "Au-Haidhausen",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Historic 1901 Art Nouveau bathhouse with stunning architecture! Traditional Finnish sauna, steam rooms, relaxation areas. Luxurious wellness in architectural masterpiece. Munich's most beautiful spa!",
+      "shortDescription": "Art Nouveau sauna & spa in historic bathhouse",
+      "imageUrl": "/images/locations/volksbad_sauna.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "S-Bahn Rosenheimer Platz (10 min walk)",
+          "Tram 16/17/19 Deutsches Museum (5 min walk)",
+          "U1/U2 Fraunhoferstraße (12 min walk)"
+        ],
+        "walking": "20 minutes from Marienplatz via Isar"
+      },
+      "visitInfo": {
+        "hours": "Sauna: Mon, Thu 7:30 AM - 10 PM; Tue-Wed, Fri-Sun 10 AM - 10 PM. Check website for mixed/separate gender days!",
+        "bestTime": "Weekday mornings quieter. Weekend afternoons busiest. Check schedule - some days are women-only or men-only!",
+        "events": [
+          "Traditional Finnish sauna rituals",
+          "Steam room sessions",
+          "Aufguss (sauna infusion) ceremonies",
+          "Relaxation pool"
+        ],
+        "tips": [
+          "Entry €12-15 for sauna & pool",
+          "Towel rental €3 (or bring your own)",
+          "Stunning Jugendstil (Art Nouveau) architecture!",
+          "Nude sauna (German tradition - bring towel to sit on)",
+          "Mixed gender most days - check schedule",
+          "Beautiful mosaic tiles and original 1901 features",
+          "Very relaxing - plan 2-3 hours minimum",
+          "No phones/photos in sauna areas",
+          "Bring flip-flops and robe (or rent)",
+          "Small cafe inside for refreshments",
+          "One of Europe's most beautiful bathhouses!",
+          "Must-see even if you don't sauna - the architecture!"
+        ]
+      }
+    },
+    "airfield_minigolf": {
+      "id": "airfield_minigolf",
+      "name": "Airport München Minigolf",
+      "emoji": "⛳",
+      "coordinates": {
+        "lat": 48.3528,
+        "lng": 11.7753
+      },
+      "radius": 100,
+      "category": "entertainment",
+      "district": "Oberding (airport)",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Unique minigolf course AT Munich Airport! Play between terminals with airplane-themed obstacles. Perfect for layovers or airport entertainment. 18 creative holes with aviation theme!",
+      "shortDescription": "Minigolf at Munich Airport - aviation themed",
+      "imageUrl": "/images/locations/airport_minigolf.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "S1/S8 to Munich Airport (40 min from city)",
+          "Between Terminal 1 and Munich Airport Center MAC"
+        ],
+        "walking": "Inside airport complex - follow signs"
+      },
+      "visitInfo": {
+        "hours": "Daily 8 AM - 11 PM. Year-round indoor facility!",
+        "bestTime": "Perfect for layovers! Less crowded mornings. Fun for families before flights. Games take ~45 minutes.",
+        "events": [
+          "18-hole aviation-themed course",
+          "Family competitions",
+          "Birthday parties",
+          "Group events"
+        ],
+        "tips": [
+          "€6.50 per game adults, €5 kids",
+          "Indoor course - weather doesn't matter!",
+          "Airplane and airport themed obstacles",
+          "Located between terminals - easy access",
+          "Equipment provided (clubs, balls)",
+          "Fun for all ages - kids love it!",
+          "Perfect time-killer during layovers",
+          "Can play even with carry-on luggage",
+          "Takes ~45 minutes to complete",
+          "One of the world's few airport minigolf courses!",
+          "Great for families before/after flights",
+          "Unique Munich activity!"
+        ]
+      }
+    },
+    "ice_skating_olympiapark": {
+      "id": "ice_skating_olympiapark",
+      "name": "Olympia Ice Rink",
+      "emoji": "⛸️",
+      "coordinates": {
+        "lat": 48.1756,
+        "lng": 11.5533
+      },
+      "radius": 150,
+      "category": "sports",
+      "district": "Milbertshofen-Am Hart",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Public ice skating at Olympic Park! Indoor and outdoor rinks, skate rental, lessons available. Fun winter activity in iconic Olympic venue. Perfect for all skill levels!",
+      "shortDescription": "Ice skating at Olympic Park rinks",
+      "imageUrl": "/images/locations/ice_skating.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "U3 Olympiazentrum (5 min walk)",
+          "Tram 20/21 Olympiapark West (7 min walk)",
+          "Tram 27 Petuelring (10 min walk)"
+        ],
+        "walking": "40 minutes from Marienplatz - take public transport"
+      },
+      "visitInfo": {
+        "hours": "Indoor rink: Sep-April daily 9 AM - 10 PM. Outdoor rink: Nov-Feb daily 10 AM - 10 PM (weather permitting).",
+        "bestTime": "Weekday afternoons less crowded. Friday-Saturday evenings busy but fun atmosphere. Outdoor rink magical in December!",
+        "events": [
+          "Public skating sessions",
+          "Ice hockey games (watch or play)",
+          "Figure skating lessons",
+          "Ice disco nights (music + lights!)"
+        ],
+        "tips": [
+          "Entry €5-7, skate rental €4",
+          "Both indoor and outdoor rinks available",
+          "Outdoor rink only winter (November-February)",
+          "Skate rental on-site - all sizes",
+          "Beginners welcome - helpers available for kids",
+          "Gloves required (or €2 to buy)",
+          "Hot drinks and snacks at rink cafe",
+          "Friday/Saturday evening ice disco - DJ + lights!",
+          "Lessons available for beginners",
+          "Lockers available (bring €1 coin)",
+          "Beautiful Olympic Park setting",
+          "Perfect winter date activity!"
+        ]
+      }
+    },
+    "fliplab_trampoline": {
+      "id": "fliplab_trampoline",
+      "name": "FLIPLAB Trampoline Park",
+      "emoji": "🤸",
+      "coordinates": {
+        "lat": 48.1678,
+        "lng": 11.6125
+      },
+      "radius": 150,
+      "category": "sports",
+      "district": "Schwabing-Freimann",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Massive indoor trampoline park with ninja course, foam pits, dodgeball, basketball dunking! Fun workout for all ages. Perfect rainy day activity or birthday parties. Bounce until you drop!",
+      "shortDescription": "Huge trampoline park with ninja course",
+      "imageUrl": "/images/locations/fliplab.jpg",
+      "quizIds": [],
+      "transportation": {
+        "transit": [
+          "U6 Fröttmaning (10 min walk)",
+          "Bus 50/219 Heidemannstraße (5 min walk)",
+          "Near Allianz Arena"
+        ],
+        "walking": "Far from center - take U-Bahn or bus"
+      },
+      "visitInfo": {
+        "hours": "Mon-Fri 2 PM - 9 PM, Sat-Sun 10 AM - 9 PM. School holidays: Daily 10 AM - 9 PM.",
+        "bestTime": "Weekday afternoons quieter. Weekend mornings for families. Book online to skip queues!",
+        "events": [
+          "Free jump sessions",
+          "Ninja warrior course",
+          "Dodgeball games",
+          "Foam pit",
+          "Basketball slam dunk area",
+          "Fitness classes on trampolines"
+        ],
+        "tips": [
+          "€15-20 for 60-90 min session",
+          "Book online in advance - saves money!",
+          "Mandatory FLIPLAB socks €3 (anti-slip)",
+          "Age 6+ recommended (toddler area for younger)",
+          "Great workout - expect to be tired!",
+          "Foam pit is super fun (and safe for tricks)",
+          "Ninja warrior course challenging but awesome",
+          "Birthday party packages available",
+          "Bring water bottle - you'll need it!",
+          "Trampolines everywhere - walls, floors, basketball hoops!",
+          "Perfect for rainy days",
+          "One of Munich's most fun workouts!"
+        ]
+      }
     }
   },
   "quizzes": {
