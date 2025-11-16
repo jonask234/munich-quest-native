@@ -13,7 +13,7 @@
       "district": "Altstadt-Lehel",
       "difficulty": "easy",
       "unlockLevel": 1,
-      "description": "The heart of Munich since 1158. Home to the famous Glockenspiel that performs daily at 11am and 12pm (plus 5pm in summer). This central square is where locals meet, tourists gather, and Munich's history comes alive.",
+      "description": "Munich's historic central square - the city itself was founded here in 1158. Home to the famous Glockenspiel that performs daily at 11am and 12pm (plus 5pm in summer). This is where locals meet, tourists gather, and Munich's history comes alive.",
       "shortDescription": "Munich's central square",
       "imageUrl": "/images/locations/marienplatz.jpg",
       "quizIds": [
@@ -1265,6 +1265,7 @@
       "quizIds": [
         "sendlinger_1",
         "sendlinger_2",
+        "sendlinger_3",
         "sendlinger_4",
         "sendlinger_5"
       ],
@@ -1413,7 +1414,9 @@
       "quizIds": [
         "flaucher_1",
         "flaucher_2",
-        "flaucher_3"
+        "flaucher_3",
+        "flaucher_4",
+        "flaucher_5"
       ],
       "transportation": {
         "transit": [
@@ -1719,7 +1722,9 @@
       "quizIds": [
         "freiheit_1",
         "freiheit_2",
-        "freiheit_3"
+        "freiheit_3",
+        "freiheit_4",
+        "freiheit_5"
       ],
       "transportation": {
         "transit": [
@@ -2151,7 +2156,9 @@
       "quizIds": [
         "thiel_1",
         "thiel_2",
-        "thiel_3"
+        "thiel_3",
+        "thiel_4",
+        "thiel_5"
       ],
       "transportation": {
         "transit": [
@@ -2380,7 +2387,9 @@
       "quizIds": [
         "ludwig_1",
         "ludwig_2",
-        "ludwig_3"
+        "ludwig_3",
+        "ludwig_4",
+        "ludwig_5"
       ],
       "transportation": {
         "transit": [
@@ -2542,7 +2551,9 @@
       "quizIds": [
         "blitz_1",
         "blitz_2",
-        "blitz_3"
+        "blitz_3",
+        "blitz_4",
+        "blitz_5"
       ],
       "transportation": {
         "transit": [
@@ -2824,12 +2835,12 @@
       "name": "Boulderwelt München",
       "emoji": "🧗",
       "coordinates": {
-        "lat": 48.125872,
-        "lng": 11.6110615
+        "lat": 48.1276,
+        "lng": 11.6091
       },
       "radius": 150,
       "category": "sports",
-      "district": "Thalkirchen",
+      "district": "Berg am Laim",
       "difficulty": "easy",
       "unlockLevel": 2,
       "description": "One of Europe's largest climbing and bouldering gyms! Over 7,800 sqm of climbing walls, training areas, and a relaxed cafe. Perfect for beginners and pros alike.",
@@ -2838,22 +2849,24 @@
       "quizIds": [
         "boulderwelt_1",
         "boulderwelt_2",
-        "boulderwelt_3"
+        "boulderwelt_3",
+        "boulderwelt_4",
+        "boulderwelt_5"
       ],
       "transportation": {
         "transit": [
-          "U1 Westfriedhof (5 min walk)",
-          "U2 Dülferstraße (8 min walk)",
-          "Tram 20/21 Am Neuherberg"
+          "S-Bahn S1-S8 Ostbahnhof (5 min walk)",
+          "U-Bahn U5 Ostbahnhof (5 min walk)",
+          "Bus 190/191 August-Everding-Straße"
         ],
-        "walking": "25 minutes northwest from Olympiapark"
+        "walking": "15 minutes east from Deutsches Museum along the Isar"
       },
       "venues": [
         {
           "icon": "🧗",
           "name": "Bouldering Gym",
           "description": "3200 sqm climbing walls! Beginners to experts. Day pass €16, rental shoes €4. No experience needed!",
-          "address": "Margarete-Schütte-Lihotzky-Straße 1"
+          "address": "Hanne-Hiob-Str. 4, 81671 München"
         },
         {
           "icon": "💪",
@@ -2911,7 +2924,9 @@
       "quizIds": [
         "auerdult_1",
         "auerdult_2",
-        "auerdult_3"
+        "auerdult_3",
+        "auerdult_4",
+        "auerdult_5"
       ],
       "seasonalInfo": {
         "schedule": "Three times yearly: Maidult (May), Jakobidult (July), Kirchweihdult (October)",
@@ -3645,7 +3660,7 @@
       "locationId": "marienplatz",
       "category": "history",
       "difficulty": "easy",
-      "question": "What year was Marienplatz founded?",
+      "question": "What year was Munich founded?",
       "options": [
         "1158",
         "1200",
@@ -3655,8 +3670,8 @@
       "correctAnswer": 0,
       "points": 10,
       "xpReward": 10,
-      "explanation": "Marienplatz was founded in 1158 by Henry the Lion, making it the historic heart of Munich for over 860 years!",
-      "funFact": "The square was originally called 'Schrannen' (grain market) and was renamed Marienplatz in 1854.",
+      "explanation": "Munich was founded in 1158 by Henry the Lion near what is now Marienplatz, making this the historic heart of the city for over 860 years!",
+      "funFact": "The square was originally called 'Schrannen' (grain market) and was renamed Marienplatz in 1854 to honor the Virgin Mary.",
       "tags": [
         "foundation",
         "medieval"
@@ -4809,6 +4824,29 @@
         "location"
       ]
     },
+    "sendlinger_3": {
+      "id": "sendlinger_3",
+      "locationId": "sendlinger_tor",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When was Sendlinger Tor originally built?",
+      "options": [
+        "1158",
+        "1318",
+        "1500",
+        "1791"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 20,
+      "explanation": "Sendlinger Tor was built in 1318 as part of Munich's medieval fortification system!",
+      "funFact": "The gate survived when the city walls were demolished in 1791 - it's over 700 years old!",
+      "tags": [
+        "medieval",
+        "architecture",
+        "fortification"
+      ]
+    },
     "muffathalle_1": {
       "id": "muffathalle_1",
       "locationId": "muffathalle",
@@ -4961,6 +4999,52 @@
       "tags": [
         "swimming",
         "safety"
+      ]
+    },
+    "flaucher_4": {
+      "id": "flaucher_4",
+      "locationId": "flaucher",
+      "category": "going-out",
+      "difficulty": "easy",
+      "question": "What's the unique beer garden rule at Flaucher?",
+      "options": [
+        "No entry without reservation",
+        "You can bring your own food, just buy drinks",
+        "Only locals allowed",
+        "Must order full meal"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 30,
+      "explanation": "The Flaucher beer garden follows traditional Bavarian beer garden rules - bring your own food and just buy the drinks!",
+      "funFact": "This is a classic Munich tradition - locals pack picnics and enjoy affordable beer under chestnut trees!",
+      "tags": [
+        "beer-garden",
+        "local-culture",
+        "budget-friendly"
+      ]
+    },
+    "flaucher_5": {
+      "id": "flaucher_5",
+      "locationId": "flaucher",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What's NOT allowed on Flaucher's gravel beaches?",
+      "options": [
+        "Swimming",
+        "Sunbathing",
+        "Glass bottles",
+        "Picnics"
+      ],
+      "correctAnswer": 2,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Glass bottles are banned on the beaches for safety - park rangers actively enforce this rule!",
+      "funFact": "Bring cans or plastic bottles instead. The rule protects bare feet from broken glass on the gravel!",
+      "tags": [
+        "rules",
+        "safety",
+        "local-knowledge"
       ]
     },
     "p1_1": {
@@ -5269,6 +5353,52 @@
       "tags": [
         "transport",
         "subway"
+      ]
+    },
+    "freiheit_4": {
+      "id": "freiheit_4",
+      "locationId": "muenchner_freiheit",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Why is the square called 'Münchner Freiheit' (Munich Freedom)?",
+      "options": [
+        "Random name",
+        "Named after WWII liberation",
+        "Famous artist lived there",
+        "Always had this name"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "The square was renamed 'Münchner Freiheit' (Munich Freedom) after WWII to celebrate the city's liberation!",
+      "funFact": "Before that, it had a different name. The renaming symbolized a new beginning for Munich!",
+      "tags": [
+        "wwii",
+        "history",
+        "liberation"
+      ]
+    },
+    "freiheit_5": {
+      "id": "freiheit_5",
+      "locationId": "muenchner_freiheit",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What's special about Cinema Munich at Münchner Freiheit?",
+      "options": [
+        "Only German movies",
+        "English movies with German subtitles",
+        "No movies shown",
+        "Only Disney films"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "Cinema Munich is an arthouse cinema that shows independent and international films in English with German subtitles - perfect for expats and movie lovers!",
+      "funFact": "It's one of the best places in Munich to catch indie films and foreign movies in their original language!",
+      "tags": [
+        "cinema",
+        "english-friendly",
+        "culture"
       ]
     },
     "harry_1": {
@@ -5801,6 +5931,52 @@
         "alternative"
       ]
     },
+    "thiel_4": {
+      "id": "thiel_4",
+      "locationId": "bahnwaerterthiel",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was Bahnwärter Thiel's building originally?",
+      "options": [
+        "Beer hall",
+        "Railway signal house",
+        "School",
+        "Shopping center"
+      ],
+      "correctAnswer": 1,
+      "points": 65,
+      "xpReward": 38,
+      "explanation": "The venue is located in a former railway signal house - giving it unique character and charm!",
+      "funFact": "'Bahnwärter' literally means 'railway guard' - the name honors the building's history!",
+      "tags": [
+        "history",
+        "architecture",
+        "repurposed"
+      ]
+    },
+    "thiel_5": {
+      "id": "thiel_5",
+      "locationId": "bahnwaerterthiel",
+      "category": "going-out",
+      "difficulty": "easy",
+      "question": "What kind of events happen at Bahnwärter Thiel?",
+      "options": [
+        "Only classical music",
+        "Live indie/rock concerts, poetry slams, DJ nights",
+        "Business conferences",
+        "Nothing happens there"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 32,
+      "explanation": "It's a multi-use cultural space hosting indie concerts, poetry slams, open mics, and DJ nights - something for every creative soul!",
+      "funFact": "Concert tickets are only €10-20 - you can catch quality live acts without breaking the bank!",
+      "tags": [
+        "live-music",
+        "culture",
+        "budget-friendly"
+      ]
+    },
     "konigsplatz_1": {
       "id": "konigsplatz_1",
       "locationId": "konigsplatz",
@@ -6090,6 +6266,54 @@
       "tags": [
         "architecture",
         "history"
+      ]
+    },
+    "ludwig_4": {
+      "id": "ludwig_4",
+      "locationId": "ludwigstrasse",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What is the White Rose memorial at LMU commemorating?",
+      "options": [
+        "A flower garden",
+        "WWII student resistance group against Nazis",
+        "University founding",
+        "Modern art project"
+      ],
+      "correctAnswer": 1,
+      "points": 70,
+      "xpReward": 40,
+      "explanation": "The White Rose (Die Weiße Rose) was a non-violent student resistance group during WWII. Their members were executed by the Nazis in 1943.",
+      "funFact": "Leaflets they distributed are immortalized in bronze at the university entrance. A powerful reminder of student courage!",
+      "tags": [
+        "wwii",
+        "resistance",
+        "memorial",
+        "history"
+      ]
+    },
+    "ludwig_5": {
+      "id": "ludwig_5",
+      "locationId": "ludwigstrasse",
+      "category": "architecture",
+      "difficulty": "medium",
+      "question": "What monument stands at the northern end of Ludwigstraße?",
+      "options": [
+        "Nothing special",
+        "Siegestor (Victory Gate) - triumphal arch",
+        "Modern skyscraper",
+        "Shopping mall"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "The Siegestor (Victory Gate) is a triumphal arch that marks the entrance to Schwabing. It was damaged in WWII and intentionally left unrestored.",
+      "funFact": "The inscription reads: 'Dedicated to victory, destroyed by war, reminder of peace' - a powerful anti-war message!",
+      "tags": [
+        "architecture",
+        "monument",
+        "peace",
+        "wwii"
       ]
     },
     "marienplatz_4": {
@@ -7681,6 +7905,53 @@
         "djs"
       ]
     },
+    "blitz_4": {
+      "id": "blitz_4",
+      "locationId": "blitz_club",
+      "category": "nightlife",
+      "difficulty": "medium",
+      "question": "What was the BLITZ Club building originally?",
+      "options": [
+        "Shopping mall",
+        "Former brewery - industrial space",
+        "Church",
+        "Office building"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "BLITZ occupies a former brewery, giving it a raw industrial atmosphere with concrete, metal, and exposed pipes - Berlin-style!",
+      "funFact": "The industrial architecture is intentional - it creates the perfect underground techno atmosphere!",
+      "tags": [
+        "industrial",
+        "architecture",
+        "history"
+      ]
+    },
+    "blitz_5": {
+      "id": "blitz_5",
+      "locationId": "blitz_club",
+      "category": "nightlife",
+      "difficulty": "hard",
+      "question": "What's special about BLITZ Club's weekend sessions?",
+      "options": [
+        "Close at midnight",
+        "Only 2 hours long",
+        "Can run from Friday night until Monday morning",
+        "No weekends"
+      ],
+      "correctAnswer": 2,
+      "points": 65,
+      "xpReward": 38,
+      "explanation": "BLITZ is famous for marathon sessions that can run non-stop from Friday night all the way to Monday morning - bring stamina!",
+      "funFact": "The club peaks between 3-5am, and serious clubbers often arrive after 1am. It's Munich's answer to Berlin's legendary techno scene!",
+      "tags": [
+        "marathon",
+        "weekend",
+        "clubbing",
+        "berlin-style"
+      ]
+    },
     "importexport_1": {
       "id": "importexport_1",
       "locationId": "import_export",
@@ -7999,6 +8270,52 @@
         "cafe"
       ]
     },
+    "boulderwelt_4": {
+      "id": "boulderwelt_4",
+      "locationId": "boulderwelt",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "How much does a day pass and shoe rental cost at Boulderwelt?",
+      "options": [
+        "€50 total",
+        "€20 (day pass €16 + shoe rental €4)",
+        "€100 entry fee",
+        "Free"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "It's very affordable - just €16 for a day pass and €4 to rent climbing shoes if you don't have your own!",
+      "funFact": "First-timers can take an intro course for just €15 that teaches basics and safety - great value!",
+      "tags": [
+        "pricing",
+        "budget-friendly",
+        "beginner-tips"
+      ]
+    },
+    "boulderwelt_5": {
+      "id": "boulderwelt_5",
+      "locationId": "boulderwelt",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "When is Boulderwelt least crowded?",
+      "options": [
+        "Weekends",
+        "Weekday evenings 6-9pm",
+        "Weekday mornings 9-11am",
+        "Always packed"
+      ],
+      "correctAnswer": 2,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Weekday mornings (9-11am) are the quietest times. Avoid weekday evenings (6-9pm) when the after-work crowd fills the gym!",
+      "funFact": "The gym also has a dedicated kids climbing area, making it perfect for families during less busy hours!",
+      "tags": [
+        "timing",
+        "crowds",
+        "local-knowledge"
+      ]
+    },
     "auerdult_1": {
       "id": "auerdult_1",
       "locationId": "auer_dult",
@@ -8065,6 +8382,53 @@
         "antiques",
         "shopping",
         "traditional"
+      ]
+    },
+    "auerdult_4": {
+      "id": "auerdult_4",
+      "locationId": "auer_dult",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "How does Auer Dult compare to Oktoberfest?",
+      "options": [
+        "Exactly the same",
+        "Much less touristy - authentic local market",
+        "More crowded",
+        "Only for tourists"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "Auer Dult is Munich's best-kept secret - a genuine local market that's much less touristy than Oktoberfest!",
+      "funFact": "This is where Munich locals actually go to shop for crafts, antiques, and household items - real authentic experience!",
+      "tags": [
+        "local",
+        "authentic",
+        "hidden-gem"
+      ]
+    },
+    "auerdult_5": {
+      "id": "auerdult_5",
+      "locationId": "auer_dult",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's a local shopping tip at Auer Dult's antique stalls?",
+      "options": [
+        "Prices are fixed - no negotiation",
+        "Prices are negotiable - haggle politely",
+        "Everything is free",
+        "You can't buy anything"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "At the antique stalls, prices are negotiable! Polite haggling is part of the traditional market experience.",
+      "funFact": "The market also has traditional fair rides like carousel and ferris wheel - it's family-friendly and nostalgic!",
+      "tags": [
+        "shopping",
+        "tips",
+        "local-knowledge",
+        "antiques"
       ]
     },
     "giesing_1": {
