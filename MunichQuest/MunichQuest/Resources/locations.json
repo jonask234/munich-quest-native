@@ -401,6 +401,7 @@
         }
       ],
       "visitInfo": {
+        "hours": "Daily 9am-midnight",
         "bestTime": "Arrive before 11am for lunch to avoid huge crowds, or come after 8pm for evening atmosphere. Traditional Bavarian music plays throughout the day - most lively after 6pm!",
         "drinkOptions": [
           "Hofbräu Helles (pale lager) - the classic choice",
@@ -493,6 +494,7 @@
         }
       ],
       "visitInfo": {
+        "hours": "Mon-Sat 8am-8pm (individual stalls vary). Beer garden: 9am-10pm",
         "bestTime": "Weekday mornings (8-11am) for the freshest produce and fewer crowds. Saturday mornings are busiest but most vibrant!",
         "events": [
           "Maibock Beer Festival (May) - special seasonal beer in the garden",
@@ -543,13 +545,13 @@
         {
           "icon": "👑",
           "name": "Residence Museum",
-          "description": "130 rooms of royal splendor! Throne rooms, galleries, porcelain chambers. €9 entry, allow 2-3 hours.",
+          "description": "130 rooms of royal splendor! Throne rooms, galleries, porcelain chambers. €10 regular / €9 reduced, allow 2-3 hours.",
           "address": "Max-Joseph-Platz 3"
         },
         {
           "icon": "💎",
           "name": "Treasury (Schatzkammer)",
-          "description": "Bavarian crown jewels, golden artifacts, royal regalia from 1000+ years. Separate €9 ticket (combo with museum €13).",
+          "description": "Bavarian crown jewels, golden artifacts, royal regalia from 1000+ years. €10 regular / €9 reduced (combo with museum €15 regular / €13 reduced).",
           "address": "Same building"
         },
         {
@@ -624,13 +626,13 @@
         {
           "icon": "🏟️",
           "name": "Stadium Tours",
-          "description": "Behind-the-scenes tour: locker rooms, players tunnel, pitch-side! €19 adults. Book ahead for English tours.",
+          "description": "Behind-the-scenes tour: locker rooms, players tunnel, pitch-side! Museum + Tour combo €48 adults / €28 children. Book ahead for English tours.",
           "address": "Tour meeting point: FC Bayern Museum"
         },
         {
           "icon": "🏆",
           "name": "FC Bayern Museum",
-          "description": "Interactive museum with trophies, history, and Bayern legends. €10 entry or combined with tour €24.",
+          "description": "Interactive museum with trophies, history, and Bayern legends. €12 entry (museum only) or €48 combined with tour.",
           "address": "Inside arena complex"
         },
         {
@@ -780,7 +782,7 @@
         {
           "icon": "🏰",
           "name": "Main Palace (Schloss)",
-          "description": "Baroque palace interior with King Ludwig II's birth room, ballrooms, and galleries. €10 palace only or €20/€18 combo (summer), €16/€14 (winter).",
+          "description": "Baroque palace interior with King Ludwig II's birth room, ballrooms, and galleries. Summer (Apr-Oct): €11.50 regular / €9 reduced. Winter (Nov-Mar): €8.50 / €6.50.",
           "address": "Central building"
         },
         {
@@ -823,7 +825,7 @@
           "Park is popular for New Year's Eve fireworks viewing"
         ],
         "tips": [
-          "Combo ticket (€20/€18 summer, €16/€14 winter) covers palace + all 4 park pavilions - best deal",
+          "Buy combo ticket for palace + park pavilions for best value (summer €11.50/€9, winter €8.50/€6.50)",
           "Park is FREE! Just wander around if you don't want to pay",
           "In summer, rent bikes at palace to explore massive park (30min on foot corner to corner)",
           "Palace gift shop has overpriced souvenirs - skip it",
@@ -3372,8 +3374,8 @@
       "district": "Berg am Laim",
       "difficulty": "easy",
       "unlockLevel": 1,
-      "description": "Munich's largest regular flea market! Every Saturday, hundreds of vendors sell vintage clothing, furniture, collectibles, antiques, electronics, and hidden treasures. Bargain-hunter's paradise from 7am to 4pm.",
-      "shortDescription": "Munich's biggest flea market",
+      "description": "PERMANENTLY CLOSED (2018). This famous flea market at Kultfabrik/Kunstpark Ost closed when the complex was demolished in September 2018. The site is now Werksviertel Mitte. For flea markets, try Riem Arcaden (Saturdays) or Zenith Flohmarkt instead.",
+      "shortDescription": "Historic flea market (closed 2018)",
       "imageUrl": "/images/locations/ostbahnhof_markt.jpg",
       "quizIds": [
         "flohmarkt_1",
