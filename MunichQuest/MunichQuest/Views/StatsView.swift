@@ -610,8 +610,6 @@ struct AchievementCard: View {
     let isUnlocked: Bool
     let progress: Double
 
-    @State private var showDetail = false
-
     private var rarityColor: Color {
         switch achievement.rarity {
         case .common:
@@ -627,8 +625,18 @@ struct AchievementCard: View {
         }
     }
 
+    private var rarityText: String {
+        switch achievement.rarity {
+        case .common: return "Common"
+        case .uncommon: return "Uncommon"
+        case .rare: return "Rare"
+        case .epic: return "Epic"
+        case .legendary: return "Legendary"
+        }
+    }
+
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 8) {
             Text(isUnlocked ? achievement.icon : "🔒")
                 .font(.system(size: 36))
                 .opacity(isUnlocked ? 1.0 : 0.3)
@@ -647,27 +655,38 @@ struct AchievementCard: View {
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
 
+                // Rarity badge
+                Text(rarityText)
+                    .font(.caption2)
+                    .fontWeight(.medium)
+                    .foregroundColor(rarityColor)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 3)
+                    .background(rarityColor.opacity(0.15))
+                    .cornerRadius(6)
+
+                // XP reward (always visible)
+                Text("+\(achievement.xpReward) XP")
+                    .font(.caption2)
+                    .foregroundColor(.orange)
+                    .fontWeight(.semibold)
+
+                // Progress bar (only for locked)
                 if !isUnlocked {
                     VStack(spacing: 4) {
                         ProgressView(value: progress)
-                            .tint(Color(red: 0.4, green: 0.49, blue: 0.92))
+                            .tint(rarityColor)
                             .scaleEffect(x: 1, y: 1.2)
 
                         Text("\(Int(progress * 100))%")
                             .font(.caption2)
                             .foregroundColor(.secondary)
                     }
-                    .padding(.top, 4)
-                } else {
-                    Text("+\(achievement.xpReward) XP")
-                        .font(.caption2)
-                        .foregroundColor(rarityColor)
-                        .fontWeight(.bold)
-                        .padding(.top, 4)
+                    .padding(.top, 2)
                 }
             }
         }
-        .frame(maxWidth: .infinity, minHeight: 160, maxHeight: 160)
+        .frame(maxWidth: .infinity, minHeight: 180, maxHeight: 180)
         .padding(.vertical, 12)
         .padding(.horizontal, 8)
         .background(isUnlocked ?
@@ -678,12 +697,6 @@ struct AchievementCard: View {
             RoundedRectangle(cornerRadius: 12)
                 .stroke(rarityColor, lineWidth: 2.5)
         )
-        .onTapGesture {
-            showDetail = true
-        }
-        .sheet(isPresented: $showDetail) {
-            AchievementDetailSheet(achievement: achievement, isUnlocked: isUnlocked, progress: progress)
-        }
     }
 }
 
