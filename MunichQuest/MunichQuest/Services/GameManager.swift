@@ -400,7 +400,7 @@ class GameManager: ObservableObject {
     }
 
     // MARK: - Helper Functions
-    private static func decodeGameData(from data: Data) throws -> GameData {
+    nonisolated private static func decodeGameData(from data: Data) throws -> GameData {
         return try JSONDecoder().decode(GameData.self, from: data)
     }
 

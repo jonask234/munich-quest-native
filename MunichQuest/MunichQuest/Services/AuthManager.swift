@@ -77,7 +77,7 @@ class AuthManager: ObservableObject {
 
     func checkEmailVerified() async {
         guard let user = currentUser else { return }
-        await user.reload()
+        try? await user.reload()
         // Update the current user to refresh verification status
         currentUser = auth.currentUser
     }
@@ -98,7 +98,7 @@ class AuthManager: ObservableObject {
     }
 
     private func getAuthErrorMessage(_ error: NSError) -> String {
-        guard let errorCode = AuthErrorCode.Code(rawValue: error.code) else {
+        guard let errorCode = AuthErrorCode(rawValue: error.code) else {
             return "An error occurred. Please try again."
         }
 
