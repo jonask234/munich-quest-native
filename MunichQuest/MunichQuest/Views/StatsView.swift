@@ -1233,6 +1233,86 @@ struct LocationStatsDetailSheet: View {
                         .padding()
                         .background(Color(UIColor.secondarySystemBackground))
                         .cornerRadius(12)
+
+                        // Visit Info (only show when completed)
+                        if isCompleted, let visitInfo = location.visitInfo {
+                            VStack(alignment: .leading, spacing: 15) {
+                                HStack {
+                                    Image(systemName: "info.circle.fill")
+                                        .font(.title3)
+                                        .foregroundColor(.green)
+                                    Text("Insider Info")
+                                        .font(.headline)
+                                }
+
+                                // Best Time to Visit
+                                if let bestTime = visitInfo.bestTime {
+                                    VStack(alignment: .leading, spacing: 8) {
+                                        HStack(spacing: 6) {
+                                            Image(systemName: "clock.fill")
+                                                .foregroundColor(.orange)
+                                            Text("Best Time to Visit")
+                                                .font(.subheadline)
+                                                .fontWeight(.semibold)
+                                        }
+                                        Text(bestTime)
+                                            .font(.subheadline)
+                                            .foregroundColor(.secondary)
+                                    }
+                                }
+
+                                // Events
+                                if let events = visitInfo.events, !events.isEmpty {
+                                    VStack(alignment: .leading, spacing: 8) {
+                                        HStack(spacing: 6) {
+                                            Image(systemName: "calendar.badge.exclamationmark")
+                                                .foregroundColor(.purple)
+                                            Text("Events & Activities")
+                                                .font(.subheadline)
+                                                .fontWeight(.semibold)
+                                        }
+                                        ForEach(events, id: \.self) { event in
+                                            HStack(alignment: .top, spacing: 6) {
+                                                Text("•")
+                                                    .foregroundColor(.purple)
+                                                Text(event)
+                                                    .font(.subheadline)
+                                                    .foregroundColor(.secondary)
+                                            }
+                                        }
+                                    }
+                                }
+
+                                // Tips
+                                if let tips = visitInfo.tips, !tips.isEmpty {
+                                    VStack(alignment: .leading, spacing: 8) {
+                                        HStack(spacing: 6) {
+                                            Image(systemName: "lightbulb.fill")
+                                                .foregroundColor(.yellow)
+                                            Text("Pro Tips")
+                                                .font(.subheadline)
+                                                .fontWeight(.semibold)
+                                        }
+                                        ForEach(tips, id: \.self) { tip in
+                                            HStack(alignment: .top, spacing: 6) {
+                                                Text("•")
+                                                    .foregroundColor(.yellow)
+                                                Text(tip)
+                                                    .font(.subheadline)
+                                                    .foregroundColor(.secondary)
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .padding()
+                            .background(Color.green.opacity(0.05))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .stroke(Color.green.opacity(0.3), lineWidth: 2)
+                            )
+                            .cornerRadius(12)
+                        }
                     }
                     .padding(.horizontal)
                 }
