@@ -47,13 +47,11 @@ struct SignupView: View {
                                 .cornerRadius(10)
 
                             SecureField("Password", text: $password)
-                                .textContentType(.newPassword)
                                 .padding()
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
 
                             SecureField("Confirm Password", text: $confirmPassword)
-                                .textContentType(.newPassword)
                                 .padding()
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
