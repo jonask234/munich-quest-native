@@ -1234,72 +1234,175 @@ struct LocationStatsDetailSheet: View {
                         .background(Color(UIColor.secondarySystemBackground))
                         .cornerRadius(12)
 
-                        // Visit Info (only show when completed)
-                        if isCompleted, let visitInfo = location.visitInfo {
-                            VStack(alignment: .leading, spacing: 15) {
+                        // Complete Location Guide (only show when completed)
+                        if isCompleted {
+                            VStack(alignment: .leading, spacing: 20) {
+                                // Header
                                 HStack {
-                                    Image(systemName: "info.circle.fill")
+                                    Image(systemName: "book.fill")
                                         .font(.title3)
                                         .foregroundColor(.green)
-                                    Text("Insider Info")
+                                    Text("Complete Location Guide")
                                         .font(.headline)
                                 }
 
-                                // Best Time to Visit
-                                if let bestTime = visitInfo.bestTime {
-                                    VStack(alignment: .leading, spacing: 8) {
-                                        HStack(spacing: 6) {
-                                            Image(systemName: "clock.fill")
-                                                .foregroundColor(.orange)
-                                            Text("Best Time to Visit")
-                                                .font(.subheadline)
-                                                .fontWeight(.semibold)
-                                        }
-                                        Text(bestTime)
+                                // Description
+                                VStack(alignment: .leading, spacing: 8) {
+                                    HStack(spacing: 6) {
+                                        Image(systemName: "text.alignleft")
+                                            .foregroundColor(.blue)
+                                        Text("About")
                                             .font(.subheadline)
-                                            .foregroundColor(.secondary)
+                                            .fontWeight(.semibold)
                                     }
+                                    Text(location.description)
+                                        .font(.subheadline)
+                                        .foregroundColor(.secondary)
                                 }
 
-                                // Events
-                                if let events = visitInfo.events, !events.isEmpty {
+                                Divider()
+
+                                // Transportation
+                                if let transportation = location.transportation {
                                     VStack(alignment: .leading, spacing: 8) {
                                         HStack(spacing: 6) {
-                                            Image(systemName: "calendar.badge.exclamationmark")
-                                                .foregroundColor(.purple)
-                                            Text("Events & Activities")
+                                            Image(systemName: "tram.fill")
+                                                .foregroundColor(.orange)
+                                            Text("How to Get Here")
                                                 .font(.subheadline)
                                                 .fontWeight(.semibold)
                                         }
-                                        ForEach(events, id: \.self) { event in
+
+                                        if let transit = transportation.transit, !transit.isEmpty {
+                                            VStack(alignment: .leading, spacing: 4) {
+                                                ForEach(transit, id: \.self) { line in
+                                                    HStack(alignment: .top, spacing: 6) {
+                                                        Text("🚇")
+                                                        Text(line)
+                                                            .font(.subheadline)
+                                                            .foregroundColor(.secondary)
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        if let walking = transportation.walking {
                                             HStack(alignment: .top, spacing: 6) {
-                                                Text("•")
-                                                    .foregroundColor(.purple)
-                                                Text(event)
+                                                Text("🚶")
+                                                Text(walking)
                                                     .font(.subheadline)
                                                     .foregroundColor(.secondary)
                                             }
                                         }
                                     }
+
+                                    Divider()
                                 }
 
-                                // Tips
-                                if let tips = visitInfo.tips, !tips.isEmpty {
-                                    VStack(alignment: .leading, spacing: 8) {
+                                // Venues
+                                if let venues = location.venues, !venues.isEmpty {
+                                    VStack(alignment: .leading, spacing: 12) {
                                         HStack(spacing: 6) {
-                                            Image(systemName: "lightbulb.fill")
-                                                .foregroundColor(.yellow)
-                                            Text("Pro Tips")
+                                            Image(systemName: "mappin.and.ellipse")
+                                                .foregroundColor(.red)
+                                            Text("What to Do & See")
                                                 .font(.subheadline)
                                                 .fontWeight(.semibold)
                                         }
-                                        ForEach(tips, id: \.self) { tip in
-                                            HStack(alignment: .top, spacing: 6) {
-                                                Text("•")
-                                                    .foregroundColor(.yellow)
-                                                Text(tip)
+
+                                        ForEach(venues) { venue in
+                                            VStack(alignment: .leading, spacing: 4) {
+                                                HStack(spacing: 8) {
+                                                    Text(venue.icon)
+                                                        .font(.title3)
+                                                    Text(venue.name)
+                                                        .font(.subheadline)
+                                                        .fontWeight(.semibold)
+                                                }
+                                                Text(venue.description)
+                                                    .font(.caption)
+                                                    .foregroundColor(.secondary)
+                                                if let address = venue.address {
+                                                    HStack(spacing: 4) {
+                                                        Image(systemName: "mappin.circle")
+                                                            .font(.caption2)
+                                                        Text(address)
+                                                            .font(.caption)
+                                                    }
+                                                    .foregroundColor(.secondary.opacity(0.8))
+                                                }
+                                            }
+                                            .padding(.leading, 8)
+
+                                            if venue.id != venues.last?.id {
+                                                Divider()
+                                                    .padding(.vertical, 4)
+                                            }
+                                        }
+                                    }
+
+                                    Divider()
+                                }
+
+                                // Visit Info
+                                if let visitInfo = location.visitInfo {
+                                    VStack(alignment: .leading, spacing: 12) {
+                                        // Best Time
+                                        if let bestTime = visitInfo.bestTime {
+                                            VStack(alignment: .leading, spacing: 6) {
+                                                HStack(spacing: 6) {
+                                                    Image(systemName: "clock.fill")
+                                                        .foregroundColor(.purple)
+                                                    Text("Best Time to Visit")
+                                                        .font(.subheadline)
+                                                        .fontWeight(.semibold)
+                                                }
+                                                Text(bestTime)
                                                     .font(.subheadline)
                                                     .foregroundColor(.secondary)
+                                            }
+                                        }
+
+                                        // Events
+                                        if let events = visitInfo.events, !events.isEmpty {
+                                            VStack(alignment: .leading, spacing: 6) {
+                                                HStack(spacing: 6) {
+                                                    Image(systemName: "calendar.badge.exclamationmark")
+                                                        .foregroundColor(.green)
+                                                    Text("Events & Festivals")
+                                                        .font(.subheadline)
+                                                        .fontWeight(.semibold)
+                                                }
+                                                ForEach(events, id: \.self) { event in
+                                                    HStack(alignment: .top, spacing: 6) {
+                                                        Text("•")
+                                                            .foregroundColor(.green)
+                                                        Text(event)
+                                                            .font(.subheadline)
+                                                            .foregroundColor(.secondary)
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        // Tips
+                                        if let tips = visitInfo.tips, !tips.isEmpty {
+                                            VStack(alignment: .leading, spacing: 6) {
+                                                HStack(spacing: 6) {
+                                                    Image(systemName: "lightbulb.fill")
+                                                        .foregroundColor(.yellow)
+                                                    Text("Insider Tips")
+                                                        .font(.subheadline)
+                                                        .fontWeight(.semibold)
+                                                }
+                                                ForEach(tips, id: \.self) { tip in
+                                                    HStack(alignment: .top, spacing: 6) {
+                                                        Text("💡")
+                                                        Text(tip)
+                                                            .font(.subheadline)
+                                                            .foregroundColor(.secondary)
+                                                    }
+                                                }
                                             }
                                         }
                                     }
