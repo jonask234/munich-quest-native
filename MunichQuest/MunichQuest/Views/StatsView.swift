@@ -1242,15 +1242,10 @@ struct LocationStatsDetailSheet: View {
                                                 .opacity(0.6)
 
                                             ForEach(transit, id: \.self) { line in
-                                                HStack(spacing: 8) {
-                                                    Circle()
-                                                        .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                        .frame(width: 6, height: 6)
-                                                    Text(line)
-                                                        .font(.body)
-                                                        .foregroundColor(.primary)
-                                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                                }
+                                                Text(line)
+                                                    .font(.body)
+                                                    .foregroundColor(.primary)
+                                                    .frame(maxWidth: .infinity, alignment: .leading)
                                             }
                                         }
                                     }
@@ -1264,15 +1259,10 @@ struct LocationStatsDetailSheet: View {
                                                 .foregroundColor(.primary)
                                                 .opacity(0.6)
 
-                                            HStack(spacing: 8) {
-                                                Circle()
-                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                    .frame(width: 6, height: 6)
-                                                Text(walking)
-                                                    .font(.body)
-                                                    .foregroundColor(.primary)
-                                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                            }
+                                            Text(walking)
+                                                .font(.body)
+                                                .foregroundColor(.primary)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
                                         }
                                     }
                                 }
@@ -1291,34 +1281,27 @@ struct LocationStatsDetailSheet: View {
                                         .foregroundColor(.primary)
 
                                     ForEach(venues) { venue in
-                                        HStack(alignment: .top, spacing: 12) {
-                                            Circle()
-                                                .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                .frame(width: 6, height: 6)
-                                                .padding(.top, 8)
+                                        VStack(alignment: .leading, spacing: 8) {
+                                            Text(venue.name)
+                                                .font(.title3)
+                                                .fontWeight(.semibold)
+                                                .foregroundColor(.primary)
 
-                                            VStack(alignment: .leading, spacing: 8) {
-                                                Text(venue.name)
-                                                    .font(.title3)
-                                                    .fontWeight(.semibold)
+                                            Text(venue.description)
+                                                .font(.body)
+                                                .foregroundColor(.primary)
+                                                .opacity(0.85)
+                                                .lineSpacing(3)
+
+                                            if let address = venue.address {
+                                                Text(address)
+                                                    .font(.callout)
                                                     .foregroundColor(.primary)
-
-                                                Text(venue.description)
-                                                    .font(.body)
-                                                    .foregroundColor(.primary)
-                                                    .opacity(0.85)
-                                                    .lineSpacing(3)
-
-                                                if let address = venue.address {
-                                                    Text(address)
-                                                        .font(.callout)
-                                                        .foregroundColor(.primary)
-                                                        .opacity(0.6)
-                                                        .italic()
-                                                }
+                                                    .opacity(0.6)
+                                                    .italic()
                                             }
-                                            .frame(maxWidth: .infinity, alignment: .leading)
                                         }
+                                        .frame(maxWidth: .infinity, alignment: .leading)
 
                                         if venue.id != venues.last?.id {
                                             Divider()
@@ -1341,19 +1324,12 @@ struct LocationStatsDetailSheet: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(.primary)
 
-                                    HStack(alignment: .top, spacing: 12) {
-                                        Circle()
-                                            .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                            .frame(width: 6, height: 6)
-                                            .padding(.top, 6)
-
-                                        Text(bestTime)
-                                            .font(.body)
-                                            .foregroundColor(.primary)
-                                            .opacity(0.85)
-                                            .lineSpacing(3)
-                                            .frame(maxWidth: .infinity, alignment: .leading)
-                                    }
+                                    Text(bestTime)
+                                        .font(.body)
+                                        .foregroundColor(.primary)
+                                        .opacity(0.85)
+                                        .lineSpacing(3)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                 }
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
@@ -1371,18 +1347,12 @@ struct LocationStatsDetailSheet: View {
 
                                     VStack(alignment: .leading, spacing: 8) {
                                         ForEach(events, id: \.self) { event in
-                                            HStack(alignment: .top, spacing: 12) {
-                                                Circle()
-                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                    .frame(width: 6, height: 6)
-                                                    .padding(.top, 6)
-                                                Text(event)
-                                                    .font(.body)
-                                                    .foregroundColor(.primary)
-                                                    .opacity(0.85)
-                                                    .lineSpacing(3)
-                                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                            }
+                                            Text(event)
+                                                .font(.body)
+                                                .foregroundColor(.primary)
+                                                .opacity(0.85)
+                                                .lineSpacing(3)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
                                         }
                                     }
                                 }
@@ -1402,18 +1372,12 @@ struct LocationStatsDetailSheet: View {
 
                                     VStack(alignment: .leading, spacing: 8) {
                                         ForEach(tips, id: \.self) { tip in
-                                            HStack(alignment: .top, spacing: 12) {
-                                                Circle()
-                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                    .frame(width: 6, height: 6)
-                                                    .padding(.top, 6)
-                                                Text(tip)
-                                                    .font(.body)
-                                                    .foregroundColor(.primary)
-                                                    .opacity(0.85)
-                                                    .lineSpacing(3)
-                                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                            }
+                                            Text(tip)
+                                                .font(.body)
+                                                .foregroundColor(.primary)
+                                                .opacity(0.85)
+                                                .lineSpacing(3)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
                                         }
                                     }
                                 }
