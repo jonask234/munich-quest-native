@@ -3000,7 +3000,8 @@
           "Bring cash - many stalls don't take cards",
           "One of Germany's oldest Christmas markets (since 1310!)"
         ]
-      }
+      },
+      "radius": 150
     },
     "yokocho_karaoke": {
       "id": "yokocho_karaoke",
@@ -3058,7 +3059,8 @@
           "description": "Thousands of songs in multiple languages - English, German, Japanese, Korean, Chinese.",
           "address": "Digital system"
         }
-      ]
+      ],
+      "radius": 100
     },
     "kilians_pub": {
       "id": "kilians_pub",
@@ -3123,7 +3125,8 @@
           "description": "Irish stew, fish & chips, burgers. Hearty portions, decent prices.",
           "address": "Kitchen"
         }
-      ]
+      ],
+      "radius": 100
     },
     "muca": {
       "id": "muca",
@@ -3190,7 +3193,8 @@
           "description": "Small café for coffee and light snacks. Good place to discuss the art!",
           "address": "Ground floor"
         }
-      ]
+      ],
+      "radius": 150
     },
     "donnersberger_street_art": {
       "id": "donnersberger_street_art",
@@ -3248,7 +3252,8 @@
           "description": "Trains pass overhead constantly - adds to urban atmosphere. Stay off tracks!",
           "address": "Bridge above"
         }
-      ]
+      ],
+      "radius": 150
     },
     "ostbahnhof_flohmarkt": {
       "id": "ostbahnhof_flohmarkt",
@@ -3312,7 +3317,8 @@
           "description": "70s-90s vintage clothing, retro accessories. Trendy finds, bargain prices.",
           "address": "Clothing section"
         }
-      ]
+      ],
+      "radius": 100
     },
     "midnightbazar": {
       "id": "midnightbazar",
@@ -3378,7 +3384,8 @@
           "description": "Cocktail and beer bar. Socializing hub between shopping.",
           "address": "Central bar"
         }
-      ]
+      ],
+      "radius": 100
     },
     "kamishovka_ceramics": {
       "id": "kamishovka_ceramics",
@@ -3437,7 +3444,8 @@
           "description": "Buy unique handmade ceramics - mugs, bowls, vases, art pieces. Support local artists!",
           "address": "Studio shop"
         }
-      ]
+      ],
+      "radius": 150
     },
     "rathaus_wurmeck": {
       "id": "rathaus_wurmeck",
@@ -3496,7 +3504,8 @@
           "description": "Guided tours include dragon history. Learn Munich legends and folklore.",
           "address": "Tour meeting point"
         }
-      ]
+      ],
+      "radius": 200
     },
     "alte_utting": {
       "id": "alte_utting",
@@ -6047,7 +6056,8 @@
           "One of Munich's best summer experiences!"
         ]
       },
-      "quizIds": []
+      "quizIds": [],
+      "district": "Munich"
     },
     "volkstheater": {
       "id": "volkstheater",
