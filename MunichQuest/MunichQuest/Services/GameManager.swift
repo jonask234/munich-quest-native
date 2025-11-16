@@ -77,7 +77,7 @@ class GameManager: ObservableObject {
 
                 print("✅ Loaded \(data.count) bytes from locations.json")
 
-                let gameData = try await decodeGameData(from: data)
+                let gameData = try self.decodeGameData(from: data)
                 let sortedLocations = Array(gameData.locations.values).sorted { $0.name < $1.name }
 
                 return Result.success((locations: sortedLocations, quizzes: gameData.quizzes))
@@ -341,7 +341,7 @@ class GameManager: ObservableObject {
     }
 
     // MARK: - Helper Functions
-    nonisolated private func decodeGameData(from data: Data) async throws -> GameData {
+    nonisolated private func decodeGameData(from data: Data) throws -> GameData {
         return try JSONDecoder().decode(GameData.self, from: data)
     }
 
