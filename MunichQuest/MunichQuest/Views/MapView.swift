@@ -187,6 +187,8 @@ struct MapView: View {
                 if let locationId = locationId,
                    let location = gameManager.locations.first(where: { $0.id == locationId }) {
                     centerOnLocation(location)
+                    selectedLocation = location  // Open detail sheet
+                    isAutoTriggered = false  // User-initiated jump
                     jumpToLocationId = nil  // Reset after handling
                 }
             }
