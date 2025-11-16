@@ -6161,6 +6161,498 @@
           "Bring water - no facilities nearby"
         ]
       }
+    },
+    "pacha_munich": {
+      "id": "pacha_munich",
+      "name": "Pacha Munich",
+      "emoji": "💃",
+      "coordinates": {
+        "lat": 48.1123,
+        "lng": 11.5544
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Sendling",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Famous international club brand in Munich! House, techno, international DJs in stylish venue. Upscale crowd, great sound system, VIP areas. Party until dawn - Munich's glamorous clubbing!",
+      "shortDescription": "International club with house & techno",
+      "imageUrl": "/images/locations/pacha.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U6 Goetheplatz (10 min walk)",
+          "U3/U6 Poccistraße (8 min walk)",
+          "Bus 58 Kapuzinerstraße (5 min walk)"
+        ],
+        "walking": "25 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Fri-Sat 11 PM - 6 AM. Special events other nights - check website. Doors typically 11 PM.",
+        "bestTime": "After midnight busiest. Friday more house music, Saturday more mixed. Come fashionably dressed!",
+        "events": [
+          "International DJ guests",
+          "House and techno nights",
+          "Theme parties",
+          "VIP table service available"
+        ],
+        "tips": [
+          "Part of famous Pacha club chain (Ibiza, NYC, etc.)",
+          "Entry €10-20 depending on event/DJ",
+          "Dress code: Smart casual to stylish - no sportswear",
+          "More upscale than typical Munich clubs",
+          "Great sound system and lights",
+          "VIP areas and table service available",
+          "Gets packed after 1 AM",
+          "International and local DJs",
+          "Pre-book guestlist for cheaper entry",
+          "Coat check available (€2-3)",
+          "Multiple rooms/areas",
+          "21+ age limit usually"
+        ]
+      }
+    },
+    "mma_club": {
+      "id": "mma_club",
+      "name": "MMA Club",
+      "emoji": "🎧",
+      "coordinates": {
+        "lat": 48.1447,
+        "lng": 11.5505
+      },
+      "radius": 80,
+      "category": "nightlife",
+      "district": "Maxvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Underground electronic music club in former basement! Techno, house, minimal in intimate industrial space. Serious sound system, dedicated crowd. Munich's authentic underground scene!",
+      "shortDescription": "Underground techno club with serious sound",
+      "imageUrl": "/images/locations/mma.jpg",
+      "transportation": {
+        "transit": [
+          "U1 Stiglmaierplatz (7 min walk)",
+          "U2 Königsplatz (8 min walk)",
+          "Tram 20/21 Stiglmaierplatz (6 min walk)"
+        ],
+        "walking": "15 minutes from Hauptbahnhof"
+      },
+      "visitInfo": {
+        "hours": "Event dependent - typically Fri-Sat midnight - 8 AM. Check Facebook for events. Sometimes all-nighters!",
+        "bestTime": "Peak 2-5 AM. Serious clubbers only - come for the music! Weekends busiest. Check lineups online.",
+        "events": [
+          "Techno and house DJ nights",
+          "Minimal electronic music",
+          "International underground DJs",
+          "All-night dance marathons"
+        ],
+        "tips": [
+          "Serious underground techno club",
+          "Small, intimate basement venue",
+          "Entry €8-15",
+          "Come for the music, not the scene",
+          "Excellent sound system - purist setup",
+          "Dark, industrial atmosphere",
+          "Cash only usually",
+          "Crowd is dedicated electronic music fans",
+          "No photos/phone policy often enforced",
+          "Can get very sweaty - dress accordingly!",
+          "Not for casual clubbers - serious vibe",
+          "Check Facebook for event schedule"
+        ]
+      }
+    },
+    "kino_am_olympiasee": {
+      "id": "kino_am_olympiasee",
+      "name": "Kino am Olympiasee",
+      "emoji": "🎬",
+      "coordinates": {
+        "lat": 48.1739,
+        "lng": 11.5506
+      },
+      "radius": 150,
+      "category": "entertainment",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Magical outdoor cinema by the Olympic lake! Summer movies under stars with lake views. Bring blankets, cushions, snacks. Romantic summer evenings - Munich's best open-air cinema!",
+      "shortDescription": "Outdoor cinema by Olympic lake in summer",
+      "imageUrl": "/images/locations/kino_olympiasee.jpg",
+      "transportation": {
+        "transit": [
+          "U3 Olympiazentrum (8 min walk)",
+          "Tram 20/21 Olympiapark West (10 min walk)",
+          "Tram 27 Petuelring (12 min walk)"
+        ],
+        "walking": "40 minutes from Marienplatz - take public transport!"
+      },
+      "visitInfo": {
+        "hours": "July-August only! Gates open ~7:30 PM, movies start at dusk (~9-9:30 PM). Check kino-am-olympiasee.de for schedule.",
+        "bestTime": "Weekday evenings less crowded. Popular movies sell out - buy tickets online ahead! Arrive early for good spots.",
+        "events": [
+          "Recent blockbusters and classics",
+          "English and German language films",
+          "Some original language with subtitles",
+          "Runs entire July-August season"
+        ],
+        "tips": [
+          "Only open summer (July-August)!",
+          "Tickets €11-13, buy online in advance",
+          "Bring blankets, cushions, warm layers!",
+          "Evenings can be cool even in summer",
+          "Beautiful Olympic lake backdrop",
+          "Food and drinks sold on-site (or bring your own)",
+          "Romantic date night setting",
+          "1200+ seat capacity but popular shows sell out",
+          "Mix of English and German films - check schedule",
+          "Weather dependent - check website if uncertain",
+          "Rent beach chairs/blankets on-site (€3-5)",
+          "One of Munich's best summer experiences!"
+        ]
+      }
+    },
+    "volkstheater": {
+      "id": "volkstheater",
+      "name": "Volkstheater München",
+      "emoji": "🎭",
+      "coordinates": {
+        "lat": 48.1389,
+        "lng": 11.5492
+      },
+      "radius": 100,
+      "category": "culture",
+      "district": "Maxvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 2,
+      "description": "Munich's people's theater with contemporary productions! Modern takes on classics, new plays, experimental work. Accessible, thought-provoking theater. Beautiful Art Nouveau building!",
+      "shortDescription": "Contemporary theater in Art Nouveau building",
+      "imageUrl": "/images/locations/volkstheater.jpg",
+      "transportation": {
+        "transit": [
+          "U1/U7 Stiglmaierplatz (2 min walk)",
+          "U1/U2 Hauptbahnhof (8 min walk)",
+          "Tram 20/21 Stiglmaierplatz (1 min walk)"
+        ],
+        "walking": "12 minutes from Hauptbahnhof"
+      },
+      "visitInfo": {
+        "hours": "Performances vary - typically 7:30 or 8 PM start. Box office Mon-Sat 10 AM - 6 PM. Check muenchner-volkstheater.de!",
+        "bestTime": "Book online weeks ahead for popular shows. Student tickets available! Mid-week performances easier to get.",
+        "events": [
+          "Contemporary German theater",
+          "Classic plays with modern interpretations",
+          "New experimental productions",
+          "Guest performances and festivals"
+        ],
+        "tips": [
+          "German language theater - fluency required!",
+          "Tickets €10-40 (affordable for quality!)",
+          "Student/senior discounts available",
+          "Beautiful Art Nouveau theater building from 1900s",
+          "Mix of classics and contemporary work",
+          "More accessible than Residenztheater",
+          "Thought-provoking, often political productions",
+          "Bar in theater for interval drinks",
+          "Dress code: smart casual",
+          "Book at muenchner-volkstheater.de",
+          "Some shows sell out - popular venue",
+          "One of Munich's major theater institutions"
+        ]
+      }
+    },
+    "monopol_kino": {
+      "id": "monopol_kino",
+      "name": "Monopol Kino",
+      "emoji": "🍿",
+      "coordinates": {
+        "lat": 48.1508,
+        "lng": 11.5794
+      },
+      "radius": 80,
+      "category": "entertainment",
+      "district": "Schwabing-West",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Beloved neighborhood arthouse cinema in Schwabing! Independent films, international cinema, original language with subtitles. Cozy intimate theater - Munich's cinephile favorite!",
+      "shortDescription": "Arthouse cinema with international films",
+      "imageUrl": "/images/locations/monopol.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U6 Münchner Freiheit (5 min walk)",
+          "Tram 12 Münchner Freiheit (4 min walk)",
+          "U3/U6 Giselastraße (7 min walk)"
+        ],
+        "walking": "20 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Daily screenings - check website for times. Usually 5 PM, 7 PM, 9 PM showings. Box office opens 30 min before first show.",
+        "bestTime": "Weekday evenings quieter. Weekend shows popular - buy tickets online or arrive early. Great for film lovers!",
+        "events": [
+          "Independent and arthouse films",
+          "International cinema",
+          "Original language with subtitles (OmU)",
+          "Special film festivals occasionally"
+        ],
+        "tips": [
+          "Single-screen neighborhood cinema - intimate!",
+          "Focuses on quality independent films",
+          "Many films in original language (English often!)",
+          "Tickets €9-11 (cheaper than multiplexes for quality)",
+          "Cozy atmosphere - real cinephile crowd",
+          "Check schedule at monopol-kino.de",
+          "Small cinema - only ~100 seats",
+          "Buy snacks inside (popcorn, drinks)",
+          "Cash and card accepted",
+          "Popular with Schwabing residents",
+          "Great alternative to mainstream cinemas",
+          "Films rotate weekly - always something new"
+        ]
+      }
+    },
+    "send_climbing": {
+      "id": "send_climbing",
+      "name": "SEND Climbing Gym",
+      "emoji": "🧗",
+      "coordinates": {
+        "lat": 48.0992,
+        "lng": 11.5397
+      },
+      "radius": 100,
+      "category": "sports",
+      "district": "Thalkirchen-Obersendling",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Modern bouldering gym with 1500+ sqm climbing walls! No ropes needed - crash pads below. All skill levels welcome. Great workout, social atmosphere, cafe. Perfect rainy day activity!",
+      "shortDescription": "Large bouldering gym - no experience needed",
+      "imageUrl": "/images/locations/send.jpg",
+      "transportation": {
+        "transit": [
+          "U3 Obersendling (8 min walk)",
+          "Bus 134 Boschetsrieder Straße (5 min walk)",
+          "U3 Brudermühlstraße (10 min walk)"
+        ],
+        "walking": "Far from center - take public transport"
+      },
+      "visitInfo": {
+        "hours": "Mon-Fri 9 AM - 11 PM, Sat-Sun 10 AM - 10 PM. Open daily year-round!",
+        "bestTime": "Weekday afternoons less crowded. Evening after work busiest. Weekends busy but social atmosphere. Beginners welcome anytime!",
+        "events": [
+          "Bouldering for all levels",
+          "Kids climbing programs",
+          "Yoga classes",
+          "Climbing courses for beginners"
+        ],
+        "tips": [
+          "No climbing experience needed - super beginner friendly!",
+          "Day pass €14-16, shoes rental €4",
+          "1500+ sqm of climbing walls",
+          "Bouldering = no ropes, just crash pads",
+          "All difficulty levels marked by colors",
+          "Great full-body workout!",
+          "Social atmosphere - meet people!",
+          "Cafe with healthy food and drinks",
+          "Showers and changing rooms available",
+          "Courses for beginners offered",
+          "Very popular with Munich 20s-30s crowd",
+          "Can rent chalk and gear on-site",
+          "Perfect rainy day activity!"
+        ]
+      }
+    },
+    "isar_flossfahrt": {
+      "id": "isar_flossfahrt",
+      "name": "Isar Floßfahrt (River Rafting)",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 47.8917,
+        "lng": 11.5167
+      },
+      "radius": 200,
+      "category": "nature",
+      "district": "Wolfratshausen (outside Munich)",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Traditional Bavarian river raft trips down the Isar! Float from Wolfratshausen to Munich on wooden rafts, beer & music included. Unique summer experience - party on the water!",
+      "shortDescription": "Traditional river raft trips with beer & music",
+      "imageUrl": "/images/locations/floss.jpg",
+      "transportation": {
+        "transit": [
+          "S7 to Wolfratshausen (45 min from Munich)",
+          "Raft floats TO Munich - return via S-Bahn",
+          "Ends at Thalkirchen in Munich"
+        ],
+        "walking": "Start in Wolfratshausen, float downstream to Munich!"
+      },
+      "visitInfo": {
+        "hours": "May-September only. Trips typically start 10-11 AM from Wolfratshausen, arrive Munich 6-8 hours later. Book weeks ahead!",
+        "bestTime": "Warm summer days (June-Aug). Weekends very popular. Book 2-4 weeks ahead online! Great for groups and celebrations.",
+        "events": [
+          "Traditional wooden raft trips",
+          "Beer and food served on raft",
+          "Live music often included",
+          "Group celebrations popular"
+        ],
+        "tips": [
+          "Book WEEKS ahead - very popular! (isarflossfahrt.de)",
+          "Costs €60-80 per person including beer/food",
+          "6-8 hour float trip down Isar river",
+          "Traditional Bavarian experience!",
+          "Beer, pretzels, music ON the raft",
+          "Party atmosphere - great for groups",
+          "Start in Wolfratshausen, end in Munich Thalkirchen",
+          "Take S7 to start, raft floats back to Munich",
+          "Bring sunscreen and warm layer for evening",
+          "Weather dependent - can be cancelled",
+          "Perfect for birthdays, bachelor/bachelorette parties",
+          "Family rafts also available (less party)",
+          "Truly unique Munich summer tradition!"
+        ]
+      }
+    },
+    "mathaeser_filmpalast": {
+      "id": "mathaeser_filmpalast",
+      "name": "Mathäser Filmpalast",
+      "emoji": "🎥",
+      "coordinates": {
+        "lat": 48.1389,
+        "lng": 11.5633
+      },
+      "radius": 100,
+      "category": "entertainment",
+      "district": "Maxvorstadt",
+      "difficulty": "easy",
+      "unlockLevel": 1,
+      "description": "Munich's largest cinema complex with 14 screens including IMAX! Blockbusters in German and original language, premium seating, Dolby Atmos. Modern multiplex entertainment!",
+      "shortDescription": "Massive 14-screen cinema with IMAX",
+      "imageUrl": "/images/locations/mathaeser.jpg",
+      "transportation": {
+        "transit": [
+          "S-Bahn Karlsplatz (Stachus) - direct",
+          "U4/U5 Karlsplatz (2 min walk)",
+          "All trams/buses to Stachus"
+        ],
+        "walking": "5 minutes from Marienplatz via Kaufingerstraße"
+      },
+      "visitInfo": {
+        "hours": "Daily ~11 AM - midnight. Showtimes vary - check mathaeser.de. IMAX screenings throughout day.",
+        "bestTime": "Book online ahead for popular movies. Tuesday/Wednesday cheap day (€7.50). IMAX worth the premium for blockbusters!",
+        "events": [
+          "Hollywood blockbusters",
+          "IMAX screenings",
+          "Original language versions (OV/OmU)",
+          "Late-night weekend showings"
+        ],
+        "tips": [
+          "14 screens including IMAX - huge selection!",
+          "Tickets €10-18 (IMAX more expensive)",
+          "Tuesday 'Kino-Dienstag' discounts €7.50!",
+          "Book online at mathaeser.de",
+          "Check for OV (original version) or OmU (subtitled) for English!",
+          "Premium seats and Dolby Atmos available",
+          "Large snack bar - popcorn, nachos, drinks",
+          "Central location - easy to reach",
+          "Most popular cinema in Munich",
+          "IMAX screen is spectacular!",
+          "Student discounts some showtimes",
+          "Reserve seats online - choose your spot"
+        ]
+      }
+    },
+    "schwabing_street_basketball": {
+      "id": "schwabing_street_basketball",
+      "name": "Leopoldpark Basketball Courts",
+      "emoji": "🏀",
+      "coordinates": {
+        "lat": 48.1644,
+        "lng": 11.5853
+      },
+      "radius": 100,
+      "category": "sports",
+      "district": "Schwabing-Freimann",
+      "difficulty": "easy",
+      "unlockLevel": 1,
+      "description": "Popular outdoor basketball courts in Leopoldpark! Free public courts, pickup games daily, all skill levels. Great summer spot to play or watch. Bring your A-game!",
+      "shortDescription": "Free outdoor basketball courts with pickup games",
+      "imageUrl": "/images/locations/basketball.jpg",
+      "transportation": {
+        "transit": [
+          "U6 Dietlindenstraße (5 min walk)",
+          "U3/U6 Münchner Freiheit (10 min walk)",
+          "Bus 54 Leopoldstraße (7 min walk)"
+        ],
+        "walking": "30 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "24/7 outdoor courts! Best during daylight. Summer evenings (6-9 PM) most active for pickup games.",
+        "bestTime": "Summer afternoons/evenings busiest. Weekends great for watching games. Just show up and ask to play!",
+        "events": [
+          "Daily pickup games (weather permitting)",
+          "Mix of skill levels welcome",
+          "Occasional streetball tournaments",
+          "Great spectator spot too"
+        ],
+        "tips": [
+          "FREE public courts - just bring ball and shoes!",
+          "Multiple courts available",
+          "Pickup games daily in good weather",
+          "All skill levels - just ask to join!",
+          "Very social atmosphere",
+          "Popular with students and young people",
+          "Near Leopoldpark - combine with park hangout",
+          "Bring water - can get hot!",
+          "Courts can be busy - may need to wait",
+          "Great place to meet people and play",
+          "Lights available for evening play",
+          "Winter less active - check before going"
+        ]
+      }
+    },
+    "lost_weekend": {
+      "id": "lost_weekend",
+      "name": "Lost Weekend",
+      "emoji": "🍺",
+      "coordinates": {
+        "lat": 48.1508,
+        "lng": 11.5769
+      },
+      "radius": 80,
+      "category": "nightlife",
+      "district": "Schwabing-West",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Legendary dive bar and concert venue in Schwabing! Punk, rock, indie shows in tiny basement. Cheap beer, gritty atmosphere, no pretense. Munich's most authentic rock bar since 1984!",
+      "shortDescription": "Legendary dive bar & punk rock venue since 1984",
+      "imageUrl": "/images/locations/lostweekend.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U6 Münchner Freiheit (4 min walk)",
+          "U3/U6 Giselastraße (6 min walk)",
+          "Tram 12 Münchner Freiheit (3 min walk)"
+        ],
+        "walking": "20 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu 8 PM - 3 AM, Fri-Sat 8 PM - 4 AM, Sun 8 PM - 1 AM. Check schedule for concerts!",
+        "bestTime": "Concerts start ~9 PM (check website). Bar atmosphere picks up after 10 PM. Weekend nights busiest.",
+        "events": [
+          "Live punk, rock, indie concerts",
+          "DJ nights",
+          "Theme parties",
+          "Open mic occasionally"
+        ],
+        "tips": [
+          "Munich institution since 1984!",
+          "Tiny basement venue - gets packed!",
+          "Cheap beer €3-4",
+          "Concert entry €5-10",
+          "Authentic dive bar atmosphere",
+          "No frills, no pretense - come as you are",
+          "Live music several nights weekly",
+          "Very small - arrive early for concerts",
+          "Cash only!",
+          "Smoker-friendly",
+          "Popular with alternative/punk crowd",
+          "Check Facebook for concert schedule",
+          "One of Munich's last true dive bars!"
+        ]
+      }
     }
   },
   "quizzes": {
