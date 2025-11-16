@@ -58,12 +58,10 @@ struct SocialView: View {
         VStack(spacing: 30) {
             Spacer()
 
-            Text("👥")
-                .font(.system(size: 80))
-
             Text("Compare with Friends")
                 .font(.title)
                 .fontWeight(.bold)
+                .padding(.top, 40)
 
             Text("Create an account to see the leaderboard and compare your progress with other players!")
                 .multilineTextAlignment(.center)
@@ -95,8 +93,6 @@ struct SocialView: View {
 
     private var emptyStateView: some View {
         VStack(spacing: 20) {
-            Text("📊")
-                .font(.system(size: 60))
             Text("No players yet")
                 .font(.headline)
                 .foregroundColor(.secondary)
@@ -104,6 +100,7 @@ struct SocialView: View {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
         }
+        .padding(.top, 40)
     }
 
     private var leaderboardView: some View {

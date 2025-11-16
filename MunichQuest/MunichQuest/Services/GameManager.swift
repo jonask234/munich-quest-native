@@ -77,7 +77,7 @@ class GameManager: ObservableObject {
 
                 print("✅ Loaded \(data.count) bytes from locations.json")
 
-                let gameData = try JSONDecoder().decode(GameData.self, from: data)
+                let gameData = try GameManager.decodeGameData(from: data)
                 let sortedLocations = Array(gameData.locations.values).sorted { $0.name < $1.name }
 
                 return Result.success((locations: sortedLocations, quizzes: gameData.quizzes))
@@ -177,13 +177,18 @@ class GameManager: ObservableObject {
         guard var progress = userProgress else { return }
 
         // Check if already visited
-        if progress.locationsVisited.contains(location.id) {
-            return
-        }
+        let alreadyVisited = progress.locationsVisited.contains(location.id)
 
         // Record visit
         progress.visitLocation(location.id)
         progress.addXP(50) // XP for visiting a new location
+
+        // Update daily challenge progress if this is a new visit today
+        if !alreadyVisited {
+            let currentVisits = progress.getDailyChallengeProgress(challengeId: "daily_visit_3")
+            progress.updateDailyChallengeProgress(challengeId: "daily_visit_3", progress: currentVisits + 1)
+        }
+
         userProgress = progress
 
         // Save locally
@@ -192,8 +197,13 @@ class GameManager: ObservableObject {
         // Save to Firebase only if authenticated
         if authManager?.isAuthenticated == true {
             saveUserProgress()
-            saveLocationVisit(location: location, userLocation: userLocation)
+            if !alreadyVisited {
+                saveLocationVisit(location: location, userLocation: userLocation)
+            }
         }
+
+        // Check and unlock achievements
+        checkAndUnlockAchievements()
     }
 
     private func saveLocationVisit(location: LocationData, userLocation: CLLocation) {
@@ -233,6 +243,18 @@ class GameManager: ObservableObject {
 
         // Always track accuracy correctly, regardless of completion status
         progress.completeQuiz(quiz.id, xp: xpEarned, points: pointsEarned, isCorrect: isCorrect)
+
+        // Update daily challenge progress
+        if isCorrect && !alreadyCompleted {
+            // Update "answer 5 correctly" challenge
+            let currentCorrect = progress.getDailyChallengeProgress(challengeId: "daily_answer_5")
+            progress.updateDailyChallengeProgress(challengeId: "daily_answer_5", progress: currentCorrect + 1)
+
+            // Update "earn 100 XP" challenge
+            let currentXP = progress.getDailyChallengeProgress(challengeId: "daily_earn_100xp")
+            progress.updateDailyChallengeProgress(challengeId: "daily_earn_100xp", progress: currentXP + xpEarned)
+        }
+
         userProgress = progress
 
         // Save locally immediately
@@ -250,6 +272,9 @@ class GameManager: ObservableObject {
         if authManager?.isAuthenticated == true {
             saveQuizResult(quiz: quiz, selectedAnswer: selectedAnswer, isCorrect: isCorrect, xpEarned: xpEarned)
         }
+
+        // Check and unlock achievements
+        checkAndUnlockAchievements()
     }
 
     private func saveQuizResult(quiz: Quiz, selectedAnswer: Int, isCorrect: Bool, xpEarned: Int) {
@@ -319,6 +344,64 @@ class GameManager: ObservableObject {
     func getUnlockedLocations() -> [LocationData] {
         let userLevel = userProgress?.level ?? 1
         return locations.filter { $0.unlockLevel <= userLevel }
+    }
+
+    // MARK: - Achievement System
+    private func checkAndUnlockAchievements() {
+        guard var progress = userProgress else { return }
+
+        // Get all achievements from StatsView
+        let allAchievements = Achievement.allAchievements
+        var anyUnlocked = false
+
+        for achievement in allAchievements {
+            // Skip if already unlocked
+            if progress.achievements.contains(achievement.id) {
+                continue
+            }
+
+            // Check if condition is met
+            let isCompleted = checkAchievementCondition(achievement.condition, progress: progress)
+
+            if isCompleted {
+                // Unlock achievement
+                progress.achievements.insert(achievement.id)
+                progress.addXP(achievement.xpReward)
+                print("🏆 Achievement unlocked: \(achievement.title) (+\(achievement.xpReward) XP)")
+                anyUnlocked = true
+            }
+        }
+
+        userProgress = progress
+
+        // Save to Firestore if any achievements were unlocked
+        if anyUnlocked {
+            saveUserProgress()
+        }
+    }
+
+    private func checkAchievementCondition(_ condition: AchievementCondition, progress: UserProgress) -> Bool {
+        switch condition {
+        case .visitLocations(let count):
+            return progress.locationsVisited.count >= count
+        case .completeQuizzes(let count):
+            return progress.quizzesCompleted.count >= count
+        case .reachLevel(let level):
+            return progress.level >= level
+        case .visitCategory(let category, let requiredCount):
+            let visited = locations.filter {
+                $0.category == category && progress.locationsVisited.contains($0.id)
+            }.count
+            return visited >= requiredCount
+        case .perfectQuizStreak(_):
+            // Would need streak tracking - return false for now
+            return false
+        }
+    }
+
+    // MARK: - Helper Functions
+    nonisolated private static func decodeGameData(from data: Data) throws -> GameData {
+        return try JSONDecoder().decode(GameData.self, from: data)
     }
 
     // MARK: - Cleanup

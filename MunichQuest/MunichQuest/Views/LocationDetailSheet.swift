@@ -9,6 +9,7 @@ struct LocationDetailSheet: View {
     let location: LocationData
     var autoTriggered: Bool = false
     @State private var showQuiz = false
+    @State private var showLocationGuide = false
 
     private var distanceToLocation: Double? {
         locationManager.distance(to: location)
@@ -32,6 +33,7 @@ struct LocationDetailSheet: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
+                        .foregroundColor(.primary)
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
@@ -41,34 +43,41 @@ struct LocationDetailSheet: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Text("About")
                         .font(.headline)
+                        .foregroundColor(.primary)
 
                     Text(location.description)
                         .font(.body)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
+                        .opacity(0.8)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(16)
+                .background(Color(UIColor.secondarySystemBackground))
+                .cornerRadius(12)
                 .padding(.horizontal)
 
                 // Additional Info
                 VStack(alignment: .leading, spacing: 10) {
                     Text("Details")
                         .font(.headline)
+                        .foregroundColor(.primary)
 
                     if let district = location.district {
-                        HStack(alignment: .top, spacing: 8) {
-                            Text("📍")
-                            Text("District: \(district)")
-                                .font(.body)
-                                .foregroundColor(.secondary)
-                        }
+                        Text("District: \(district)")
+                            .font(.body)
+                            .foregroundColor(.primary)
+                            .opacity(0.8)
                     }
 
-                    HStack(alignment: .top, spacing: 8) {
-                        Text("⭐")
-                        Text("Difficulty: \(location.difficulty)")
-                            .font(.body)
-                            .foregroundColor(.secondary)
-                    }
+                    Text("Difficulty: \(location.difficulty)")
+                        .font(.body)
+                        .foregroundColor(.primary)
+                        .opacity(0.8)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(16)
+                .background(Color(UIColor.secondarySystemBackground))
+                .cornerRadius(12)
                 .padding(.horizontal)
 
                 // Distance and Navigation
@@ -155,6 +164,31 @@ struct LocationDetailSheet: View {
                             }
                             .foregroundColor(isCompleted ? .green : Color(red: 0.4, green: 0.49, blue: 0.92))
                             .disabled(isCompleted)
+
+                            // Location Guide button (for completed locations)
+                            if isCompleted {
+                                Button(action: { showLocationGuide = true }) {
+                                    HStack {
+                                        Image(systemName: "info.circle.fill")
+                                            .font(.title2)
+                                        VStack(alignment: .leading) {
+                                            Text("View Location Guide")
+                                                .font(.headline)
+                                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                            Text("Transportation, venues, tips & more")
+                                                .font(.caption)
+                                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92).opacity(0.8))
+                                        }
+                                        Spacer()
+                                        Image(systemName: "chevron.right")
+                                    }
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color(red: 0.4, green: 0.49, blue: 0.92).opacity(0.1))
+                                    .cornerRadius(10)
+                                }
+                                .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                            }
                         } else {
                             // Locked (not nearby)
                             HStack {
@@ -205,6 +239,12 @@ struct LocationDetailSheet: View {
         .sheet(isPresented: $showQuiz) {
             QuizView(location: location)
                 .environmentObject(gameManager)
+        }
+        .sheet(isPresented: $showLocationGuide) {
+            if let progress = gameManager.userProgress {
+                LocationStatsDetailSheet(location: location, progress: progress)
+                    .environmentObject(gameManager)
+            }
         }
         .onAppear {
             // Auto-trigger quiz if location detail was auto-opened due to proximity

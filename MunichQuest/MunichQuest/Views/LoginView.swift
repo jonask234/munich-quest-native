@@ -17,13 +17,10 @@ struct LoginView: View {
 
                 ScrollView {
                     VStack(spacing: 25) {
-                        Text("🏰")
-                            .font(.system(size: 60))
-                            .padding(.top, 30)
-                        
                         Text("Welcome Back!")
                             .font(.title)
                             .fontWeight(.bold)
+                            .padding(.top, 30)
                         
                         VStack(spacing: 15) {
                             TextField("Email", text: $email)

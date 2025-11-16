@@ -121,6 +121,34 @@ struct UserProgress: Codable {
     mutating func unlockAchievement(_ achievementId: String) {
         achievements.insert(achievementId)
     }
+
+    // Daily challenge methods
+    mutating func updateDailyChallengeProgress(challengeId: String, progress: Int) {
+        checkAndResetDailyChallenges()
+        dailyChallengeProgress[challengeId] = progress
+    }
+
+    func getDailyChallengeProgress(challengeId: String) -> Int {
+        // Non-mutating version - just read the current progress
+        // Reset is handled by updateDailyChallengeProgress
+        return dailyChallengeProgress[challengeId] ?? 0
+    }
+
+    private mutating func checkAndResetDailyChallenges() {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+
+        if let lastDate = lastDailyChallengeDate {
+            let lastDay = calendar.startOfDay(for: lastDate)
+            if lastDay < today {
+                // New day, reset daily challenge progress
+                dailyChallengeProgress.removeAll()
+                lastDailyChallengeDate = today
+            }
+        } else {
+            lastDailyChallengeDate = today
+        }
+    }
 }
 
 // MARK: - Location Visit Record

@@ -65,6 +65,9 @@
 			);
 			name = MunichQuest;
 			packageProductDependencies = (
+				E1FIREBASE02 /* FirebaseAuth */,
+				E1FIREBASE03 /* FirebaseCore */,
+				E1FIREBASE04 /* FirebaseFirestore */,
 			);
 			productName = MunichQuest;
 			productReference = E12C39F72EC441CD00FC47C9 /* MunichQuest.app */;
@@ -94,6 +97,9 @@
 			);
 			mainGroup = E12C39EE2EC441CD00FC47C9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E1FIREBASE01 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E12C39F82EC441CD00FC47C9 /* Products */;
 			projectDirPath = "";
@@ -332,6 +338,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1FIREBASE01 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1FIREBASE02 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1FIREBASE01 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E1FIREBASE03 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1FIREBASE01 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		E1FIREBASE04 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1FIREBASE01 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E12C39EF2EC441CD00FC47C9 /* Project object */;
 }

@@ -10,6 +10,7 @@ struct SignupView: View {
     @State private var confirmPassword = ""
     @State private var showError = false
     @State private var errorText = ""
+    @State private var showVerificationMessage = false
     
     var body: some View {
         NavigationView {
@@ -20,13 +21,10 @@ struct SignupView: View {
 
                 ScrollView {
                     VStack(spacing: 25) {
-                        Text("🏰")
-                            .font(.system(size: 60))
-                            .padding(.top, 30)
-                        
                         Text("Join Munich Quest!")
                             .font(.title)
                             .fontWeight(.bold)
+                            .padding(.top, 30)
                         
                         VStack(spacing: 15) {
                             TextField("Username", text: $username)
@@ -46,17 +44,23 @@ struct SignupView: View {
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
 
-                            SecureField("Password", text: $password)
-                                .textContentType(.newPassword)
-                                .padding()
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(10)
+                            ZStack(alignment: .leading) {
+                                SecureField("Password", text: $password)
+                                    .textInputAutocapitalization(.never)
+                                    .autocorrectionDisabled()
+                                    .padding()
+                            }
+                            .background(Color(UIColor.systemBackground))
+                            .cornerRadius(10)
 
-                            SecureField("Confirm Password", text: $confirmPassword)
-                                .textContentType(.newPassword)
-                                .padding()
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(10)
+                            ZStack(alignment: .leading) {
+                                SecureField("Confirm Password", text: $confirmPassword)
+                                    .textInputAutocapitalization(.never)
+                                    .autocorrectionDisabled()
+                                    .padding()
+                            }
+                            .background(Color(UIColor.systemBackground))
+                            .cornerRadius(10)
                         }
                         .padding(.horizontal)
                         
@@ -66,7 +70,20 @@ struct SignupView: View {
                                 .font(.caption)
                                 .padding(.horizontal)
                         }
-                        
+
+                        if showVerificationMessage {
+                            VStack(spacing: 8) {
+                                Text("Account created!")
+                                    .foregroundColor(.green)
+                                    .font(.headline)
+                                Text("Please check your email to verify your account.")
+                                    .foregroundColor(.secondary)
+                                    .font(.caption)
+                                    .multilineTextAlignment(.center)
+                            }
+                            .padding(.horizontal)
+                        }
+
                         Button(action: handleSignup) {
                             if authManager.isLoading {
                                 ProgressView()
@@ -123,6 +140,10 @@ struct SignupView: View {
         Task {
             let result = await authManager.signUp(username: username, email: email, password: password)
             if case .success = result {
+                // Show verification message
+                showVerificationMessage = true
+                // Dismiss after 3 seconds
+                try? await Task.sleep(nanoseconds: 3_000_000_000)
                 dismiss()
             } else if let error = authManager.errorMessage {
                 errorText = error

@@ -187,6 +187,8 @@ struct MapView: View {
                 if let locationId = locationId,
                    let location = gameManager.locations.first(where: { $0.id == locationId }) {
                     centerOnLocation(location)
+                    selectedLocation = location  // Open detail sheet
+                    isAutoTriggered = false  // User-initiated jump
                     jumpToLocationId = nil  // Reset after handling
                 }
             }
@@ -280,17 +282,17 @@ struct LocationMarker: View {
         ZStack {
             // Outer border ring - colored by status
             Circle()
-                .stroke(borderColor, lineWidth: 2.5)
-                .frame(width: 38, height: 38)
+                .stroke(borderColor, lineWidth: 2)
+                .frame(width: 30, height: 30)
 
             // Background circle - white/light grey for all
             Circle()
                 .fill(Color(red: 0.97, green: 0.97, blue: 0.97))
-                .frame(width: 34, height: 34)
+                .frame(width: 26, height: 26)
 
             // Emoji icon - always visible
             Text(location.emoji)
-                .font(.system(size: 18))
+                .font(.system(size: 14))
 
             // Lock icon overlay for locked locations
             if status == .locked {
@@ -299,18 +301,18 @@ struct LocationMarker: View {
                     HStack {
                         Spacer()
                         Image(systemName: "lock.fill")
-                            .font(.system(size: 8))
+                            .font(.system(size: 6))
                             .foregroundColor(.white)
-                            .padding(3)
+                            .padding(2)
                             .background(
                                 Circle()
                                     .fill(badgeColor)
-                                    .frame(width: 14, height: 14)
+                                    .frame(width: 11, height: 11)
                             )
-                            .offset(x: 2, y: 2)
+                            .offset(x: 1.5, y: 1.5)
                     }
                 }
-                .frame(width: 34, height: 34)
+                .frame(width: 26, height: 26)
             }
 
             // Completion badge for completed locations
@@ -320,17 +322,17 @@ struct LocationMarker: View {
                     HStack {
                         Spacer()
                         Image(systemName: "checkmark.circle.fill")
-                            .font(.system(size: 10))
+                            .font(.system(size: 8))
                             .foregroundColor(.white)
                             .background(
                                 Circle()
                                     .fill(badgeColor)
-                                    .frame(width: 14, height: 14)
+                                    .frame(width: 11, height: 11)
                             )
-                            .offset(x: 2, y: 2)
+                            .offset(x: 1.5, y: 1.5)
                     }
                 }
-                .frame(width: 34, height: 34)
+                .frame(width: 26, height: 26)
             }
         }
         .shadow(color: Color.black.opacity(0.15), radius: 3, x: 0, y: 2)
