@@ -177,13 +177,18 @@ class GameManager: ObservableObject {
         guard var progress = userProgress else { return }
 
         // Check if already visited
-        if progress.locationsVisited.contains(location.id) {
-            return
-        }
+        let alreadyVisited = progress.locationsVisited.contains(location.id)
 
         // Record visit
         progress.visitLocation(location.id)
         progress.addXP(50) // XP for visiting a new location
+
+        // Update daily challenge progress if this is a new visit today
+        if !alreadyVisited {
+            let currentVisits = progress.getDailyChallengeProgress(challengeId: "daily_visit_3")
+            progress.updateDailyChallengeProgress(challengeId: "daily_visit_3", progress: currentVisits + 1)
+        }
+
         userProgress = progress
 
         // Save locally
@@ -192,7 +197,9 @@ class GameManager: ObservableObject {
         // Save to Firebase only if authenticated
         if authManager?.isAuthenticated == true {
             saveUserProgress()
-            saveLocationVisit(location: location, userLocation: userLocation)
+            if !alreadyVisited {
+                saveLocationVisit(location: location, userLocation: userLocation)
+            }
         }
     }
 
@@ -233,6 +240,18 @@ class GameManager: ObservableObject {
 
         // Always track accuracy correctly, regardless of completion status
         progress.completeQuiz(quiz.id, xp: xpEarned, points: pointsEarned, isCorrect: isCorrect)
+
+        // Update daily challenge progress
+        if isCorrect && !alreadyCompleted {
+            // Update "answer 5 correctly" challenge
+            let currentCorrect = progress.getDailyChallengeProgress(challengeId: "daily_answer_5")
+            progress.updateDailyChallengeProgress(challengeId: "daily_answer_5", progress: currentCorrect + 1)
+
+            // Update "earn 100 XP" challenge
+            let currentXP = progress.getDailyChallengeProgress(challengeId: "daily_earn_100xp")
+            progress.updateDailyChallengeProgress(challengeId: "daily_earn_100xp", progress: currentXP + xpEarned)
+        }
+
         userProgress = progress
 
         // Save locally immediately

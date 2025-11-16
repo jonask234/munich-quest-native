@@ -272,10 +272,34 @@ struct LocationsDiscoveredSection: View {
         // Show ALL locations, not just visited ones
         let locations = gameManager.locations
 
-        if selectedCategories.isEmpty {
-            return locations.sorted { $0.name < $1.name }
+        let filtered = if selectedCategories.isEmpty {
+            locations
+        } else {
+            locations.filter { selectedCategories.contains($0.category) }
         }
-        return locations.filter { selectedCategories.contains($0.category) }.sorted { $0.name < $1.name }
+
+        // Sort: Completed first, then in-progress, then locked. Within each group, sort by name
+        return filtered.sorted { loc1, loc2 in
+            let status1 = getLocationCompletionStatus(loc1)
+            let status2 = getLocationCompletionStatus(loc2)
+
+            if status1 != status2 {
+                // Completed (2) > In Progress (1) > Locked (0)
+                return status1 > status2
+            }
+            return loc1.name < loc2.name
+        }
+    }
+
+    private func getLocationCompletionStatus(_ location: LocationData) -> Int {
+        let isVisited = progress.locationsVisited.contains(location.id)
+        if !isVisited { return 0 } // Locked
+
+        let quizzes = gameManager.getQuizzesForLocation(location.id)
+        let completed = quizzes.filter { progress.quizzesCompleted.contains($0.id) }.count
+        let isCompleted = quizzes.count > 0 && completed == quizzes.count
+
+        return isCompleted ? 2 : 1 // Completed : In Progress
     }
 
     var body: some View {
@@ -373,6 +397,8 @@ struct LocationProgressRow: View {
     let location: LocationData
     let progress: UserProgress
 
+    @State private var showLocationDetail = false
+
     private var isVisited: Bool {
         progress.locationsVisited.contains(location.id)
     }
@@ -401,9 +427,27 @@ struct LocationProgressRow: View {
                         .foregroundColor(isVisited ? .primary : .secondary)
 
                     if isVisited {
-                        Text("\(quizProgress.completed)/\(quizProgress.total) questions completed")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
+                        HStack(spacing: 6) {
+                            Text("\(quizProgress.completed)/\(quizProgress.total) questions")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+
+                            // Mini progress bar
+                            if quizProgress.total > 0 {
+                                GeometryReader { geometry in
+                                    ZStack(alignment: .leading) {
+                                        RoundedRectangle(cornerRadius: 2)
+                                            .fill(Color.gray.opacity(0.2))
+                                            .frame(height: 4)
+
+                                        RoundedRectangle(cornerRadius: 2)
+                                            .fill(isCompleted ? Color.green : Color(red: 0.4, green: 0.49, blue: 0.92))
+                                            .frame(width: geometry.size.width * CGFloat(quizProgress.completed) / CGFloat(quizProgress.total), height: 4)
+                                    }
+                                }
+                                .frame(width: 50, height: 4)
+                            }
+                        }
                     } else {
                         Text("Not yet visited")
                             .font(.caption)
@@ -464,6 +508,16 @@ struct LocationProgressRow: View {
         .padding()
         .background(isVisited ? Color(UIColor.secondarySystemBackground) : Color(UIColor.tertiarySystemBackground))
         .cornerRadius(12)
+        .onTapGesture {
+            // Show detail popup for visited locations (especially completed ones)
+            if isVisited {
+                showLocationDetail = true
+            }
+        }
+        .sheet(isPresented: $showLocationDetail) {
+            LocationStatsDetailSheet(location: location, progress: progress)
+                .environmentObject(gameManager)
+        }
     }
 
     private func openDirections() {
@@ -557,6 +611,8 @@ struct AchievementCard: View {
     let isUnlocked: Bool
     let progress: Double
 
+    @State private var showDetail = false
+
     private var rarityColor: Color {
         switch achievement.rarity {
         case .common:
@@ -623,6 +679,12 @@ struct AchievementCard: View {
             RoundedRectangle(cornerRadius: 12)
                 .stroke(rarityColor, lineWidth: 2.5)
         )
+        .onTapGesture {
+            showDetail = true
+        }
+        .sheet(isPresented: $showDetail) {
+            AchievementDetailSheet(achievement: achievement, isUnlocked: isUnlocked, progress: progress)
+        }
     }
 }
 
@@ -643,8 +705,8 @@ struct DailyChallenge: Identifiable {
         let challengeIndex = dayOfYear % 3
 
         let allChallenges = [
-            ("daily_answer_5", "Answer 5 questions correctly", 5, 50),
-            ("daily_visit_3", "Visit 3 different locations", 3, 30),
+            ("daily_answer_5", "Answer 5 questions correctly today", 5, 50),
+            ("daily_visit_3", "Visit 3 different locations today", 3, 30),
             ("daily_earn_100xp", "Earn 100 XP today", 100, 100)
         ]
 
@@ -656,13 +718,14 @@ struct DailyChallenge: Identifiable {
 
         return selectedIndices.map { index in
             let (id, title, target, xp) = allChallenges[index]
-            let currentProgress = calculateDailyProgress(id: id, progress: progress, gameManager: gameManager, target: target)
+            // Use stored daily progress instead of cumulative stats
+            let currentProgress = progress.getDailyChallengeProgress(challengeId: id)
 
             return DailyChallenge(
                 id: id,
                 title: title,
                 target: target,
-                currentProgress: currentProgress,
+                currentProgress: min(currentProgress, target),
                 xpReward: xp
             )
         }
@@ -692,19 +755,6 @@ struct DailyChallenge: Identifiable {
                 xpReward: 250
             )
         ]
-    }
-
-    private static func calculateDailyProgress(id: String, progress: UserProgress, gameManager: GameManager, target: Int) -> Int {
-        switch id {
-        case "daily_answer_5":
-            return min(progress.totalCorrectAnswers, target)
-        case "daily_visit_3":
-            return min(progress.locationsVisited.count, target)
-        case "daily_earn_100xp":
-            return min(progress.totalXP, target)
-        default:
-            return 0
-        }
     }
 
     private static func calculateWeeklyProgress(id: String, progress: UserProgress, gameManager: GameManager, target: Int) -> Int {
@@ -883,4 +933,308 @@ extension Achievement {
             condition: .visitLocations(count: 5)
         )
     ]
+}
+
+// MARK: - Achievement Detail Sheet
+struct AchievementDetailSheet: View {
+    let achievement: Achievement
+    let isUnlocked: Bool
+    let progress: Double
+    @Environment(\.dismiss) var dismiss
+
+    private var rarityColor: Color {
+        switch achievement.rarity {
+        case .common: return .gray
+        case .uncommon: return .green
+        case .rare: return .blue
+        case .epic: return .purple
+        case .legendary: return Color(red: 0.95, green: 0.75, blue: 0.0)
+        }
+    }
+
+    private var rarityText: String {
+        switch achievement.rarity {
+        case .common: return "Common"
+        case .uncommon: return "Uncommon"
+        case .rare: return "Rare"
+        case .epic: return "Epic"
+        case .legendary: return "Legendary"
+        }
+    }
+
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 25) {
+                    // Icon
+                    Text(isUnlocked ? achievement.icon : "🔒")
+                        .font(.system(size: 80))
+                        .opacity(isUnlocked ? 1.0 : 0.4)
+                        .padding(.top, 20)
+
+                    // Title
+                    Text(achievement.title)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+
+                    // Rarity Badge
+                    HStack(spacing: 4) {
+                        Image(systemName: "star.fill")
+                            .font(.caption)
+                        Text(rarityText.uppercased())
+                            .font(.caption)
+                            .fontWeight(.bold)
+                    }
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 6)
+                    .background(rarityColor)
+                    .cornerRadius(12)
+
+                    // Description
+                    VStack(spacing: 15) {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Description")
+                                .font(.headline)
+                                .foregroundColor(.secondary)
+
+                            Text(achievement.description)
+                                .font(.body)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding()
+                        .background(Color(UIColor.secondarySystemBackground))
+                        .cornerRadius(12)
+
+                        // Rewards
+                        HStack(spacing: 20) {
+                            VStack {
+                                Image(systemName: "star.circle.fill")
+                                    .font(.title2)
+                                    .foregroundColor(Color(red: 0.95, green: 0.75, blue: 0.0))
+                                Text("+\(achievement.xpReward) XP")
+                                    .font(.subheadline)
+                                    .fontWeight(.semibold)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color(UIColor.secondarySystemBackground))
+                            .cornerRadius(12)
+
+                            VStack {
+                                Image(systemName: "chart.bar.fill")
+                                    .font(.title2)
+                                    .foregroundColor(rarityColor)
+                                Text(rarityText)
+                                    .font(.subheadline)
+                                    .fontWeight(.semibold)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color(UIColor.secondarySystemBackground))
+                            .cornerRadius(12)
+                        }
+
+                        // Progress
+                        if !isUnlocked {
+                            VStack(alignment: .leading, spacing: 10) {
+                                HStack {
+                                    Text("Progress")
+                                        .font(.headline)
+                                        .foregroundColor(.secondary)
+                                    Spacer()
+                                    Text("\(Int(progress * 100))%")
+                                        .font(.headline)
+                                        .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                }
+
+                                ProgressView(value: progress)
+                                    .tint(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                    .scaleEffect(x: 1, y: 2, anchor: .center)
+                            }
+                            .padding()
+                            .background(Color(UIColor.secondarySystemBackground))
+                            .cornerRadius(12)
+                        } else {
+                            HStack {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundColor(.green)
+                                Text("Unlocked!")
+                                    .font(.headline)
+                                    .foregroundColor(.green)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.green.opacity(0.1))
+                            .cornerRadius(12)
+                        }
+                    }
+                    .padding(.horizontal)
+                }
+                .padding(.bottom, 30)
+            }
+            .navigationTitle("Achievement Details")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") {
+                        dismiss()
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Location Stats Detail Sheet
+struct LocationStatsDetailSheet: View {
+    @EnvironmentObject var gameManager: GameManager
+    let location: LocationData
+    let progress: UserProgress
+    @Environment(\.dismiss) var dismiss
+
+    private var quizProgress: (completed: Int, total: Int, correct: Int) {
+        let quizzes = gameManager.getQuizzesForLocation(location.id)
+        let completed = quizzes.filter { progress.quizzesCompleted.contains($0.id) }
+        // Note: We don't track which answers were correct per quiz in current model
+        return (completed.count, quizzes.count, completed.count)
+    }
+
+    private var isCompleted: Bool {
+        quizProgress.completed == quizProgress.total && quizProgress.total > 0
+    }
+
+    private var progressPercentage: Double {
+        guard quizProgress.total > 0 else { return 0 }
+        return Double(quizProgress.completed) / Double(quizProgress.total)
+    }
+
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 25) {
+                    // Header
+                    VStack(spacing: 15) {
+                        Text(location.emoji)
+                            .font(.system(size: 80))
+
+                        Text(location.name)
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+
+                        if let district = location.district {
+                            HStack(spacing: 4) {
+                                Image(systemName: "mappin.circle.fill")
+                                    .font(.caption)
+                                Text(district)
+                                    .font(.subheadline)
+                            }
+                            .foregroundColor(.secondary)
+                        }
+                    }
+                    .padding(.top, 20)
+
+                    // Completion Status
+                    HStack {
+                        Image(systemName: isCompleted ? "checkmark.seal.fill" : "hourglass")
+                            .font(.title2)
+                            .foregroundColor(isCompleted ? .green : Color(red: 0.4, green: 0.49, blue: 0.92))
+                        Text(isCompleted ? "Completed!" : "In Progress")
+                            .font(.headline)
+                            .foregroundColor(isCompleted ? .green : .primary)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(isCompleted ? Color.green.opacity(0.1) : Color(red: 0.4, green: 0.49, blue: 0.92).opacity(0.1))
+                    .cornerRadius(12)
+                    .padding(.horizontal)
+
+                    // Stats
+                    VStack(spacing: 15) {
+                        // Quiz Progress
+                        VStack(alignment: .leading, spacing: 10) {
+                            HStack {
+                                Text("Quiz Progress")
+                                    .font(.headline)
+                                Spacer()
+                                Text("\(quizProgress.completed)/\(quizProgress.total)")
+                                    .font(.headline)
+                                    .foregroundColor(Color(red: 0.4, green: 0.49, blue: 0.92))
+                            }
+
+                            ProgressView(value: progressPercentage)
+                                .tint(isCompleted ? .green : Color(red: 0.4, green: 0.49, blue: 0.92))
+                                .scaleEffect(x: 1, y: 2, anchor: .center)
+
+                            HStack {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundColor(.green)
+                                Text("\(quizProgress.completed) questions answered")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
+
+                            if quizProgress.completed < quizProgress.total {
+                                HStack {
+                                    Image(systemName: "circle.dotted")
+                                        .foregroundColor(.orange)
+                                    Text("\(quizProgress.total - quizProgress.completed) questions remaining")
+                                        .font(.subheadline)
+                                        .foregroundColor(.secondary)
+                                }
+                            }
+                        }
+                        .padding()
+                        .background(Color(UIColor.secondarySystemBackground))
+                        .cornerRadius(12)
+
+                        // Location Info
+                        VStack(alignment: .leading, spacing: 10) {
+                            Text("Location Details")
+                                .font(.headline)
+
+                            HStack(spacing: 8) {
+                                Image(systemName: "star.fill")
+                                    .foregroundColor(.orange)
+                                Text("Difficulty: \(location.difficulty.capitalized)")
+                                    .font(.subheadline)
+                            }
+
+                            HStack(spacing: 8) {
+                                Image(systemName: "tag.fill")
+                                    .foregroundColor(.blue)
+                                Text("Category: \(location.category.capitalized)")
+                                    .font(.subheadline)
+                            }
+
+                            if quizProgress.total > 0 {
+                                HStack(spacing: 8) {
+                                    Image(systemName: "questionmark.circle.fill")
+                                        .foregroundColor(.purple)
+                                    Text("\(quizProgress.total) total questions")
+                                        .font(.subheadline)
+                                }
+                            }
+                        }
+                        .padding()
+                        .background(Color(UIColor.secondarySystemBackground))
+                        .cornerRadius(12)
+                    }
+                    .padding(.horizontal)
+                }
+                .padding(.bottom, 30)
+            }
+            .navigationTitle("Location Stats")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") {
+                        dismiss()
+                    }
+                }
+            }
+        }
+    }
 }
