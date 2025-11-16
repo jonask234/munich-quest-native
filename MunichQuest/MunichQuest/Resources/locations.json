@@ -432,83 +432,51 @@
       "name": "Viktualienmarkt",
       "emoji": "🥨",
       "coordinates": {
-        "lat": 48.135193,
-        "lng": 11.576252
+        "lat": 48.1351,
+        "lng": 11.5762
       },
       "radius": 150,
-      "category": "culture",
+      "category": "shopping",
       "district": "Altstadt-Lehel",
       "difficulty": "easy",
       "unlockLevel": 1,
-      "description": "Munich's legendary outdoor food market since 1807! Fresh produce, flowers, specialty foods, and authentic Bavarian snacks. The heart of local food culture!",
-      "shortDescription": "Historic food market & beer garden",
+      "description": "Munich's famous daily food market since 1807! Fresh produce, Bavarian specialties, international delicacies, beer garden. Heart of Munich food culture - must-visit for authentic atmosphere!",
+      "shortDescription": "Historic daily food market & beer garden",
       "imageUrl": "/images/locations/viktualienmarkt.jpg",
-      "quizIds": [
-        "viktualien_1",
-        "viktualien_2",
-        "viktualien_3",
-        "viktualien_4",
-        "viktualien_5"
-      ],
       "transportation": {
         "transit": [
+          "S/U Marienplatz (3 min walk)",
           "U3/U6 Marienplatz (3 min walk)",
-          "U1/U2 Sendlinger Tor (4 min walk)",
-          "S-Bahn Marienplatz (3 min walk)"
+          "Direct from Marienplatz square"
         ],
-        "walking": "2 min from Marienplatz"
+        "walking": "3 minutes south of Marienplatz"
       },
-      "venues": [
-        {
-          "icon": "🍺",
-          "name": "Beer Garden",
-          "description": "Traditional Bavarian beer garden in the heart of the market - sit under chestnut trees with a Mass",
-          "address": "Center of Viktualienmarkt"
-        },
-        {
-          "icon": "🧀",
-          "name": "Käse-Alois",
-          "description": "Legendary cheese shop with over 100 varieties - ask for samples!",
-          "address": "Stand near Westenriederstraße entrance"
-        },
-        {
-          "icon": "🥨",
-          "name": "Pretzel & Sausage Stands",
-          "description": "Fresh Brezn, Leberkäs, and Weißwurst - authentic Bavarian breakfast spots"
-        },
-        {
-          "icon": "🍓",
-          "name": "Fresh Produce Stands",
-          "description": "Local farmers selling seasonal fruits, vegetables, and flowers daily"
-        },
-        {
-          "icon": "🦞",
-          "name": "Fish & Seafood Stands",
-          "description": "Fresh fish delivered daily - some offer oysters and seafood to go"
-        },
-        {
-          "icon": "☕",
-          "name": "Café Frischhut",
-          "description": "Famous for Schmalzgebäck (fried dough pastries) - a Munich institution since 1973!",
-          "address": "Prälat-Zistl-Straße 8"
-        }
-      ],
       "visitInfo": {
-        "hours": "Mon-Sat 8am-8pm (individual stalls vary). Beer garden: 9am-10pm",
-        "bestTime": "Weekday mornings (8-11am) for the freshest produce and fewer crowds. Saturday mornings are busiest but most vibrant!",
+        "hours": "Mon-Sat 8 AM - 8 PM (most stalls close 6 PM). Closed Sundays. Beer garden open during market hours.",
+        "bestTime": "Morning (9-11 AM) for freshest selection. Saturday busiest/most atmosphere. Lunch at beer garden (11 AM-2 PM).",
         "events": [
-          "Maibock Beer Festival (May) - special seasonal beer in the garden",
-          "Christmas Market stalls (late November-December)",
-          "Spargelzeit (Asparagus Season) in April-June with special stands"
+          "Maypole tradition and dances",
+          "Brewers' Day (last week of January)",
+          "Special seasonal offerings year-round",
+          "Live music in beer garden sometimes"
         ],
         "tips": [
-          "Come hungry! Try Leberkäs-Semmel (meatloaf sandwich) and a fresh pretzel for an authentic breakfast",
-          "The beer garden opens at 9am - perfect for Frühschoppen (morning beer tradition)",
-          "Each fountain statue honors a different Munich comedian - look for Karl Valentin!",
-          "Best cheese samples at Käse-Alois - tell them what you like and they'll recommend",
-          "Skip the touristy restaurants around the edges - eat at the market stands instead"
+          "140+ stalls - food, flowers, spices, specialties",
+          "Fresh Bavarian produce daily",
+          "International ingredients available",
+          "Central beer garden - bring your own food, buy beer there",
+          "Try fresh Leberkäse or Weisswurst for breakfast",
+          "Great for picnic supplies before Englischer Garten",
+          "High quality but pricier than supermarkets",
+          "Perfect for food gifts/souvenirs",
+          "Maypole in center celebrates Munich breweries",
+          "Cash preferred at many stalls",
+          "Sample before buying - vendors are friendly!",
+          "Tourist attraction but locals shop here too",
+          "200+ years of Munich market tradition!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "residenz": {
       "id": "residenz",
@@ -1315,157 +1283,103 @@
     "muffathalle": {
       "id": "muffathalle",
       "name": "Muffathalle",
-      "emoji": "🎵",
+      "emoji": "🎸",
       "coordinates": {
-        "lat": 48.131944,
-        "lng": 11.588333
+        "lat": 48.1298,
+        "lng": 11.5915
       },
-      "radius": 200,
-      "category": "nightlife",
-      "district": "Haidhausen",
-      "difficulty": "medium",
-      "unlockLevel": 3,
-      "description": "Munich's coolest live music venue & club in a historic power station. Epic concerts and parties!",
-      "shortDescription": "Legendary concert hall",
+      "radius": 100,
+      "category": "culture",
+      "district": "Au-Haidhausen",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Historic power plant turned concert venue! Indie, electronic, world music in unique industrial setting. Great sound, eclectic programming, riverside beer garden. Munich's coolest concert hall!",
+      "shortDescription": "Industrial concert venue with diverse music",
       "imageUrl": "/images/locations/muffathalle.jpg",
-      "quizIds": [
-        "muffathalle_1",
-        "muffathalle_2",
-        "muffathalle_3",
-        "muffathalle_4",
-        "muffathalle_5",
-        "muffathalle_6"
-      ],
       "transportation": {
         "transit": [
-          "S-Bahn Rosenheimer Platz (10 min walk)",
-          "Tram 16/18 Deutsches Museum (8 min walk)",
-          "Bus 52 Muffatstraße (direct)"
+          "S-Bahn Rosenheimer Platz (8 min walk)",
+          "Tram 16 Deutsches Museum (5 min walk)",
+          "U1/U2 Fraunhoferstraße (12 min walk)"
         ],
-        "walking": "15 minutes from Isartor along river"
+        "walking": "15 minutes from Marienplatz via Isar riverside"
       },
-      "venues": [
-        {
-          "icon": "🎸",
-          "name": "Concert Hall",
-          "description": "Indie/alternative music venue in converted power plant. 800 capacity. Check schedule!",
-          "address": "Zellstraße 4"
-        },
-        {
-          "icon": "🎭",
-          "name": "Theater & Comedy Shows",
-          "description": "Rotating performances - stand-up, improv, theater. Mostly German language.",
-          "address": "Same venue"
-        },
-        {
-          "icon": "🍻",
-          "name": "Beer Garden (Ampere)",
-          "description": "Outdoor summer beer garden right on Isar River. Live music, BBQ, sunset views.",
-          "address": "Riverside terrace"
-        },
-        {
-          "icon": "☕",
-          "name": "Café Muffatwerk",
-          "description": "Daytime café with breakfast/lunch. Coworking-friendly. Great river views.",
-          "address": "Ground floor"
-        }
-      ],
       "visitInfo": {
-        "bestTime": "Check event calendar for concerts/shows - venue is event-dependent. Summer beer garden afternoons (3-8pm). Events usually start 8-9pm.",
+        "hours": "Concert dependent - check muffatwerk.de. Doors typically 7-8 PM. Beer garden open summers 11 AM - 1 AM.",
+        "bestTime": "Check concert calendar weekly - eclectic mix! Beer garden perfect summer afternoons/evenings. Tickets online or box office.",
         "events": [
-          "Live concerts (indie, rock, electronic) - check www.muffathalle.de",
-          "Comedy nights (some English)",
-          "Dance parties and club nights",
-          "Summer festival series (June-August)"
+          "Indie, electronic, world music concerts",
+          "DJ nights and club events",
+          "Cultural festivals and markets",
+          "Riverside beer garden (summer)"
         ],
         "tips": [
-          "Buy concert tickets in advance - popular shows sell out",
-          "Tickets €15-30 depending on artist",
-          "Beer garden is free entry - just buy drinks",
-          "Right on Isar - combine with river walk",
-          "Young, alternative crowd - very local vibe",
-          "Former power station - cool industrial architecture"
+          "Converted historic power plant - unique venue!",
+          "Excellent sound system and atmosphere",
+          "300-1000 capacity depending on setup",
+          "Tickets typically €15-40",
+          "Book at muffatwerk.de or München Ticket",
+          "Part of larger Muffatwerk cultural complex",
+          "Beer garden right on Isar river - stunning!",
+          "Eclectic programming: indie, electronic, jazz, world",
+          "Standing room most shows - arrive early for front",
+          "Great pre/post-concert drinks at beer garden",
+          "Popular with Munich's alternative scene",
+          "Check cafe/bar hours even without concerts"
         ]
-      }
+      },
+      "quizIds": []
     },
     "flaucher": {
       "id": "flaucher",
-      "name": "Flaucher",
-      "emoji": "☀️",
+      "name": "Flaucher (Isar River Beach)",
+      "emoji": "🏖️",
       "coordinates": {
-        "lat": 48.110278,
-        "lng": 11.555833
+        "lat": 48.1097,
+        "lng": 11.5492
       },
-      "radius": 250,
+      "radius": 200,
       "category": "nature",
-      "district": "Thalkirchen",
+      "district": "Thalkirchen-Obersendling",
       "difficulty": "easy",
       "unlockLevel": 1,
-      "description": "The ultimate Munich summer spot! BBQ paradise by the Isar river. Locals' favorite hangout!",
-      "shortDescription": "Isar BBQ paradise",
+      "description": "Munich's beloved Isar river beach! Meadows, shallow river areas, BBQ spots, beer garden. Perfect for swimming, sunbathing, grilling. Summer paradise - locals' favorite hangout!",
+      "shortDescription": "Isar river beach with beer garden & BBQ spots",
       "imageUrl": "/images/locations/flaucher.jpg",
-      "quizIds": [
-        "flaucher_1",
-        "flaucher_2",
-        "flaucher_3"
-      ],
       "transportation": {
         "transit": [
-          "U3 Brudermühlstraße (10 min walk)",
-          "U3 Thalkirchen (Tierpark) (10 min walk)",
-          "Bus 52 Brudermühlstraße"
+          "U3 Brudermühlstraße (12 min walk)",
+          "Bus 52/62 Flaucherstraße (5 min walk)",
+          "Bus 135 Brudermühlstraße (10 min walk)"
         ],
-        "walking": "30 minutes south along Isar from Deutsches Museum - beautiful walk!"
+        "walking": "35 minutes from Marienplatz, bike recommended!"
       },
-      "venues": [
-        {
-          "icon": "🍺",
-          "name": "Flaucher Beer Garden",
-          "description": "Classic beer garden under chestnut trees. Self-service beer, grilled meats. Bring your own food allowed!",
-          "address": "Isarauen 8"
-        },
-        {
-          "icon": "🏖️",
-          "name": "Gravel Beaches",
-          "description": "Natural gravel beaches along Isar - sunbathing, swimming (cold!), playing. Free!",
-          "address": "Along riverbanks"
-        },
-        {
-          "icon": "🔥",
-          "name": "BBQ Areas",
-          "description": "Designated grilling zones with fire pits. Bring disposable grill or use existing spots. Very popular!",
-          "address": "Throughout Isarauen"
-        },
-        {
-          "icon": "🚴",
-          "name": "Bike Paths",
-          "description": "Scenic cycling paths through riverside meadows. Rent bikes nearby or bring your own.",
-          "address": "Isar trail system"
-        },
-        {
-          "icon": "🏞️",
-          "name": "Isarauen Meadows",
-          "description": "Open meadows perfect for picnics, frisbee, football, sunbathing. Feels like countryside!",
-          "address": "Between river and Thalkirchen"
-        }
-      ],
       "visitInfo": {
-        "bestTime": "Summer weekends (June-August) - packed with locals! Weekday afternoons quieter. Sunset time (8-9pm) beautiful. Beer garden open April-October.",
+        "hours": "24/7 outdoor area. Beer garden: April-Oct, daily 11 AM - 11 PM. Best May-September for swimming!",
+        "bestTime": "Summer afternoons/evenings (June-Aug). Weekends packed - weekdays more relaxed. Evening BBQs popular!",
         "events": [
-          "Munich's favorite summer hangout (no official events, just locals chilling)",
-          "Spontaneous BBQ parties",
-          "Occasional river swimming races",
-          "Full moon gatherings"
+          "Spontaneous BBQ gatherings",
+          "River swimming all summer",
+          "Volleyball and frisbee games",
+          "Beer garden socializing"
         ],
         "tips": [
-          "Bring: towel, sunscreen, beer garden cash, swimming clothes (water is ICE cold!)",
-          "Beer garden allows bringing your own food - just buy drinks",
-          "Grilling allowed in designated spots only - respect rules",
-          "No glass bottles on beaches - park rangers enforce",
-          "Crowded on hot weekends - arrive early for good spot",
-          "This is where Munich locals spend summer - authentic experience!"
+          "Munich's favorite Isar beach spot!",
+          "FREE - just bring towel, swimsuit, sunscreen",
+          "Shallow river areas safe for swimming",
+          "Gravel 'beaches' along river - bring blanket",
+          "BBQ allowed in designated areas (follow rules!)",
+          "Beer garden on-site (Flaucher Biergarten)",
+          "Bring your own food for picnics",
+          "Popular for volleyball, frisbee, sunbathing",
+          "Bike path access - cycling is popular way to reach",
+          "Can get VERY crowded summer weekends",
+          "Family-friendly atmosphere",
+          "Dogs allowed (must be supervised)",
+          "Perfect sunset spot on Isar!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "p1_club": {
       "id": "p1_club",
@@ -2516,7 +2430,7 @@
       "name": "BLITZ Club",
       "emoji": "🎧",
       "coordinates": {
-        "lat": 48.1300,
+        "lat": 48.13,
         "lng": 11.5648
       },
       "radius": 100,
@@ -2883,77 +2797,51 @@
       "name": "Auer Dult",
       "emoji": "🎪",
       "coordinates": {
-        "lat": 48.1294,
-        "lng": 11.5988
+        "lat": 48.1306,
+        "lng": 11.5964
       },
-      "radius": 200,
-      "category": "culture",
+      "radius": 150,
+      "category": "shopping",
       "district": "Au-Haidhausen",
       "difficulty": "easy",
-      "unlockLevel": 1,
-      "description": "Traditional Munich market held 3 times a year since 1310! Antiques, crafts, household goods, and traditional Bavarian food. A local favorite - not touristy at all!",
-      "shortDescription": "Historic traditional market",
-      "imageUrl": "/images/locations/auerdult.jpg",
-      "quizIds": [
-        "auerdult_1",
-        "auerdult_2",
-        "auerdult_3"
-      ],
-      "seasonalInfo": {
-        "schedule": "Three times yearly: Maidult (May), Jakobidult (July), Kirchweihdult (October)",
-        "duration": "Each market runs for about 9 days",
-        "note": "Dating back to 1310 - one of Munich's oldest traditions!"
-      },
+      "unlockLevel": 2,
+      "description": "Historic Munich fair happening 3 times yearly since 1310! Antiques, crafts, traditional wares, rides, food stalls. Authentic Bavarian market tradition - locals' favorite seasonal event!",
+      "shortDescription": "Traditional Bavarian fair (3x yearly) since 1310",
+      "imageUrl": "/images/locations/auer_dult.jpg",
       "transportation": {
         "transit": [
-          "Tram 15/25 Mariahilfplatz (direct)",
-          "U1/U2 Kolumbusplatz (8 min walk)",
-          "S-Bahn Rosenheimer Platz (10 min walk)"
+          "Tram 16/17/19 Mariahilfplatz (direct)",
+          "S-Bahn Rosenheimer Platz (10 min walk)",
+          "U1/U2 Fraunhoferstraße (15 min walk)"
         ],
-        "walking": "20 minutes southeast of Isartor"
+        "walking": "20 minutes from Marienplatz"
       },
-      "venues": [
-        {
-          "icon": "🎪",
-          "name": "Traditional Fair",
-          "description": "Historic market since 1310! 3 times per year (May, July, Oct) - 9 days each. Antiques, pottery, crafts.",
-          "address": "Mariahilfplatz"
-        },
-        {
-          "icon": "🎡",
-          "name": "Fair Rides",
-          "description": "Traditional carousel, ferris wheel, games. More family-oriented than Oktoberfest.",
-          "address": "Throughout grounds"
-        },
-        {
-          "icon": "🏺",
-          "name": "Pottery & Crafts Market",
-          "description": "Famous \"Dultwirt\" - buy traditional Bavarian pottery, decorations, handcrafts.",
-          "address": "Market stalls"
-        },
-        {
-          "icon": "🍖",
-          "name": "Food Stalls",
-          "description": "Bratwurst, roasted almonds, pretzels, beer. Traditional fair food.",
-          "address": "Food lane"
-        }
-      ],
       "visitInfo": {
-        "bestTime": "Three annual sessions: Maidult (late April/May), Jakobidult (July), Kirchweihdult (October). Each runs 9 days. Weekday afternoons less crowded.",
+        "hours": "3 annual events: Maidult (late April-early May), Jakobidult (late July-early Aug), Kirchweihdult (mid-Oct). Daily 10 AM - 10 PM during events.",
+        "bestTime": "Weekday mornings less crowded for antique hunting. Weekend afternoons busiest/most atmosphere. Evening for food & beer!",
         "events": [
-          "Maidult (late April/early May) - 9 days",
-          "Jakobidult (late July) - 9 days",
-          "Kirchweihdult (mid-October) - 9 days"
+          "Maidult (Spring fair - April/May)",
+          "Jakobidult (Summer fair - July/Aug)",
+          "Kirchweihdult (Autumn fair - October)",
+          "Each runs ~9 days"
         ],
         "tips": [
-          "Munich's oldest market - over 700 years!",
-          "Much less touristy than Oktoberfest - very local",
-          "Great for authentic Bavarian crafts and pottery",
-          "Prices negotiable at antique stalls - haggle politely",
-          "Family-friendly alternative to big fairs",
-          "Only happens 3 times per year for 9 days - plan accordingly!"
+          "700+ years of Munich tradition!",
+          "Only happens 3 times per year - check dates!",
+          "~300 stalls: antiques, crafts, pottery, traditional wares",
+          "Famous for china, glassware, kitchen supplies",
+          "Antique dealers with genuine finds",
+          "Small carnival rides for kids",
+          "Traditional food stalls (pretzels, roasted almonds)",
+          "Beer tents and wine stands",
+          "Much more local/authentic than Oktoberfest",
+          "Great for unique souvenirs and gifts",
+          "Haggling sometimes possible at antique stalls",
+          "FREE entry - just pay for what you buy",
+          "Each Dult has slightly different character"
         ]
-      }
+      },
+      "quizIds": []
     },
     "giesing": {
       "id": "giesing",
@@ -3676,7 +3564,8 @@
           "Completely unique - literally a boat on a bridge!",
           "Great mix of locals and tourists, diverse crowd"
         ]
-      }
+      },
+      "quizIds": []
     },
     "muellers_volksbad": {
       "id": "muellers_volksbad",
@@ -3745,7 +3634,8 @@
           "Try the Roman-Irish bath for authentic 19th-century wellness",
           "Swimming caps required in some pools - check signage"
         ]
-      }
+      },
+      "quizIds": []
     },
     "naturbad_maria_einsiedel": {
       "id": "naturbad_maria_einsiedel",
@@ -3814,7 +3704,8 @@
           "Less crowded than artificial pools",
           "Perfect for environmentally conscious swimmers"
         ]
-      }
+      },
+      "quizIds": []
     },
     "ammersee": {
       "id": "ammersee",
@@ -3881,7 +3772,8 @@
           "Water quality excellent for swimming",
           "Bike rental available at Herrsching S-Bahn station"
         ]
-      }
+      },
+      "quizIds": []
     },
     "starnberger_see": {
       "id": "starnberger_see",
@@ -3951,7 +3843,8 @@
           "Bike rentals available at most S-Bahn stations",
           "Combine with boat tour for full experience"
         ]
-      }
+      },
+      "quizIds": []
     },
     "riem_flea_market": {
       "id": "riem_flea_market",
@@ -4022,7 +3915,8 @@
           "Wear comfortable shoes - lots of walking!",
           "Bavaria's largest market - authentic experience"
         ]
-      }
+      },
+      "quizIds": []
     },
     "werksviertel_mitte": {
       "id": "werksviertel_mitte",
@@ -4100,7 +3994,8 @@
           "Authentic creative scene, not touristy yet",
           "Food hall perfect for group dining (everyone finds something!)"
         ]
-      }
+      },
+      "quizIds": []
     },
     "zephyr_bar": {
       "id": "zephyr_bar",
@@ -4138,7 +4033,8 @@
           "Great for dates or small groups (max 4-5 people)",
           "Bartenders are artists - watch them craft drinks!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "zum_wolf": {
       "id": "zum_wolf",
@@ -4175,7 +4071,8 @@
           "Southern blues music adds to authentic feel",
           "Cash and cards accepted"
         ]
-      }
+      },
+      "quizIds": []
     },
     "havana_club_munich": {
       "id": "havana_club_munich",
@@ -4212,7 +4109,8 @@
           "Tucked away in Altstadt - true hidden gem",
           "Cash and cards accepted"
         ]
-      }
+      },
+      "quizIds": []
     },
     "grapes_weinbar": {
       "id": "grapes_weinbar",
@@ -4255,7 +4153,8 @@
           "Special events are highlight - check schedule!",
           "Separate entrance on Ledererstraße 8a"
         ]
-      }
+      },
+      "quizIds": []
     },
     "zero_dosage": {
       "id": "zero_dosage",
@@ -4297,7 +4196,8 @@
           "Book Friday tastings in advance",
           "Support for small organic winemakers"
         ]
-      }
+      },
+      "quizIds": []
     },
     "cafe_gans_am_wasser": {
       "id": "cafe_gans_am_wasser",
@@ -4334,7 +4234,8 @@
           "Beautiful peaceful atmosphere",
           "Combine with Westpark visit"
         ]
-      }
+      },
+      "quizIds": []
     },
     "walchensee": {
       "id": "walchensee",
@@ -4378,7 +4279,8 @@
           "Bring warm layers - mountain weather changes quickly",
           "Combine with Herzogstand hike for full day"
         ]
-      }
+      },
+      "quizIds": []
     },
     "tegernsee": {
       "id": "tegernsee",
@@ -4422,7 +4324,8 @@
           "More upscale than other lakes - beautiful villas",
           "Combine with Tegernseer brewery visit!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "nordbad": {
       "id": "nordbad",
@@ -4461,7 +4364,8 @@
           "Indoor pools also available",
           "Less crowded than Müller'sches Volksbad"
         ]
-      }
+      },
+      "quizIds": []
     },
     "schyrenbad": {
       "id": "schyrenbad",
@@ -4505,7 +4409,8 @@
           "Historic significance - swimming in history!",
           "Combine with Isar River trails and cycling"
         ]
-      }
+      },
+      "quizIds": []
     },
     "hollywood_super_bowling": {
       "id": "hollywood_super_bowling",
@@ -4543,7 +4448,8 @@
           "Great for groups and parties",
           "U3 accessible - no car needed"
         ]
-      }
+      },
+      "quizIds": []
     },
     "residenztheater": {
       "id": "residenztheater",
@@ -4587,7 +4493,8 @@
           "Student discounts available",
           "Also includes beautiful rococo Cuvilliés-Theater"
         ]
-      }
+      },
+      "quizIds": []
     },
     "dream_bowl_palace": {
       "id": "dream_bowl_palace",
@@ -4626,7 +4533,8 @@
           "Worth the trip for the sheer size!",
           "Perfect for birthday parties and events"
         ]
-      }
+      },
+      "quizIds": []
     },
     "beacharena_munich": {
       "id": "beacharena_munich",
@@ -4670,7 +4578,8 @@
           "Book ahead for guaranteed court time",
           "Bring sunscreen - full sun exposure!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "broeding": {
       "id": "broeding",
@@ -4716,7 +4625,8 @@
           "Cash preferred, confirm payment options ahead",
           "Dress smart casual to formal"
         ]
-      }
+      },
+      "quizIds": []
     },
     "caspar_plautz": {
       "id": "caspar_plautz",
@@ -4763,7 +4673,8 @@
           "Often has interesting art on walls",
           "Part of Maxvorstadt cafe scene"
         ]
-      }
+      },
+      "quizIds": []
     },
     "prinzregentenbad": {
       "id": "prinzregentenbad",
@@ -4812,7 +4723,8 @@
           "Popular with locals - arrive early weekends",
           "Historic pool renovated with modern amenities"
         ]
-      }
+      },
+      "quizIds": []
     },
     "escapegame_munich": {
       "id": "escapegame_munich",
@@ -4861,7 +4773,8 @@
           "Arrive 10 minutes early for briefing",
           "Beginner? Try 'The Bank Heist' or 'Lost Temple'"
         ]
-      }
+      },
+      "quizIds": []
     },
     "goldene_bar": {
       "id": "goldene_bar",
@@ -4910,7 +4823,8 @@
           "Can get very busy weekends - arrive early",
           "Perfect for special occasion drinks"
         ]
-      }
+      },
+      "quizIds": []
     },
     "ton_und_textil": {
       "id": "ton_und_textil",
@@ -4959,7 +4873,8 @@
           "Coffee/tea while you work",
           "Drop-in painting no reservation needed (check availability)"
         ]
-      }
+      },
+      "quizIds": []
     },
     "monkey_island_karaoke": {
       "id": "monkey_island_karaoke",
@@ -5008,7 +4923,8 @@
           "Minimum 2-hour booking peak times",
           "Bring your vocal courage and friends!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "neuschwanstein_castle": {
       "id": "neuschwanstein_castle",
@@ -5069,7 +4985,8 @@
           "name": "Marienbrücke (Mary's Bridge)",
           "description": "Bridge spanning Pöllat Gorge with THE iconic Neuschwanstein view. Must-visit for photos! 10-min walk from castle."
         }
-      ]
+      ],
+      "quizIds": []
     },
     "herzogstand_mountain": {
       "id": "herzogstand_mountain",
@@ -5118,7 +5035,8 @@
           "Not suitable for beginners without cable car",
           "Full day trip: Leave Munich 7-8 AM, return 6-7 PM"
         ]
-      }
+      },
+      "quizIds": []
     },
     "wendelstein_mountain": {
       "id": "wendelstein_mountain",
@@ -5169,7 +5087,8 @@
           "Half-day trip possible, or full day with hiking",
           "Easier than Herzogstand - great for families!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "partnachklamm": {
       "id": "partnachklamm",
@@ -5219,7 +5138,8 @@
           "Half-day trip from Munich (or combine with other activities)",
           "Cash only at entrance!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "blomberg_mountain": {
       "id": "blomberg_mountain",
@@ -5270,7 +5190,8 @@
           "Half-day trip easily doable",
           "Popular with Munich families on weekends!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "brauneck_mountain": {
       "id": "brauneck_mountain",
@@ -5322,7 +5243,8 @@
           "Full day trip recommended for proper hiking",
           "Combine with Isar river swim in Lenggries!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "pageou": {
       "id": "pageou",
@@ -5370,7 +5292,8 @@
           "Sommelier can guide wine pairings",
           "Vegetarian options available (ask ahead)"
         ]
-      }
+      },
+      "quizIds": []
     },
     "gisela": {
       "id": "gisela",
@@ -5418,7 +5341,8 @@
           "Chef often sources from Viktualienmarkt same day",
           "Friendly, knowledgeable staff"
         ]
-      }
+      },
+      "quizIds": []
     },
     "tian_restaurant": {
       "id": "tian_restaurant",
@@ -5466,7 +5390,8 @@
           "2-3 hour dining experience",
           "One of Munich's top restaurants (vegetarian or not!)"
         ]
-      }
+      },
+      "quizIds": []
     },
     "eisbach_surfing": {
       "id": "eisbach_surfing",
@@ -5516,57 +5441,8 @@
           "Truly unique Munich experience!",
           "Bridge gets crowded with spectators"
         ]
-      }
-    },
-    "viktualienmarkt": {
-      "id": "viktualienmarkt",
-      "name": "Viktualienmarkt",
-      "emoji": "🥨",
-      "coordinates": {
-        "lat": 48.1351,
-        "lng": 11.5762
       },
-      "radius": 150,
-      "category": "shopping",
-      "district": "Altstadt-Lehel",
-      "difficulty": "easy",
-      "unlockLevel": 1,
-      "description": "Munich's famous daily food market since 1807! Fresh produce, Bavarian specialties, international delicacies, beer garden. Heart of Munich food culture - must-visit for authentic atmosphere!",
-      "shortDescription": "Historic daily food market & beer garden",
-      "imageUrl": "/images/locations/viktualienmarkt.jpg",
-      "transportation": {
-        "transit": [
-          "S/U Marienplatz (3 min walk)",
-          "U3/U6 Marienplatz (3 min walk)",
-          "Direct from Marienplatz square"
-        ],
-        "walking": "3 minutes south of Marienplatz"
-      },
-      "visitInfo": {
-        "hours": "Mon-Sat 8 AM - 8 PM (most stalls close 6 PM). Closed Sundays. Beer garden open during market hours.",
-        "bestTime": "Morning (9-11 AM) for freshest selection. Saturday busiest/most atmosphere. Lunch at beer garden (11 AM-2 PM).",
-        "events": [
-          "Maypole tradition and dances",
-          "Brewers' Day (last week of January)",
-          "Special seasonal offerings year-round",
-          "Live music in beer garden sometimes"
-        ],
-        "tips": [
-          "140+ stalls - food, flowers, spices, specialties",
-          "Fresh Bavarian produce daily",
-          "International ingredients available",
-          "Central beer garden - bring your own food, buy beer there",
-          "Try fresh Leberkäse or Weisswurst for breakfast",
-          "Great for picnic supplies before Englischer Garten",
-          "High quality but pricier than supermarkets",
-          "Perfect for food gifts/souvenirs",
-          "Maypole in center celebrates Munich breweries",
-          "Cash preferred at many stalls",
-          "Sample before buying - vendors are friendly!",
-          "Tourist attraction but locals shop here too",
-          "200+ years of Munich market tradition!"
-        ]
-      }
+      "quizIds": []
     },
     "lustspielhaus": {
       "id": "lustspielhaus",
@@ -5615,7 +5491,8 @@
           "Mix of established acts and newcomers",
           "Some shows 18+ only - check description"
         ]
-      }
+      },
+      "quizIds": []
     },
     "gasteig_hp8": {
       "id": "gasteig_hp8",
@@ -5664,56 +5541,8 @@
           "Dress code: smart casual for most events",
           "World-class acoustics and programming"
         ]
-      }
-    },
-    "muffathalle": {
-      "id": "muffathalle",
-      "name": "Muffathalle",
-      "emoji": "🎸",
-      "coordinates": {
-        "lat": 48.1298,
-        "lng": 11.5915
       },
-      "radius": 100,
-      "category": "culture",
-      "district": "Au-Haidhausen",
-      "difficulty": "easy",
-      "unlockLevel": 2,
-      "description": "Historic power plant turned concert venue! Indie, electronic, world music in unique industrial setting. Great sound, eclectic programming, riverside beer garden. Munich's coolest concert hall!",
-      "shortDescription": "Industrial concert venue with diverse music",
-      "imageUrl": "/images/locations/muffathalle.jpg",
-      "transportation": {
-        "transit": [
-          "S-Bahn Rosenheimer Platz (8 min walk)",
-          "Tram 16 Deutsches Museum (5 min walk)",
-          "U1/U2 Fraunhoferstraße (12 min walk)"
-        ],
-        "walking": "15 minutes from Marienplatz via Isar riverside"
-      },
-      "visitInfo": {
-        "hours": "Concert dependent - check muffatwerk.de. Doors typically 7-8 PM. Beer garden open summers 11 AM - 1 AM.",
-        "bestTime": "Check concert calendar weekly - eclectic mix! Beer garden perfect summer afternoons/evenings. Tickets online or box office.",
-        "events": [
-          "Indie, electronic, world music concerts",
-          "DJ nights and club events",
-          "Cultural festivals and markets",
-          "Riverside beer garden (summer)"
-        ],
-        "tips": [
-          "Converted historic power plant - unique venue!",
-          "Excellent sound system and atmosphere",
-          "300-1000 capacity depending on setup",
-          "Tickets typically €15-40",
-          "Book at muffatwerk.de or München Ticket",
-          "Part of larger Muffatwerk cultural complex",
-          "Beer garden right on Isar river - stunning!",
-          "Eclectic programming: indie, electronic, jazz, world",
-          "Standing room most shows - arrive early for front",
-          "Great pre/post-concert drinks at beer garden",
-          "Popular with Munich's alternative scene",
-          "Check cafe/bar hours even without concerts"
-        ]
-      }
+      "quizIds": []
     },
     "bahnwaerter_thiel": {
       "id": "bahnwaerter_thiel",
@@ -5762,7 +5591,8 @@
           "Not fancy - come for music and vibe",
           "Check website - something different every night"
         ]
-      }
+      },
+      "quizIds": []
     },
     "bella_billard": {
       "id": "bella_billard",
@@ -5811,107 +5641,8 @@
           "Cash preferred",
           "Relaxed, social atmosphere"
         ]
-      }
-    },
-    "flaucher": {
-      "id": "flaucher",
-      "name": "Flaucher (Isar River Beach)",
-      "emoji": "🏖️",
-      "coordinates": {
-        "lat": 48.1097,
-        "lng": 11.5492
       },
-      "radius": 200,
-      "category": "nature",
-      "district": "Thalkirchen-Obersendling",
-      "difficulty": "easy",
-      "unlockLevel": 1,
-      "description": "Munich's beloved Isar river beach! Meadows, shallow river areas, BBQ spots, beer garden. Perfect for swimming, sunbathing, grilling. Summer paradise - locals' favorite hangout!",
-      "shortDescription": "Isar river beach with beer garden & BBQ spots",
-      "imageUrl": "/images/locations/flaucher.jpg",
-      "transportation": {
-        "transit": [
-          "U3 Brudermühlstraße (12 min walk)",
-          "Bus 52/62 Flaucherstraße (5 min walk)",
-          "Bus 135 Brudermühlstraße (10 min walk)"
-        ],
-        "walking": "35 minutes from Marienplatz, bike recommended!"
-      },
-      "visitInfo": {
-        "hours": "24/7 outdoor area. Beer garden: April-Oct, daily 11 AM - 11 PM. Best May-September for swimming!",
-        "bestTime": "Summer afternoons/evenings (June-Aug). Weekends packed - weekdays more relaxed. Evening BBQs popular!",
-        "events": [
-          "Spontaneous BBQ gatherings",
-          "River swimming all summer",
-          "Volleyball and frisbee games",
-          "Beer garden socializing"
-        ],
-        "tips": [
-          "Munich's favorite Isar beach spot!",
-          "FREE - just bring towel, swimsuit, sunscreen",
-          "Shallow river areas safe for swimming",
-          "Gravel 'beaches' along river - bring blanket",
-          "BBQ allowed in designated areas (follow rules!)",
-          "Beer garden on-site (Flaucher Biergarten)",
-          "Bring your own food for picnics",
-          "Popular for volleyball, frisbee, sunbathing",
-          "Bike path access - cycling is popular way to reach",
-          "Can get VERY crowded summer weekends",
-          "Family-friendly atmosphere",
-          "Dogs allowed (must be supervised)",
-          "Perfect sunset spot on Isar!"
-        ]
-      }
-    },
-    "auer_dult": {
-      "id": "auer_dult",
-      "name": "Auer Dult",
-      "emoji": "🎪",
-      "coordinates": {
-        "lat": 48.1306,
-        "lng": 11.5964
-      },
-      "radius": 150,
-      "category": "shopping",
-      "district": "Au-Haidhausen",
-      "difficulty": "easy",
-      "unlockLevel": 2,
-      "description": "Historic Munich fair happening 3 times yearly since 1310! Antiques, crafts, traditional wares, rides, food stalls. Authentic Bavarian market tradition - locals' favorite seasonal event!",
-      "shortDescription": "Traditional Bavarian fair (3x yearly) since 1310",
-      "imageUrl": "/images/locations/auer_dult.jpg",
-      "transportation": {
-        "transit": [
-          "Tram 16/17/19 Mariahilfplatz (direct)",
-          "S-Bahn Rosenheimer Platz (10 min walk)",
-          "U1/U2 Fraunhoferstraße (15 min walk)"
-        ],
-        "walking": "20 minutes from Marienplatz"
-      },
-      "visitInfo": {
-        "hours": "3 annual events: Maidult (late April-early May), Jakobidult (late July-early Aug), Kirchweihdult (mid-Oct). Daily 10 AM - 10 PM during events.",
-        "bestTime": "Weekday mornings less crowded for antique hunting. Weekend afternoons busiest/most atmosphere. Evening for food & beer!",
-        "events": [
-          "Maidult (Spring fair - April/May)",
-          "Jakobidult (Summer fair - July/Aug)",
-          "Kirchweihdult (Autumn fair - October)",
-          "Each runs ~9 days"
-        ],
-        "tips": [
-          "700+ years of Munich tradition!",
-          "Only happens 3 times per year - check dates!",
-          "~300 stalls: antiques, crafts, pottery, traditional wares",
-          "Famous for china, glassware, kitchen supplies",
-          "Antique dealers with genuine finds",
-          "Small carnival rides for kids",
-          "Traditional food stalls (pretzels, roasted almonds)",
-          "Beer tents and wine stands",
-          "Much more local/authentic than Oktoberfest",
-          "Great for unique souvenirs and gifts",
-          "Haggling sometimes possible at antique stalls",
-          "FREE entry - just pay for what you buy",
-          "Each Dult has slightly different character"
-        ]
-      }
+      "quizIds": []
     },
     "kochloeffel_muenchen": {
       "id": "kochloeffel_muenchen",
@@ -5962,7 +5693,8 @@
           "Book online at kochloeffel-muenchen.de",
           "Gift certificates available"
         ]
-      }
+      },
+      "quizIds": []
     },
     "ruffini": {
       "id": "ruffini",
@@ -6012,7 +5744,8 @@
           "Popular with Neuhausen residents",
           "Take bread home - excellent quality!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "vereinsheim": {
       "id": "vereinsheim",
@@ -6061,7 +5794,8 @@
           "Very interactive shows",
           "Check Facebook/Instagram for weekly schedule"
         ]
-      }
+      },
+      "quizIds": []
     },
     "cotidiano": {
       "id": "cotidiano",
@@ -6110,7 +5844,8 @@
           "Laptop-friendly on quiet weekdays",
           "Multiple locations in Munich - this is city center"
         ]
-      }
+      },
+      "quizIds": []
     },
     "panzerwiese": {
       "id": "panzerwiese",
@@ -6160,7 +5895,8 @@
           "Join existing games or start your own!",
           "Bring water - no facilities nearby"
         ]
-      }
+      },
+      "quizIds": []
     },
     "pacha_munich": {
       "id": "pacha_munich",
@@ -6209,7 +5945,8 @@
           "Multiple rooms/areas",
           "21+ age limit usually"
         ]
-      }
+      },
+      "quizIds": []
     },
     "mma_club": {
       "id": "mma_club",
@@ -6258,7 +5995,8 @@
           "Not for casual clubbers - serious vibe",
           "Check Facebook for event schedule"
         ]
-      }
+      },
+      "quizIds": []
     },
     "kino_am_olympiasee": {
       "id": "kino_am_olympiasee",
@@ -6306,7 +6044,8 @@
           "Rent beach chairs/blankets on-site (€3-5)",
           "One of Munich's best summer experiences!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "volkstheater": {
       "id": "volkstheater",
@@ -6355,7 +6094,8 @@
           "Some shows sell out - popular venue",
           "One of Munich's major theater institutions"
         ]
-      }
+      },
+      "quizIds": []
     },
     "monopol_kino": {
       "id": "monopol_kino",
@@ -6404,7 +6144,8 @@
           "Great alternative to mainstream cinemas",
           "Films rotate weekly - always something new"
         ]
-      }
+      },
+      "quizIds": []
     },
     "send_climbing": {
       "id": "send_climbing",
@@ -6454,7 +6195,8 @@
           "Can rent chalk and gear on-site",
           "Perfect rainy day activity!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "isar_flossfahrt": {
       "id": "isar_flossfahrt",
@@ -6504,7 +6246,8 @@
           "Family rafts also available (less party)",
           "Truly unique Munich summer tradition!"
         ]
-      }
+      },
+      "quizIds": []
     },
     "mathaeser_filmpalast": {
       "id": "mathaeser_filmpalast",
@@ -6553,7 +6296,8 @@
           "Student discounts some showtimes",
           "Reserve seats online - choose your spot"
         ]
-      }
+      },
+      "quizIds": []
     },
     "schwabing_street_basketball": {
       "id": "schwabing_street_basketball",
@@ -6602,7 +6346,8 @@
           "Lights available for evening play",
           "Winter less active - check before going"
         ]
-      }
+      },
+      "quizIds": []
     },
     "lost_weekend": {
       "id": "lost_weekend",
@@ -6652,7 +6397,8 @@
           "Check Facebook for concert schedule",
           "One of Munich's last true dive bars!"
         ]
-      }
+      },
+      "quizIds": []
     }
   },
   "quizzes": {
