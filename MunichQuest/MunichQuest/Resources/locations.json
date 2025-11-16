@@ -86,7 +86,7 @@
       },
       "radius": 300,
       "category": "nature",
-      "district": "Schwabing",
+      "district": "Altstadt-Lehel",
       "difficulty": "easy",
       "unlockLevel": 1,
       "description": "One of the world's largest urban parks, bigger than Central Park!",
@@ -178,7 +178,7 @@
       },
       "radius": 400,
       "category": "sports",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Built for the 1972 Summer Olympics with its iconic tent-like roof structure.",
@@ -211,7 +211,7 @@
         {
           "icon": "🗼",
           "name": "Olympic Tower & Restaurant 181",
-          "description": "291m observation tower with revolving restaurant - 360° views while dining! Rotates in 53 minutes.",
+          "description": "291m observation tower with revolving restaurant - 360° views while dining! Rotates in 49 minutes.",
           "address": "Spiridon-Louis-Ring 7"
         },
         {
@@ -353,7 +353,7 @@
       "district": "Altstadt-Lehel",
       "difficulty": "easy",
       "unlockLevel": 1,
-      "description": "World's most famous beer hall, founded in 1589 by Duke Maximilian I. Munich's second-largest tourist attraction after Oktoberfest! Historic venue with baroque frescoes where Mozart, Lenin, and JFK once visited.",
+      "description": "World's most famous beer hall, founded in 1589 by Duke Wilhelm V. Munich's second-largest tourist attraction after Oktoberfest! Historic venue with baroque frescoes where Mozart, Lenin, and JFK once visited.",
       "shortDescription": "Legendary beer hall since 1589",
       "imageUrl": "/images/locations/hofbraeuhaus.jpg",
       "quizIds": [
@@ -842,7 +842,7 @@
       },
       "radius": 250,
       "category": "culture",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Futuristic BMW exhibition and delivery center. Stunning modern architecture!",
@@ -1623,11 +1623,12 @@
       "name": "Bavaria Filmstadt",
       "emoji": "🎬",
       "coordinates": {
-        "lat": 48.063056,
-        "lng": 11.557778
+        "lat": 48.065371,
+        "lng": 11.553444
       },
       "radius": 300,
       "category": "popculture",
+      "district": "Grünwald",
       "difficulty": "medium",
       "unlockLevel": 3,
       "description": "Where movie magic happens! Tour film sets, see stunts, explore behind-the-scenes of German cinema!",
@@ -1768,16 +1769,16 @@
       "name": "Club Rote Sonne",
       "emoji": "🔊",
       "coordinates": {
-        "lat": 48.1420717,
-        "lng": 11.5698739
+        "lat": 48.14218,
+        "lng": 11.57014
       },
       "radius": 100,
       "category": "nightlife",
       "district": "Altstadt-Lehel",
       "difficulty": "hard",
       "unlockLevel": 5,
-      "description": "Temporary home of the legendary Harry Klein crew since 2023! Electronic music haven at Maximiliansplatz until they find their new permanent location.",
-      "shortDescription": "Electronic music club (formerly Harry Klein)",
+      "description": "Legendary electronic music club at Maximiliansplatz since 2005. Host to the famous Garry Klein party series and home to world-class techno and house DJs. One of Munich's premier nightlife destinations.",
+      "shortDescription": "Legendary electronic music club",
       "imageUrl": "/images/locations/harry-klein.jpg",
       "quizIds": [
         "harry_1",
@@ -1797,9 +1798,9 @@
       "venues": [
         {
           "icon": "🎵",
-          "name": "Harry Klein Club",
-          "description": "Legendary techno/electronic club. World-class DJs. One of Germany's best clubs! €10-15 entry.",
-          "address": "Sonnenstraße 8"
+          "name": "Club Rote Sonne",
+          "description": "Legendary techno/electronic club. World-class DJs. One of Munich's best clubs! €10-15 entry.",
+          "address": "Maximiliansplatz 5"
         },
         {
           "icon": "🎧",
@@ -1828,7 +1829,7 @@
           "World-renowned in electronic music scene",
           "Cash only at door and bar",
           "Gets LOUD and sweaty - be prepared",
-          "Check www.harrykleinclub.de for lineup - worth planning visit around"
+          "Check rotesonne.com for lineup - worth planning visit around"
         ]
       }
     },
@@ -1908,7 +1909,7 @@
       },
       "radius": 300,
       "category": "culture",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 3,
       "description": "Munich's biggest alternative festival! Summer & Winter editions with music, art, and food from around the world!",
@@ -2436,7 +2437,7 @@
       },
       "radius": 250,
       "category": "nightlife",
-      "district": "Isarvorstadt",
+      "district": "Ludwigsvorstadt-Isarvorstadt",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Munich's trendiest neighborhood! LGBTQ+ hub, hip bars, creative cafes, and Mediterranean vibes. The heart of Munich's alternative scene and nightlife!",
@@ -2518,7 +2519,7 @@
       },
       "radius": 100,
       "category": "nightlife",
-      "district": "Ludwigsvorstadt",
+      "district": "Ludwigsvorstadt-Isarvorstadt",
       "difficulty": "hard",
       "unlockLevel": 4,
       "description": "Underground electronic music temple. One of Munich's most respected techno clubs with international DJs and an amazing sound system. No photos, no phones - just pure music!",
@@ -2585,12 +2586,12 @@
       "name": "Import Export München",
       "emoji": "🎸",
       "coordinates": {
-        "lat": 48.1245,
-        "lng": 11.5503
+        "lat": 48.1592326,
+        "lng": 11.5482215
       },
       "radius": 100,
       "category": "popculture",
-      "district": "Ludwigsvorstadt",
+      "district": "Neuhausen-Nymphenburg",
       "difficulty": "medium",
       "unlockLevel": 3,
       "description": "Independent live music venue showcasing indie, punk, hip-hop, and alternative acts. Raw, authentic atmosphere loved by locals. Check their program for amazing concerts!",
@@ -2603,11 +2604,11 @@
       ],
       "transportation": {
         "transit": [
-          "U1 Candidplatz (12 min walk)",
-          "Tram 17 Schwanseestraße (8 min walk)",
-          "Bus 58 from Ostbahnhof"
+          "Tram 12/17/20/21 Leonrodplatz (2 min walk)",
+          "Bus 53 Leonrodplatz (2 min walk)",
+          "U1 Maillingerstraße (10 min walk)"
         ],
-        "walking": "20 minutes from Ostbahnhof through Giesing"
+        "walking": "15 minutes from Hauptbahnhof"
       },
       "venues": [
         {
