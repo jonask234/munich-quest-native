@@ -1212,6 +1212,7 @@ struct LocationStatsDetailSheet: View {
                                     .fixedSize(horizontal: false, vertical: true)
                                     .lineSpacing(4)
                             }
+                            .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(20)
                             .background(Color(UIColor.secondarySystemBackground))
                             .cornerRadius(12)
@@ -1243,6 +1244,7 @@ struct LocationStatsDetailSheet: View {
                                                     Text(line)
                                                         .font(.body)
                                                         .foregroundColor(.primary)
+                                                        .frame(maxWidth: .infinity, alignment: .leading)
                                                 }
                                             }
                                         }
@@ -1263,10 +1265,12 @@ struct LocationStatsDetailSheet: View {
                                                 Text(walking)
                                                     .font(.body)
                                                     .foregroundColor(.primary)
+                                                    .frame(maxWidth: .infinity, alignment: .leading)
                                             }
                                         }
                                     }
                                 }
+                                .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(12)
@@ -1305,6 +1309,7 @@ struct LocationStatsDetailSheet: View {
                                                         .italic()
                                                 }
                                             }
+                                            .frame(maxWidth: .infinity, alignment: .leading)
                                         }
 
                                         if venue.id != venues.last?.id {
@@ -1314,6 +1319,7 @@ struct LocationStatsDetailSheet: View {
                                         }
                                     }
                                 }
+                                .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(12)
@@ -1337,8 +1343,10 @@ struct LocationStatsDetailSheet: View {
                                             .font(.body)
                                             .foregroundColor(.secondary)
                                             .lineSpacing(3)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
                                     }
                                 }
+                                .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(12)
@@ -1363,10 +1371,12 @@ struct LocationStatsDetailSheet: View {
                                                     .font(.body)
                                                     .foregroundColor(.secondary)
                                                     .lineSpacing(3)
+                                                    .frame(maxWidth: .infinity, alignment: .leading)
                                             }
                                         }
                                     }
                                 }
+                                .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(12)
@@ -1391,10 +1401,12 @@ struct LocationStatsDetailSheet: View {
                                                     .font(.body)
                                                     .foregroundColor(.secondary)
                                                     .lineSpacing(3)
+                                                    .frame(maxWidth: .infinity, alignment: .leading)
                                             }
                                         }
                                     }
                                 }
+                                .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
                                 .background(Color(UIColor.secondarySystemBackground))
                                 .cornerRadius(12)
