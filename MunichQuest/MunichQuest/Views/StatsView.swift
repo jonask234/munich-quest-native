@@ -1241,12 +1241,10 @@ struct LocationStatsDetailSheet: View {
                                                 .foregroundColor(.primary)
                                                 .opacity(0.6)
 
-                                            ForEach(transit, id: \.self) { line in
-                                                Text(line)
-                                                    .font(.body)
-                                                    .foregroundColor(.primary)
-                                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                            }
+                                            Text(transit.joined(separator: " "))
+                                                .font(.body)
+                                                .foregroundColor(.primary)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
                                         }
                                     }
 
@@ -1345,16 +1343,12 @@ struct LocationStatsDetailSheet: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(.primary)
 
-                                    VStack(alignment: .leading, spacing: 8) {
-                                        ForEach(events, id: \.self) { event in
-                                            Text(event)
-                                                .font(.body)
-                                                .foregroundColor(.primary)
-                                                .opacity(0.85)
-                                                .lineSpacing(3)
-                                                .frame(maxWidth: .infinity, alignment: .leading)
-                                        }
-                                    }
+                                    Text(events.joined(separator: " "))
+                                        .font(.body)
+                                        .foregroundColor(.primary)
+                                        .opacity(0.85)
+                                        .lineSpacing(4)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                 }
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
@@ -1370,16 +1364,12 @@ struct LocationStatsDetailSheet: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(.primary)
 
-                                    VStack(alignment: .leading, spacing: 8) {
-                                        ForEach(tips, id: \.self) { tip in
-                                            Text(tip)
-                                                .font(.body)
-                                                .foregroundColor(.primary)
-                                                .opacity(0.85)
-                                                .lineSpacing(3)
-                                                .frame(maxWidth: .infinity, alignment: .leading)
-                                        }
-                                    }
+                                    Text(tips.joined(separator: " "))
+                                        .font(.body)
+                                        .foregroundColor(.primary)
+                                        .opacity(0.85)
+                                        .lineSpacing(4)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                 }
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(20)
