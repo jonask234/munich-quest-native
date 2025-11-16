@@ -1112,7 +1112,7 @@ struct LocationStatsDetailSheet: View {
 
         // Calculate correct vs wrong based on accuracy
         let totalAnswered = completed.count
-        let correctAnswers = Int(Double(totalAnswered) * progress.totalAccuracy)
+        let correctAnswers = Int(Double(totalAnswered) * (progress.accuracyPercentage / 100.0))
         let wrongAnswers = totalAnswered - correctAnswers
 
         return (completed.count, quizzes.count, correctAnswers, wrongAnswers)
