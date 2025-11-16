@@ -42,7 +42,7 @@ struct MapView: View {
                 let locationStatus: LocationStatus
                 if !isVisited {
                     locationStatus = .locked
-                } else if !quizzesForLocation.isEmpty && completedQuizzes.count == quizzesForLocation.count {
+                } else if quizzesForLocation.isEmpty || completedQuizzes.count == quizzesForLocation.count {
                     locationStatus = .completed
                 } else {
                     locationStatus = .unlocked
@@ -228,7 +228,7 @@ struct MapView: View {
         let quizzesForLocation = gameManager.getQuizzesForLocation(location.id)
         let completedQuizzes = quizzesForLocation.filter { gameManager.userProgress?.quizzesCompleted.contains($0.id) ?? false }
 
-        if !quizzesForLocation.isEmpty && completedQuizzes.count == quizzesForLocation.count {
+        if quizzesForLocation.isEmpty || completedQuizzes.count == quizzesForLocation.count {
             return .completed
         }
 

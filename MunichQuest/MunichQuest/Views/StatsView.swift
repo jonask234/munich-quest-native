@@ -305,7 +305,7 @@ struct LocationsDiscoveredSection: View {
 
         let quizzes = gameManager.getQuizzesForLocation(location.id)
         let completed = quizzes.filter { progress.quizzesCompleted.contains($0.id) }.count
-        let isCompleted = quizzes.count > 0 && completed == quizzes.count
+        let isCompleted = quizzes.isEmpty || completed == quizzes.count
 
         return isCompleted ? 2 : 1 // Completed : In Progress
     }
@@ -418,7 +418,7 @@ struct LocationProgressRow: View {
     }
 
     private var isCompleted: Bool {
-        quizProgress.completed == quizProgress.total && quizProgress.total > 0
+        quizProgress.total == 0 || quizProgress.completed == quizProgress.total
     }
 
     var body: some View {
@@ -1132,7 +1132,7 @@ struct LocationStatsDetailSheet: View {
     }
 
     private var isCompleted: Bool {
-        quizProgress.completed == quizProgress.total && quizProgress.total > 0
+        quizProgress.total == 0 || quizProgress.completed == quizProgress.total
     }
 
     var body: some View {

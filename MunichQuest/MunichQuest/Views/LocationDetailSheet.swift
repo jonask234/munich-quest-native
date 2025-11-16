@@ -274,9 +274,11 @@ struct LocationDetailSheet: View {
         guard let userLocation = locationManager.userLocation else { return }
         gameManager.visitLocation(location, at: userLocation)
 
-        // Auto-trigger quiz after check-in
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-            showQuiz = true
+        // Auto-trigger quiz after check-in (only if location has quizzes)
+        if hasQuizzes {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                showQuiz = true
+            }
         }
     }
 
