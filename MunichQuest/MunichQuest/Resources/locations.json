@@ -178,7 +178,7 @@
       },
       "radius": 400,
       "category": "sports",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Built for the 1972 Summer Olympics with its iconic tent-like roof structure.",
@@ -190,6 +190,7 @@
         "olympiapark_3",
         "olympiapark_4",
         "olympiapark_5",
+        "olympiapark_6",
         "olympiapark_7"
       ],
       "transportation": {
@@ -529,7 +530,9 @@
         "residenz_2",
         "residenz_3",
         "residenz_4",
-        "residenz_5"
+        "residenz_5",
+        "residenz_6",
+        "residenz_7"
       ],
       "transportation": {
         "transit": [
@@ -599,7 +602,7 @@
       },
       "radius": 300,
       "category": "sports",
-      "district": "Fröttmaning",
+      "district": "Schwabing-Freimann",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Home of FC Bayern Munich. The illuminated stadium changes colors and holds 75,000 fans!",
@@ -766,7 +769,10 @@
       "quizIds": [
         "nymphenburg_1",
         "nymphenburg_2",
-        "nymphenburg_5"
+        "nymphenburg_3",
+        "nymphenburg_4",
+        "nymphenburg_5",
+        "nymphenburg_6"
       ],
       "transportation": {
         "transit": [
@@ -842,7 +848,7 @@
       },
       "radius": 250,
       "category": "culture",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Futuristic BMW exhibition and delivery center. Stunning modern architecture!",
@@ -853,6 +859,7 @@
         "bmw_welt_2",
         "bmw_welt_3",
         "bmw_welt_4",
+        "bmw_welt_5",
         "bmw_welt_6"
       ],
       "transportation": {
@@ -1176,6 +1183,7 @@
         "schwabing_3",
         "schwabing_4",
         "schwabing_5",
+        "schwabing_6",
         "schwabing_7",
         "schwabing_8"
       ],
@@ -1628,6 +1636,7 @@
       },
       "radius": 300,
       "category": "popculture",
+      "district": "Grünwald",
       "difficulty": "medium",
       "unlockLevel": 3,
       "description": "Where movie magic happens! Tour film sets, see stunts, explore behind-the-scenes of German cinema!",
@@ -1851,7 +1860,9 @@
       "quizIds": [
         "peter_1",
         "peter_2",
-        "peter_3"
+        "peter_3",
+        "peter_4",
+        "peter_5"
       ],
       "transportation": {
         "transit": [
@@ -1908,7 +1919,7 @@
       },
       "radius": 300,
       "category": "culture",
-      "district": "Milbertshofen",
+      "district": "Milbertshofen-Am Hart",
       "difficulty": "medium",
       "unlockLevel": 3,
       "description": "Munich's biggest alternative festival! Summer & Winter editions with music, art, and food from around the world!",
@@ -2207,7 +2218,9 @@
       "quizIds": [
         "konigsplatz_1",
         "konigsplatz_2",
-        "konigsplatz_3"
+        "konigsplatz_3",
+        "konigsplatz_4",
+        "konigsplatz_5"
       ],
       "transportation": {
         "transit": [
@@ -2286,7 +2299,9 @@
       "quizIds": [
         "westpark_1",
         "westpark_2",
-        "westpark_3"
+        "westpark_3",
+        "westpark_4",
+        "westpark_5"
       ],
       "transportation": {
         "transit": [
@@ -2436,7 +2451,7 @@
       },
       "radius": 250,
       "category": "nightlife",
-      "district": "Isarvorstadt",
+      "district": "Ludwigsvorstadt-Isarvorstadt",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Munich's trendiest neighborhood! LGBTQ+ hub, hip bars, creative cafes, and Mediterranean vibes. The heart of Munich's alternative scene and nightlife!",
@@ -2599,7 +2614,9 @@
       "quizIds": [
         "importexport_1",
         "importexport_2",
-        "importexport_3"
+        "importexport_3",
+        "importexport_4",
+        "importexport_5"
       ],
       "transportation": {
         "transit": [
@@ -2971,7 +2988,9 @@
       "quizIds": [
         "giesing_1",
         "giesing_2",
-        "giesing_3"
+        "giesing_3",
+        "giesing_4",
+        "giesing_5"
       ],
       "transportation": {
         "transit": [
@@ -3129,7 +3148,9 @@
       "quizIds": [
         "yokocho_1",
         "yokocho_2",
-        "yokocho_3"
+        "yokocho_3",
+        "yokocho_4",
+        "yokocho_5"
       ],
       "transportation": {
         "transit": [
@@ -3187,7 +3208,9 @@
       "quizIds": [
         "kilians_1",
         "kilians_2",
-        "kilians_3"
+        "kilians_3",
+        "kilians_4",
+        "kilians_5"
       ],
       "transportation": {
         "transit": [
@@ -3243,7 +3266,7 @@
         "lng": 11.5699981
       },
       "category": "culture",
-      "district": "Altstadt",
+      "district": "Altstadt-Lehel",
       "difficulty": "medium",
       "unlockLevel": 2,
       "description": "Germany's first museum dedicated to urban art! Located in a former transformer station, MUCA showcases works by internationally celebrated street artists like Banksy, ESCIF, and Shepard Fairey across 2,000 m². Rotating exhibitions + guided bike tours to Munich street art hotspots.",
@@ -3319,7 +3342,9 @@
       "quizIds": [
         "donnersberger_1",
         "donnersberger_2",
-        "donnersberger_3"
+        "donnersberger_3",
+        "donnersberger_4",
+        "donnersberger_5"
       ],
       "transportation": {
         "transit": [
@@ -3377,7 +3402,9 @@
       "quizIds": [
         "flohmarkt_1",
         "flohmarkt_2",
-        "flohmarkt_3"
+        "flohmarkt_3",
+        "flohmarkt_4",
+        "flohmarkt_5"
       ],
       "transportation": {
         "transit": [
@@ -3441,7 +3468,9 @@
       "quizIds": [
         "midnight_1",
         "midnight_2",
-        "midnight_3"
+        "midnight_3",
+        "midnight_4",
+        "midnight_5"
       ],
       "transportation": {
         "transit": [
@@ -3507,7 +3536,9 @@
       "quizIds": [
         "ceramics_1",
         "ceramics_2",
-        "ceramics_3"
+        "ceramics_3",
+        "ceramics_4",
+        "ceramics_5"
       ],
       "transportation": {
         "transit": [
@@ -3560,7 +3591,7 @@
       "district": "Altstadt-Lehel",
       "difficulty": "medium",
       "unlockLevel": 2,
-      "description": "See the dragon that 'brought the plague' to Munich! At the western corner (Wurmeck) of the Neues Rathaus, a dragon statue stares down ominously. Legend says a wingless dragon flew over Munich during the Black Death (17th century) bringing plague with poisonous breath. Brave men killed it with a cannon shot at this very spot.",
+      "description": "See the dragon that 'brought the plague' to Munich! At the western corner (Wurmeck) of the Neues Rathaus, a dragon statue stares down ominously. Legend says a wingless dragon flew over Munich during the plague outbreaks (17th century) bringing plague with poisonous breath. Brave men killed it with a cannon shot at this very spot.",
       "shortDescription": "Legendary dragon & Munich folklore",
       "imageUrl": "/images/locations/wurmeck.jpg",
       "quizIds": [
@@ -4355,6 +4386,52 @@
       "tags": [
         "baroque",
         "architecture"
+      ]
+    },
+    "nymphenburg_3": {
+      "id": "nymphenburg_3",
+      "locationId": "nymphenburg",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Why was Nymphenburg Palace originally built?",
+      "options": [
+        "As a military fortress",
+        "As a summer residence and hunting lodge for the Bavarian royals",
+        "As a museum from the start",
+        "As a city hall"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 30,
+      "explanation": "Nymphenburg was built starting in 1664 as a summer residence for the Bavarian electors. It was later expanded into the magnificent Baroque palace complex we see today!",
+      "funFact": "The name 'Nymphenburg' means 'Castle of the Nymphs' - inspired by the mythological water nymphs said to inhabit the palace gardens!",
+      "tags": [
+        "history",
+        "royalty",
+        "baroque"
+      ]
+    },
+    "nymphenburg_4": {
+      "id": "nymphenburg_4",
+      "locationId": "nymphenburg",
+      "category": "architecture",
+      "difficulty": "hard",
+      "question": "What unique feature can you find in the palace's park pavilions?",
+      "options": [
+        "Nothing special",
+        "The Amalienburg hunting lodge with its Hall of Mirrors - a rococo masterpiece",
+        "A water park",
+        "A shopping mall"
+      ],
+      "correctAnswer": 1,
+      "points": 80,
+      "xpReward": 45,
+      "explanation": "The Amalienburg is a stunning rococo hunting lodge in the palace gardens, famous for its breathtaking Hall of Mirrors covered in silver and blue decorations!",
+      "funFact": "The Hall of Mirrors in the Amalienburg is considered one of the finest examples of rococo architecture in Europe - even more intimate and beautiful than Versailles!",
+      "tags": [
+        "rococo",
+        "architecture",
+        "pavilions"
       ]
     },
     "bmw_welt_1": {
@@ -5326,6 +5403,52 @@
         "locals"
       ]
     },
+    "peter_4": {
+      "id": "peter_4",
+      "locationId": "alter_peter",
+      "category": "going-out",
+      "difficulty": "easy",
+      "question": "What can you see from the top of Alter Peter's tower on a clear day?",
+      "options": [
+        "Just the nearby buildings",
+        "The Alps and a 360-degree panorama of Munich!",
+        "The ocean",
+        "Nothing - it's too foggy"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "On clear days, especially during föhn weather (warm Alpine wind), you can see all the way to the Alps from the 56-meter-high tower! It's the best view in Munich!",
+      "funFact": "Locals say 'If Alter Peter rings his bells, good weather!' The tower gives you 360° views of the entire city - better than the Frauenkirche and cheaper too at only €5!",
+      "tags": [
+        "views",
+        "tower",
+        "alps"
+      ]
+    },
+    "peter_5": {
+      "id": "peter_5",
+      "locationId": "alter_peter",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "How many steps do you have to climb to reach the viewing platform?",
+      "options": [
+        "50 steps",
+        "100 steps",
+        "299 steps (some say 306!)",
+        "500 steps"
+      ],
+      "correctAnswer": 2,
+      "points": 60,
+      "xpReward": 30,
+      "explanation": "It's about 299-306 steps (counts vary!) up a steep, narrow spiral staircase. Not for the claustrophobic, but absolutely worth the climb for the spectacular view!",
+      "funFact": "The tower climb is steeper and more authentic than most modern tourist attractions - it's a real medieval experience! Rest on the small landings if you need to catch your breath!",
+      "tags": [
+        "tower",
+        "climb",
+        "steps"
+      ]
+    },
     "tollwood_1": {
       "id": "tollwood_1",
       "locationId": "tollwood",
@@ -5744,6 +5867,52 @@
         "neoclassical"
       ]
     },
+    "konigsplatz_4": {
+      "id": "konigsplatz_4",
+      "locationId": "konigsplatz",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Which world-class museums surround Königsplatz?",
+      "options": [
+        "No museums",
+        "Glyptothek (Greek/Roman sculptures), Antikensammlungen, and Lenbachhaus",
+        "Natural history museum only",
+        "Car museums"
+      ],
+      "correctAnswer": 1,
+      "points": 70,
+      "xpReward": 35,
+      "explanation": "Königsplatz is surrounded by incredible museums! The Glyptothek has Greek and Roman sculptures, the Antikensammlungen houses ancient artifacts, and the Lenbachhaus features the famous Blue Rider art movement!",
+      "funFact": "The Glyptothek was built by King Ludwig I to house his personal collection of ancient Greek and Roman sculptures - he was obsessed with classical art! Entry to the Lenbachhaus is FREE on Sundays!",
+      "tags": [
+        "museums",
+        "art",
+        "culture"
+      ]
+    },
+    "konigsplatz_5": {
+      "id": "konigsplatz_5",
+      "locationId": "konigsplatz",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What dark history is associated with Königsplatz?",
+      "options": [
+        "Nothing dark",
+        "It was used by the Nazis for massive rallies and parades in the 1930s-40s",
+        "A royal wedding scandal",
+        "A theater fire"
+      ],
+      "correctAnswer": 1,
+      "points": 90,
+      "xpReward": 45,
+      "explanation": "During Nazi rule, Königsplatz was paved over and used for massive Nazi party rallies and book burnings. Hitler's Brown House (Nazi headquarters) was located nearby on Brienner Straße.",
+      "funFact": "After WWII, the Nazis' stone pavement was removed and replaced with grass to erase the Nazi connection. Today it's a peaceful green square where locals sunbathe and play frisbee - a symbol of Munich's recovery!",
+      "tags": [
+        "nazi-history",
+        "wwii",
+        "dark-tourism"
+      ]
+    },
     "westpark_1": {
       "id": "westpark_1",
       "locationId": "westpark",
@@ -5808,6 +5977,53 @@
       "tags": [
         "history",
         "gardens"
+      ]
+    },
+    "westpark_4": {
+      "id": "westpark_4",
+      "locationId": "westpark",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What unique Asian features can you find in Westpark?",
+      "options": [
+        "Nothing Asian",
+        "Thai Sala, Chinese garden, Japanese garden, and Nepalese pagoda!",
+        "Just a sushi restaurant",
+        "A gift shop"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "Westpark has authentic Asian garden pavilions built for the 1983 International Garden Exhibition! The Thai Sala, Chinese garden, Japanese garden, and Nepalese pagoda are all stunning architectural gems!",
+      "funFact": "The Thai Sala was a gift from the King of Thailand! It's one of the most photographed spots in Munich and completely FREE to visit!",
+      "tags": [
+        "asian-gardens",
+        "architecture",
+        "free-activity"
+      ]
+    },
+    "westpark_5": {
+      "id": "westpark_5",
+      "locationId": "westpark",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What makes Westpark perfect for a summer day?",
+      "options": [
+        "It's covered and air-conditioned",
+        "Lakes for swimming, rose garden, beer garden, and wide open lawns for picnics!",
+        "Indoor pool only",
+        "Nothing special"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "Westpark is a local favorite with two lakes (East and West), a beautiful rose garden with 500+ varieties, a traditional beer garden, and tons of space for sunbathing, picnics, and BBQs!",
+      "funFact": "Unlike touristy Englischer Garten, Westpark is where Munich locals actually go to relax! It's less crowded but just as beautiful - and totally FREE!",
+      "tags": [
+        "lakes",
+        "beer-garden",
+        "picnic",
+        "free-activity"
       ]
     },
     "ludwig_1": {
@@ -6140,6 +6356,29 @@
         "terrorism"
       ]
     },
+    "olympiapark_6": {
+      "id": "olympiapark_6",
+      "locationId": "olympiapark",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "What extreme sport can you do at Olympiapark?",
+      "options": [
+        "Nothing extreme",
+        "Roof climbing on the Olympic Stadium tent roof!",
+        "Bungee jumping",
+        "Skydiving"
+      ],
+      "correctAnswer": 1,
+      "points": 70,
+      "xpReward": 40,
+      "explanation": "You can actually walk on the iconic tent roof of the Olympic Stadium! The 'Zeltdach Tour' lets you climb up and walk across the famous acrylic glass tent roof at heights of up to 40 meters!",
+      "funFact": "The roof tour offers incredible views of Munich and the Alps! On clear days, you can see over 100km. It's not for those afraid of heights, but totally safe with harnesses!",
+      "tags": [
+        "adventure",
+        "roof",
+        "extreme"
+      ]
+    },
     "olympiapark_7": {
       "id": "olympiapark_7",
       "locationId": "olympiapark",
@@ -6204,6 +6443,52 @@
       "tags": [
         "opera",
         "mozart"
+      ]
+    },
+    "residenz_6": {
+      "id": "residenz_6",
+      "locationId": "residenz",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What treasures can you find in the Schatzkammer (Treasury)?",
+      "options": [
+        "Just some old coins",
+        "Bavarian crown jewels and royal regalia spanning 1000+ years",
+        "Modern art",
+        "Viking artifacts"
+      ],
+      "correctAnswer": 1,
+      "points": 75,
+      "xpReward": 40,
+      "explanation": "The Treasury houses an incredible collection of Bavarian crown jewels, golden artifacts, and royal regalia from over a millennium!",
+      "funFact": "The Treasury requires a separate ticket, but the combo with the museum is only €13 - a great deal for all that royal bling!",
+      "tags": [
+        "treasury",
+        "jewels",
+        "royalty"
+      ]
+    },
+    "residenz_7": {
+      "id": "residenz_7",
+      "locationId": "residenz",
+      "category": "architecture",
+      "difficulty": "hard",
+      "question": "What makes the Cuvilliés Theatre so special?",
+      "options": [
+        "It's the largest theater in Europe",
+        "It's one of Europe's most beautiful rococo theaters in gold and red",
+        "It was built last year",
+        "It only shows modern plays"
+      ],
+      "correctAnswer": 1,
+      "points": 100,
+      "xpReward": 50,
+      "explanation": "The Cuvilliés Theatre is a stunning masterpiece of rococo architecture, dripping in gold and red velvet. Built in the 1750s, it survived WWII and was meticulously restored!",
+      "funFact": "Mozart's opera 'Idomeneo' premiered here! Today you can still catch opera performances in this intimate, jewel-box theater for just €4.50 entry!",
+      "tags": [
+        "theater",
+        "rococo",
+        "architecture"
       ]
     },
     "allianz_5": {
@@ -6316,6 +6601,29 @@
         "free-activity"
       ]
     },
+    "nymphenburg_6": {
+      "id": "nymphenburg_6",
+      "locationId": "nymphenburg",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What special museum can you visit at Nymphenburg?",
+      "options": [
+        "No museums here",
+        "The Marstallmuseum with royal carriages and porcelain collection",
+        "A dinosaur museum",
+        "A space museum"
+      ],
+      "correctAnswer": 1,
+      "points": 70,
+      "xpReward": 35,
+      "explanation": "The Marstallmuseum houses an incredible collection of ornate royal carriages, sleighs, and the famous Nymphenburg Porcelain Manufactory collection!",
+      "funFact": "King Ludwig II's fairy-tale carriages are here - the same king who built Neuschwanstein! His coaches look like they're straight out of a Disney movie!",
+      "tags": [
+        "museum",
+        "carriages",
+        "porcelain"
+      ]
+    },
     "bmw_welt_4": {
       "id": "bmw_welt_4",
       "locationId": "bmw_welt",
@@ -6336,6 +6644,29 @@
       "tags": [
         "architecture",
         "modern"
+      ]
+    },
+    "bmw_welt_5": {
+      "id": "bmw_welt_5",
+      "locationId": "bmw_welt",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What exciting experience can you witness at BMW Welt?",
+      "options": [
+        "Nothing interesting",
+        "New car delivery ceremonies - customers pick up their brand-new BMWs!",
+        "Monster truck shows",
+        "Food fights"
+      ],
+      "correctAnswer": 1,
+      "points": 65,
+      "xpReward": 35,
+      "explanation": "BMW Welt is famous for its dramatic car delivery ceremonies! Customers from around the world come here to pick up their new BMWs on a lit-up stage with music and celebration!",
+      "funFact": "Over 45,000 cars are delivered here each year in elaborate ceremonies - it's like a birthday party for your car! You can watch from the viewing areas for free!",
+      "tags": [
+        "experience",
+        "cars",
+        "delivery"
       ]
     },
     "bmw_welt_6": {
@@ -6492,6 +6823,29 @@
       "tags": [
         "gentrification",
         "modern"
+      ]
+    },
+    "schwabing_6": {
+      "id": "schwabing_6",
+      "locationId": "schwabing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What famous nightlife spot has been a Schwabing institution since the 1960s?",
+      "options": [
+        "Nothing notable",
+        "The artist cafes and beer gardens like Seehaus and Chinesischer Turm",
+        "A mall food court",
+        "A highway rest stop"
+      ],
+      "correctAnswer": 1,
+      "points": 75,
+      "xpReward": 40,
+      "explanation": "Schwabing is famous for its historic beer gardens and cafes! The Seehaus beer garden by Kleinhesseloher See and the Chinesischer Turm in the Englischer Garten have been neighborhood favorites for decades!",
+      "funFact": "In the 1960s-70s, Schwabing was Munich's bohemian quarter where artists, writers, and students would debate philosophy in smoky cafes until dawn. Today you can still feel that creative energy!",
+      "tags": [
+        "nightlife",
+        "beer-gardens",
+        "history"
       ]
     },
     "viktualien_1": {
@@ -8424,6 +8778,374 @@
         "tips",
         "clothing",
         "practical"
+      ]
+    },
+    "giesing_4": {
+      "id": "giesing_4",
+      "locationId": "giesing",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "Which Munich football club is deeply associated with Giesing culture?",
+      "options": [
+        "FC Bayern München",
+        "TSV 1860 München (Die Löwen)",
+        "SpVgg Unterhaching",
+        "FC Augsburg"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "TSV 1860 München, known as 'Die Löwen' (The Lions), has deep roots in Giesing's working-class culture. Their fans are legendary for their passion and loyalty!",
+      "funFact": "1860's fans often meet in Giesing pubs before matches - the neighborhood bleeds blue and white, not red!",
+      "tags": [
+        "football",
+        "1860",
+        "local-culture"
+      ]
+    },
+    "giesing_5": {
+      "id": "giesing_5",
+      "locationId": "giesing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes Giesing bars different from touristy Munich beer halls?",
+      "options": [
+        "They serve cheaper beer",
+        "Authentic local atmosphere - no tourists, real Münchners, traditional pubs",
+        "They're all modern craft beer bars",
+        "They don't serve food"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "Giesing pubs are the real deal - working-class locals, authentic atmosphere, and zero tourist menus. This is where Münchners actually go!",
+      "funFact": "You'll hear more Bavarian dialect in one Giesing pub than in 10 Marienplatz beer halls!",
+      "tags": [
+        "bars",
+        "authentic",
+        "local-culture"
+      ]
+    },
+    "importexport_4": {
+      "id": "importexport_4",
+      "locationId": "import_export",
+      "category": "music",
+      "difficulty": "medium",
+      "question": "What type of music scene does Import Export München represent?",
+      "options": [
+        "Classical music",
+        "Underground indie, punk, and alternative acts",
+        "Mainstream pop",
+        "Traditional Bavarian music"
+      ],
+      "correctAnswer": 1,
+      "points": 65,
+      "xpReward": 35,
+      "explanation": "Import Export is Munich's indie underground - raw, authentic venue showcasing punk, indie rock, hip-hop, and alternative bands that bigger venues won't book!",
+      "funFact": "Many internationally famous indie bands played Import Export before hitting it big - it's a legendary stepping stone venue!",
+      "tags": [
+        "indie-music",
+        "underground",
+        "live-music"
+      ]
+    },
+    "importexport_5": {
+      "id": "importexport_5",
+      "locationId": "import_export",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "Why is Import Export important to Munich's cultural diversity?",
+      "options": [
+        "It's just another bar",
+        "It gives voice to underground artists and counterculture movements",
+        "It only books famous bands",
+        "It's a tourist attraction"
+      ],
+      "correctAnswer": 1,
+      "points": 70,
+      "xpReward": 40,
+      "explanation": "Import Export champions underground culture - giving platform to emerging artists, political movements, and music scenes that mainstream venues ignore. It's culturally vital!",
+      "funFact": "The venue has hosted everything from punk shows to poetry slams to political benefit concerts!",
+      "tags": [
+        "counterculture",
+        "underground",
+        "cultural-diversity"
+      ]
+    },
+    "yokocho_4": {
+      "id": "yokocho_4",
+      "locationId": "yokocho_karaoke",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How many songs can you choose from at Yokocho?",
+      "options": [
+        "500 songs",
+        "5,000 songs",
+        "80,000 songs in multiple languages!",
+        "Only German songs"
+      ],
+      "correctAnswer": 2,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Yokocho has an incredible 80,000+ song library! English, German, Japanese, Korean, Spanish, and more - everyone finds their jam!",
+      "funFact": "The song database includes everything from 1950s classics to this week's Billboard hits!",
+      "tags": [
+        "karaoke",
+        "music",
+        "variety"
+      ]
+    },
+    "yokocho_5": {
+      "id": "yokocho_5",
+      "locationId": "yokocho_karaoke",
+      "category": "food",
+      "difficulty": "easy",
+      "question": "What makes Yokocho special for Asian food lovers?",
+      "options": [
+        "It only serves karaoke",
+        "It's in Werksviertel's Asian food district with Japanese, Korean, and Vietnamese options nearby",
+        "They don't serve food",
+        "Only German food available"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "Yokocho is in Werksviertel-Mitte, Munich's emerging Asian food hub! After karaoke, hit up ramen shops, Korean BBQ, and Vietnamese street food nearby!",
+      "funFact": "Many people make a night of it - dinner at a nearby Asian restaurant, then karaoke at Yokocho!",
+      "tags": [
+        "asian-food",
+        "werksviertel",
+        "dining"
+      ]
+    },
+    "kilians_4": {
+      "id": "kilians_4",
+      "locationId": "kilians_pub",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What makes Kilian's popular for sports fans?",
+      "options": [
+        "They don't show sports",
+        "Multiple screens showing Premier League, Champions League, and major sporting events",
+        "Only Bayern matches",
+        "Sports are banned"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "Kilian's is THE place for English-speaking sports fans in Munich - multiple screens, every major game, proper pub atmosphere with fellow fans!",
+      "funFact": "During Champions League finals, the place is absolutely packed with fans from all over Europe!",
+      "tags": [
+        "sports",
+        "football",
+        "atmosphere"
+      ]
+    },
+    "kilians_5": {
+      "id": "kilians_5",
+      "locationId": "kilians_pub",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Why is Kilian's important to Munich's expat community?",
+      "options": [
+        "It's not important to expats",
+        "It's a welcoming English-speaking hub where expats, locals, and travelers meet",
+        "Only Germans allowed",
+        "It's a tourist trap"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Kilian's is a genuine community hub - English-speaking staff, international crowd, friendly atmosphere. Many expats made their first Munich friends here!",
+      "funFact": "The pub has been a Munich institution for over 22 years - many regulars have been coming since the early 2000s!",
+      "tags": [
+        "expat-life",
+        "community",
+        "international"
+      ]
+    },
+    "donnersberger_4": {
+      "id": "donnersberger_4",
+      "locationId": "donnersberger_street_art",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How often does the street art at Donnersberger Brücke change?",
+      "options": [
+        "Never - it's permanent",
+        "Constantly evolving - artists add and update pieces regularly",
+        "Once per year",
+        "It's all commissioned by the city"
+      ],
+      "correctAnswer": 1,
+      "points": 65,
+      "xpReward": 35,
+      "explanation": "The gallery is living art! Artists continuously create new pieces, paint over old ones, collaborate - no two visits are exactly the same!",
+      "funFact": "Some artists return multiple times to update their work or create new pieces - it's a true community!",
+      "tags": [
+        "street-art",
+        "evolving",
+        "artists"
+      ]
+    },
+    "donnersberger_5": {
+      "id": "donnersberger_5",
+      "locationId": "donnersberger_street_art",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How big is the street art area at Donnersberger Brücke?",
+      "options": [
+        "100 square meters",
+        "500 square meters",
+        "2,000 square meters - Germany's largest open-air gallery!",
+        "5,000 square meters"
+      ],
+      "correctAnswer": 2,
+      "points": 70,
+      "xpReward": 40,
+      "explanation": "At 2,000 square meters with 60+ artists contributing, it's Germany's largest open-air street art gallery - absolutely massive!",
+      "funFact": "The space is free and accessible 24/7 - a true gift to the city from the urban art community!",
+      "tags": [
+        "street-art",
+        "record",
+        "scale"
+      ]
+    },
+    "flohmarkt_4": {
+      "id": "flohmarkt_4",
+      "locationId": "ostbahnhof_flohmarkt",
+      "category": "shopping",
+      "difficulty": "easy",
+      "question": "What's the best time to arrive at Ostbahnhof Flohmarkt for treasure hunting?",
+      "options": [
+        "Afternoon when it's empty",
+        "Early morning before 9am for best selection!",
+        "Evening",
+        "It doesn't matter"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "Serious treasure hunters arrive before 9am! The best vintage finds, rare collectibles, and hidden gems get snapped up fast!",
+      "funFact": "Some dealers and collectors arrive at 7am sharp when the market opens - the early bird really does get the worm!",
+      "tags": [
+        "shopping",
+        "timing",
+        "strategy"
+      ]
+    },
+    "flohmarkt_5": {
+      "id": "flohmarkt_5",
+      "locationId": "ostbahnhof_flohmarkt",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes flea markets important to Munich's sustainable culture?",
+      "options": [
+        "They're not sustainable",
+        "They promote reuse, recycling, and extend the life of goods - true circular economy!",
+        "They only sell new items",
+        "They're bad for the environment"
+      ],
+      "correctAnswer": 1,
+      "points": 65,
+      "xpReward": 35,
+      "explanation": "Flea markets are ultimate sustainability - extending product life, reducing waste, and keeping treasures out of landfills. Munich loves this eco-conscious culture!",
+      "funFact": "Many Munich apartments are furnished almost entirely from flea market finds - vintage quality often beats modern mass production!",
+      "tags": [
+        "sustainability",
+        "recycling",
+        "culture"
+      ]
+    },
+    "midnight_4": {
+      "id": "midnight_4",
+      "locationId": "midnightbazar",
+      "category": "shopping",
+      "difficulty": "medium",
+      "question": "What unique shopping experience does Midnightbazar offer compared to regular markets?",
+      "options": [
+        "It's open during the day",
+        "Evening vibes with DJs, street food, drinks, and creative energy - market meets party!",
+        "Only sells groceries",
+        "No difference"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Midnightbazar isn't just shopping - it's an evening event! Live DJs, craft cocktails, street food, and a young creative vibe make it feel like a party!",
+      "funFact": "Many vendors are young designers and artists selling their own creations - you're supporting independent creators!",
+      "tags": [
+        "evening-market",
+        "atmosphere",
+        "creative"
+      ]
+    },
+    "midnight_5": {
+      "id": "midnight_5",
+      "locationId": "midnightbazar",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where is Midnightbazar held?",
+      "options": [
+        "In a parking lot",
+        "In the historic Paketposthalle (old postal package hall)",
+        "In a shopping mall",
+        "At Marienplatz"
+      ],
+      "correctAnswer": 1,
+      "points": 55,
+      "xpReward": 30,
+      "explanation": "The old Paketposthalle is a beautiful historic industrial space - high ceilings, great acoustics, and tons of character. Perfect for a creative market!",
+      "funFact": "The building's industrial heritage adds to the hip, alternative vibe that young Münchners love!",
+      "tags": [
+        "venue",
+        "historic",
+        "industrial"
+      ]
+    },
+    "ceramics_4": {
+      "id": "ceramics_4",
+      "locationId": "kamishovka_ceramics",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What happens to your pottery pieces after you make them at Kamishovka?",
+      "options": [
+        "You take them home immediately",
+        "They're fired, glazed, and you pick them up later - proper finished ceramics!",
+        "They're thrown away",
+        "They stay at the studio forever"
+      ],
+      "correctAnswer": 1,
+      "points": 50,
+      "xpReward": 25,
+      "explanation": "Your creations get professionally fired in a kiln and glazed - you return later to collect actual finished ceramic pieces you can use!",
+      "funFact": "The firing process takes several days, but transforms soft clay into permanent ceramics that last forever!",
+      "tags": [
+        "process",
+        "firing",
+        "glazing"
+      ]
+    },
+    "ceramics_5": {
+      "id": "ceramics_5",
+      "locationId": "kamishovka_ceramics",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Why do pottery classes typically run as 5-lesson courses?",
+      "options": [
+        "Random number",
+        "Learning pottery wheel techniques requires progressive skill-building - each lesson builds on the last!",
+        "They only have time for 5",
+        "It's too expensive otherwise"
+      ],
+      "correctAnswer": 1,
+      "points": 60,
+      "xpReward": 35,
+      "explanation": "Pottery is a skill! Lesson 1: centering clay. Lesson 2: basic shapes. Lesson 3-4: refining techniques. Lesson 5: advanced pieces. Progressive learning works!",
+      "funFact": "By lesson 5, most students can create bowls, mugs, and vases they're genuinely proud of - it's addictive!",
+      "tags": [
+        "learning",
+        "skills",
+        "progression"
       ]
     },
     "wurmeck_1": {
