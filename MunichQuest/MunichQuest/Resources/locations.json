@@ -3609,6 +3609,498 @@
           "address": "Tour meeting point"
         }
       ]
+    },
+    "alte_utting": {
+      "id": "alte_utting",
+      "name": "Alte Utting",
+      "emoji": "🚢",
+      "coordinates": {
+        "lat": 48.1194,
+        "lng": 11.5397
+      },
+      "radius": 150,
+      "category": "nightlife",
+      "district": "Sendling",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "A decommissioned passenger ship perched on a railway bridge! This spectacular bar, nightclub, and music venue features an engine room disco, cabaret stage, and rooftop deck with city views. One of Munich's most unique nightlife destinations since 2018.",
+      "shortDescription": "Boat bar on railway bridge",
+      "imageUrl": "/images/locations/alte-utting.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U6 Goetheplatz (8 min walk)",
+          "Bus 62 Großmarkthalle"
+        ],
+        "walking": "15 minutes from Sendlinger Tor"
+      },
+      "venues": [
+        {
+          "icon": "🎵",
+          "name": "Engine Room Disco",
+          "description": "Dance floor in the original ship's engine room! Unique industrial atmosphere with DJ sets.",
+          "address": "Lower deck"
+        },
+        {
+          "icon": "🎭",
+          "name": "Cabaret Stage",
+          "description": "Small performance space hosting live music, comedy, and cultural events.",
+          "address": "Main deck"
+        },
+        {
+          "icon": "🌅",
+          "name": "Rooftop Deck",
+          "description": "Open-air deck on top of the ship with panoramic city views. Perfect for sunset drinks!",
+          "address": "Upper deck"
+        },
+        {
+          "icon": "🍺",
+          "name": "Bar",
+          "description": "Multiple bars throughout the ship serving cocktails, beer, and snacks.",
+          "address": "Various locations"
+        }
+      ],
+      "visitInfo": {
+        "hours": "Mon closed, Tue-Wed 4PM-12AM, Thu 4PM-1AM, Fri 4PM-2AM, Sat 2PM-2AM, Sun 11AM-10PM",
+        "bestTime": "Sunset for rooftop views (summer evenings). Fridays and Saturdays for full party atmosphere. Sunday afternoons for relaxed drinks.",
+        "events": [
+          "Live music performances (check schedule)",
+          "DJ nights in engine room disco",
+          "Cultural events and cabaret shows",
+          "Seasonal parties and festivals"
+        ],
+        "tips": [
+          "Arrive early on weekends - gets very crowded after 10pm",
+          "Rooftop deck best at sunset for Instagram photos",
+          "Cash and cards accepted",
+          "One of Munich's most photographed spots",
+          "Completely unique - literally a boat on a bridge!",
+          "Great mix of locals and tourists, diverse crowd"
+        ]
+      }
+    },
+    "muellers_volksbad": {
+      "id": "muellers_volksbad",
+      "name": "Müller'sches Volksbad",
+      "emoji": "🏊",
+      "coordinates": {
+        "lat": 48.1308,
+        "lng": 11.5911
+      },
+      "radius": 150,
+      "category": "wellness",
+      "district": "Haidhausen",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's first public indoor pool, opened in 1901! Stunning Art Nouveau and Neo-Baroque architecture by Carl Hocheder. Features 2 pools, Roman-Irish sweat bath, and Finnish sauna with colored lights. Swimming in this architectural masterpiece is like bathing in a palace!",
+      "shortDescription": "Historic 1901 Art Nouveau pool",
+      "imageUrl": "/images/locations/volksbad.jpg",
+      "transportation": {
+        "transit": [
+          "S-Bahn Rosenheimer Platz (2 min walk)",
+          "Tram 19 Rosenheimer Platz",
+          "Bus 132 Rosenheimer Platz"
+        ],
+        "walking": "15 minutes from Marienplatz along the Isar"
+      },
+      "venues": [
+        {
+          "icon": "🏊",
+          "name": "Main Swimming Hall",
+          "description": "Stunning vaulted ceiling with ornate decorations. Large pool for swimming laps in historic grandeur.",
+          "address": "Ground floor"
+        },
+        {
+          "icon": "♨️",
+          "name": "Roman-Irish Bath",
+          "description": "Traditional sweat bath experience with various temperature rooms. Unique wellness tradition!",
+          "address": "Spa area"
+        },
+        {
+          "icon": "🧖",
+          "name": "Finnish Sauna",
+          "description": "Sauna with colored mood lighting. Relax after swimming in authentic Finnish style.",
+          "address": "Wellness area"
+        },
+        {
+          "icon": "🎨",
+          "name": "Art Nouveau Architecture",
+          "description": "Admire the 1901 Neo-Baroque and Art Nouveau design - stained glass, ornate tiles, vaulted ceilings.",
+          "address": "Throughout building"
+        }
+      ],
+      "visitInfo": {
+        "hours": "Daily 7:30 AM - 11:00 PM (large hall closes 5PM Mondays). Women's bathing day Tue 3-8 PM in small hall",
+        "bestTime": "Early morning for peaceful swimming (7:30-9am). Weekday afternoons less crowded. Evening for sauna experience.",
+        "events": [
+          "Special swimming courses",
+          "Aqua fitness classes",
+          "Guided tours of historic building (occasionally)"
+        ],
+        "tips": [
+          "Admission €5-8 - incredible value for historic experience",
+          "Bring your own towel and swimsuit",
+          "Women-only hours on Tuesday afternoons in small hall",
+          "Photography usually not allowed - respect other swimmers",
+          "Most beautiful pool in Munich - architectural masterpiece!",
+          "Try the Roman-Irish bath for authentic 19th-century wellness",
+          "Swimming caps required in some pools - check signage"
+        ]
+      }
+    },
+    "naturbad_maria_einsiedel": {
+      "id": "naturbad_maria_einsiedel",
+      "name": "Naturbad Maria Einsiedel",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 48.1045,
+        "lng": 11.5414
+      },
+      "radius": 200,
+      "category": "nature",
+      "district": "Thalkirchen",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's first natural outdoor pool since 1899! 100% chlorine-free with a small canal from the Isar flowing through. Ecological filtration, 50m pool at 22°C, and sunbathing under ancient trees. Healthier swimming in natural paradise!",
+      "shortDescription": "Natural chlorine-free outdoor pool",
+      "imageUrl": "/images/locations/naturbad.jpg",
+      "transportation": {
+        "transit": [
+          "U3 Thalkirchen (10 min walk)",
+          "Bus 135 Maria-Einsiedel-Straße"
+        ],
+        "walking": "30 minutes from Sendlinger Tor through parks"
+      },
+      "venues": [
+        {
+          "icon": "🏊",
+          "name": "Natural Swimming Pool",
+          "description": "50-meter pool with water from the Isar. 22°C temperature, completely chlorine-free!",
+          "address": "Main pool area"
+        },
+        {
+          "icon": "👶",
+          "name": "Children's Wading Pool",
+          "description": "Shallow natural pool for kids. Safe and fun for families!",
+          "address": "Family area"
+        },
+        {
+          "icon": "🌳",
+          "name": "Sunbathing Lawns",
+          "description": "Huge green lawns under ancient trees. Idyllic natural setting for relaxation.",
+          "address": "Throughout grounds"
+        },
+        {
+          "icon": "🍃",
+          "name": "Isar Canal",
+          "description": "Small canal bringing fresh Isar water through the facility. Natural circulation system.",
+          "address": "Through facility"
+        }
+      ],
+      "visitInfo": {
+        "hours": "Seasonal (May-September), typically 9 AM - 8 PM. Check website for exact opening dates.",
+        "bestTime": "Weekday mornings for peaceful natural swimming. Hot summer days perfect for cooling off. Late afternoon for sunbathing under trees.",
+        "events": [
+          "Opening ceremony (May)",
+          "End-of-season party (September)",
+          "Swimming courses in summer"
+        ],
+        "tips": [
+          "Admission €5-7 - affordable natural swimming!",
+          "Bring picnic - food allowed on lawns",
+          "Water is cooler than heated pools but refreshing",
+          "100% chlorine-free - better for skin and eyes",
+          "Historic 1899 pool - over 125 years old!",
+          "Ecological filtration through plants and sand",
+          "Less crowded than artificial pools",
+          "Perfect for environmentally conscious swimmers"
+        ]
+      }
+    },
+    "ammersee": {
+      "id": "ammersee",
+      "name": "Ammersee",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 47.9833,
+        "lng": 11.1167
+      },
+      "radius": 500,
+      "category": "nature",
+      "district": "Outside Munich",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Bavaria's third-largest lake, just 40km southwest of Munich! Quieter than Starnberger See with more public swimming spots. Crystal-clear waters, beautiful shoreline, sailing, and charming lakeside villages. Perfect S-Bahn day trip!",
+      "shortDescription": "Beautiful lake 40km from Munich",
+      "imageUrl": "/images/locations/ammersee.jpg",
+      "transportation": {
+        "transit": [
+          "S8 to Herrsching am Ammersee (direct, ~50 min)",
+          "Alternative stops: Dießen, Utting, Schondorf"
+        ],
+        "walking": "From S-Bahn stations, 5-10 min walk to lakefront"
+      },
+      "venues": [
+        {
+          "icon": "🏖️",
+          "name": "Public Beaches",
+          "description": "Multiple free swimming spots along the shore. Herrsching has the best beach access!",
+          "address": "Various towns"
+        },
+        {
+          "icon": "⛵",
+          "name": "Boat Rentals",
+          "description": "Rent sailboats, rowboats, or SUPs. Explore the 46.6 km² lake!",
+          "address": "Herrsching marina"
+        },
+        {
+          "icon": "🚶",
+          "name": "Lakeside Promenade",
+          "description": "Beautiful walking and cycling paths along the shore. Stunning Alpine views!",
+          "address": "Herrsching to Utting"
+        },
+        {
+          "icon": "🍺",
+          "name": "Andechs Monastery",
+          "description": "Famous brewery monastery on hilltop above lake. Beer garden with incredible views!",
+          "address": "Andechs (30 min walk from Herrsching)"
+        }
+      ],
+      "visitInfo": {
+        "bestTime": "Summer (June-August) for swimming. Spring and fall for hiking and cycling. Weekdays less crowded than Starnberger See.",
+        "events": [
+          "Lake festivals in summer",
+          "Sailing regattas",
+          "Christmas markets in lakeside towns (December)"
+        ],
+        "tips": [
+          "No car needed - S8 goes direct from Munich!",
+          "Less touristy than Starnberger See - more authentic",
+          "Combine with Andechs Monastery brewery visit",
+          "Bring picnic - beautiful spots everywhere",
+          "More public beaches = more free swimming access",
+          "Water quality excellent for swimming",
+          "Bike rental available at Herrsching S-Bahn station"
+        ]
+      }
+    },
+    "starnberger_see": {
+      "id": "starnberger_see",
+      "name": "Starnberger See",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": 47.9,
+        "lng": 11.3167
+      },
+      "radius": 600,
+      "category": "nature",
+      "district": "Outside Munich",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's closest major lake - just 27km south! 57 km², 127m deep, and 20km long with crystal-clear water. Multiple charming lakeside towns accessible by S-Bahn. Where King Ludwig II drowned in 1886. Perfect day trip!",
+      "shortDescription": "Closest major lake to Munich",
+      "imageUrl": "/images/locations/starnberger-see.jpg",
+      "transportation": {
+        "transit": [
+          "S6 to Starnberg (30 min from Munich Hbf)",
+          "S6 to Tutzing, Possenhofen, Feldafing",
+          "S6 to Starnberg Nord for east shore"
+        ],
+        "walking": "From S-Bahn stations, 5-15 min walk to lakefront"
+      },
+      "venues": [
+        {
+          "icon": "🏊",
+          "name": "Swimming Spots",
+          "description": "Multiple beaches in Starnberg, Tutzing, Feldafing, and Possenhofen. Some free, some €2-5 entry.",
+          "address": "Various towns"
+        },
+        {
+          "icon": "⛵",
+          "name": "Lake Steamers",
+          "description": "Historic paddle steamer cruises across the lake. Multiple routes and destinations!",
+          "address": "Starnberg pier"
+        },
+        {
+          "icon": "👑",
+          "name": "King Ludwig II Memorial",
+          "description": "Cross in the lake marking where Bavaria's fairy-tale king drowned in 1886.",
+          "address": "Near Berg"
+        },
+        {
+          "icon": "🏰",
+          "name": "Upscale Lake Towns",
+          "description": "Explore chic villages like Tutzing and Possenhofen (Sissi's childhood home!)",
+          "address": "S6 line stops"
+        }
+      ],
+      "visitInfo": {
+        "bestTime": "Summer for swimming (June-August). Spring for cherry blossoms. Fall for colorful foliage. Winter for peaceful walks.",
+        "events": [
+          "Lake festivals in summer",
+          "Starnberger See Triathlon (July)",
+          "Christmas markets in lakeside towns",
+          "Sailing events and regattas"
+        ],
+        "tips": [
+          "S-Bahn accessible - no car needed!",
+          "Closest major lake to Munich (27km)",
+          "More upscale than Ammersee - beautiful villas",
+          "King Ludwig II history - mysterious death location",
+          "Some beaches charge €2-5 entry or parking",
+          "Excellent water quality for swimming",
+          "Bike rentals available at most S-Bahn stations",
+          "Combine with boat tour for full experience"
+        ]
+      }
+    },
+    "riem_flea_market": {
+      "id": "riem_flea_market",
+      "name": "München-Riem Flea Market",
+      "emoji": "🛒",
+      "coordinates": {
+        "lat": 48.1386,
+        "lng": 11.7014
+      },
+      "radius": 300,
+      "category": "shopping",
+      "district": "Riem",
+      "difficulty": "easy",
+      "unlockLevel": 1,
+      "description": "Bavaria's largest open-air flea market since 1993! Every Saturday with hundreds of vendors selling antiques, vintage clothing, collectibles, crafts, and second-hand treasures. Authentic bargaining culture!",
+      "shortDescription": "Bavaria's largest flea market",
+      "imageUrl": "/images/locations/riem-flohmarkt.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Messestadt-Ost (5 min walk)",
+          "S2 Riem (10 min walk)"
+        ],
+        "walking": "15 minutes from Messestadt-Ost U-Bahn"
+      },
+      "venues": [
+        {
+          "icon": "👕",
+          "name": "Vintage Clothing Stalls",
+          "description": "Huge selection of vintage fashion, retro styles, and unique clothing finds!",
+          "address": "Throughout market"
+        },
+        {
+          "icon": "🪑",
+          "name": "Antiques & Furniture",
+          "description": "Authentic antique dealers selling furniture, decorations, and collectibles.",
+          "address": "Professional vendor area"
+        },
+        {
+          "icon": "📚",
+          "name": "Books & Records",
+          "description": "Vinyl records, vintage books, magazines, and rare finds for collectors.",
+          "address": "Various stalls"
+        },
+        {
+          "icon": "🎨",
+          "name": "Crafts & Handmade",
+          "description": "Local artisans selling handmade crafts, jewelry, and unique creations.",
+          "address": "Craft section"
+        }
+      ],
+      "visitInfo": {
+        "hours": "Every Saturday 6:00 AM - 4:00 PM (arrivals early for best selection!)",
+        "bestTime": "Arrive before 9am for best selection and serious bargaining. Mid-morning (9-11am) for leisurely browsing. Afternoon (after 2pm) for best prices as vendors want to sell.",
+        "events": [
+          "Special themed markets occasionally",
+          "Holiday markets before Christmas",
+          "Spring and summer peak season"
+        ],
+        "tips": [
+          "FREE entry (€3 parking if driving)",
+          "Bring cash - most vendors don't accept cards",
+          "Bargaining is expected - don't pay first price!",
+          "Arrive early (before 9am) for best finds",
+          "Hundreds of vendors every Saturday",
+          "Mix of professional dealers and private sellers",
+          "Great for vintage fashion and vinyl records",
+          "Bring shopping bags for purchases",
+          "Wear comfortable shoes - lots of walking!",
+          "Bavaria's largest market - authentic experience"
+        ]
+      }
+    },
+    "werksviertel_mitte": {
+      "id": "werksviertel_mitte",
+      "name": "Werksviertel-Mitte",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 48.1289,
+        "lng": 11.605
+      },
+      "radius": 400,
+      "category": "culture",
+      "district": "Berg am Laim",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's newest creative district! Street art everywhere - painted shipping containers, murals, world's largest mobile wheel. Winner of German Urban Development Prize 2023. Mix of art, nightlife, dining, and culture.",
+      "shortDescription": "Creative street art district",
+      "imageUrl": "/images/locations/werksviertel.jpg",
+      "transportation": {
+        "transit": [
+          "S-Bahn Ostbahnhof (5 min walk)",
+          "Tram 19/25 Ostbahnhof",
+          "U5 Ostbahnhof (7 min walk)"
+        ],
+        "walking": "20 minutes from Marienplatz"
+      },
+      "venues": [
+        {
+          "icon": "🎨",
+          "name": "Street Art Murals",
+          "description": "Massive murals on buildings throughout the district. Instagram paradise!",
+          "address": "Throughout Werksviertel"
+        },
+        {
+          "icon": "📦",
+          "name": "Painted Shipping Containers",
+          "description": "Colorful container buildings housing bars, shops, and creative spaces.",
+          "address": "Container district"
+        },
+        {
+          "icon": "🎡",
+          "name": "Umadum (Ferris Wheel)",
+          "description": "World's largest mobile observation wheel! 78 meters tall with Munich views.",
+          "address": "Central square"
+        },
+        {
+          "icon": "🎤",
+          "name": "Yokocho Karaoke",
+          "description": "Japanese-style karaoke bar in the district. Private rooms for singing!",
+          "address": "Atelierstraße"
+        },
+        {
+          "icon": "🍽️",
+          "name": "Food Hall & Restaurants",
+          "description": "Diverse dining options from street food to fine dining in creative spaces.",
+          "address": "Various locations"
+        }
+      ],
+      "visitInfo": {
+        "hours": "Open 24/7 (outdoor public district). Individual venues have varying hours.",
+        "bestTime": "Daytime for street art photography. Evening for nightlife and dining. Weekends most lively.",
+        "events": [
+          "Street art exhibitions",
+          "Open-air concerts and festivals",
+          "Market days",
+          "Cultural events year-round"
+        ],
+        "tips": [
+          "Completely FREE to explore!",
+          "Bring camera - incredible photo opportunities",
+          "Mix of day and night activities",
+          "Award-winning urban development (2023)",
+          "Constantly evolving - new art appears regularly",
+          "Great for Instagram and photography",
+          "Combine with nearby Ostbahnhof area",
+          "Authentic creative scene, not touristy yet",
+          "Food hall perfect for group dining (everyone finds something!)"
+        ]
+      }
     }
   },
   "quizzes": {
