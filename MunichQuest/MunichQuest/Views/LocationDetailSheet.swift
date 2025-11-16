@@ -24,6 +24,10 @@ struct LocationDetailSheet: View {
         gameManager.userProgress?.locationsVisited.contains(location.id) ?? false
     }
 
+    private var hasQuizzes: Bool {
+        !gameManager.getQuizzesForLocation(location.id).isEmpty
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
@@ -69,10 +73,12 @@ struct LocationDetailSheet: View {
                             .opacity(0.8)
                     }
 
-                    Text("Difficulty: \(location.difficulty)")
-                        .font(.body)
-                        .foregroundColor(.primary)
-                        .opacity(0.8)
+                    if hasQuizzes {
+                        Text("Difficulty: \(location.difficulty)")
+                            .font(.body)
+                            .foregroundColor(.primary)
+                            .opacity(0.8)
+                    }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(16)
