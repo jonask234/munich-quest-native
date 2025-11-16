@@ -364,7 +364,7 @@ class GameManager: ObservableObject {
 
             if isCompleted {
                 // Unlock achievement
-                progress.achievements.append(achievement.id)
+                progress.achievements.insert(achievement.id)
                 progress.addXP(achievement.xpReward)
                 print("🏆 Achievement unlocked: \(achievement.title) (+\(achievement.xpReward) XP)")
             }
@@ -381,19 +381,19 @@ class GameManager: ObservableObject {
             return progress.quizzesCompleted.count >= count
         case .reachLevel(let level):
             return progress.level >= level
-        case .visitCategory(let category, let count):
+        case .visitCategory(let category, let requiredCount):
             let visited = locations.filter {
                 $0.category == category && progress.locationsVisited.contains($0.id)
             }.count
-            return visited >= count
-        case .perfectQuizStreak(let count):
+            return visited >= requiredCount
+        case .perfectQuizStreak(_):
             // Would need streak tracking - return false for now
             return false
         }
     }
 
     // MARK: - Helper Functions
-    nonisolated private func decodeGameData(from data: Data) throws -> GameData {
+    private func decodeGameData(from data: Data) throws -> GameData {
         return try JSONDecoder().decode(GameData.self, from: data)
     }
 
