@@ -1294,7 +1294,7 @@ struct LocationStatsDetailSheet: View {
                                         HStack(alignment: .top, spacing: 12) {
                                             Circle()
                                                 .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
-                                                .frame(width: 8, height: 8)
+                                                .frame(width: 6, height: 6)
                                                 .padding(.top, 8)
 
                                             VStack(alignment: .leading, spacing: 8) {
@@ -1343,8 +1343,8 @@ struct LocationStatsDetailSheet: View {
 
                                     HStack(alignment: .top, spacing: 12) {
                                         Circle()
-                                            .fill(Color.purple)
-                                            .frame(width: 8, height: 8)
+                                            .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                            .frame(width: 6, height: 6)
                                             .padding(.top, 6)
 
                                         Text(bestTime)
@@ -1373,8 +1373,8 @@ struct LocationStatsDetailSheet: View {
                                         ForEach(events, id: \.self) { event in
                                             HStack(alignment: .top, spacing: 12) {
                                                 Circle()
-                                                    .fill(Color.orange)
-                                                    .frame(width: 8, height: 8)
+                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                                    .frame(width: 6, height: 6)
                                                     .padding(.top, 6)
                                                 Text(event)
                                                     .font(.body)
@@ -1404,8 +1404,8 @@ struct LocationStatsDetailSheet: View {
                                         ForEach(tips, id: \.self) { tip in
                                             HStack(alignment: .top, spacing: 12) {
                                                 Circle()
-                                                    .fill(Color.green)
-                                                    .frame(width: 8, height: 8)
+                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                                    .frame(width: 6, height: 6)
                                                     .padding(.top, 6)
                                                 Text(tip)
                                                     .font(.body)

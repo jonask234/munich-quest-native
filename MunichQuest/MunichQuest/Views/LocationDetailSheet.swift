@@ -50,6 +50,7 @@ struct LocationDetailSheet: View {
                         .foregroundColor(.primary)
                         .opacity(0.8)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(16)
                 .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(12)
@@ -73,6 +74,7 @@ struct LocationDetailSheet: View {
                         .foregroundColor(.primary)
                         .opacity(0.8)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(16)
                 .background(Color(UIColor.secondarySystemBackground))
                 .cornerRadius(12)
