@@ -33,6 +33,7 @@ struct LocationDetailSheet: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
+                        .foregroundColor(.primary)
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
@@ -42,28 +43,39 @@ struct LocationDetailSheet: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Text("About")
                         .font(.headline)
+                        .foregroundColor(.primary)
 
                     Text(location.description)
                         .font(.body)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
+                        .opacity(0.8)
                 }
+                .padding(16)
+                .background(Color(UIColor.secondarySystemBackground))
+                .cornerRadius(12)
                 .padding(.horizontal)
 
                 // Additional Info
                 VStack(alignment: .leading, spacing: 10) {
                     Text("Details")
                         .font(.headline)
+                        .foregroundColor(.primary)
 
                     if let district = location.district {
                         Text("District: \(district)")
                             .font(.body)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.primary)
+                            .opacity(0.8)
                     }
 
                     Text("Difficulty: \(location.difficulty)")
                         .font(.body)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.primary)
+                        .opacity(0.8)
                 }
+                .padding(16)
+                .background(Color(UIColor.secondarySystemBackground))
+                .cornerRadius(12)
                 .padding(.horizontal)
 
                 // Distance and Navigation

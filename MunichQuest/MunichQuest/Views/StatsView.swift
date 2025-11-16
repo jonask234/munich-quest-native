@@ -1148,7 +1148,8 @@ struct LocationStatsDetailSheet: View {
                         if let district = location.district {
                             Text(district)
                                 .font(.subheadline)
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.primary)
+                                .opacity(0.7)
                         }
                     }
                     .padding(.top, 20)
@@ -1177,11 +1178,12 @@ struct LocationStatsDetailSheet: View {
                                     .foregroundColor(.green)
                                 Text("Correct")
                                     .font(.caption)
-                                    .foregroundColor(.secondary)
+                                    .foregroundColor(.primary)
+                                    .opacity(0.7)
                             }
 
                             Rectangle()
-                                .fill(Color.secondary.opacity(0.2))
+                                .fill(Color.primary.opacity(0.15))
                                 .frame(width: 1, height: 40)
 
                             VStack(spacing: 4) {
@@ -1190,7 +1192,8 @@ struct LocationStatsDetailSheet: View {
                                     .foregroundColor(.red)
                                 Text("Wrong")
                                     .font(.caption)
-                                    .foregroundColor(.secondary)
+                                    .foregroundColor(.primary)
+                                    .opacity(0.7)
                             }
                         }
                         .padding(.vertical, 8)
@@ -1208,7 +1211,8 @@ struct LocationStatsDetailSheet: View {
 
                                 Text(location.description)
                                     .font(.body)
-                                    .foregroundColor(.secondary)
+                                    .foregroundColor(.primary)
+                                    .opacity(0.85)
                                     .fixedSize(horizontal: false, vertical: true)
                                     .lineSpacing(4)
                             }
@@ -1234,7 +1238,8 @@ struct LocationStatsDetailSheet: View {
                                                 .font(.caption)
                                                 .fontWeight(.semibold)
                                                 .tracking(1.2)
-                                                .foregroundColor(.secondary)
+                                                .foregroundColor(.primary)
+                                                .opacity(0.6)
 
                                             ForEach(transit, id: \.self) { line in
                                                 HStack(spacing: 8) {
@@ -1256,7 +1261,8 @@ struct LocationStatsDetailSheet: View {
                                                 .font(.caption)
                                                 .fontWeight(.semibold)
                                                 .tracking(1.2)
-                                                .foregroundColor(.secondary)
+                                                .foregroundColor(.primary)
+                                                .opacity(0.6)
 
                                             HStack(spacing: 8) {
                                                 Circle()
@@ -1299,13 +1305,15 @@ struct LocationStatsDetailSheet: View {
 
                                                 Text(venue.description)
                                                     .font(.body)
-                                                    .foregroundColor(.secondary)
+                                                    .foregroundColor(.primary)
+                                                    .opacity(0.85)
                                                     .lineSpacing(3)
 
                                                 if let address = venue.address {
                                                     Text(address)
                                                         .font(.callout)
-                                                        .foregroundColor(.secondary.opacity(0.8))
+                                                        .foregroundColor(.primary)
+                                                        .opacity(0.6)
                                                         .italic()
                                                 }
                                             }
@@ -1341,7 +1349,8 @@ struct LocationStatsDetailSheet: View {
 
                                         Text(bestTime)
                                             .font(.body)
-                                            .foregroundColor(.secondary)
+                                            .foregroundColor(.primary)
+                                            .opacity(0.85)
                                             .lineSpacing(3)
                                             .frame(maxWidth: .infinity, alignment: .leading)
                                     }
@@ -1369,7 +1378,8 @@ struct LocationStatsDetailSheet: View {
                                                     .padding(.top, 6)
                                                 Text(event)
                                                     .font(.body)
-                                                    .foregroundColor(.secondary)
+                                                    .foregroundColor(.primary)
+                                                    .opacity(0.85)
                                                     .lineSpacing(3)
                                                     .frame(maxWidth: .infinity, alignment: .leading)
                                             }
@@ -1399,7 +1409,8 @@ struct LocationStatsDetailSheet: View {
                                                     .padding(.top, 6)
                                                 Text(tip)
                                                     .font(.body)
-                                                    .foregroundColor(.secondary)
+                                                    .foregroundColor(.primary)
+                                                    .opacity(0.85)
                                                     .lineSpacing(3)
                                                     .frame(maxWidth: .infinity, alignment: .leading)
                                             }
