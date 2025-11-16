@@ -10,6 +10,7 @@ struct SignupView: View {
     @State private var confirmPassword = ""
     @State private var showError = false
     @State private var errorText = ""
+    @State private var showVerificationMessage = false
     
     var body: some View {
         NavigationView {
@@ -69,7 +70,20 @@ struct SignupView: View {
                                 .font(.caption)
                                 .padding(.horizontal)
                         }
-                        
+
+                        if showVerificationMessage {
+                            VStack(spacing: 8) {
+                                Text("Account created!")
+                                    .foregroundColor(.green)
+                                    .font(.headline)
+                                Text("Please check your email to verify your account.")
+                                    .foregroundColor(.secondary)
+                                    .font(.caption)
+                                    .multilineTextAlignment(.center)
+                            }
+                            .padding(.horizontal)
+                        }
+
                         Button(action: handleSignup) {
                             if authManager.isLoading {
                                 ProgressView()
@@ -126,6 +140,10 @@ struct SignupView: View {
         Task {
             let result = await authManager.signUp(username: username, email: email, password: password)
             if case .success = result {
+                // Show verification message
+                showVerificationMessage = true
+                // Dismiss after 3 seconds
+                try? await Task.sleep(nanoseconds: 3_000_000_000)
                 dismiss()
             } else if let error = authManager.errorMessage {
                 errorText = error

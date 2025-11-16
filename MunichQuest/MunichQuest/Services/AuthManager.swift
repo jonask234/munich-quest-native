@@ -39,6 +39,9 @@ class AuthManager: ObservableObject {
             changeRequest.displayName = username
             try await changeRequest.commitChanges()
 
+            // Send email verification
+            try await user.sendEmailVerification()
+
             let userProfile: [String: Any] = [
                 "username": username,
                 "email": email,
@@ -58,6 +61,25 @@ class AuthManager: ObservableObject {
             errorMessage = getAuthErrorMessage(error)
             return .failure(error)
         }
+    }
+
+    func resendVerificationEmail() async -> Bool {
+        guard let user = currentUser else { return false }
+
+        do {
+            try await user.sendEmailVerification()
+            return true
+        } catch {
+            errorMessage = "Failed to send verification email. Please try again."
+            return false
+        }
+    }
+
+    func checkEmailVerified() async {
+        guard let user = currentUser else { return }
+        await user.reload()
+        // Update the current user to refresh verification status
+        currentUser = auth.currentUser
     }
 
     func login(email: String, password: String) async -> Result<User, Error> {
