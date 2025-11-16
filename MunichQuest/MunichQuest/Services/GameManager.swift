@@ -201,6 +201,9 @@ class GameManager: ObservableObject {
                 saveLocationVisit(location: location, userLocation: userLocation)
             }
         }
+
+        // Check and unlock achievements
+        checkAndUnlockAchievements()
     }
 
     private func saveLocationVisit(location: LocationData, userLocation: CLLocation) {
@@ -269,6 +272,9 @@ class GameManager: ObservableObject {
         if authManager?.isAuthenticated == true {
             saveQuizResult(quiz: quiz, selectedAnswer: selectedAnswer, isCorrect: isCorrect, xpEarned: xpEarned)
         }
+
+        // Check and unlock achievements
+        checkAndUnlockAchievements()
     }
 
     private func saveQuizResult(quiz: Quiz, selectedAnswer: Int, isCorrect: Bool, xpEarned: Int) {
@@ -338,6 +344,52 @@ class GameManager: ObservableObject {
     func getUnlockedLocations() -> [LocationData] {
         let userLevel = userProgress?.level ?? 1
         return locations.filter { $0.unlockLevel <= userLevel }
+    }
+
+    // MARK: - Achievement System
+    private func checkAndUnlockAchievements() {
+        guard var progress = userProgress else { return }
+
+        // Get all achievements from StatsView
+        let allAchievements = Achievement.allAchievements
+
+        for achievement in allAchievements {
+            // Skip if already unlocked
+            if progress.achievements.contains(achievement.id) {
+                continue
+            }
+
+            // Check if condition is met
+            let isCompleted = checkAchievementCondition(achievement.condition, progress: progress)
+
+            if isCompleted {
+                // Unlock achievement
+                progress.achievements.append(achievement.id)
+                progress.addXP(achievement.xpReward)
+                print("🏆 Achievement unlocked: \(achievement.title) (+\(achievement.xpReward) XP)")
+            }
+        }
+
+        userProgress = progress
+    }
+
+    private func checkAchievementCondition(_ condition: AchievementCondition, progress: UserProgress) -> Bool {
+        switch condition {
+        case .visitLocations(let count):
+            return progress.locationsVisited.count >= count
+        case .completeQuizzes(let count):
+            return progress.quizzesCompleted.count >= count
+        case .reachLevel(let level):
+            return progress.level >= level
+        case .visitCategory(let category, let count):
+            let visited = locations.filter {
+                $0.category == category && progress.locationsVisited.contains($0.id)
+            }.count
+            return visited >= count
+        case .perfectQuizStreak(let count):
+            // Would need streak tracking - return false for now
+            return false
+        }
     }
 
     // MARK: - Helper Functions
