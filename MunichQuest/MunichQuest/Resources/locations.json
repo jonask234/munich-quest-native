@@ -5009,6 +5009,320 @@
           "Bring your vocal courage and friends!"
         ]
       }
+    },
+    "neuschwanstein_castle": {
+      "id": "neuschwanstein_castle",
+      "name": "Neuschwanstein Castle",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 47.5576,
+        "lng": 10.7498
+      },
+      "radius": 200,
+      "category": "culture",
+      "district": "Schwangau (outside Munich)",
+      "difficulty": "hard",
+      "unlockLevel": 4,
+      "description": "World-famous fairy tale castle built by King Ludwig II! Disney's inspiration for Sleeping Beauty Castle. Stunning mountain setting, ornate rooms, breathtaking views. Germany's most-visited castle - iconic day trip from Munich!",
+      "shortDescription": "Iconic fairy tale castle - Disney's inspiration",
+      "imageUrl": "/images/locations/neuschwanstein.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Füssen (2 hours, hourly regional trains)",
+          "From Füssen: Bus 73/78 to Hohenschwangau (10 min)",
+          "Or Flixbus direct München → Füssen"
+        ],
+        "walking": "From Hohenschwangau bus stop: 30-40 min uphill walk to castle (or take shuttle bus/horse carriage)"
+      },
+      "visitInfo": {
+        "hours": "April-Oct 15: 9 AM - 6 PM. Oct 16-March: 10 AM - 4 PM. Closed Dec 24, 25, 31, Jan 1.",
+        "bestTime": "Book tickets ONLINE weeks ahead! Early morning (9-10 AM arrival) or late afternoon. Avoid summer weekends. Tuesday-Thursday less crowded than Fri-Sun.",
+        "events": [
+          "Guided tours only (35 min) - included in ticket",
+          "Available in English, German, and many languages",
+          "Self-guided audio tours available",
+          "Marienbrücke (Mary's Bridge) for iconic castle photo"
+        ],
+        "tips": [
+          "MOST IMPORTANT: Book tickets online at hohenschwangau.de weeks in advance!",
+          "Walk-in tickets often sold out by 11 AM in summer",
+          "Full day trip: Leave Munich 7-8 AM, return 6-8 PM",
+          "Bayern-Ticket €29 single / €37-67 for groups up to 5",
+          "Castle ticket €17.50 regular / €16 reduced",
+          "Combination ticket Neuschwanstein + Hohenschwangau €30.50",
+          "Uphill walk is steep - wear good shoes!",
+          "Shuttle bus available €3 up / €2 down (or horse carriage €8/€4)",
+          "Marienbrücke photo spot - stunning view of castle!",
+          "Bring snacks - limited options near castle",
+          "Tour takes 35 min - no photos inside allowed",
+          "Visit Hohenschwangau Castle too (Ludwig's childhood home)",
+          "Best photo: From Marienbrücke bridge",
+          "Allow 5-6 hours total at location"
+        ]
+      },
+      "venues": [
+        {
+          "name": "Hohenschwangau Castle",
+          "description": "King Ludwig II's childhood residence - yellow castle below Neuschwanstein. Less crowded, equally beautiful! Combination tickets available."
+        },
+        {
+          "name": "Marienbrücke (Mary's Bridge)",
+          "description": "Bridge spanning Pöllat Gorge with THE iconic Neuschwanstein view. Must-visit for photos! 10-min walk from castle."
+        }
+      ]
+    },
+    "herzogstand_mountain": {
+      "id": "herzogstand_mountain",
+      "name": "Herzogstand Mountain",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 47.6167,
+        "lng": 11.3167
+      },
+      "radius": 300,
+      "category": "nature",
+      "district": "Kochel am See (outside Munich)",
+      "difficulty": "hard",
+      "unlockLevel": 4,
+      "description": "Spectacular mountain hike with 360° panoramic views of Bavarian Alps, Kochelsee, and Walchensee! Take cable car up, hike the ridge to Heimgarten. One of Bavaria's most stunning ridge walks - epic views!",
+      "shortDescription": "Epic alpine ridge hike with panoramic views",
+      "imageUrl": "/images/locations/herzogstand.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Kochel (1h 15min, hourly)",
+          "From Kochel Bahnhof: Bus 9608 to Herzogstandbahn (15 min)",
+          "Or 45-min walk from Kochel station to cable car"
+        ],
+        "walking": "Cable car option available, or full hike from Walchensee (~3-4 hours up)"
+      },
+      "visitInfo": {
+        "hours": "Cable car: May-November, 9 AM - 5 PM (weather dependent). Check herzogstandbahn.de before visiting!",
+        "bestTime": "June-October best weather. Weekdays less crowded. Early start (8-9 AM train) recommended. Avoid rainy/foggy days - views are everything!",
+        "events": [
+          "Sunrise hikes in summer (cable car opens early)",
+          "Autumn foliage September-October",
+          "Winter: closed or requires winter hiking gear"
+        ],
+        "tips": [
+          "Cable car €15 one-way / €22 round-trip (saves 1000m climb!)",
+          "Classic route: Cable car up, hike ridge to Heimgarten, down to Walchensee",
+          "Ridge hike: 2-3 hours, moderate difficulty, spectacular views entire way",
+          "360° views: Alps, Kochelsee, Walchensee, all stunning!",
+          "Bring layers - windy and cold at summit even in summer",
+          "Mountain hut at top for food/drinks (cash!)",
+          "Good hiking boots essential - rocky terrain",
+          "Check weather forecast - visibility crucial for views",
+          "Bayern-Ticket covers all transport (~€29-37)",
+          "Can combine with Walchensee swim after hike",
+          "One of Munich's best day hike destinations!",
+          "Not suitable for beginners without cable car",
+          "Full day trip: Leave Munich 7-8 AM, return 6-7 PM"
+        ]
+      }
+    },
+    "wendelstein_mountain": {
+      "id": "wendelstein_mountain",
+      "name": "Wendelstein Mountain",
+      "emoji": "🚠",
+      "coordinates": {
+        "lat": 47.7033,
+        "lng": 12.0119
+      },
+      "radius": 300,
+      "category": "nature",
+      "district": "Bayrischzell (outside Munich)",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "1838m peak accessible by historic cable car or rack railway! Summit offers panoramic Alpine views, Germany's highest church, observatory, and hiking trails. Family-friendly mountain adventure - easy access to stunning heights!",
+      "shortDescription": "Alpine peak with cable car, church & panoramic views",
+      "imageUrl": "/images/locations/wendelstein.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Bayrischzell (1h 20min, hourly BOB train)",
+          "From Bayrischzell: Cable car to summit (15 min ride)",
+          "Or from Brannenburg: Historic rack railway to summit"
+        ],
+        "walking": "Hike from Bayrischzell: 3-4 hours up (challenging). Or take cable car both ways for easy summit access!"
+      },
+      "visitInfo": {
+        "hours": "Cable car: Daily 9 AM - 5 PM (May-Nov), 9 AM - 4:30 PM (Dec-April). Check wendelsteinbahn.de for exact dates!",
+        "bestTime": "Clear days for views! Summer (Jun-Sep) for hiking. Winter for skiing/sledding. Weekdays less crowded. Early morning best for clearest views.",
+        "events": [
+          "Summit church services (summer Sundays)",
+          "Panorama Restaurant at summit",
+          "Winter sports December-March",
+          "Sunset special rides occasionally"
+        ],
+        "tips": [
+          "Cable car €32 round-trip / €21 one-way adults",
+          "Rack railway alternative: €33 round-trip (historic, slower, scenic)",
+          "Summit has restaurant, observatory, hiking paths",
+          "Germany's highest church at summit (1838m)!",
+          "360° Alpine panorama - see into Austria!",
+          "Family-friendly - even kids/seniors can reach summit",
+          "Bring warm jacket - cold and windy at top",
+          "Several hiking routes from summit (marked trails)",
+          "Can hike one way, ride down (save knees!)",
+          "Winter: Popular for sledding and snowshoeing",
+          "Bayern-Ticket covers train to Bayrischzell",
+          "Observatory has telescopes (weather permitting)",
+          "Half-day trip possible, or full day with hiking",
+          "Easier than Herzogstand - great for families!"
+        ]
+      }
+    },
+    "partnachklamm": {
+      "id": "partnachklamm",
+      "name": "Partnachklamm Gorge",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 47.4667,
+        "lng": 11.1167
+      },
+      "radius": 200,
+      "category": "nature",
+      "district": "Garmisch-Partenkirchen (outside Munich)",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Dramatic gorge with waterfalls, tunnels carved through rock, and roaring river! Walk through 700m-deep canyon on paths built into cliff walls. Accessible, family-friendly natural wonder - one of Bavaria's most spectacular gorges!",
+      "shortDescription": "Spectacular waterfall gorge with cliff walkways",
+      "imageUrl": "/images/locations/partnachklamm.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Garmisch-Partenkirchen (1h 30min, hourly)",
+          "From Garmisch station: Bus to Skistadion or 30-min walk",
+          "Parking available at Olympic Ski Stadium"
+        ],
+        "walking": "From Garmisch station: 30-40 min walk to gorge entrance. Or take bus to Skistadion (5 min walk to entrance)."
+      },
+      "visitInfo": {
+        "hours": "Daily 8 AM - 6 PM (Jun-Sep), 9 AM - 5 PM (Oct-May). Open year-round but winter requires caution - ice formations!",
+        "bestTime": "Spring (April-May) for highest water flow! Summer for easier walking. Winter for ice sculptures (can be slippery). Avoid heavy rain days.",
+        "events": [
+          "Winter ice formations (spectacular but icy!)",
+          "Spring snowmelt creates powerful waterfalls",
+          "Summer concerts at Olympic Stadium nearby"
+        ],
+        "tips": [
+          "Entry €6 adults / €4 children (well worth it!)",
+          "Gorge walk: 700 meters long, 80m deep, 30-45 min one-way",
+          "Paths carved INTO cliff - dramatic walkways over rushing water",
+          "Waterfalls, tunnels, roaring river - spectacular!",
+          "Bring waterproof jacket - you WILL get wet from spray!",
+          "Good shoes essential - can be slippery",
+          "Family-friendly - even kids can do it (with supervision)",
+          "One-way through gorge, loop trail back (2 hours total)",
+          "Can continue hiking to Eckbauer or Graseck after gorge",
+          "Winter: Ice formations stunning but very slippery - crampons recommended",
+          "Bayern-Ticket covers train to Garmisch",
+          "Combine with Garmisch town visit or Zugspitze day trip",
+          "Half-day trip from Munich (or combine with other activities)",
+          "Cash only at entrance!"
+        ]
+      }
+    },
+    "blomberg_mountain": {
+      "id": "blomberg_mountain",
+      "name": "Blomberg Mountain",
+      "emoji": "🛷",
+      "coordinates": {
+        "lat": 47.7167,
+        "lng": 11.6833
+      },
+      "radius": 200,
+      "category": "nature",
+      "district": "Bad Tölz-Waakirchen (outside Munich)",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Family-friendly mountain with chairlift and summer toboggan run! Beautiful Alpine views, easy hiking, and Germany's longest alpine slide (1300m!). Perfect for families - hike up or ride, slide down fast!",
+      "shortDescription": "Family mountain with alpine slide & easy trails",
+      "imageUrl": "/images/locations/blomberg.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Bad Tölz (1 hour, hourly BOB train)",
+          "From Bad Tölz: Bus 9612 to Waakirchen/Blombergbahn (15 min)",
+          "Or taxi from Bad Tölz station (~10 min)"
+        ],
+        "walking": "From Waakirchen bus stop: 5 min walk to chairlift base station"
+      },
+      "visitInfo": {
+        "hours": "May-October: Daily 9 AM - 5 PM. Alpine slide operates when chairlift runs. Check blombergbahn.de before visiting!",
+        "bestTime": "Summer weekdays less crowded. Sunny days for best views. Families love weekends! Alpine slide more fun when dry.",
+        "events": [
+          "Summer toboggan races",
+          "Family hiking events",
+          "Mountain hut Bavarian food all summer",
+          "Kids adventure playground at summit"
+        ],
+        "tips": [
+          "Chairlift €10 up / €15.50 round-trip adults",
+          "Alpine slide (Blombergblitz): €5 per ride, or multi-ride tickets available",
+          "1300m alpine slide - Germany's longest!",
+          "Super family-friendly - easy for kids and seniors",
+          "Can hike up (1.5 hours) and slide/ride down",
+          "Summit has playground, mountain hut, beautiful views",
+          "Alpine slide is FAST and FUN - control your speed!",
+          "Children 3+ can ride with adult",
+          "Easy hiking trails from summit - beginner-friendly",
+          "Great starter mountain for hiking beginners",
+          "Combine with Bad Tölz town visit (charming spa town)",
+          "Bayern-Ticket covers train + bus",
+          "Half-day trip easily doable",
+          "Popular with Munich families on weekends!"
+        ]
+      }
+    },
+    "brauneck_mountain": {
+      "id": "brauneck_mountain",
+      "name": "Brauneck Mountain",
+      "emoji": "🎿",
+      "coordinates": {
+        "lat": 47.6833,
+        "lng": 11.5167
+      },
+      "radius": 250,
+      "category": "nature",
+      "district": "Lenggries (outside Munich)",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Stunning mountain with modern gondola, excellent hiking, and winter skiing! 1555m summit offers panoramic Alpine views. Multiple trails, mountain huts, ridge hikes. Year-round mountain paradise easily reached from Munich!",
+      "shortDescription": "Alpine peak with gondola, hiking & skiing",
+      "imageUrl": "/images/locations/brauneck.jpg",
+      "transportation": {
+        "transit": [
+          "Bayern-Ticket: München Hbf → Lenggries (1h 15min, hourly BOB train)",
+          "From Lenggries station: 15 min walk to gondola",
+          "Or town shuttle bus to Brauneck Talstation"
+        ],
+        "walking": "From Lenggries station: 15-min walk to gondola base. Or hike from town (2.5-3 hours to summit, challenging)."
+      },
+      "visitInfo": {
+        "hours": "Gondola: Summer (May-Nov) 8:30 AM - 5 PM. Winter (Dec-April) 8:30 AM - 4:30 PM. Check brauneck-bergbahn.de for exact dates!",
+        "bestTime": "Summer (Jun-Sep) for hiking. Winter (Jan-Mar) for skiing. Weekdays less crowded. Clear days essential for views!",
+        "events": [
+          "Winter skiing (Dec-March) - popular Munich ski area",
+          "Summer hiking festivals",
+          "Mountain hut traditional Bavarian meals",
+          "Sunset gondola rides occasionally"
+        ],
+        "tips": [
+          "Gondola €21 up / €29 round-trip adults (summer)",
+          "Winter: Ski day pass ~€40-45 adults",
+          "Summit 1555m - excellent 360° Alpine panorama",
+          "Multiple hiking options from top (easy to challenging)",
+          "Ridge hike to Benediktenwand (advanced, 5-6 hours)",
+          "Tölzer Hütte and Reiseralm huts for food/drinks",
+          "Family-friendly with easier trails available",
+          "Winter: Popular Munich ski resort - crowded weekends",
+          "Summer: Much less crowded than Wendelstein",
+          "Can hike up, ride down (save knees, see nature)",
+          "Bring hiking boots and layers",
+          "Bayern-Ticket covers train to Lenggries",
+          "Charming Lenggries town - worth exploring",
+          "Full day trip recommended for proper hiking",
+          "Combine with Isar river swim in Lenggries!"
+        ]
+      }
     }
   },
   "quizzes": {
