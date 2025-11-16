@@ -128,8 +128,9 @@ struct UserProgress: Codable {
         dailyChallengeProgress[challengeId] = progress
     }
 
-    mutating func getDailyChallengeProgress(challengeId: String) -> Int {
-        checkAndResetDailyChallenges()
+    func getDailyChallengeProgress(challengeId: String) -> Int {
+        // Non-mutating version - just read the current progress
+        // Reset is handled by updateDailyChallengeProgress
         return dailyChallengeProgress[challengeId] ?? 0
     }
 

@@ -525,8 +525,7 @@ struct LocationProgressRow: View {
             latitude: location.coordinates.lat,
             longitude: location.coordinates.lng
         )
-        let placemark = MKPlacemark(coordinate: coordinate)
-        let mapItem = MKMapItem(placemark: placemark)
+        let mapItem = MKMapItem(location: coordinate, address: nil)
         mapItem.name = location.name
         mapItem.openInMaps(launchOptions: [
             MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking
@@ -600,7 +599,7 @@ struct AchievementsSection: View {
                 $0.category == category && progress.locationsVisited.contains($0.id)
             }.count
             return min(Double(visited) / Double(count), 1.0)
-        case .perfectQuizStreak(let count):
+        case .perfectQuizStreak(_):
             return 0.0 // Would need streak tracking
         }
     }
