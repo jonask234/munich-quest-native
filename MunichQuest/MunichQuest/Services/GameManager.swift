@@ -77,7 +77,7 @@ class GameManager: ObservableObject {
 
                 print("✅ Loaded \(data.count) bytes from locations.json")
 
-                let gameData = try JSONDecoder().decode(GameData.self, from: data)
+                let gameData = try await decodeGameData(from: data)
                 let sortedLocations = Array(gameData.locations.values).sorted { $0.name < $1.name }
 
                 return Result.success((locations: sortedLocations, quizzes: gameData.quizzes))
@@ -338,6 +338,11 @@ class GameManager: ObservableObject {
     func getUnlockedLocations() -> [LocationData] {
         let userLevel = userProgress?.level ?? 1
         return locations.filter { $0.unlockLevel <= userLevel }
+    }
+
+    // MARK: - Helper Functions
+    nonisolated private func decodeGameData(from data: Data) async throws -> GameData {
+        return try JSONDecoder().decode(GameData.self, from: data)
     }
 
     // MARK: - Cleanup

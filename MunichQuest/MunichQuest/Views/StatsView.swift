@@ -521,11 +521,11 @@ struct LocationProgressRow: View {
     }
 
     private func openDirections() {
-        let coordinate = CLLocationCoordinate2D(
+        let clLocation = CLLocation(
             latitude: location.coordinates.lat,
             longitude: location.coordinates.lng
         )
-        let mapItem = MKMapItem(location: coordinate, address: nil)
+        let mapItem = MKMapItem(location: clLocation, address: nil)
         mapItem.name = location.name
         mapItem.openInMaps(launchOptions: [
             MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking
