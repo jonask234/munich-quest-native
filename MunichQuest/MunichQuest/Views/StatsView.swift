@@ -1198,128 +1198,192 @@ struct LocationStatsDetailSheet: View {
 
                     // Complete Location Guide (only show when completed)
                     if isCompleted {
-                        VStack(alignment: .leading, spacing: 24) {
-                            // Section Header
-                            Text("LOCATION GUIDE")
-                                .font(.caption)
-                                .fontWeight(.semibold)
-                                .tracking(1.2)
-                                .foregroundColor(.secondary)
-
-                            // Description
+                        VStack(alignment: .leading, spacing: 32) {
+                            // Description Section
                             VStack(alignment: .leading, spacing: 12) {
                                 Text("About")
-                                    .font(.headline)
-                                    .fontWeight(.semibold)
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.primary)
+
                                 Text(location.description)
-                                    .font(.subheadline)
+                                    .font(.body)
                                     .foregroundColor(.secondary)
                                     .fixedSize(horizontal: false, vertical: true)
+                                    .lineSpacing(4)
                             }
+                            .padding(20)
+                            .background(Color(UIColor.secondarySystemBackground))
+                            .cornerRadius(12)
 
-                            // Transportation
+                            // Transportation Section
                             if let transportation = location.transportation {
                                 VStack(alignment: .leading, spacing: 12) {
-                                    Text("How to Get Here")
-                                        .font(.headline)
-                                        .fontWeight(.semibold)
+                                    HStack {
+                                        Text("How to Get Here")
+                                            .font(.title2)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.primary)
+                                        Spacer()
+                                    }
 
                                     if let transit = transportation.transit, !transit.isEmpty {
-                                        VStack(alignment: .leading, spacing: 6) {
+                                        VStack(alignment: .leading, spacing: 8) {
+                                            Text("PUBLIC TRANSIT")
+                                                .font(.caption)
+                                                .fontWeight(.semibold)
+                                                .tracking(1.2)
+                                                .foregroundColor(.secondary)
+
                                             ForEach(transit, id: \.self) { line in
-                                                Text("• \(line)")
-                                                    .font(.subheadline)
-                                                    .foregroundColor(.secondary)
+                                                HStack(spacing: 8) {
+                                                    Circle()
+                                                        .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                                        .frame(width: 6, height: 6)
+                                                    Text(line)
+                                                        .font(.body)
+                                                        .foregroundColor(.primary)
+                                                }
                                             }
                                         }
                                     }
 
                                     if let walking = transportation.walking {
-                                        Text("• \(walking)")
-                                            .font(.subheadline)
-                                            .foregroundColor(.secondary)
+                                        VStack(alignment: .leading, spacing: 8) {
+                                            Text("WALKING")
+                                                .font(.caption)
+                                                .fontWeight(.semibold)
+                                                .tracking(1.2)
+                                                .foregroundColor(.secondary)
+
+                                            HStack(spacing: 8) {
+                                                Circle()
+                                                    .fill(Color(red: 0.4, green: 0.49, blue: 0.92))
+                                                    .frame(width: 6, height: 6)
+                                                Text(walking)
+                                                    .font(.body)
+                                                    .foregroundColor(.primary)
+                                            }
+                                        }
                                     }
                                 }
+                                .padding(20)
+                                .background(Color(UIColor.secondarySystemBackground))
+                                .cornerRadius(12)
                             }
 
-                            // Venues
+                            // Venues Section
                             if let venues = location.venues, !venues.isEmpty {
                                 VStack(alignment: .leading, spacing: 16) {
                                     Text("What to Do & See")
-                                        .font(.headline)
-                                        .fontWeight(.semibold)
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.primary)
 
                                     ForEach(venues) { venue in
-                                        VStack(alignment: .leading, spacing: 6) {
+                                        VStack(alignment: .leading, spacing: 8) {
                                             Text(venue.name)
-                                                .font(.subheadline)
+                                                .font(.title3)
                                                 .fontWeight(.semibold)
+                                                .foregroundColor(.primary)
+
                                             Text(venue.description)
-                                                .font(.subheadline)
+                                                .font(.body)
                                                 .foregroundColor(.secondary)
+                                                .lineSpacing(3)
+
                                             if let address = venue.address {
                                                 Text(address)
-                                                    .font(.caption)
-                                                    .foregroundColor(.secondary.opacity(0.7))
+                                                    .font(.callout)
+                                                    .foregroundColor(.secondary.opacity(0.8))
+                                                    .italic()
                                             }
                                         }
+                                        .padding(.vertical, 8)
 
                                         if venue.id != venues.last?.id {
                                             Divider()
-                                                .padding(.vertical, 4)
+                                                .background(Color.secondary.opacity(0.3))
                                         }
                                     }
                                 }
+                                .padding(20)
+                                .background(Color(UIColor.secondarySystemBackground))
+                                .cornerRadius(12)
                             }
 
-                            // Visit Info
+                            // Visit Info Section
                             if let visitInfo = location.visitInfo {
-                                VStack(alignment: .leading, spacing: 16) {
+                                VStack(alignment: .leading, spacing: 20) {
                                     // Best Time
                                     if let bestTime = visitInfo.bestTime {
-                                        VStack(alignment: .leading, spacing: 8) {
+                                        VStack(alignment: .leading, spacing: 10) {
                                             Text("Best Time to Visit")
-                                                .font(.headline)
+                                                .font(.title3)
                                                 .fontWeight(.semibold)
+                                                .foregroundColor(.primary)
+
                                             Text(bestTime)
-                                                .font(.subheadline)
+                                                .font(.body)
                                                 .foregroundColor(.secondary)
+                                                .lineSpacing(3)
                                         }
                                     }
 
                                     // Events
                                     if let events = visitInfo.events, !events.isEmpty {
-                                        VStack(alignment: .leading, spacing: 8) {
+                                        VStack(alignment: .leading, spacing: 10) {
                                             Text("Events & Festivals")
-                                                .font(.headline)
+                                                .font(.title3)
                                                 .fontWeight(.semibold)
-                                            ForEach(events, id: \.self) { event in
-                                                Text("• \(event)")
-                                                    .font(.subheadline)
-                                                    .foregroundColor(.secondary)
+                                                .foregroundColor(.primary)
+
+                                            VStack(alignment: .leading, spacing: 6) {
+                                                ForEach(events, id: \.self) { event in
+                                                    HStack(alignment: .top, spacing: 8) {
+                                                        Circle()
+                                                            .fill(Color.orange)
+                                                            .frame(width: 6, height: 6)
+                                                            .padding(.top, 6)
+                                                        Text(event)
+                                                            .font(.body)
+                                                            .foregroundColor(.primary)
+                                                    }
+                                                }
                                             }
                                         }
                                     }
 
                                     // Tips
                                     if let tips = visitInfo.tips, !tips.isEmpty {
-                                        VStack(alignment: .leading, spacing: 8) {
+                                        VStack(alignment: .leading, spacing: 10) {
                                             Text("Insider Tips")
-                                                .font(.headline)
+                                                .font(.title3)
                                                 .fontWeight(.semibold)
-                                            ForEach(tips, id: \.self) { tip in
-                                                Text("• \(tip)")
-                                                    .font(.subheadline)
-                                                    .foregroundColor(.secondary)
+                                                .foregroundColor(.primary)
+
+                                            VStack(alignment: .leading, spacing: 6) {
+                                                ForEach(tips, id: \.self) { tip in
+                                                    HStack(alignment: .top, spacing: 8) {
+                                                        Circle()
+                                                            .fill(Color.green)
+                                                            .frame(width: 6, height: 6)
+                                                            .padding(.top, 6)
+                                                        Text(tip)
+                                                            .font(.body)
+                                                            .foregroundColor(.primary)
+                                                    }
+                                                }
                                             }
                                         }
                                     }
                                 }
+                                .padding(20)
+                                .background(Color(UIColor.secondarySystemBackground))
+                                .cornerRadius(12)
                             }
                         }
-                        .padding(24)
-                        .background(Color(UIColor.secondarySystemBackground))
-                        .cornerRadius(16)
+                        .padding(.top, 12)
                     }
                 }
                 .padding(.horizontal, 20)
