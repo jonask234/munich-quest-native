@@ -58,12 +58,10 @@ struct SocialView: View {
         VStack(spacing: 30) {
             Spacer()
 
-            Text("👥")
-                .font(.system(size: 80))
-
             Text("Compare with Friends")
                 .font(.title)
                 .fontWeight(.bold)
+                .padding(.top, 40)
 
             Text("Create an account to see the leaderboard and compare your progress with other players!")
                 .multilineTextAlignment(.center)

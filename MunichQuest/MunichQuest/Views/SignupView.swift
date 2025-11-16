@@ -43,19 +43,23 @@ struct SignupView: View {
                                 .background(Color(UIColor.systemBackground))
                                 .cornerRadius(10)
 
-                            SecureField("Password", text: $password)
-                                .textInputAutocapitalization(.never)
-                                .autocorrectionDisabled()
-                                .padding()
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(10)
+                            ZStack(alignment: .leading) {
+                                SecureField("Password", text: $password)
+                                    .textInputAutocapitalization(.never)
+                                    .autocorrectionDisabled()
+                                    .padding()
+                            }
+                            .background(Color(UIColor.systemBackground))
+                            .cornerRadius(10)
 
-                            SecureField("Confirm Password", text: $confirmPassword)
-                                .textInputAutocapitalization(.never)
-                                .autocorrectionDisabled()
-                                .padding()
-                                .background(Color(UIColor.systemBackground))
-                                .cornerRadius(10)
+                            ZStack(alignment: .leading) {
+                                SecureField("Confirm Password", text: $confirmPassword)
+                                    .textInputAutocapitalization(.never)
+                                    .autocorrectionDisabled()
+                                    .padding()
+                            }
+                            .background(Color(UIColor.systemBackground))
+                            .cornerRadius(10)
                         }
                         .padding(.horizontal)
                         
