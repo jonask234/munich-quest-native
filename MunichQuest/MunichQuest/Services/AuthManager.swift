@@ -53,9 +53,9 @@ class AuthManager: ObservableObject {
 
             isLoading = false
             return .success(user)
-        } catch {
+        } catch let error as NSError {
             isLoading = false
-            errorMessage = error.localizedDescription
+            errorMessage = getAuthErrorMessage(error)
             return .failure(error)
         }
     }
@@ -68,10 +68,37 @@ class AuthManager: ObservableObject {
             let result = try await auth.signIn(withEmail: email, password: password)
             isLoading = false
             return .success(result.user)
-        } catch {
+        } catch let error as NSError {
             isLoading = false
-            errorMessage = error.localizedDescription
+            errorMessage = getAuthErrorMessage(error)
             return .failure(error)
+        }
+    }
+
+    private func getAuthErrorMessage(_ error: NSError) -> String {
+        guard let errorCode = AuthErrorCode.Code(rawValue: error.code) else {
+            return "An error occurred. Please try again."
+        }
+
+        switch errorCode {
+        case .wrongPassword:
+            return "Incorrect password. Please try again."
+        case .userNotFound:
+            return "No account found with this email address."
+        case .invalidEmail:
+            return "Invalid email address format."
+        case .networkError:
+            return "Network error. Please check your connection."
+        case .userDisabled:
+            return "This account has been disabled."
+        case .tooManyRequests:
+            return "Too many failed attempts. Please try again later."
+        case .emailAlreadyInUse:
+            return "An account with this email already exists."
+        case .weakPassword:
+            return "Password is too weak. Please use a stronger password."
+        default:
+            return "Authentication failed. Please try again."
         }
     }
 

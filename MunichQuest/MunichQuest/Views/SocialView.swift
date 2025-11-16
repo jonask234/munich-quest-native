@@ -93,8 +93,6 @@ struct SocialView: View {
 
     private var emptyStateView: some View {
         VStack(spacing: 20) {
-            Text("📊")
-                .font(.system(size: 60))
             Text("No players yet")
                 .font(.headline)
                 .foregroundColor(.secondary)
@@ -102,6 +100,7 @@ struct SocialView: View {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
         }
+        .padding(.top, 40)
     }
 
     private var leaderboardView: some View {

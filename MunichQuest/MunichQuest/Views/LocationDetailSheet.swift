@@ -55,20 +55,14 @@ struct LocationDetailSheet: View {
                         .font(.headline)
 
                     if let district = location.district {
-                        HStack(alignment: .top, spacing: 8) {
-                            Text("📍")
-                            Text("District: \(district)")
-                                .font(.body)
-                                .foregroundColor(.secondary)
-                        }
-                    }
-
-                    HStack(alignment: .top, spacing: 8) {
-                        Text("⭐")
-                        Text("Difficulty: \(location.difficulty)")
+                        Text("District: \(district)")
                             .font(.body)
                             .foregroundColor(.secondary)
                     }
+
+                    Text("Difficulty: \(location.difficulty)")
+                        .font(.body)
+                        .foregroundColor(.secondary)
                 }
                 .padding(.horizontal)
 
