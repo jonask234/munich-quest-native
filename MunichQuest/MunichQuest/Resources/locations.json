@@ -4101,6 +4101,914 @@
           "Food hall perfect for group dining (everyone finds something!)"
         ]
       }
+    },
+    "zephyr_bar": {
+      "id": "zephyr_bar",
+      "name": "Zephyr Bar",
+      "emoji": "🍸",
+      "coordinates": {
+        "lat": 48.1297,
+        "lng": 11.5825
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Ludwigsvorstadt-Isarvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 4,
+      "description": "Intimate speakeasy-style cocktail bar in trendy Glockenbach. Expert mixologists craft artistic cocktails with unusual spice and herb combinations. No reservations, cash only - adds to the exclusivity!",
+      "shortDescription": "Hidden speakeasy cocktail bar",
+      "imageUrl": "/images/locations/zephyr.jpg",
+      "transportation": {
+        "transit": [
+          "U1/U2 Fraunhoferstraße (3 min walk)",
+          "U3/U6 Sendlinger Tor (5 min walk)"
+        ],
+        "walking": "10 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu 8PM-1AM, Fri-Sat 8PM-3AM. Closed Sunday",
+        "bestTime": "Arrive before 10pm to get a seat. Weeknights less crowded. Friday/Saturday peak times after 11pm.",
+        "tips": [
+          "Cash only - no cards accepted!",
+          "No reservations - first come, first served",
+          "Small intimate space - gets crowded quickly",
+          "Creative cocktail menu changes regularly",
+          "Cocktails average €13 - quality ingredients",
+          "True speakeasy vibe - dimly lit, cozy atmosphere",
+          "Great for dates or small groups (max 4-5 people)",
+          "Bartenders are artists - watch them craft drinks!"
+        ]
+      }
+    },
+    "zum_wolf": {
+      "id": "zum_wolf",
+      "name": "Zum Wolf",
+      "emoji": "🥃",
+      "coordinates": {
+        "lat": 48.1308,
+        "lng": 11.5684
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Ludwigsvorstadt-Isarvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 4,
+      "description": "Home of Whiskey and Blues! American-style cocktail bar with Southern juke joint inspiration. Extensive Kentucky bourbon and Tennessee whiskey selection. Red glow lighting, 21+ only, authentic speakeasy atmosphere.",
+      "shortDescription": "Whiskey bar & blues speakeasy",
+      "imageUrl": "/images/locations/zum-wolf.jpg",
+      "transportation": {
+        "transit": [
+          "U1/U2/U3/U6 Sendlinger Tor (5 min walk)"
+        ],
+        "walking": "8 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu & Sun 6PM-1AM, Fri-Sat 6PM-2AM",
+        "bestTime": "Evenings for full atmosphere with music. Weeknights for intimate whiskey tasting experience. Arrive before 10pm for seats.",
+        "tips": [
+          "21+ only - ID required at door",
+          "Groups limited to 5 or less (maintains intimate vibe)",
+          "Munich's best whiskey selection - rare bourbons!",
+          "Cocktails and whiskey €10-15",
+          "Red mood lighting - romantic atmosphere",
+          "Popular LGBTQ+ friendly venue",
+          "Southern blues music adds to authentic feel",
+          "Cash and cards accepted"
+        ]
+      }
+    },
+    "havana_club_munich": {
+      "id": "havana_club_munich",
+      "name": "Havana Club",
+      "emoji": "🍹",
+      "coordinates": {
+        "lat": 48.1425,
+        "lng": 11.5858
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Altstadt-Lehel",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "30+ year old hidden gem with Cuban speakeasy atmosphere! Dimly lit interiors, extensive rum collection, wide array of cocktails. Authentic moody lighting perfect for dates.",
+      "shortDescription": "Cuban speakeasy bar since 1990s",
+      "imageUrl": "/images/locations/havana.jpg",
+      "transportation": {
+        "transit": [
+          "U4/U5 Lehel (5 min walk)",
+          "Tram 16 Isartor (3 min walk)"
+        ],
+        "walking": "12 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu 6PM-1AM, Fri-Sat 6PM-3AM, Sun 7PM-1AM",
+        "bestTime": "Late evening for full atmosphere (after 9pm). Weeknights for quieter, romantic setting. Fridays/Saturdays get packed.",
+        "tips": [
+          "Over 30 years of Munich history!",
+          "Extensive rum collection - rare bottles available",
+          "Cocktails €10-14",
+          "Moody dim lighting - bring a date!",
+          "Cuban theme throughout - authentic decor",
+          "Tucked away in Altstadt - true hidden gem",
+          "Cash and cards accepted"
+        ]
+      }
+    },
+    "grapes_weinbar": {
+      "id": "grapes_weinbar",
+      "name": "GRAPES Weinbar",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": 48.1369,
+        "lng": 11.5775
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Altstadt-Lehel",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Award-winning wine bar in Old Town (Gold for Best Long List 2024)! Extensive wine list with fair prices. Hosts Winemakers' Night and Grapes & Grooves festival with tastings, music, parties.",
+      "shortDescription": "Award-winning Old Town wine bar",
+      "imageUrl": "/images/locations/grapes.jpg",
+      "transportation": {
+        "transit": [
+          "S-Bahn Marienplatz (3 min walk)",
+          "U3/U6 Marienplatz (3 min walk)"
+        ],
+        "walking": "3 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu 6:30PM-12AM, Fri-Sat 6:30PM-1AM. Closed Sunday",
+        "bestTime": "Early evening (6:30-8pm) for seats. Peak atmosphere 9-11pm. Check for Winemakers' Night events!",
+        "events": [
+          "Winemakers' Night (special tastings)",
+          "Grapes & Grooves - 2-day wine festival",
+          "Wine tasting events throughout year"
+        ],
+        "tips": [
+          "Gold Award for Best Long List 2024!",
+          "Fair pricing for quality wines",
+          "Central Old Town location - very accessible",
+          "Packed bustling atmosphere - arrive early for seats",
+          "Wine by glass €6-12, bottles €20-60",
+          "Up to €30 per person average",
+          "Special events are highlight - check schedule!",
+          "Separate entrance on Ledererstraße 8a"
+        ]
+      }
+    },
+    "zero_dosage": {
+      "id": "zero_dosage",
+      "name": "Zero Dosage",
+      "emoji": "🍾",
+      "coordinates": {
+        "lat": 48.1475,
+        "lng": 11.5648
+      },
+      "radius": 100,
+      "category": "culture",
+      "district": "Maxvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Natural and bio wine specialist! Run by expert Max Hofinger. Wines from Germany, Austria, Spain, France, Italy, Slovenia. Weekly Friday tastings (4 wines, €15-16) and workshops on natural wine.",
+      "shortDescription": "Natural wine bar & shop",
+      "imageUrl": "/images/locations/zero-dosage.jpg",
+      "transportation": {
+        "transit": [
+          "U1 Stiglmaierplatz (3 min walk)",
+          "Tram 20/21 Augustenstraße"
+        ],
+        "walking": "15 minutes from Hauptbahnhof"
+      },
+      "visitInfo": {
+        "bestTime": "Friday evenings for weekly tastings (book ahead!). Weekday afternoons for shopping and advice from owner.",
+        "events": [
+          "Friday wine tastings (4 wines €15-16)",
+          "Natural wine workshops",
+          "Meet-the-winemaker events"
+        ],
+        "tips": [
+          "Pioneer of natural wine in Munich!",
+          "Educational tastings every Friday",
+          "Wine by glass €6-12, bottles €15-40",
+          "Expert curation - ask for recommendations",
+          "Combo wine shop + bar for takeaway",
+          "Learn about natural/bio wine from expert",
+          "Book Friday tastings in advance",
+          "Support for small organic winemakers"
+        ]
+      }
+    },
+    "cafe_gans_am_wasser": {
+      "id": "cafe_gans_am_wasser",
+      "name": "Café Gans am Wasser",
+      "emoji": "☕",
+      "coordinates": {
+        "lat": 48.1265,
+        "lng": 11.5318
+      },
+      "radius": 150,
+      "category": "cafes",
+      "district": "Sendling-Westpark",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Charming Bauwagencafé (trailer cafe) directly on the shore of Mollsee in Westpark! Hybrid between café and beer garden, open almost year-round. Beautiful lakeside setting with peaceful atmosphere.",
+      "shortDescription": "Lakeside trailer cafe in Westpark",
+      "imageUrl": "/images/locations/gans-am-wasser.jpg",
+      "transportation": {
+        "transit": [
+          "U6 Westpark (5 min walk through park)"
+        ],
+        "walking": "Walk through Westpark to Mollsee"
+      },
+      "visitInfo": {
+        "hours": "Mon-Sat 10AM-7PM, Sun 10AM-6PM (check website for seasonal variations)",
+        "bestTime": "Sunny afternoons for lakeside seating. Summer evenings for sunset. Weekday mornings for peaceful coffee by the water.",
+        "tips": [
+          "Right on the shore of Mollsee!",
+          "Moderate prices (€€) - typical cafe pricing",
+          "Bring picnic blanket for lawn seating",
+          "Perfect spot after Westpark walk",
+          "Local favorite - not touristy",
+          "Open almost year-round (rare for outdoor cafe!)",
+          "Beautiful peaceful atmosphere",
+          "Combine with Westpark visit"
+        ]
+      }
+    },
+    "walchensee": {
+      "id": "walchensee",
+      "name": "Walchensee",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 47.5667,
+        "lng": 11.3333
+      },
+      "radius": 800,
+      "category": "nature",
+      "district": "Outside Munich",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Called 'Bavarian Caribbean' for turquoise-green water! 80km south in Bavarian Alps. Ideal for swimming, windsurfing, hiking. Summer temps 17-21°C. South banks have quietest beaches. Stunning mountain views!",
+      "shortDescription": "Turquoise Alpine lake - Bavarian Caribbean",
+      "imageUrl": "/images/locations/walchensee.jpg",
+      "transportation": {
+        "transit": [
+          "Train to Kochel am See, then bus to Walchensee",
+          "Organized day tours from Munich",
+          "Car: 1.5 hours from Munich"
+        ],
+        "walking": "Not walkable from Munich - requires train/bus/car"
+      },
+      "visitInfo": {
+        "bestTime": "Summer (June-August) for swimming and windsurfing. Spring/fall for hiking with fewer crowds. Clear days for spectacular mountain views.",
+        "events": [
+          "Windsurfing competitions",
+          "Mountain hiking events",
+          "Winter ice activities"
+        ],
+        "tips": [
+          "Most spectacular color - turquoise like Caribbean!",
+          "Clearest water of all Munich-area lakes",
+          "South bank beaches €4 parking - worth it for peace!",
+          "Windsurfing paradise - equipment rentals available",
+          "Mountain setting - stunning Alpine scenery",
+          "Less crowded than closer lakes",
+          "Water cooler than other lakes (17-21°C)",
+          "Bring warm layers - mountain weather changes quickly",
+          "Combine with Herzogstand hike for full day"
+        ]
+      }
+    },
+    "tegernsee": {
+      "id": "tegernsee",
+      "name": "Tegernsee",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 47.7333,
+        "lng": 11.75
+      },
+      "radius": 700,
+      "category": "nature",
+      "district": "Outside Munich",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "One of cleanest lakes in Southern Germany! 50km south, surrounded by mountains including 1722m Wallberg. Pristine water quality, multiple swimming areas, upscale spa towns. Train accessible!",
+      "shortDescription": "Pristine mountain lake with spa towns",
+      "imageUrl": "/images/locations/tegernsee.jpg",
+      "transportation": {
+        "transit": [
+          "BOB (Bayerische Oberlandbahn) train from Munich Hbf to Tegernsee (~1 hour)",
+          "Multiple stops: Tegernsee, Rottach-Egern, Bad Wiessee"
+        ],
+        "walking": "From train stations, 5-10 min to lake"
+      },
+      "visitInfo": {
+        "bestTime": "Summer for swimming and water sports. Winter for Christmas markets and skiing nearby. Spring/fall for hiking with beautiful colors.",
+        "events": [
+          "Tegernsee Marathon (spring)",
+          "Christmas markets in lakeside towns",
+          "Spa wellness events",
+          "Traditional Bavarian festivals"
+        ],
+        "tips": [
+          "Cleanest water quality in region!",
+          "Train accessible - no car needed!",
+          "Upscale spa towns - Rottach-Egern, Bad Wiessee",
+          "Some beaches free, some charge €3-6",
+          "Mountain scenery - Wallberg cable car available",
+          "Year-round beauty - even winter is stunning",
+          "Excellent hiking trails nearby",
+          "More upscale than other lakes - beautiful villas",
+          "Combine with Tegernseer brewery visit!"
+        ]
+      }
+    },
+    "nordbad": {
+      "id": "nordbad",
+      "name": "Nordbad",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 48.1736,
+        "lng": 11.5644
+      },
+      "radius": 150,
+      "category": "wellness",
+      "district": "Schwabing-Freimann",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Neoclassical architecture with heated outdoor pool open year-round! Swim in warm water while snow falls! Features rapids, jacuzzis, massage jets. Indoor pools too. Unique winter swimming experience!",
+      "shortDescription": "Year-round heated outdoor pool",
+      "imageUrl": "/images/locations/nordbad.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Hohenzollernplatz (8 min walk)",
+          "Tram 12 Hohenzollernplatz",
+          "Bus 154 to Nordbad"
+        ],
+        "walking": "20 minutes from Universität"
+      },
+      "visitInfo": {
+        "hours": "Daily 7:30 AM - 11 PM (outdoor pool 7:30 AM - 10 PM)",
+        "bestTime": "Winter evenings for unique snow swimming experience! Summer for outdoor relaxation. Early morning for lap swimming.",
+        "tips": [
+          "Heated outdoor pool YEAR-ROUND - swim in winter!",
+          "Jacuzzi, rapids, and massage jets in outdoor pool",
+          "Beautiful neoclassical architecture with columns",
+          "Admission €5-8",
+          "Bring swimsuit and towel",
+          "Magic experience swimming outdoors in snow!",
+          "Indoor pools also available",
+          "Less crowded than Müller'sches Volksbad"
+        ]
+      }
+    },
+    "schyrenbad": {
+      "id": "schyrenbad",
+      "name": "Schyrenbad",
+      "emoji": "🏊",
+      "coordinates": {
+        "lat": 48.1051,
+        "lng": 11.5421
+      },
+      "radius": 200,
+      "category": "nature",
+      "district": "Untergiesing-Harlaching",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's oldest outdoor pool - opened 1847! Right beside Isar River and Rosengarten park. 50m athletic pool, 24°C warm pool, kiddie pool, slide, beer garden. First to open each season (late April)!",
+      "shortDescription": "Oldest pool (1847) next to Isar",
+      "imageUrl": "/images/locations/schyrenbad.jpg",
+      "transportation": {
+        "transit": [
+          "U1/U2 Kolumbusplatz (10 min walk)",
+          "Bus to Schyrenbad stop"
+        ],
+        "walking": "Along Isar River from Glockenbach"
+      },
+      "visitInfo": {
+        "hours": "Seasonal (late April - September)",
+        "bestTime": "Early season (May) - first pool to open! Weekday mornings less crowded. Combine with Isar River walk.",
+        "events": [
+          "Opening ceremony (late April - earliest in Munich!)",
+          "Swimming courses in summer",
+          "End-of-season parties"
+        ],
+        "tips": [
+          "Oldest pool in Munich - 1847!",
+          "First outdoor pool to open each year",
+          "Used for 1972 Olympics training!",
+          "Right next to Isar River and Rosengarten",
+          "Beer garden on-site for post-swim drinks",
+          "Capacity 7,500 - one of the largest",
+          "Admission €5-7",
+          "Historic significance - swimming in history!",
+          "Combine with Isar River trails and cycling"
+        ]
+      }
+    },
+    "hollywood_super_bowling": {
+      "id": "hollywood_super_bowling",
+      "name": "Hollywood Super Bowling",
+      "emoji": "🎳",
+      "coordinates": {
+        "lat": 48.0924,
+        "lng": 11.5042
+      },
+      "radius": 200,
+      "category": "entertainment",
+      "district": "Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's most popular bowling alley! 20 bowling lanes, 2 VIP lounges, darts/foosball/slots. Mexican restaurant MARIELITAS on-site. Over 2000 m² entertainment facility!",
+      "shortDescription": "Popular 20-lane bowling center",
+      "imageUrl": "/images/locations/hollywood-bowling.jpg",
+      "transportation": {
+        "transit": [
+          "U3 Forstenrieder Allee (5 min walk)"
+        ],
+        "walking": "Not walkable from city center"
+      },
+      "visitInfo": {
+        "bestTime": "Weekday afternoons for easy lane availability. Weekend evenings most lively (book ahead!). Friday/Saturday nights can be fully booked.",
+        "tips": [
+          "Most popular bowling in Munich!",
+          "20 lanes total - large facility",
+          "2 VIP lounges for private events",
+          "Mexican restaurant on-site - MARIELITAS",
+          "Darts, foosball, slot machines area",
+          "Lane rental €25-40/hour depending on time",
+          "Book ahead for weekends!",
+          "Over 2000 m² facility",
+          "Great for groups and parties",
+          "U3 accessible - no car needed"
+        ]
+      }
+    },
+    "residenztheater": {
+      "id": "residenztheater",
+      "name": "Residenztheater",
+      "emoji": "🎭",
+      "coordinates": {
+        "lat": 48.1397,
+        "lng": 11.5785
+      },
+      "radius": 150,
+      "category": "culture",
+      "district": "Altstadt-Lehel",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Part of Bavarian State Theatre - one of largest spoken theaters in German-speaking region! Affectionately called 'Resi' by locals. Also houses historic Cuvilliés-Theater and Marstall.",
+      "shortDescription": "Premier state theater ('Resi')",
+      "imageUrl": "/images/locations/residenztheater.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U4/U5/U6 Odeonsplatz (3 min walk)",
+          "S-Bahn Marienplatz (5 min walk)"
+        ],
+        "walking": "5 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "bestTime": "Book tickets in advance for popular productions. Matinees often easier to get. Check season program online.",
+        "events": [
+          "Classic German theater productions",
+          "Contemporary plays",
+          "Special premieres and festivals",
+          "Performances at Cuvilliés-Theater"
+        ],
+        "tips": [
+          "Premier spoken theater in Bavaria!",
+          "Called 'Resi' by locals",
+          "Tickets €15-80+ depending on seat/show",
+          "Box office and performance times vary",
+          "Historic venue in heart of city",
+          "Diverse program from classics to contemporary",
+          "Book popular shows weeks in advance",
+          "Student discounts available",
+          "Also includes beautiful rococo Cuvilliés-Theater"
+        ]
+      }
+    },
+    "dream_bowl_palace": {
+      "id": "dream_bowl_palace",
+      "name": "Dream-Bowl Palace",
+      "emoji": "🎳",
+      "coordinates": {
+        "lat": 48.1922,
+        "lng": 11.6431
+      },
+      "radius": 250,
+      "category": "entertainment",
+      "district": "Outside Munich (Unterföhring)",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Largest bowling center in EUROPE with 52 modern lanes! Separate kids area with bumper lanes. Restaurant and bar on-site. Massive facility perfect for groups!",
+      "shortDescription": "Europe's largest bowling (52 lanes!)",
+      "imageUrl": "/images/locations/dream-bowl.jpg",
+      "transportation": {
+        "transit": [
+          "S8 to Johanneskirchen, then Bus 233",
+          "Bus 50 to Fritz-Meyer-Weg"
+        ],
+        "walking": "Not walkable from city center"
+      },
+      "visitInfo": {
+        "hours": "Tue-Thu 3PM-11PM, Fri 2PM-1AM, Sat 11AM-1AM, Sun 12PM-11PM. Closed Monday",
+        "bestTime": "Weekday afternoons for easy availability. Weekend mornings for families. Friday/Saturday nights most lively.",
+        "tips": [
+          "LARGEST in Europe - 52 lanes!",
+          "Kids area with bumper lanes - family-friendly",
+          "Restaurant and bar on-site",
+          "Massive facility for large group events",
+          "Lane rental varies by time",
+          "Book ahead for weekend evenings",
+          "S-Bahn accessible (S8)",
+          "Worth the trip for the sheer size!",
+          "Perfect for birthday parties and events"
+        ]
+      }
+    },
+    "beacharena_munich": {
+      "id": "beacharena_munich",
+      "name": "Beacharena Munich",
+      "emoji": "🏐",
+      "coordinates": {
+        "lat": 48.1856,
+        "lng": 11.6147
+      },
+      "radius": 300,
+      "category": "sports",
+      "district": "Freimann",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "One of Munich's largest outdoor beach sports facilities! 9 beach volleyball courts, 5 tennis courts, 1 beach soccer field, 1 beach badminton court. Open-air summer beach atmosphere in the city!",
+      "shortDescription": "Large beach sports complex",
+      "imageUrl": "/images/locations/beacharena.jpg",
+      "transportation": {
+        "transit": [
+          "U6 Studentenstadt (15 min walk)",
+          "Bus 50/59 to nearby stops"
+        ],
+        "walking": "Near Englischer Garten northern section"
+      },
+      "visitInfo": {
+        "hours": "April-October, Mon-Sun 9 AM - 10 PM (potentially to midnight)",
+        "bestTime": "Summer evenings for pickup games. Weekends most active. Book courts in advance for guaranteed spot.",
+        "events": [
+          "Beach volleyball leagues and tournaments",
+          "Corporate events and team building",
+          "Open play pickup games"
+        ],
+        "tips": [
+          "Largest beach sports facility in Munich!",
+          "9 volleyball + 5 tennis + soccer + badminton courts",
+          "Court rental by hour",
+          "Summer beach atmosphere in city",
+          "Great for pickup games - meet people!",
+          "Leagues available for regular play",
+          "U6 accessible",
+          "Book ahead for guaranteed court time",
+          "Bring sunscreen - full sun exposure!"
+        ]
+      }
+    },
+    "broeding": {
+      "id": "broeding",
+      "name": "Broeding",
+      "emoji": "🍽️",
+      "coordinates": {
+        "lat": 48.1305,
+        "lng": 11.5755
+      },
+      "radius": 100,
+      "category": "restaurants",
+      "district": "Altstadt-Lehel",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Ultra-exclusive fine dining experience with surprise 6-course menus. No menu, no choice - just trust the chef! Only 12 seats, reservations essential. One of Munich's most unique culinary adventures.",
+      "shortDescription": "Exclusive 12-seat restaurant with surprise tasting menus",
+      "imageUrl": "/images/locations/broeding.jpg",
+      "transportation": {
+        "transit": [
+          "U3/U6 Odeonsplatz (6 min walk)",
+          "Tram 19 Nationaltheater (4 min walk)",
+          "S1/S2/S4/S8 Marienplatz (10 min walk)"
+        ],
+        "walking": "12 minutes from Marienplatz, in historic center"
+      },
+      "visitInfo": {
+        "hours": "Wed-Sat evenings only, by reservation. Closed Sun-Tue. Dinner seatings typically 7 PM.",
+        "bestTime": "Book 2-3 weeks ahead minimum! Wednesday or Thursday for better availability. Intimate date night or special occasion.",
+        "events": [
+          "Seasonal menu changes (chef's inspiration)",
+          "Wine pairing options available",
+          "Special themed dinners occasionally"
+        ],
+        "tips": [
+          "Only 12 seats total - tiny, intimate space!",
+          "No menu - surprise 6-course tasting experience",
+          "Chef decides everything based on seasonal ingredients",
+          "Trust the chef philosophy - adventurous eaters only!",
+          "Reservations ESSENTIAL - books weeks in advance",
+          "Expect €100-150+ per person with wine",
+          "Dietary restrictions? Mention when booking",
+          "One of Munich's most exclusive dining experiences",
+          "Cash preferred, confirm payment options ahead",
+          "Dress smart casual to formal"
+        ]
+      }
+    },
+    "caspar_plautz": {
+      "id": "caspar_plautz",
+      "name": "Caspar Plautz",
+      "emoji": "☕",
+      "coordinates": {
+        "lat": 48.1287,
+        "lng": 11.5638
+      },
+      "radius": 80,
+      "category": "cafes",
+      "district": "Maxvorstadt",
+      "difficulty": "easy",
+      "unlockLevel": 1,
+      "description": "Hidden neighborhood cafe gem with best homemade cakes and cozy atmosphere. Local favorite in Maxvorstadt - perfect for afternoon coffee and people-watching. Tiny but charming!",
+      "shortDescription": "Cozy hidden cafe with incredible homemade cakes",
+      "imageUrl": "/images/locations/caspar_plautz.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Theresienstraße (5 min walk)",
+          "U1 Stiglmaierplatz (8 min walk)",
+          "Tram 27 Augustenstraße (3 min walk)",
+          "Bus 58 Augustenstraße (3 min walk)"
+        ],
+        "walking": "15 minutes from Hauptbahnhof, quiet Maxvorstadt street"
+      },
+      "visitInfo": {
+        "hours": "Mon-Sat 9 AM - 7 PM, Sun 10 AM - 6 PM. Breakfast served until 2 PM.",
+        "bestTime": "Weekend brunch 10 AM - 1 PM. Weekday afternoons for quiet cake & coffee. Sunny days for sidewalk seating.",
+        "events": [
+          "Daily rotating cake selection",
+          "Seasonal specials and soups",
+          "Sunday brunch favorite"
+        ],
+        "tips": [
+          "Local insider secret - not touristy!",
+          "Homemade cakes are legendary - try the cheesecake",
+          "Small space - can get cozy/crowded weekends",
+          "Great breakfast options until 2 PM",
+          "Sidewalk seating in nice weather",
+          "Perfect for laptop work on quiet weekdays",
+          "Cash only - no cards!",
+          "Friendly neighborhood vibe",
+          "Often has interesting art on walls",
+          "Part of Maxvorstadt cafe scene"
+        ]
+      }
+    },
+    "prinzregentenbad": {
+      "id": "prinzregentenbad",
+      "name": "Prinzregentenbad",
+      "emoji": "🏊",
+      "coordinates": {
+        "lat": 48.1327,
+        "lng": 11.6015
+      },
+      "radius": 150,
+      "category": "wellness",
+      "district": "Bogenhausen",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Beautiful outdoor pool complex on Isar river with 50m Olympic pool, diving towers, beach volleyball, and sun lawns. Historic pool (1900s) with modern facilities. Summer swimming paradise!",
+      "shortDescription": "Scenic riverside Olympic pool with beach volleyball",
+      "imageUrl": "/images/locations/prinzregentenbad.jpg",
+      "transportation": {
+        "transit": [
+          "Tram 16 Prinzregentenplatz (8 min walk)",
+          "Bus 54/100 Prinzregentenplatz (8 min walk)",
+          "U4 Prinzregentenplatz (12 min walk)"
+        ],
+        "walking": "Along Isar riverbank, scenic approach from city center"
+      },
+      "visitInfo": {
+        "hours": "May-September: Daily 7 AM - 8 PM (weather dependent). Closed October-April (outdoor only).",
+        "bestTime": "Early morning 7-9 AM for lap swimmers. Late afternoon for families. Weekends busy - go weekdays if possible.",
+        "events": [
+          "Swimming lessons and courses",
+          "Beach volleyball tournaments summer weekends",
+          "Aqua fitness classes",
+          "Open water swim training"
+        ],
+        "tips": [
+          "One of Munich's most beautiful outdoor pools!",
+          "50-meter Olympic-size pool for serious swimmers",
+          "Diving boards and platforms (1m, 3m, 5m, 10m)",
+          "Beach volleyball courts on site",
+          "Large sunbathing lawns with river views",
+          "Non-swimmer pool for kids/families",
+          "Bring picnic - food area available",
+          "Entry ~€6 adults / €3 children",
+          "Lockers available (bring €1 coin)",
+          "Direct Isar riverbank location - stunning setting",
+          "Popular with locals - arrive early weekends",
+          "Historic pool renovated with modern amenities"
+        ]
+      }
+    },
+    "escapegame_munich": {
+      "id": "escapegame_munich",
+      "name": "EscapeGame Munich",
+      "emoji": "🔐",
+      "coordinates": {
+        "lat": 48.1367,
+        "lng": 11.5558
+      },
+      "radius": 80,
+      "category": "entertainment",
+      "district": "Maxvorstadt",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Premium escape room experience with 10+ immersive themed rooms. Solve puzzles, crack codes, find clues - escape within 60 minutes! Perfect for groups, team building, or date nights. Munich's highest-rated escape room!",
+      "shortDescription": "Immersive escape room puzzles and team challenges",
+      "imageUrl": "/images/locations/escapegame.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Theresienstraße (3 min walk)",
+          "U2 Königsplatz (5 min walk)",
+          "Tram 27/28 Karolinenplatz (4 min walk)"
+        ],
+        "walking": "10 minutes from Hauptbahnhof"
+      },
+      "visitInfo": {
+        "hours": "Mon-Sun 10 AM - 11 PM (last game starts 10 PM). Book online in advance!",
+        "bestTime": "Weekday evenings less crowded. Weekend afternoons for groups. Book 1-2 weeks ahead for prime slots.",
+        "events": [
+          "Corporate team building packages",
+          "Birthday party specials",
+          "New room themes added regularly",
+          "Special holiday-themed rooms"
+        ],
+        "tips": [
+          "10+ different themed escape rooms!",
+          "Themes: heist, horror, adventure, sci-fi, mystery",
+          "2-6 players per room (some rooms up to 8)",
+          "60 minutes to escape - all rooms",
+          "Difficulty levels: beginner to expert",
+          "€25-35 per person depending on group size",
+          "Book online - walk-ins rare",
+          "Great for rainy days!",
+          "Team building packages available",
+          "Multilingual games (English + German)",
+          "Arrive 10 minutes early for briefing",
+          "Beginner? Try 'The Bank Heist' or 'Lost Temple'"
+        ]
+      }
+    },
+    "goldene_bar": {
+      "id": "goldene_bar",
+      "name": "Goldene Bar (Haus der Kunst)",
+      "emoji": "🍸",
+      "coordinates": {
+        "lat": 48.1425,
+        "lng": 11.5866
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Altstadt-Lehel",
+      "difficulty": "medium",
+      "unlockLevel": 3,
+      "description": "Stunning art deco bar inside the famous Haus der Kunst museum. Gold-leaf walls, marble floors, sophisticated cocktails. Munich's most beautiful bar - perfect mix of culture and nightlife!",
+      "shortDescription": "Glamorous art deco museum bar with golden interior",
+      "imageUrl": "/images/locations/goldene_bar.jpg",
+      "transportation": {
+        "transit": [
+          "Tram 16 Nationalmuseum/Haus der Kunst (1 min walk)",
+          "U4/U5 Lehel (8 min walk)",
+          "Bus 100 Haus der Kunst (direct)"
+        ],
+        "walking": "15 minutes from Marienplatz via Englischer Garten"
+      },
+      "visitInfo": {
+        "hours": "Tue-Sat 7 PM - 1 AM, Sun 6 PM - midnight. Closed Mon. Kitchen until 11 PM.",
+        "bestTime": "Early evening 7-9 PM for seats. Thursday-Saturday busiest. Sunday evenings more relaxed, cultured crowd.",
+        "events": [
+          "DJ sets Thursday-Saturday nights",
+          "Seasonal cocktail menu changes",
+          "Art exhibition openings (museum events)",
+          "Live jazz occasionally"
+        ],
+        "tips": [
+          "Most beautiful bar in Munich!",
+          "Literally golden walls - Art Deco masterpiece",
+          "Inside Haus der Kunst contemporary art museum",
+          "No museum ticket needed for bar!",
+          "Sophisticated cocktails €12-16",
+          "Small bites and snacks available",
+          "Dress smart casual - upscale vibe",
+          "Great spot before/after museum visit",
+          "English Garden view from terrace summer",
+          "Popular with art crowd and culture enthusiasts",
+          "Can get very busy weekends - arrive early",
+          "Perfect for special occasion drinks"
+        ]
+      }
+    },
+    "ton_und_textil": {
+      "id": "ton_und_textil",
+      "name": "Ton und Textil",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 48.1289,
+        "lng": 11.5542
+      },
+      "radius": 80,
+      "category": "entertainment",
+      "district": "Maxvorstadt",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Creative pottery and ceramic painting workshop. Make your own mug, bowl, or art piece! No experience needed - perfect for rainy days, dates, or unleashing creativity. Glazing and firing included!",
+      "shortDescription": "Pottery painting workshop - create your own ceramics",
+      "imageUrl": "/images/locations/pottery.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Königsplatz (6 min walk)",
+          "U1 Stiglmaierplatz (7 min walk)",
+          "Tram 27 Stiglmaierplatz (6 min walk)"
+        ],
+        "walking": "12 minutes from Hauptbahnhof"
+      },
+      "visitInfo": {
+        "hours": "Tue-Fri 2 PM - 8 PM, Sat-Sun 11 AM - 7 PM. Closed Mon. Drop-in or book workshops.",
+        "bestTime": "Weekend mornings for workshops. Weekday evenings for drop-in painting. Great rainy day activity!",
+        "events": [
+          "Pottery wheel workshops (weekend mornings)",
+          "Kids birthday parties",
+          "Team building workshops",
+          "Date night pottery classes"
+        ],
+        "tips": [
+          "No experience necessary - super beginner friendly!",
+          "Choose blank ceramic piece, paint it, they glaze & fire",
+          "Pick up finished piece 1-2 weeks later (or mail)",
+          "Prices: €15-45 depending on piece size",
+          "Pottery wheel courses available (book ahead)",
+          "Perfect creative date idea!",
+          "Great for rainy days",
+          "Kids workshops available",
+          "All materials included in price",
+          "Bring your own creativity!",
+          "Coffee/tea while you work",
+          "Drop-in painting no reservation needed (check availability)"
+        ]
+      }
+    },
+    "monkey_island_karaoke": {
+      "id": "monkey_island_karaoke",
+      "name": "Monkey's Island",
+      "emoji": "🎤",
+      "coordinates": {
+        "lat": 48.1312,
+        "lng": 11.5692
+      },
+      "radius": 100,
+      "category": "nightlife",
+      "district": "Maxvorstadt",
+      "difficulty": "easy",
+      "unlockLevel": 2,
+      "description": "Munich's most fun karaoke bar with private rooms and great song selection! Rent a room with friends, order drinks, sing your heart out. English and German songs. No judgment, all fun!",
+      "shortDescription": "Private karaoke rooms with huge song selection",
+      "imageUrl": "/images/locations/karaoke.jpg",
+      "transportation": {
+        "transit": [
+          "U2 Königsplatz (5 min walk)",
+          "U3/U6 Odeonsplatz (7 min walk)",
+          "Tram 27 Karolinenplatz (3 min walk)"
+        ],
+        "walking": "8 minutes from Marienplatz"
+      },
+      "visitInfo": {
+        "hours": "Mon-Thu 6 PM - 2 AM, Fri-Sat 6 PM - 4 AM, Sun 6 PM - 1 AM. Book rooms in advance!",
+        "bestTime": "Weeknights easier to book. Weekend peak hours (9 PM - midnight) book days ahead. Thursday nights popular.",
+        "events": [
+          "Birthday party packages",
+          "Corporate event rooms",
+          "Themed karaoke nights",
+          "Happy hour drink specials"
+        ],
+        "tips": [
+          "Private soundproof karaoke rooms!",
+          "Book room by hour - €10-20/hour depending on size",
+          "Rooms for 2-12 people available",
+          "Huge song catalog - English, German, international",
+          "Touchscreen song selection - super easy",
+          "Order drinks delivered to your room",
+          "No judgment - private rooms are key!",
+          "Perfect for birthday parties",
+          "Great first date if both love karaoke",
+          "Reservation highly recommended weekends",
+          "Minimum 2-hour booking peak times",
+          "Bring your vocal courage and friends!"
+        ]
+      }
     }
   },
   "quizzes": {
