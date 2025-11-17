@@ -4533,7 +4533,12 @@
           "U3 accessible - no car needed"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "hollywood_super_bowling_1",
+        "hollywood_super_bowling_2",
+        "hollywood_super_bowling_3",
+        "hollywood_super_bowling_4"
+      ]
     },
     "residenztheater": {
       "id": "residenztheater",
@@ -4873,7 +4878,12 @@
           "Beginner? Try 'The Bank Heist' or 'Lost Temple'"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "escapegame_munich_1",
+        "escapegame_munich_2",
+        "escapegame_munich_3",
+        "escapegame_munich_4"
+      ]
     },
     "goldene_bar": {
       "id": "goldene_bar",
@@ -4923,7 +4933,12 @@
           "Perfect for special occasion drinks"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "goldene_bar_1",
+        "goldene_bar_2",
+        "goldene_bar_3",
+        "goldene_bar_4"
+      ]
     },
     "ton_und_textil": {
       "id": "ton_und_textil",
@@ -6363,7 +6378,12 @@
           "Perfect rainy day activity!"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "send_climbing_1",
+        "send_climbing_2",
+        "send_climbing_3",
+        "send_climbing_4"
+      ]
     },
     "isar_flossfahrt": {
       "id": "isar_flossfahrt",
@@ -6642,7 +6662,12 @@
       "description": "Famous bike tours through Munich with expert guides! City highlights tour, beer garden tour, Third Reich historical tour, Neuschwanstein day trip. Fun, informative, and the best way to see Munich efficiently!",
       "shortDescription": "Guided bike tours - city highlights & beer gardens",
       "imageUrl": "/images/locations/bike_tours.jpg",
-      "quizIds": [],
+      "quizIds": [
+        "mikes_bike_tours_1",
+        "mikes_bike_tours_2",
+        "mikes_bike_tours_3",
+        "mikes_bike_tours_4"
+      ],
       "transportation": {
         "transit": [
           "S/U Marienplatz (5 min walk)",
@@ -6691,7 +6716,12 @@
       "description": "Massive adventure sports complex! Indoor skydiving, surfing, trampolines, climbing, bodyflying. Experience extreme sports safely indoors. Perfect for adrenaline junkies and unique experiences!",
       "shortDescription": "Indoor skydiving, surfing & adventure sports",
       "imageUrl": "/images/locations/jochen_schweizer.jpg",
-      "quizIds": [],
+      "quizIds": [
+        "jochen_schweizer_arena_1",
+        "jochen_schweizer_arena_2",
+        "jochen_schweizer_arena_3",
+        "jochen_schweizer_arena_4"
+      ],
       "transportation": {
         "transit": [
           "S7 to Taufkirchen, then bus 222 (15 min)",
@@ -6742,7 +6772,12 @@
       "description": "Learn to surf the famous Eisbach river wave! Professional instruction for Munich's iconic standing wave. Advanced only - requires strong swimming and surfing background. Unique urban surfing experience!",
       "shortDescription": "Surf lessons on the famous Eisbach wave",
       "imageUrl": "/images/locations/eisbach_lessons.jpg",
-      "quizIds": [],
+      "quizIds": [
+        "eisbachwelle_surf_school_1",
+        "eisbachwelle_surf_school_2",
+        "eisbachwelle_surf_school_3",
+        "eisbachwelle_surf_school_4"
+      ],
       "transportation": {
         "transit": [
           "U4/U5 Lehel (5 min walk)",
@@ -6890,7 +6925,12 @@
       "description": "Public ice skating at Olympic Park! Indoor and outdoor rinks, skate rental, lessons available. Fun winter activity in iconic Olympic venue. Perfect for all skill levels!",
       "shortDescription": "Ice skating at Olympic Park rinks",
       "imageUrl": "/images/locations/ice_skating.jpg",
-      "quizIds": [],
+      "quizIds": [
+        "ice_skating_olympiapark_1",
+        "ice_skating_olympiapark_2",
+        "ice_skating_olympiapark_3",
+        "ice_skating_olympiapark_4"
+      ],
       "transportation": {
         "transit": [
           "U3 Olympiazentrum (5 min walk)",
@@ -6940,7 +6980,12 @@
       "description": "Massive indoor trampoline park with ninja course, foam pits, dodgeball, basketball dunking! Fun workout for all ages. Perfect rainy day activity or birthday parties. Bounce until you drop!",
       "shortDescription": "Huge trampoline park with ninja course",
       "imageUrl": "/images/locations/fliplab.jpg",
-      "quizIds": [],
+      "quizIds": [
+        "fliplab_trampoline_1",
+        "fliplab_trampoline_2",
+        "fliplab_trampoline_3",
+        "fliplab_trampoline_4"
+      ],
       "transportation": {
         "transit": [
           "U6 Fröttmaning (10 min walk)",
@@ -14677,6 +14722,834 @@
         "location",
         "karlsplatz",
         "stachus"
+      ]
+    },
+    "escapegame_munich_1": {
+      "id": "escapegame_munich_1",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is the main goal in an escape room game?",
+      "options": [
+        "To find hidden treasure",
+        "To solve puzzles and escape within a time limit",
+        "To compete in a race",
+        "To build something"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "In escape rooms, teams work together to solve puzzles, find clues, and complete challenges to 'escape' from a themed room - usually within 60 minutes!",
+      "funFact": "The escape room concept originated in Japan in 2007 and quickly spread worldwide. Munich now has dozens of escape room venues with themes from zombie apocalypses to heists!",
+      "tags": [
+        "concept",
+        "gameplay",
+        "teamwork"
+      ]
+    },
+    "escapegame_munich_2": {
+      "id": "escapegame_munich_2",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How many people typically play in an escape room team?",
+      "options": [
+        "Always solo - one person only",
+        "2-6 players work together as a team",
+        "Exactly 10 players",
+        "As many as can fit in the room"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Most escape rooms are designed for 2-6 players working as a team. Some rooms can accommodate more, but teamwork and communication are key to success!",
+      "funFact": "Studies show that teams of 4-5 people have the highest escape success rates - enough diversity of thinking without too much chaos!",
+      "tags": [
+        "teamwork",
+        "group-size",
+        "strategy"
+      ]
+    },
+    "escapegame_munich_3": {
+      "id": "escapegame_munich_3",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What percentage of teams typically succeed in escaping within the time limit?",
+      "options": [
+        "About 90% - most teams escape",
+        "About 60% - more than half escape",
+        "About 30% - it's quite challenging!",
+        "Less than 5% - almost impossible"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Industry-wide, only about 20-40% of teams successfully escape! Good escape rooms are designed to be challenging but fun, even if you don't win.",
+      "funFact": "Don't feel bad if you don't escape - the real fun is in the teamwork, problem-solving, and the 'aha!' moments when you crack a puzzle!",
+      "tags": [
+        "statistics",
+        "difficulty",
+        "success-rate"
+      ]
+    },
+    "escapegame_munich_4": {
+      "id": "escapegame_munich_4",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's the best strategy for escape room success?",
+      "options": [
+        "One person should solve everything alone",
+        "Communicate constantly and work as a team",
+        "Rush through without thinking",
+        "Ignore the hints from staff"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Communication is KEY! Successful teams share discoveries immediately, work on different puzzles simultaneously, and aren't afraid to ask for hints when stuck.",
+      "funFact": "The phrase 'there's no 'I' in team' was practically invented for escape rooms! Teams that communicate well escape 3x more often than those where everyone works independently.",
+      "tags": [
+        "strategy",
+        "communication",
+        "tips"
+      ]
+    },
+    "mikes_bike_tours_1": {
+      "id": "mikes_bike_tours_1",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What's the best way to see Munich like a local?",
+      "options": [
+        "Only by car",
+        "On a bike tour through the city",
+        "Never leave your hotel",
+        "Only take taxis"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Munich is one of the most bike-friendly cities in Germany! With over 1,200 km of bike paths, cycling is the perfect way to explore the city like locals do.",
+      "funFact": "About 20% of Munich's traffic is bike traffic! You'll see everyone from businesspeople in suits to grandmas cycling around - it's part of Munich's DNA.",
+      "tags": [
+        "cycling",
+        "munich",
+        "local-life"
+      ]
+    },
+    "mikes_bike_tours_2": {
+      "id": "mikes_bike_tours_2",
+      "locationId": "mikes_bike_tours",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Which famous Munich location is typically included in bike tours?",
+      "options": [
+        "Only modern shopping malls",
+        "English Garden, one of the world's largest urban parks",
+        "The airport runway",
+        "Underground tunnels only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The English Garden is a highlight of most bike tours! At 3.7 km², it's actually larger than New York's Central Park and perfect for cycling!",
+      "funFact": "You can bike from the English Garden to the Isar River, past beer gardens, and even see the famous Eisbach surfers - all in one tour!",
+      "tags": [
+        "english-garden",
+        "routes",
+        "highlights"
+      ]
+    },
+    "mikes_bike_tours_3": {
+      "id": "mikes_bike_tours_3",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What's unique about Munich's 'Third Reich & WWII' bike tours?",
+      "options": [
+        "They avoid all historical sites",
+        "They explore Munich's dark history and resistance movements",
+        "They only show happy places",
+        "They don't exist"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "These tours visit sites where the Nazi party started, but also highlight Munich's resistance movements like the White Rose student group who opposed Hitler.",
+      "funFact": "Munich was called the 'Capital of the Movement' by the Nazis because Hitler's Beer Hall Putsch started here in 1923. But the city also had brave resistors like Sophie Scholl and the White Rose!",
+      "tags": [
+        "history",
+        "wwii",
+        "resistance"
+      ]
+    },
+    "mikes_bike_tours_4": {
+      "id": "mikes_bike_tours_4",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How long is a typical Munich bike tour?",
+      "options": [
+        "10 minutes - very quick",
+        "3-4 hours covering major sights",
+        "24 hours non-stop",
+        "2 full days"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Most bike tours last 3-4 hours and cover 10-15 km, with plenty of stops to explore sights, hear stories, and take photos - perfect for seeing the city without exhausting yourself!",
+      "funFact": "The tours usually include a beer garden stop! Nothing beats learning about Munich history while enjoying a Maß in a traditional beer garden.",
+      "tags": [
+        "duration",
+        "distance",
+        "experience"
+      ]
+    },
+    "jochen_schweizer_arena_1": {
+      "id": "jochen_schweizer_arena_1",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "Who is Jochen Schweizer?",
+      "options": [
+        "A famous chef",
+        "A German extreme sports pioneer and entrepreneur",
+        "A classical musician",
+        "A politician"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Jochen Schweizer is a German extreme sports legend and entrepreneur who founded Germany's largest experience gift company. The arena is his dream project!",
+      "funFact": "Jochen was a professional bungee jumper and stuntman! He once jumped from the 85-meter-high Bavaria statue in Munich - which was totally illegal but made him famous!",
+      "tags": [
+        "founder",
+        "extreme-sports",
+        "entrepreneur"
+      ]
+    },
+    "jochen_schweizer_arena_2": {
+      "id": "jochen_schweizer_arena_2",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What activities can you do at the Jochen Schweizer Arena?",
+      "options": [
+        "Only watch sports on TV",
+        "Indoor skydiving, surfing, climbing, and more",
+        "Only sit in a sauna",
+        "Just eat at the restaurant"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The arena is an adventure playground with indoor skydiving (bodyflying), indoor surfing, climbing walls, escape rooms, virtual reality experiences, and more - all under one roof!",
+      "funFact": "The indoor skydiving wind tunnel uses the same technology NASA uses to train astronauts! You can literally fly like a superhero.",
+      "tags": [
+        "activities",
+        "adventure",
+        "variety"
+      ]
+    },
+    "jochen_schweizer_arena_3": {
+      "id": "jochen_schweizer_arena_3",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "When did the Jochen Schweizer Arena open?",
+      "options": [
+        "1990",
+        "2005",
+        "2019",
+        "2023"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The arena opened in 2019 in Taufkirchen, just outside Munich, becoming Europe's largest adventure hall at over 13,000 square meters!",
+      "funFact": "It took Jochen Schweizer over 10 years to realize his dream of building this arena. He wanted to create a place where anyone could try extreme sports safely!",
+      "tags": [
+        "opening",
+        "history",
+        "facility"
+      ]
+    },
+    "jochen_schweizer_arena_4": {
+      "id": "jochen_schweizer_arena_4",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners try activities at the Jochen Schweizer Arena?",
+      "options": [
+        "No, only professionals allowed",
+        "Yes! Everything is designed for beginners with professional instruction",
+        "Only children can participate",
+        "You need years of training first"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Absolutely! The arena was specifically designed for beginners. Professional instructors guide you through everything, from your first 'flight' to catching your first wave on the surf simulator!",
+      "funFact": "Most people who try indoor skydiving there have never done anything like it before. The instructors say the hardest part is convincing people to relax and enjoy the wind - then they don't want to stop!",
+      "tags": [
+        "beginners",
+        "instruction",
+        "accessibility"
+      ]
+    },
+    "goldene_bar_1": {
+      "id": "goldene_bar_1",
+      "locationId": "goldene_bar",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Where is the Goldene Bar located?",
+      "options": [
+        "In a shopping mall",
+        "In the Haus der Kunst (House of Art)",
+        "At the airport",
+        "In Marienplatz"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Goldene Bar is located inside the Haus der Kunst, one of Munich's premier contemporary art museums. It's where art meets nightlife!",
+      "funFact": "The bar is named 'Golden' after the building's historical significance and its glamorous atmosphere. You can literally have cocktails surrounded by world-class art!",
+      "tags": [
+        "location",
+        "haus-der-kunst",
+        "art"
+      ]
+    },
+    "goldene_bar_2": {
+      "id": "goldene_bar_2",
+      "locationId": "goldene_bar",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What was the Haus der Kunst building originally used for?",
+      "options": [
+        "A royal palace",
+        "It was built by the Nazis as an art exhibition hall (1937)",
+        "A beer hall",
+        "A train station"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Haus der Kunst was built in 1937 under Nazi rule as 'Haus der Deutschen Kunst' to showcase Nazi-approved art. Today, it's been reclaimed as a world-renowned contemporary art museum!",
+      "funFact": "The building's dark past is acknowledged through educational exhibits. The transformation from Nazi propaganda venue to cutting-edge contemporary art space symbolizes Munich's reckoning with history!",
+      "tags": [
+        "history",
+        "nazis",
+        "transformation"
+      ]
+    },
+    "goldene_bar_3": {
+      "id": "goldene_bar_3",
+      "locationId": "goldene_bar",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes the Goldene Bar special?",
+      "options": [
+        "It's just a regular bar",
+        "It combines art, culture, and nightlife in a unique setting",
+        "It only serves water",
+        "It's always empty"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Goldene Bar is where Munich's art crowd, intellectuals, and night owls meet. You can enjoy cocktails before or after viewing world-class exhibitions!",
+      "funFact": "The bar often hosts DJs and special events during major art exhibitions. It's not uncommon to discuss contemporary art over cocktails with actual artists!",
+      "tags": [
+        "atmosphere",
+        "culture",
+        "nightlife"
+      ]
+    },
+    "goldene_bar_4": {
+      "id": "goldene_bar_4",
+      "locationId": "goldene_bar",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's unique about the Goldene Bar's location in the English Garden?",
+      "options": [
+        "It's underground",
+        "It's at the southern edge of the English Garden with great views",
+        "It moves around the park",
+        "It's in a tree house"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Haus der Kunst sits at the southern edge of the English Garden. In summer, you can enjoy drinks on the terrace overlooking the park - art and nature combined!",
+      "funFact": "On warm evenings, the crowd spills out onto the terrace. You can have a cocktail while watching joggers, cyclists, and even the occasional surfer heading to the Eisbach!",
+      "tags": [
+        "location",
+        "english-garden",
+        "views"
+      ]
+    },
+    "eisbachwelle_surf_school_1": {
+      "id": "eisbachwelle_surf_school_1",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes the Eisbach wave special?",
+      "options": [
+        "It's in the ocean",
+        "It's a man-made standing wave in a river, perfect for surfing",
+        "It only appears once a year",
+        "It's the world's smallest wave"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Eisbach wave is a standing wave created by the river's flow under a bridge. It's one of the world's best-known river surfing spots - and it never stops!",
+      "funFact": "People surf here 365 days a year, even in snow and freezing temperatures! Watching surfers in winter with snow on the banks is surreal.",
+      "tags": [
+        "eisbach",
+        "river-surfing",
+        "unique"
+      ]
+    },
+    "eisbachwelle_surf_school_2": {
+      "id": "eisbachwelle_surf_school_2",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Was river surfing on the Eisbach always legal?",
+      "options": [
+        "Yes, always legal",
+        "No, it was illegal until 2010!",
+        "It's still illegal today",
+        "Only legal on weekends"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Eisbach surfing was technically illegal for decades! The city finally legalized it in 2010 after surfers had been doing it anyway since the 1970s. Rebellious Munich at its finest!",
+      "funFact": "For 40 years, surfers risked fines to ride the wave. The signs saying 'Lebensgefahr! Surfing verboten!' (Danger to life! Surfing prohibited!) are now legendary - and ignored by thousands!",
+      "tags": [
+        "history",
+        "legal",
+        "rebellion"
+      ]
+    },
+    "eisbachwelle_surf_school_3": {
+      "id": "eisbachwelle_surf_school_3",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How cold is the Eisbach water typically?",
+      "options": [
+        "Tropical warm",
+        "Around 10-15°C (50-59°F) year-round",
+        "Boiling hot",
+        "Frozen solid"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Eisbach (meaning 'Ice Brook') lives up to its name! Fed by Alpine springs, the water stays around 10-15°C year-round. Wetsuits are absolutely essential!",
+      "funFact": "Hardcore locals surf in winter when the water is barely above freezing. You'll see surfers emerging with icicles in their hair - that's commitment!",
+      "tags": [
+        "temperature",
+        "conditions",
+        "challenge"
+      ]
+    },
+    "eisbachwelle_surf_school_4": {
+      "id": "eisbachwelle_surf_school_4",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners take lessons at the Eisbach wave?",
+      "options": [
+        "The main wave is too dangerous; lessons are at safer practice waves",
+        "Yes, anyone can jump right into the main wave",
+        "No lessons are available",
+        "Only Olympic athletes allowed"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The famous Eisbach wave is for experienced surfers only - it's fast, shallow, and has a concrete bottom! Surf schools teach beginners at smaller, safer waves downstream first.",
+      "funFact": "Even experienced ocean surfers struggle with river surfing at first! The wave is stationary, so you can't paddle into it - you have to jump on from the side. Many pros have spectacular wipeouts!",
+      "tags": [
+        "lessons",
+        "difficulty",
+        "safety"
+      ]
+    },
+    "fliplab_trampoline_1": {
+      "id": "fliplab_trampoline_1",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is FLIPLAB Trampoline Park?",
+      "options": [
+        "A science laboratory",
+        "An indoor trampoline park with various jumping activities",
+        "A dance studio",
+        "A swimming pool"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "FLIPLAB is an indoor trampoline park where you can jump, flip, and play on interconnected trampolines, foam pits, dodgeball courts, and obstacle courses!",
+      "funFact": "The average person burns about 1,000 calories per hour at a trampoline park - that's more than running! It's a workout that doesn't feel like work.",
+      "tags": [
+        "concept",
+        "trampolines",
+        "fun"
+      ]
+    },
+    "fliplab_trampoline_2": {
+      "id": "fliplab_trampoline_2",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What activities can you do at FLIPLAB besides just jumping?",
+      "options": [
+        "Only standing still",
+        "Dodgeball, basketball dunking, foam pit, and parkour",
+        "Only watch TV",
+        "Swimming"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "FLIPLAB offers trampoline dodgeball, slam dunk basketball, foam pits for practicing flips, parkour courses, and more - it's not just bouncing!",
+      "funFact": "The foam pits contain thousands of foam cubes. When you land in one, you basically disappear! People often joke about getting 'lost' in the foam.",
+      "tags": [
+        "activities",
+        "variety",
+        "sports"
+      ]
+    },
+    "fliplab_trampoline_3": {
+      "id": "fliplab_trampoline_3",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "Why do trampoline parks require special grip socks?",
+      "options": [
+        "Just for fashion",
+        "They prevent slipping and provide hygiene on shared trampolines",
+        "To make you jump higher",
+        "They're not required"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Grip socks with rubber patterns prevent slipping on trampolines and provide a hygienic barrier. They're mandatory at most trampoline parks for safety!",
+      "funFact": "The grip socks look silly but they can save you from nasty ankle twists! Plus, you get to keep them and they're perfect for slippery floors at home.",
+      "tags": [
+        "safety",
+        "equipment",
+        "hygiene"
+      ]
+    },
+    "fliplab_trampoline_4": {
+      "id": "fliplab_trampoline_4",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can you do a backflip at FLIPLAB even if you've never done one before?",
+      "options": [
+        "Absolutely not - too dangerous",
+        "Yes! The trampolines and foam pits make it easier and safer to try",
+        "Only professional gymnasts allowed",
+        "Backflips are forbidden"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Many people do their first backflip at trampoline parks! The foam pits provide a safe landing, and the trampolines give you extra height. Staff can teach you the basics!",
+      "funFact": "There's something magical about landing your first backflip - people literally scream with joy! The foam pit is where you practice until you can land it on the trampoline.",
+      "tags": [
+        "flips",
+        "learning",
+        "achievement"
+      ]
+    },
+    "ice_skating_olympiapark_1": {
+      "id": "ice_skating_olympiapark_1",
+      "locationId": "ice_skating_olympiapark",
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Where is the Olympia Ice Rink located?",
+      "options": [
+        "At the beach",
+        "In Munich's Olympiapark, built for the 1972 Olympics",
+        "In a shopping mall",
+        "Underground"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Olympia Ice Rink is located in Munich's Olympiapark, which hosted the 1972 Summer Olympics. The facility is part of the historic Olympic complex!",
+      "funFact": "The same park that hosted summer sports in 1972 now offers year-round ice skating! The Olympic spirit lives on, even in the winter.",
+      "tags": [
+        "location",
+        "olympics",
+        "history"
+      ]
+    },
+    "ice_skating_olympiapark_2": {
+      "id": "ice_skating_olympiapark_2",
+      "locationId": "ice_skating_olympiapark",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What tragic event occurred at Olympiapark during the 1972 Olympics?",
+      "options": [
+        "A snow storm",
+        "The Munich Massacre - a terrorist attack that killed 11 Israeli athletes",
+        "An earthquake",
+        "Nothing tragic happened"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The 1972 Olympics were marred by tragedy when Palestinian terrorists took Israeli athletes hostage, resulting in 11 deaths. It's one of the darkest moments in Olympic history.",
+      "funFact": "Despite the tragedy, the Olympic Park has been transformed into a joyful community space. There's a memorial honoring the victims, and the park represents Munich's resilience and commitment to peace.",
+      "tags": [
+        "history",
+        "tragedy",
+        "olympics"
+      ]
+    },
+    "ice_skating_olympiapark_3": {
+      "id": "ice_skating_olympiapark_3",
+      "locationId": "ice_skating_olympiapark",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "When can you ice skate at the Olympiapark rink?",
+      "options": [
+        "Only in summer",
+        "Year-round - it's an indoor ice rink!",
+        "Never - it's closed",
+        "Only during full moon"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Olympia Ice Rink is indoors and open year-round! You can ice skate in Munich even during hot summer days - perfect for beating the heat!",
+      "funFact": "On scorching August days when everyone's sweating in beer gardens, you can be gliding on ice at 0°C (32°F). It's Munich's coolest summer activity - literally!",
+      "tags": [
+        "year-round",
+        "indoor",
+        "accessibility"
+      ]
+    },
+    "ice_skating_olympiapark_4": {
+      "id": "ice_skating_olympiapark_4",
+      "locationId": "ice_skating_olympiapark",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can you rent ice skates at the Olympia Ice Rink?",
+      "options": [
+        "No, must bring your own",
+        "Yes, they have rental skates for all sizes",
+        "Only for children",
+        "Only professional skates available"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "You can rent ice skates in all sizes at the rink! Perfect for beginners or tourists who don't own skates. They also offer skating aids for kids learning to skate!",
+      "funFact": "They even have special 'skating aids' - penguin-shaped supports that kids (and nervous adults!) can push around the ice while learning. No shame in using a penguin!",
+      "tags": [
+        "rentals",
+        "equipment",
+        "beginners"
+      ]
+    },
+    "send_climbing_1": {
+      "id": "send_climbing_1",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What does 'SEND' mean in climbing slang?",
+      "options": [
+        "To mail a letter",
+        "To successfully complete a climbing route",
+        "To fall off",
+        "To give up"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "'Send it!' is climber slang meaning to successfully complete a route from bottom to top without falling. The gym name celebrates this achievement!",
+      "funFact": "When climbers 'send' a difficult route they've been trying for weeks, they often scream with joy! The whole gym erupts in cheers - climbers are super supportive.",
+      "tags": [
+        "slang",
+        "climbing",
+        "achievement"
+      ]
+    },
+    "send_climbing_2": {
+      "id": "send_climbing_2",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What type of climbing does SEND offer?",
+      "options": [
+        "Only mountain climbing outside",
+        "Bouldering and rope climbing on indoor walls",
+        "Only virtual climbing",
+        "Ice climbing only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "SEND offers both bouldering (short walls without ropes) and rope climbing (tall walls with safety ropes). Perfect for beginners and experts alike!",
+      "funFact": "Bouldering is like solving puzzles with your body! Each route (called a 'problem') requires strength, technique, and creative thinking. It's chess meets gymnastics.",
+      "tags": [
+        "types",
+        "bouldering",
+        "rope-climbing"
+      ]
+    },
+    "send_climbing_3": {
+      "id": "send_climbing_3",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "Why has climbing become so popular in recent years?",
+      "options": [
+        "It's easy and requires no skill",
+        "It became an Olympic sport in 2020, boosting popularity",
+        "It's very cheap",
+        "It's only for professionals"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Climbing made its Olympic debut at Tokyo 2020, dramatically increasing its popularity! Gyms like SEND have seen massive growth as people discover this fun, challenging sport.",
+      "funFact": "Climbing works your brain as much as your muscles. Studies show it improves problem-solving skills, builds confidence, and reduces stress - plus you get seriously toned!",
+      "tags": [
+        "olympics",
+        "popularity",
+        "growth"
+      ]
+    },
+    "send_climbing_4": {
+      "id": "send_climbing_4",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Do you need experience to try climbing at SEND?",
+      "options": [
+        "Yes, you must be an expert",
+        "No! They welcome complete beginners and offer instruction",
+        "Only children can learn",
+        "You need years of mountain climbing first"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "SEND welcomes beginners! They offer introductory courses, staff can teach you basics, and routes are color-coded by difficulty - start easy and progress at your own pace!",
+      "funFact": "Many people are surprised they can climb at all on their first try! The beginner routes are designed to build confidence. By the end of your first session, you'll be hooked.",
+      "tags": [
+        "beginners",
+        "instruction",
+        "accessibility"
+      ]
+    },
+    "hollywood_super_bowling_1": {
+      "id": "hollywood_super_bowling_1",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes Hollywood Super Bowling different from regular bowling?",
+      "options": [
+        "It's exactly the same",
+        "It combines bowling with Hollywood theme, laser shows, and party atmosphere",
+        "You can only bowl in the dark",
+        "It's outdoor only"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Hollywood Super Bowling offers 'cosmic bowling' with black lights, music, laser shows, and a party atmosphere - it's bowling meets nightclub!",
+      "funFact": "On weekend evenings, the lanes transform into a glow-in-the-dark party zone. The balls glow, the pins glow, even the lanes glow - it's bowling on another level!",
+      "tags": [
+        "concept",
+        "cosmic-bowling",
+        "entertainment"
+      ]
+    },
+    "hollywood_super_bowling_2": {
+      "id": "hollywood_super_bowling_2",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "When is the best time for the full 'cosmic bowling' experience?",
+      "options": [
+        "Early morning weekdays",
+        "Friday and Saturday nights when lights, music, and lasers are in full effect",
+        "Never available",
+        "Only on holidays"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Weekend evenings feature the full cosmic bowling experience with DJs, light shows, and party atmosphere. It's more nightclub than traditional bowling alley!",
+      "funFact": "You can bowl until 2 AM on weekends! It's a popular spot for birthday parties, dates, and groups who want something more exciting than regular bars.",
+      "tags": [
+        "timing",
+        "nightlife",
+        "atmosphere"
+      ]
+    },
+    "hollywood_super_bowling_3": {
+      "id": "hollywood_super_bowling_3",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What's a 'strike' in bowling?",
+      "options": [
+        "Knocking down 5 pins",
+        "Knocking down all 10 pins with your first ball",
+        "Missing all pins",
+        "Dropping the ball"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "A strike is when you knock down all 10 pins with your first ball! It's the best shot in bowling and celebrated with special animations at cosmic bowling!",
+      "funFact": "At Hollywood Super Bowling, getting a strike triggers special lights and sound effects! The whole lane lights up, music plays, and everyone knows you're a bowling champion.",
+      "tags": [
+        "rules",
+        "strike",
+        "scoring"
+      ]
+    },
+    "hollywood_super_bowling_4": {
+      "id": "hollywood_super_bowling_4",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners enjoy cosmic bowling or is it only for experienced bowlers?",
+      "options": [
+        "Only professionals allowed",
+        "Everyone can enjoy it! Bumpers available for beginners",
+        "You must score above 200",
+        "Only kids can play"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Cosmic bowling is perfect for everyone! Beginners can use bumpers (barriers that prevent gutter balls), and it's more about fun atmosphere than perfect scores!",
+      "funFact": "Most people at cosmic bowling are there for the party vibe, not to be bowling pros. The music, lights, and friends make even gutter balls entertaining!",
+      "tags": [
+        "beginners",
+        "fun",
+        "accessibility"
       ]
     }
   }

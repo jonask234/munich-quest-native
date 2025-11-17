@@ -1,0 +1,384 @@
+{
+  "quizzes": [
+    {
+      "id": "escapegame_munich_1",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is the main goal in an escape room game?",
+      "options": [
+        "To find hidden treasure",
+        "To solve puzzles and escape within a time limit",
+        "To compete in a race",
+        "To build something"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "In escape rooms, teams work together to solve puzzles, find clues, and complete challenges to 'escape' from a themed room - usually within 60 minutes!",
+      "funFact": "The escape room concept originated in Japan in 2007 and quickly spread worldwide. Munich now has dozens of escape room venues with themes from zombie apocalypses to heists!",
+      "tags": ["concept", "gameplay", "teamwork"]
+    },
+    {
+      "id": "escapegame_munich_2",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How many people typically play in an escape room team?",
+      "options": [
+        "Always solo - one person only",
+        "2-6 players work together as a team",
+        "Exactly 10 players",
+        "As many as can fit in the room"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Most escape rooms are designed for 2-6 players working as a team. Some rooms can accommodate more, but teamwork and communication are key to success!",
+      "funFact": "Studies show that teams of 4-5 people have the highest escape success rates - enough diversity of thinking without too much chaos!",
+      "tags": ["teamwork", "group-size", "strategy"]
+    },
+    {
+      "id": "escapegame_munich_3",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What percentage of teams typically succeed in escaping within the time limit?",
+      "options": [
+        "About 90% - most teams escape",
+        "About 60% - more than half escape",
+        "About 30% - it's quite challenging!",
+        "Less than 5% - almost impossible"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Industry-wide, only about 20-40% of teams successfully escape! Good escape rooms are designed to be challenging but fun, even if you don't win.",
+      "funFact": "Don't feel bad if you don't escape - the real fun is in the teamwork, problem-solving, and the 'aha!' moments when you crack a puzzle!",
+      "tags": ["statistics", "difficulty", "success-rate"]
+    },
+    {
+      "id": "escapegame_munich_4",
+      "locationId": "escapegame_munich",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's the best strategy for escape room success?",
+      "options": [
+        "One person should solve everything alone",
+        "Communicate constantly and work as a team",
+        "Rush through without thinking",
+        "Ignore the hints from staff"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Communication is KEY! Successful teams share discoveries immediately, work on different puzzles simultaneously, and aren't afraid to ask for hints when stuck.",
+      "funFact": "The phrase 'there's no 'I' in team' was practically invented for escape rooms! Teams that communicate well escape 3x more often than those where everyone works independently.",
+      "tags": ["strategy", "communication", "tips"]
+    },
+    {
+      "id": "mikes_bike_tours_1",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What's the best way to see Munich like a local?",
+      "options": [
+        "Only by car",
+        "On a bike tour through the city",
+        "Never leave your hotel",
+        "Only take taxis"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Munich is one of the most bike-friendly cities in Germany! With over 1,200 km of bike paths, cycling is the perfect way to explore the city like locals do.",
+      "funFact": "About 20% of Munich's traffic is bike traffic! You'll see everyone from businesspeople in suits to grandmas cycling around - it's part of Munich's DNA.",
+      "tags": ["cycling", "munich", "local-life"]
+    },
+    {
+      "id": "mikes_bike_tours_2",
+      "locationId": "mikes_bike_tours",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Which famous Munich location is typically included in bike tours?",
+      "options": [
+        "Only modern shopping malls",
+        "English Garden, one of the world's largest urban parks",
+        "The airport runway",
+        "Underground tunnels only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The English Garden is a highlight of most bike tours! At 3.7 km², it's actually larger than New York's Central Park and perfect for cycling!",
+      "funFact": "You can bike from the English Garden to the Isar River, past beer gardens, and even see the famous Eisbach surfers - all in one tour!",
+      "tags": ["english-garden", "routes", "highlights"]
+    },
+    {
+      "id": "mikes_bike_tours_3",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What's unique about Munich's 'Third Reich & WWII' bike tours?",
+      "options": [
+        "They avoid all historical sites",
+        "They explore Munich's dark history and resistance movements",
+        "They only show happy places",
+        "They don't exist"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "These tours visit sites where the Nazi party started, but also highlight Munich's resistance movements like the White Rose student group who opposed Hitler.",
+      "funFact": "Munich was called the 'Capital of the Movement' by the Nazis because Hitler's Beer Hall Putsch started here in 1923. But the city also had brave resistors like Sophie Scholl and the White Rose!",
+      "tags": ["history", "wwii", "resistance"]
+    },
+    {
+      "id": "mikes_bike_tours_4",
+      "locationId": "mikes_bike_tours",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How long is a typical Munich bike tour?",
+      "options": [
+        "10 minutes - very quick",
+        "3-4 hours covering major sights",
+        "24 hours non-stop",
+        "2 full days"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Most bike tours last 3-4 hours and cover 10-15 km, with plenty of stops to explore sights, hear stories, and take photos - perfect for seeing the city without exhausting yourself!",
+      "funFact": "The tours usually include a beer garden stop! Nothing beats learning about Munich history while enjoying a Maß in a traditional beer garden.",
+      "tags": ["duration", "distance", "experience"]
+    },
+    {
+      "id": "jochen_schweizer_arena_1",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "Who is Jochen Schweizer?",
+      "options": [
+        "A famous chef",
+        "A German extreme sports pioneer and entrepreneur",
+        "A classical musician",
+        "A politician"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Jochen Schweizer is a German extreme sports legend and entrepreneur who founded Germany's largest experience gift company. The arena is his dream project!",
+      "funFact": "Jochen was a professional bungee jumper and stuntman! He once jumped from the 85-meter-high Bavaria statue in Munich - which was totally illegal but made him famous!",
+      "tags": ["founder", "extreme-sports", "entrepreneur"]
+    },
+    {
+      "id": "jochen_schweizer_arena_2",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What activities can you do at the Jochen Schweizer Arena?",
+      "options": [
+        "Only watch sports on TV",
+        "Indoor skydiving, surfing, climbing, and more",
+        "Only sit in a sauna",
+        "Just eat at the restaurant"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The arena is an adventure playground with indoor skydiving (bodyflying), indoor surfing, climbing walls, escape rooms, virtual reality experiences, and more - all under one roof!",
+      "funFact": "The indoor skydiving wind tunnel uses the same technology NASA uses to train astronauts! You can literally fly like a superhero.",
+      "tags": ["activities", "adventure", "variety"]
+    },
+    {
+      "id": "jochen_schweizer_arena_3",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "When did the Jochen Schweizer Arena open?",
+      "options": [
+        "1990",
+        "2005",
+        "2019",
+        "2023"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The arena opened in 2019 in Taufkirchen, just outside Munich, becoming Europe's largest adventure hall at over 13,000 square meters!",
+      "funFact": "It took Jochen Schweizer over 10 years to realize his dream of building this arena. He wanted to create a place where anyone could try extreme sports safely!",
+      "tags": ["opening", "history", "facility"]
+    },
+    {
+      "id": "jochen_schweizer_arena_4",
+      "locationId": "jochen_schweizer_arena",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners try activities at the Jochen Schweizer Arena?",
+      "options": [
+        "No, only professionals allowed",
+        "Yes! Everything is designed for beginners with professional instruction",
+        "Only children can participate",
+        "You need years of training first"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Absolutely! The arena was specifically designed for beginners. Professional instructors guide you through everything, from your first 'flight' to catching your first wave on the surf simulator!",
+      "funFact": "Most people who try indoor skydiving there have never done anything like it before. The instructors say the hardest part is convincing people to relax and enjoy the wind - then they don't want to stop!",
+      "tags": ["beginners", "instruction", "accessibility"]
+    },
+    {
+      "id": "goldene_bar_1",
+      "locationId": "goldene_bar",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Where is the Goldene Bar located?",
+      "options": [
+        "In a shopping mall",
+        "In the Haus der Kunst (House of Art)",
+        "At the airport",
+        "In Marienplatz"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Goldene Bar is located inside the Haus der Kunst, one of Munich's premier contemporary art museums. It's where art meets nightlife!",
+      "funFact": "The bar is named 'Golden' after the building's historical significance and its glamorous atmosphere. You can literally have cocktails surrounded by world-class art!",
+      "tags": ["location", "haus-der-kunst", "art"]
+    },
+    {
+      "id": "goldene_bar_2",
+      "locationId": "goldene_bar",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What was the Haus der Kunst building originally used for?",
+      "options": [
+        "A royal palace",
+        "It was built by the Nazis as an art exhibition hall (1937)",
+        "A beer hall",
+        "A train station"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Haus der Kunst was built in 1937 under Nazi rule as 'Haus der Deutschen Kunst' to showcase Nazi-approved art. Today, it's been reclaimed as a world-renowned contemporary art museum!",
+      "funFact": "The building's dark past is acknowledged through educational exhibits. The transformation from Nazi propaganda venue to cutting-edge contemporary art space symbolizes Munich's reckoning with history!",
+      "tags": ["history", "nazis", "transformation"]
+    },
+    {
+      "id": "goldene_bar_3",
+      "locationId": "goldene_bar",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes the Goldene Bar special?",
+      "options": [
+        "It's just a regular bar",
+        "It combines art, culture, and nightlife in a unique setting",
+        "It only serves water",
+        "It's always empty"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Goldene Bar is where Munich's art crowd, intellectuals, and night owls meet. You can enjoy cocktails before or after viewing world-class exhibitions!",
+      "funFact": "The bar often hosts DJs and special events during major art exhibitions. It's not uncommon to discuss contemporary art over cocktails with actual artists!",
+      "tags": ["atmosphere", "culture", "nightlife"]
+    },
+    {
+      "id": "goldene_bar_4",
+      "locationId": "goldene_bar",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's unique about the Goldene Bar's location in the English Garden?",
+      "options": [
+        "It's underground",
+        "It's at the southern edge of the English Garden with great views",
+        "It moves around the park",
+        "It's in a tree house"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Haus der Kunst sits at the southern edge of the English Garden. In summer, you can enjoy drinks on the terrace overlooking the park - art and nature combined!",
+      "funFact": "On warm evenings, the crowd spills out onto the terrace. You can have a cocktail while watching joggers, cyclists, and even the occasional surfer heading to the Eisbach!",
+      "tags": ["location", "english-garden", "views"]
+    },
+    {
+      "id": "eisbachwelle_surf_school_1",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes the Eisbach wave special?",
+      "options": [
+        "It's in the ocean",
+        "It's a man-made standing wave in a river, perfect for surfing",
+        "It only appears once a year",
+        "It's the world's smallest wave"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Eisbach wave is a standing wave created by the river's flow under a bridge. It's one of the world's best-known river surfing spots - and it never stops!",
+      "funFact": "People surf here 365 days a year, even in snow and freezing temperatures! Watching surfers in winter with snow on the banks is surreal.",
+      "tags": ["eisbach", "river-surfing", "unique"]
+    },
+    {
+      "id": "eisbachwelle_surf_school_2",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Was river surfing on the Eisbach always legal?",
+      "options": [
+        "Yes, always legal",
+        "No, it was illegal until 2010!",
+        "It's still illegal today",
+        "Only legal on weekends"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Eisbach surfing was technically illegal for decades! The city finally legalized it in 2010 after surfers had been doing it anyway since the 1970s. Rebellious Munich at its finest!",
+      "funFact": "For 40 years, surfers risked fines to ride the wave. The signs saying 'Lebensgefahr! Surfing verboten!' (Danger to life! Surfing prohibited!) are now legendary - and ignored by thousands!",
+      "tags": ["history", "legal", "rebellion"]
+    },
+    {
+      "id": "eisbachwelle_surf_school_3",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How cold is the Eisbach water typically?",
+      "options": [
+        "Tropical warm",
+        "Around 10-15°C (50-59°F) year-round",
+        "Boiling hot",
+        "Frozen solid"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Eisbach (meaning 'Ice Brook') lives up to its name! Fed by Alpine springs, the water stays around 10-15°C year-round. Wetsuits are absolutely essential!",
+      "funFact": "Hardcore locals surf in winter when the water is barely above freezing. You'll see surfers emerging with icicles in their hair - that's commitment!",
+      "tags": ["temperature", "conditions", "challenge"]
+    },
+    {
+      "id": "eisbachwelle_surf_school_4",
+      "locationId": "eisbachwelle_surf_school",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners take lessons at the Eisbach wave?",
+      "options": [
+        "The main wave is too dangerous; lessons are at safer practice waves",
+        "Yes, anyone can jump right into the main wave",
+        "No lessons are available",
+        "Only Olympic athletes allowed"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The famous Eisbach wave is for experienced surfers only - it's fast, shallow, and has a concrete bottom! Surf schools teach beginners at smaller, safer waves downstream first.",
+      "funFact": "Even experienced ocean surfers struggle with river surfing at first! The wave is stationary, so you can't paddle into it - you have to jump on from the side. Many pros have spectacular wipeouts!",
+      "tags": ["lessons", "difficulty", "safety"]
+    }
+  ]
+}

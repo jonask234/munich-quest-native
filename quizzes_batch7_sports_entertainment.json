@@ -1,0 +1,308 @@
+{
+  "quizzes": [
+    {
+      "id": "fliplab_trampoline_1",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is FLIPLAB Trampoline Park?",
+      "options": [
+        "A science laboratory",
+        "An indoor trampoline park with various jumping activities",
+        "A dance studio",
+        "A swimming pool"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "FLIPLAB is an indoor trampoline park where you can jump, flip, and play on interconnected trampolines, foam pits, dodgeball courts, and obstacle courses!",
+      "funFact": "The average person burns about 1,000 calories per hour at a trampoline park - that's more than running! It's a workout that doesn't feel like work.",
+      "tags": ["concept", "trampolines", "fun"]
+    },
+    {
+      "id": "fliplab_trampoline_2",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What activities can you do at FLIPLAB besides just jumping?",
+      "options": [
+        "Only standing still",
+        "Dodgeball, basketball dunking, foam pit, and parkour",
+        "Only watch TV",
+        "Swimming"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "FLIPLAB offers trampoline dodgeball, slam dunk basketball, foam pits for practicing flips, parkour courses, and more - it's not just bouncing!",
+      "funFact": "The foam pits contain thousands of foam cubes. When you land in one, you basically disappear! People often joke about getting 'lost' in the foam.",
+      "tags": ["activities", "variety", "sports"]
+    },
+    {
+      "id": "fliplab_trampoline_3",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "Why do trampoline parks require special grip socks?",
+      "options": [
+        "Just for fashion",
+        "They prevent slipping and provide hygiene on shared trampolines",
+        "To make you jump higher",
+        "They're not required"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Grip socks with rubber patterns prevent slipping on trampolines and provide a hygienic barrier. They're mandatory at most trampoline parks for safety!",
+      "funFact": "The grip socks look silly but they can save you from nasty ankle twists! Plus, you get to keep them and they're perfect for slippery floors at home.",
+      "tags": ["safety", "equipment", "hygiene"]
+    },
+    {
+      "id": "fliplab_trampoline_4",
+      "locationId": "fliplab_trampoline",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can you do a backflip at FLIPLAB even if you've never done one before?",
+      "options": [
+        "Absolutely not - too dangerous",
+        "Yes! The trampolines and foam pits make it easier and safer to try",
+        "Only professional gymnasts allowed",
+        "Backflips are forbidden"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Many people do their first backflip at trampoline parks! The foam pits provide a safe landing, and the trampolines give you extra height. Staff can teach you the basics!",
+      "funFact": "There's something magical about landing your first backflip - people literally scream with joy! The foam pit is where you practice until you can land it on the trampoline.",
+      "tags": ["flips", "learning", "achievement"]
+    },
+    {
+      "id": "ice_skating_olympiapark_1",
+      "locationId": "ice_skating_olympiapark",
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Where is the Olympia Ice Rink located?",
+      "options": [
+        "At the beach",
+        "In Munich's Olympiapark, built for the 1972 Olympics",
+        "In a shopping mall",
+        "Underground"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Olympia Ice Rink is located in Munich's Olympiapark, which hosted the 1972 Summer Olympics. The facility is part of the historic Olympic complex!",
+      "funFact": "The same park that hosted summer sports in 1972 now offers year-round ice skating! The Olympic spirit lives on, even in the winter.",
+      "tags": ["location", "olympics", "history"]
+    },
+    {
+      "id": "ice_skating_olympiapark_2",
+      "locationId": "ice_skating_olympiapark",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What tragic event occurred at Olympiapark during the 1972 Olympics?",
+      "options": [
+        "A snow storm",
+        "The Munich Massacre - a terrorist attack that killed 11 Israeli athletes",
+        "An earthquake",
+        "Nothing tragic happened"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The 1972 Olympics were marred by tragedy when Palestinian terrorists took Israeli athletes hostage, resulting in 11 deaths. It's one of the darkest moments in Olympic history.",
+      "funFact": "Despite the tragedy, the Olympic Park has been transformed into a joyful community space. There's a memorial honoring the victims, and the park represents Munich's resilience and commitment to peace.",
+      "tags": ["history", "tragedy", "olympics"]
+    },
+    {
+      "id": "ice_skating_olympiapark_3",
+      "locationId": "ice_skating_olympiapark",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "When can you ice skate at the Olympiapark rink?",
+      "options": [
+        "Only in summer",
+        "Year-round - it's an indoor ice rink!",
+        "Never - it's closed",
+        "Only during full moon"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Olympia Ice Rink is indoors and open year-round! You can ice skate in Munich even during hot summer days - perfect for beating the heat!",
+      "funFact": "On scorching August days when everyone's sweating in beer gardens, you can be gliding on ice at 0°C (32°F). It's Munich's coolest summer activity - literally!",
+      "tags": ["year-round", "indoor", "accessibility"]
+    },
+    {
+      "id": "ice_skating_olympiapark_4",
+      "locationId": "ice_skating_olympiapark",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can you rent ice skates at the Olympia Ice Rink?",
+      "options": [
+        "No, must bring your own",
+        "Yes, they have rental skates for all sizes",
+        "Only for children",
+        "Only professional skates available"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "You can rent ice skates in all sizes at the rink! Perfect for beginners or tourists who don't own skates. They also offer skating aids for kids learning to skate!",
+      "funFact": "They even have special 'skating aids' - penguin-shaped supports that kids (and nervous adults!) can push around the ice while learning. No shame in using a penguin!",
+      "tags": ["rentals", "equipment", "beginners"]
+    },
+    {
+      "id": "send_climbing_1",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What does 'SEND' mean in climbing slang?",
+      "options": [
+        "To mail a letter",
+        "To successfully complete a climbing route",
+        "To fall off",
+        "To give up"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "'Send it!' is climber slang meaning to successfully complete a route from bottom to top without falling. The gym name celebrates this achievement!",
+      "funFact": "When climbers 'send' a difficult route they've been trying for weeks, they often scream with joy! The whole gym erupts in cheers - climbers are super supportive.",
+      "tags": ["slang", "climbing", "achievement"]
+    },
+    {
+      "id": "send_climbing_2",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What type of climbing does SEND offer?",
+      "options": [
+        "Only mountain climbing outside",
+        "Bouldering and rope climbing on indoor walls",
+        "Only virtual climbing",
+        "Ice climbing only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "SEND offers both bouldering (short walls without ropes) and rope climbing (tall walls with safety ropes). Perfect for beginners and experts alike!",
+      "funFact": "Bouldering is like solving puzzles with your body! Each route (called a 'problem') requires strength, technique, and creative thinking. It's chess meets gymnastics.",
+      "tags": ["types", "bouldering", "rope-climbing"]
+    },
+    {
+      "id": "send_climbing_3",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "Why has climbing become so popular in recent years?",
+      "options": [
+        "It's easy and requires no skill",
+        "It became an Olympic sport in 2020, boosting popularity",
+        "It's very cheap",
+        "It's only for professionals"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Climbing made its Olympic debut at Tokyo 2020, dramatically increasing its popularity! Gyms like SEND have seen massive growth as people discover this fun, challenging sport.",
+      "funFact": "Climbing works your brain as much as your muscles. Studies show it improves problem-solving skills, builds confidence, and reduces stress - plus you get seriously toned!",
+      "tags": ["olympics", "popularity", "growth"]
+    },
+    {
+      "id": "send_climbing_4",
+      "locationId": "send_climbing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Do you need experience to try climbing at SEND?",
+      "options": [
+        "Yes, you must be an expert",
+        "No! They welcome complete beginners and offer instruction",
+        "Only children can learn",
+        "You need years of mountain climbing first"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "SEND welcomes beginners! They offer introductory courses, staff can teach you basics, and routes are color-coded by difficulty - start easy and progress at your own pace!",
+      "funFact": "Many people are surprised they can climb at all on their first try! The beginner routes are designed to build confidence. By the end of your first session, you'll be hooked.",
+      "tags": ["beginners", "instruction", "accessibility"]
+    },
+    {
+      "id": "hollywood_super_bowling_1",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes Hollywood Super Bowling different from regular bowling?",
+      "options": [
+        "It's exactly the same",
+        "It combines bowling with Hollywood theme, laser shows, and party atmosphere",
+        "You can only bowl in the dark",
+        "It's outdoor only"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Hollywood Super Bowling offers 'cosmic bowling' with black lights, music, laser shows, and a party atmosphere - it's bowling meets nightclub!",
+      "funFact": "On weekend evenings, the lanes transform into a glow-in-the-dark party zone. The balls glow, the pins glow, even the lanes glow - it's bowling on another level!",
+      "tags": ["concept", "cosmic-bowling", "entertainment"]
+    },
+    {
+      "id": "hollywood_super_bowling_2",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "When is the best time for the full 'cosmic bowling' experience?",
+      "options": [
+        "Early morning weekdays",
+        "Friday and Saturday nights when lights, music, and lasers are in full effect",
+        "Never available",
+        "Only on holidays"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Weekend evenings feature the full cosmic bowling experience with DJs, light shows, and party atmosphere. It's more nightclub than traditional bowling alley!",
+      "funFact": "You can bowl until 2 AM on weekends! It's a popular spot for birthday parties, dates, and groups who want something more exciting than regular bars.",
+      "tags": ["timing", "nightlife", "atmosphere"]
+    },
+    {
+      "id": "hollywood_super_bowling_3",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What's a 'strike' in bowling?",
+      "options": [
+        "Knocking down 5 pins",
+        "Knocking down all 10 pins with your first ball",
+        "Missing all pins",
+        "Dropping the ball"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "A strike is when you knock down all 10 pins with your first ball! It's the best shot in bowling and celebrated with special animations at cosmic bowling!",
+      "funFact": "At Hollywood Super Bowling, getting a strike triggers special lights and sound effects! The whole lane lights up, music plays, and everyone knows you're a bowling champion.",
+      "tags": ["rules", "strike", "scoring"]
+    },
+    {
+      "id": "hollywood_super_bowling_4",
+      "locationId": "hollywood_super_bowling",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Can beginners enjoy cosmic bowling or is it only for experienced bowlers?",
+      "options": [
+        "Only professionals allowed",
+        "Everyone can enjoy it! Bumpers available for beginners",
+        "You must score above 200",
+        "Only kids can play"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Cosmic bowling is perfect for everyone! Beginners can use bumpers (barriers that prevent gutter balls), and it's more about fun atmosphere than perfect scores!",
+      "funFact": "Most people at cosmic bowling are there for the party vibe, not to be bowling pros. The music, lights, and friends make even gutter balls entertaining!",
+      "tags": ["beginners", "fun", "accessibility"]
+    }
+  ]
+}
