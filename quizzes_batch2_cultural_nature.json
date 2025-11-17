@@ -1,0 +1,992 @@
+{
+  "quizzes": [
+    {
+      "id": "herzogstand_mountain_1",
+      "locationId": "herzogstand_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What makes Herzogstand Mountain particularly special for photography enthusiasts?",
+      "options": [
+        "It offers a 360-degree panoramic view of the Bavarian Alps and multiple lakes",
+        "It has the oldest mountain hut in Bavaria",
+        "It's the tallest mountain in the region",
+        "It has a historic cable car from 1890"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Herzogstand is famous for its stunning 360-degree panoramic views encompassing the Bavarian Alps, Walchensee, and Kochelsee, making it a photographer's paradise.",
+      "funFact": "King Ludwig II of Bavaria loved this mountain so much that he had a royal hunting lodge built on the summit, which he used as a retreat from court life.",
+      "tags": ["mountains", "nature", "photography", "royal-history"]
+    },
+    {
+      "id": "herzogstand_mountain_2",
+      "locationId": "herzogstand_mountain",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "Which two beautiful lakes can you see from the summit of Herzogstand?",
+      "options": [
+        "Tegernsee and Schliersee",
+        "Walchensee and Kochelsee",
+        "Starnberger See and Ammersee",
+        "Chiemsee and Königssee"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "From the summit, hikers are rewarded with breathtaking views of both Walchensee (one of Germany's deepest alpine lakes) and the smaller Kochelsee.",
+      "funFact": "The color contrast between the turquoise Walchensee and the darker Kochelsee creates one of Bavaria's most photographed landscapes!",
+      "tags": ["mountains", "lakes", "views"]
+    },
+    {
+      "id": "herzogstand_mountain_3",
+      "locationId": "herzogstand_mountain",
+      "category": "nature",
+      "difficulty": "hard",
+      "question": "What was the original name of Herzogstand Mountain before King Ludwig II's influence?",
+      "options": [
+        "Herzberg",
+        "Königsstand",
+        "Heimgarten",
+        "The mountain has always been called Herzogstand"
+      ],
+      "correctAnswer": 3,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "While often associated with King Ludwig II (Herzog means Duke), the mountain has historically been called Herzogstand. Ludwig built the Herzogstandhaus on the summit in the 1860s.",
+      "funFact": "The ridge walk from Herzogstand to neighboring Heimgarten is considered one of Bavaria's most beautiful alpine hikes, spanning about 2 hours with constantly changing panoramas!",
+      "tags": ["history", "mountains", "royal-history"]
+    },
+    {
+      "id": "herzogstand_mountain_4",
+      "locationId": "herzogstand_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "How can visitors reach the summit of Herzogstand?",
+      "options": [
+        "Only by hiking from Kochel am See (3-4 hours)",
+        "Cable car to Herzogstandhaus, then a short hike",
+        "Drive directly to the summit",
+        "Helicopter tour only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Herzogstandbahn cable car takes you most of the way up from Walchensee, leaving just a 20-30 minute hike to the summit, though experienced hikers can also make the full ascent on foot.",
+      "funFact": "The cable car operates from May to November (weather permitting), making the summit accessible to families and casual hikers, not just hardcore mountaineers!",
+      "tags": ["mountains", "cable-car", "hiking"]
+    },
+    {
+      "id": "wendelstein_mountain_1",
+      "locationId": "wendelstein_mountain",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What unique method of transportation can take you to the summit of Wendelstein?",
+      "options": [
+        "Helicopter",
+        "Rack railway and cable car",
+        "Ski lift only",
+        "Horse-drawn carriage"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Wendelstein is accessible via both a historic rack railway (Zahnradbahn) from Brannenburg and a modern cable car from Bayrischzell, giving visitors two scenic options to reach the summit.",
+      "funFact": "The Wendelstein rack railway, built in 1912, was the world's first mountain railway powered by three-phase AC electricity!",
+      "tags": ["mountains", "railway", "cable-car", "engineering"]
+    },
+    {
+      "id": "wendelstein_mountain_2",
+      "locationId": "wendelstein_mountain",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What unique feature can you find at the summit of Wendelstein Mountain?",
+      "options": [
+        "A small observatory and Germany's highest church",
+        "A luxury hotel and casino",
+        "The world's largest cuckoo clock",
+        "A military base"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "At 1,838 meters, the Wendelstein summit hosts a solar observatory and the Wendelstein Church, one of Germany's highest churches, built in 1718.",
+      "funFact": "The Wendelstein Observatory is operated by Ludwig Maximilian University of Munich and is used for solar research. You can often see the distinctive white dome from the hiking trails!",
+      "tags": ["mountains", "observatory", "church", "science"]
+    },
+    {
+      "id": "wendelstein_mountain_3",
+      "locationId": "wendelstein_mountain",
+      "category": "nature",
+      "difficulty": "hard",
+      "question": "What is the elevation of the Wendelstein summit?",
+      "options": [
+        "1,514 meters",
+        "1,838 meters",
+        "2,062 meters",
+        "1,722 meters"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Wendelstein peaks at 1,838 meters (6,030 feet), making it one of the most prominent mountains in the Bavarian Prealps and visible from Munich on clear days.",
+      "funFact": "On exceptionally clear days, you can see over 200 Alpine peaks from the summit, including the famous Großglockner in Austria!",
+      "tags": ["mountains", "geography", "views"]
+    },
+    {
+      "id": "wendelstein_mountain_4",
+      "locationId": "wendelstein_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What natural phenomenon can visitors explore inside Wendelstein Mountain?",
+      "options": [
+        "An ice cave system",
+        "Hot springs",
+        "A crystal mine",
+        "Underground waterfalls"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Wendelstein Cave (Wendelsteinhöhle) is Germany's highest show cave, featuring stunning ice formations and can be explored via guided tours during summer months.",
+      "funFact": "The cave maintains near-freezing temperatures year-round, creating spectacular ice formations even in summer. It was discovered in 1882 and extends about 80 meters into the mountain!",
+      "tags": ["mountains", "caves", "nature", "geology"]
+    },
+    {
+      "id": "blomberg_mountain_1",
+      "locationId": "blomberg_mountain",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What thrilling summer activity is Blomberg Mountain famous for?",
+      "options": [
+        "Parasailing",
+        "Alpine coaster (summer toboggan run)",
+        "Rock climbing championships",
+        "Mountain biking races"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Blomberg is home to one of Bavaria's longest summer toboggan runs (Sommerrodelbahn), a 1.3 km alpine coaster that's fun for all ages!",
+      "funFact": "The Blomberg toboggan run reaches speeds of up to 42 km/h and includes 17 curves and several jumps - all while offering stunning mountain views!",
+      "tags": ["mountains", "summer-activities", "toboggan", "family-fun"]
+    },
+    {
+      "id": "blomberg_mountain_2",
+      "locationId": "blomberg_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "Where is Blomberg Mountain located?",
+      "options": [
+        "Near Garmisch-Partenkirchen",
+        "Near Tegernsee",
+        "Near Bad Tölz",
+        "Near Füssen"
+      ],
+      "correctAnswer": 2,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Blomberg rises above the spa town of Bad Tölz in the Bavarian Alps, making it easily accessible from Munich (about 50 km south).",
+      "funFact": "Bad Tölz, the town at Blomberg's base, is famous for its historic old town and was a popular summer resort for Munich's aristocracy in the 19th century!",
+      "tags": ["mountains", "geography", "bad-tolz"]
+    },
+    {
+      "id": "blomberg_mountain_3",
+      "locationId": "blomberg_mountain",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "How do most visitors ascend Blomberg Mountain?",
+      "options": [
+        "Cable car",
+        "Chair lift",
+        "Funicular railway",
+        "Hiking only"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Blombergbahn chair lift carries visitors up the mountain, offering scenic views during the ride before they can enjoy hiking or the toboggan run down.",
+      "funFact": "Unlike enclosed gondolas, the open chair lift gives you an unobstructed view of the Tölzer Land and the Alps - just remember to hold on tight!",
+      "tags": ["mountains", "chair-lift", "transportation"]
+    },
+    {
+      "id": "blomberg_mountain_4",
+      "locationId": "blomberg_mountain",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What makes Blomberg a popular family destination year-round?",
+      "options": [
+        "It has easy hiking trails suitable for children and the summer toboggan run",
+        "It offers the best skiing in Bavaria",
+        "It has an amusement park at the summit",
+        "It's the only mountain with a restaurant"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Blomberg is particularly family-friendly with gentle hiking trails, a mountain hut serving traditional Bavarian food, and the exciting toboggan run that kids and adults love.",
+      "funFact": "The mountain hut (Blomberghaus) serves fresh Kaiserschmarrn (shredded pancake), a traditional Austrian-Bavarian dessert that's become legendary among regular visitors!",
+      "tags": ["mountains", "family-friendly", "hiking"]
+    },
+    {
+      "id": "brauneck_mountain_1",
+      "locationId": "brauneck_mountain",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What is Brauneck Mountain primarily known for?",
+      "options": [
+        "Rock climbing walls",
+        "Skiing and winter sports",
+        "Paragliding championships",
+        "Mountain bike racing"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Brauneck is one of the largest and most popular ski areas in the Munich region, with over 34 km of slopes and modern lift infrastructure.",
+      "funFact": "The ski area is so popular with Munich locals that it's often called 'Munich's home mountain' - on weekends, it can get pretty crowded with day-trippers!",
+      "tags": ["mountains", "skiing", "winter-sports"]
+    },
+    {
+      "id": "brauneck_mountain_2",
+      "locationId": "brauneck_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "From which charming Alpine town can you access Brauneck Mountain?",
+      "options": [
+        "Mittenwald",
+        "Oberammergau",
+        "Lenggries",
+        "Reit im Winkl"
+      ],
+      "correctAnswer": 2,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Brauneck cable car departs from Lenggries, a picturesque market town in the Isar Valley known for its traditional Bavarian architecture and outdoor activities.",
+      "funFact": "Lenggries was one of the first communities in the Bavarian Alps to develop tourism, starting in the mid-1800s when Munich's wealthy families discovered it as a summer retreat!",
+      "tags": ["mountains", "lenggries", "geography"]
+    },
+    {
+      "id": "brauneck_mountain_3",
+      "locationId": "brauneck_mountain",
+      "category": "sports",
+      "difficulty": "hard",
+      "question": "What is the elevation of the Brauneck summit?",
+      "options": [
+        "1,555 meters",
+        "1,712 meters",
+        "1,893 meters",
+        "1,634 meters"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Brauneck reaches 1,712 meters (5,617 feet) at its summit, offering panoramic views of the Karwendel and Wetterstein mountain ranges.",
+      "funFact": "The summit ridge walk from Brauneck to the neighboring Latschenkopf peak is one of the most scenic easy alpine hikes in Bavaria - perfect for families!",
+      "tags": ["mountains", "geography", "elevation"]
+    },
+    {
+      "id": "brauneck_mountain_4",
+      "locationId": "brauneck_mountain",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What summer activity makes Brauneck popular even outside ski season?",
+      "options": [
+        "Cave exploration",
+        "Hiking and mountain biking with scenic trails",
+        "Water sports",
+        "Berry picking"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "In summer, Brauneck transforms into a hiking and mountain biking paradise with well-marked trails for all skill levels, plus the cable car operating to bring you (and your bike) up the mountain.",
+      "funFact": "The Brauneck area has over 250 km of marked hiking trails, and the mountain is also a popular launch site for paragliders - you'll often see them soaring overhead!",
+      "tags": ["mountains", "hiking", "mountain-biking", "summer-activities"]
+    },
+    {
+      "id": "naturbad_maria_einsiedel_1",
+      "locationId": "naturbad_maria_einsiedel",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What makes Naturbad Maria Einsiedel different from regular swimming pools?",
+      "options": [
+        "It uses plants and natural filtration instead of chemicals",
+        "It's heated by solar panels",
+        "It's salt water from the Alps",
+        "It's the largest pool in Europe"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Naturbad Maria Einsiedel is a natural swimming pool that uses reed beds and biological filtration to keep the water clean without chlorine or chemicals - eco-friendly and gentle on skin!",
+      "funFact": "The pool contains around 3 million liters of water that's filtered entirely through natural processes - the plants remove impurities just like in a natural lake!",
+      "tags": ["swimming", "nature", "eco-friendly", "isar"]
+    },
+    {
+      "id": "naturbad_maria_einsiedel_2",
+      "locationId": "naturbad_maria_einsiedel",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "Where is Naturbad Maria Einsiedel located in Munich?",
+      "options": [
+        "In the English Garden",
+        "Along the Isar River in Thalkirchen",
+        "In Olympic Park",
+        "Near Nymphenburg Palace"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The natural pool is located in the Thalkirchen district, right next to the Isar River, making it a perfect combination of swimming and riverside nature.",
+      "funFact": "After swimming, locals often walk down to the nearby Isar beaches to sunbathe or continue to the famous Flaucher beer garden - it's the ultimate Munich summer day!",
+      "tags": ["swimming", "isar", "thalkirchen", "location"]
+    },
+    {
+      "id": "naturbad_maria_einsiedel_3",
+      "locationId": "naturbad_maria_einsiedel",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "When was Naturbad Maria Einsiedel opened?",
+      "options": [
+        "1950s as a traditional pool, converted to natural in 2001",
+        "2010 as Munich's first eco-pool",
+        "1985 as part of the green movement",
+        "Built in 2015 after a crowdfunding campaign"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The pool originally opened in the 1950s as a conventional outdoor pool but was completely renovated and converted to a natural swimming pool in 2001, making it one of Europe's pioneering natural pools.",
+      "funFact": "The conversion to a natural pool was initially controversial - some Munich residents thought it wouldn't work - but it became so successful that it inspired similar projects across Germany!",
+      "tags": ["history", "swimming", "eco-friendly"]
+    },
+    {
+      "id": "naturbad_maria_einsiedel_4",
+      "locationId": "naturbad_maria_einsiedel",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What additional activities can visitors enjoy at Naturbad Maria Einsiedel?",
+      "options": [
+        "Beach volleyball, sunbathing meadows, and a children's play area",
+        "Surfing lessons",
+        "Indoor spa facilities",
+        "Ice skating in winter"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Beyond swimming, the facility offers beach volleyball courts, spacious sunbathing lawns, a children's play area, and even a nudist section - typical German pool culture!",
+      "funFact": "Like many German pools, Naturbad has a designated FKK (nudist) area. Don't worry though - it's clearly separated, and most of the pool is textile (swimsuit) areas!",
+      "tags": ["swimming", "activities", "family-friendly"]
+    },
+    {
+      "id": "nordbad_1",
+      "locationId": "nordbad",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "In which Munich neighborhood is Nordbad located?",
+      "options": [
+        "Giesing",
+        "Schwabing",
+        "Haidhausen",
+        "Westend"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Nordbad is located in Schwabing, Munich's famous bohemian and intellectual quarter, known for its artistic heritage and student culture.",
+      "funFact": "Schwabing was home to many famous artists and intellectuals in the early 20th century, including Thomas Mann, Wassily Kandinsky, and Vladimir Lenin. They probably would have enjoyed a dip at Nordbad!",
+      "tags": ["swimming", "schwabing", "location"]
+    },
+    {
+      "id": "nordbad_2",
+      "locationId": "nordbad",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "What special feature makes Nordbad popular with serious swimmers?",
+      "options": [
+        "It has Olympic-sized pools and lanes for training",
+        "It's Munich's only indoor pool",
+        "It offers free swimming lessons",
+        "It has the warmest water in Munich"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Nordbad features a 50-meter Olympic-sized indoor pool with dedicated lanes for lap swimmers, making it a favorite among Munich's competitive swimmers and triathletes.",
+      "funFact": "The pool is so popular with serious swimmers that during peak hours, the 'fast lanes' can feel like an aquatic autobahn - proper pool etiquette is essential!",
+      "tags": ["swimming", "sports", "training"]
+    },
+    {
+      "id": "nordbad_3",
+      "locationId": "nordbad",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What architectural style characterizes the Nordbad building?",
+      "options": [
+        "Baroque revival",
+        "Modernist/Bauhaus-influenced design",
+        "Neo-Gothic",
+        "Art Nouveau"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Nordbad was built in the 1940s-1950s with a functional modernist design typical of post-war Munich architecture, though it has been renovated several times since.",
+      "funFact": "The building's no-nonsense design reflects Munich's post-war rebuilding philosophy: practical, functional, and focused on serving the community's needs rather than ornamental architecture.",
+      "tags": ["architecture", "history", "modernism"]
+    },
+    {
+      "id": "nordbad_4",
+      "locationId": "nordbad",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "Besides swimming, what other wellness facilities does Nordbad offer?",
+      "options": [
+        "Sauna and steam rooms",
+        "Rock climbing wall",
+        "Ice baths only",
+        "Yoga studios"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Nordbad features a comprehensive sauna area with different temperature rooms and steam baths, following the German wellness tradition of alternating swimming and sauna sessions.",
+      "funFact": "German sauna culture is textile-free (no swimsuits allowed in saunas) - it's considered more hygienic. First-timers are often surprised, but it's completely normal in Germany!",
+      "tags": ["swimming", "sauna", "wellness"]
+    },
+    {
+      "id": "schyrenbad_1",
+      "locationId": "schyrenbad",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When did Schyrenbad first open to the public?",
+      "options": [
+        "1847",
+        "1901",
+        "1925",
+        "1960"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Schyrenbad opened in 1901, making it one of Munich's oldest outdoor pools with over 120 years of swimming history!",
+      "funFact": "When it opened, swimming was just becoming popular as a leisure activity in Germany - before that, it was mostly for hygiene and health purposes. Schyrenbad was part of a public health movement!",
+      "tags": ["swimming", "history", "historic-pool"]
+    },
+    {
+      "id": "schyrenbad_2",
+      "locationId": "schyrenbad",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What type of swimming facility is Schyrenbad?",
+      "options": [
+        "Indoor year-round pool",
+        "Historic outdoor pool (Freibad)",
+        "Natural lake swimming area",
+        "Water park with slides"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Schyrenbad is a traditional outdoor pool (Freibad) that operates seasonally during warm months, offering a classic Munich summer swimming experience.",
+      "funFact": "German outdoor pools often close at the end of August or early September, even if it's still warm. It's a cultural tradition linked to the school year starting - summer is officially over!",
+      "tags": ["swimming", "outdoor", "freibad"]
+    },
+    {
+      "id": "schyrenbad_3",
+      "locationId": "schyrenbad",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes Schyrenbad particularly charming compared to modern pools?",
+      "options": [
+        "It retains its historic character with old trees and traditional architecture",
+        "It has the most slides in Munich",
+        "It offers free entry to all",
+        "It's the largest pool in Europe"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Schyrenbad has preserved much of its historic charm with mature trees providing shade, classic changing cabins, and a nostalgic atmosphere that modern pools lack.",
+      "funFact": "Many Munich families have multi-generational memories of Schyrenbad - grandparents who swam there in the 1950s now bring their grandchildren to the same pool!",
+      "tags": ["swimming", "history", "atmosphere"]
+    },
+    {
+      "id": "schyrenbad_4",
+      "locationId": "schyrenbad",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What neighborhood amenity is Schyrenbad located near?",
+      "options": [
+        "The Isar River and gravel beaches",
+        "Olympic Park",
+        "The English Garden",
+        "Nymphenburg Palace gardens"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Schyrenbad is located near the Isar River in the Thalkirchen area, making it easy to combine pool swimming with river activities and riverside beer gardens.",
+      "funFact": "Locals often do a 'Thalkirchen triple': swim at Schyrenbad in the morning, relax on the Isar gravel beaches in the afternoon, and have dinner at Flaucher beer garden in the evening!",
+      "tags": ["swimming", "isar", "location"]
+    },
+    {
+      "id": "prinzregentenbad_1",
+      "locationId": "prinzregentenbad",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "In which architectural style was Prinzregentenbad built?",
+      "options": [
+        "Baroque",
+        "Art Nouveau (Jugendstil)",
+        "Gothic",
+        "Modernist"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Prinzregentenbad was built in 1901 in the Art Nouveau (Jugendstil) style, featuring beautiful decorative elements typical of that era's artistic movement.",
+      "funFact": "The pool's original Art Nouveau tiles, ornamental ironwork, and decorative facade have been carefully preserved through renovations, making it one of Munich's most beautiful historic pools!",
+      "tags": ["architecture", "art-nouveau", "history"]
+    },
+    {
+      "id": "prinzregentenbad_2",
+      "locationId": "prinzregentenbad",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What type of pool is Prinzregentenbad primarily known for?",
+      "options": [
+        "Outdoor summer pool",
+        "Historic indoor pool",
+        "Wave pool",
+        "Diving pool"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Prinzregentenbad is a magnificent indoor swimming pool that operates year-round, allowing swimmers to enjoy its historic architecture in all seasons.",
+      "funFact": "Swimming in Prinzregentenbad feels like stepping back in time - the Art Nouveau interiors create such an atmospheric experience that some visitors say it's more like visiting a museum that lets you swim!",
+      "tags": ["swimming", "indoor", "historic"]
+    },
+    {
+      "id": "prinzregentenbad_3",
+      "locationId": "prinzregentenbad",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "After whom is Prinzregentenbad named?",
+      "options": [
+        "King Ludwig II",
+        "Prince Regent Luitpold of Bavaria",
+        "Prince Maximilian",
+        "Prince Otto of Bavaria"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The pool is named after Prince Regent Luitpold of Bavaria, who ruled as regent from 1886-1912 when King Otto was deemed unfit to rule. His regency was a period of cultural flourishing in Munich.",
+      "funFact": "Luitpold's regency period (the Prinzregentenzeit) saw Munich transform into a major cultural capital with magnificent buildings like this pool, earning Munich the nickname 'Athens on the Isar'!",
+      "tags": ["history", "royal-history", "prinzregent"]
+    },
+    {
+      "id": "prinzregentenbad_4",
+      "locationId": "prinzregentenbad",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes swimming at Prinzregentenbad a unique cultural experience?",
+      "options": [
+        "The preserved Art Nouveau architecture and historic atmosphere",
+        "It's the warmest pool in Munich",
+        "It has the most modern facilities",
+        "It offers swimming lessons in costume"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Swimming in Prinzregentenbad is like taking a dip in a piece of living history - the beautifully preserved Art Nouveau tiles, arched windows, and historic changing rooms create an atmosphere you won't find in modern pools.",
+      "funFact": "The pool has appeared in several films and photo shoots because of its stunning historic interiors. It's particularly photogenic when light streams through the tall windows!",
+      "tags": ["swimming", "architecture", "atmosphere"]
+    },
+    {
+      "id": "lustspielhaus_1",
+      "locationId": "lustspielhaus",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What type of performances does the Lustspielhaus primarily feature?",
+      "options": [
+        "Opera and classical music",
+        "Comedy and satirical theater",
+        "Ballet and dance",
+        "Rock concerts"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Lustspielhaus (literally 'Comedy Playhouse') specializes in comedic theater, satire, and entertaining plays - perfect for a fun night out with plenty of laughs!",
+      "funFact": "The word 'Lustspiel' is the German term for comedy, as opposed to 'Trauerspiel' (tragedy). Munich has a rich tradition of political satire and cabaret, and Lustspielhaus continues this legacy!",
+      "tags": ["theater", "comedy", "entertainment"]
+    },
+    {
+      "id": "lustspielhaus_2",
+      "locationId": "lustspielhaus",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "In which Munich neighborhood is the Lustspielhaus located?",
+      "options": [
+        "Schwabing",
+        "Occamstraße near Theresienwiese",
+        "Glockenbach",
+        "Haidhausen"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Lustspielhaus is located on Occamstraße in the Maxvorstadt district, not far from the famous Theresienwiese (Oktoberfest grounds).",
+      "funFact": "Its location near Theresienwiese means the theater district gets especially lively during Oktoberfest - the perfect combination of beer festival fun and evening entertainment!",
+      "tags": ["theater", "location", "maxvorstadt"]
+    },
+    {
+      "id": "lustspielhaus_3",
+      "locationId": "lustspielhaus",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What makes the Lustspielhaus unique among Munich's theaters?",
+      "options": [
+        "It's Munich's oldest theater",
+        "It focuses on contemporary comedy and modern adaptations of classics",
+        "It only performs in English",
+        "It's owned by the city"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Lustspielhaus specializes in contemporary comedy productions and fresh, modern interpretations of classic comedies, making high-quality theater accessible and entertaining for modern audiences.",
+      "funFact": "While many Munich theaters focus on heavy drama or historical plays, Lustspielhaus proves that comedy is an art form - their productions often sell out weeks in advance!",
+      "tags": ["theater", "comedy", "contemporary"]
+    },
+    {
+      "id": "lustspielhaus_4",
+      "locationId": "lustspielhaus",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What should visitors know before attending a Lustspielhaus performance?",
+      "options": [
+        "Performances are in German",
+        "Costumes are required",
+        "All shows are free",
+        "Shows are only on weekends"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Performances at Lustspielhaus are in German, so German language skills are helpful to fully enjoy the comedy and wordplay - though the physical comedy can still be entertaining!",
+      "funFact": "German comedy often relies on wordplay and cultural references that don't translate well, but Lustspielhaus's physical comedy and visual gags can transcend language barriers. Still, it's a great motivation to learn German!",
+      "tags": ["theater", "language", "practical-info"]
+    },
+    {
+      "id": "kino_am_olympiasee_1",
+      "locationId": "kino_am_olympiasee",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes Kino am Olympiasee special as a cinema?",
+      "options": [
+        "It's an outdoor cinema operating in summer months",
+        "It's the largest cinema in Europe",
+        "It only shows silent films",
+        "It's underwater"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Kino am Olympiasee is an open-air cinema (Freiluftkino) that operates during summer months, offering a magical movie-watching experience under the stars by the Olympic Lake.",
+      "funFact": "Watching a film outdoors with the Olympic Tower lit up in the background and stars overhead is a quintessential Munich summer experience - many couples count it as one of their most romantic dates!",
+      "tags": ["cinema", "outdoor", "summer", "olympic-park"]
+    },
+    {
+      "id": "kino_am_olympiasee_2",
+      "locationId": "kino_am_olympiasee",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where exactly is Kino am Olympiasee located?",
+      "options": [
+        "On a floating platform in the lake",
+        "At the Olympic Park by the Olympic Lake (Olympiasee)",
+        "In the Olympic Stadium",
+        "On the Olympic Tower observation deck"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The outdoor cinema is set up by the Olympic Lake in the Olympic Park, taking advantage of the beautiful parkland setting created for the 1972 Summer Olympics.",
+      "funFact": "The Olympic Park was designed by landscape architect Günther Grzimek and has won numerous awards for successfully transforming former rubble fields into a beautiful recreational space!",
+      "tags": ["cinema", "olympic-park", "location"]
+    },
+    {
+      "id": "kino_am_olympiasee_3",
+      "locationId": "kino_am_olympiasee",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What type of films does Kino am Olympiasee typically show?",
+      "options": [
+        "Only Hollywood blockbusters",
+        "A mix of current films, classics, and international cinema",
+        "Silent films only",
+        "Documentaries exclusively"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The cinema programs a diverse selection including recent releases, beloved classics, international films, and special themed screenings - something for every movie lover!",
+      "funFact": "On some nights, they show films in their original language (often English with German subtitles), making it accessible for international residents and visitors. Check the program for 'OmU' (Original mit Untertiteln)!",
+      "tags": ["cinema", "film-programming", "international"]
+    },
+    {
+      "id": "kino_am_olympiasee_4",
+      "locationId": "kino_am_olympiasee",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What should you bring to Kino am Olympiasee for maximum comfort?",
+      "options": [
+        "Blankets and warm clothes, as evenings can get cool",
+        "Scuba gear",
+        "Formal attire",
+        "Nothing - heated seats are provided"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Even in summer, Munich evenings can get chilly, especially by the lake. Smart visitors bring blankets, warm layers, and sometimes even cushions for the seating!",
+      "funFact": "Beer and snacks are available for purchase, but many regulars bring a picnic to enjoy before the movie starts. It's perfectly acceptable and part of the outdoor cinema culture!",
+      "tags": ["cinema", "practical-tips", "outdoor"]
+    },
+    {
+      "id": "monopol_kino_1",
+      "locationId": "monopol_kino",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes Monopol Kino special among Munich's cinemas?",
+      "options": [
+        "It's one of Munich's oldest independent art-house cinemas",
+        "It's the largest multiplex in Germany",
+        "It only shows 3D films",
+        "It's owned by Hollywood studios"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Monopol Kino is a beloved independent cinema that specializes in art-house films, documentaries, and international cinema - a cultural institution for Munich's film lovers.",
+      "funFact": "Small independent cinemas like Monopol are crucial to film culture - they screen films that big multiplexes won't show, supporting filmmakers and educating audiences about cinema beyond blockbusters!",
+      "tags": ["cinema", "art-house", "independent"]
+    },
+    {
+      "id": "monopol_kino_2",
+      "locationId": "monopol_kino",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "In which Munich neighborhood can you find Monopol Kino?",
+      "options": [
+        "Olympic Park",
+        "Schwabing",
+        "Giesing",
+        "Neuhausen"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Monopol Kino is located in Schwabing, Munich's traditional bohemian and artistic quarter - the perfect neighborhood for an independent cinema!",
+      "funFact": "Schwabing has been Munich's cultural and intellectual heart since the early 1900s, when artists like Wassily Kandinsky and Paul Klee lived and worked there. Independent cinemas like Monopol continue this artistic tradition!",
+      "tags": ["cinema", "schwabing", "location"]
+    },
+    {
+      "id": "monopol_kino_3",
+      "locationId": "monopol_kino",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What does 'OmU' mean when listed on Monopol Kino's program?",
+      "options": [
+        "Only Munich Viewers",
+        "Original mit Untertiteln (original version with subtitles)",
+        "Opening Monday until...",
+        "Outdoor movie unlimited"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "'OmU' stands for 'Original mit Untertiteln', meaning the film is shown in its original language with German subtitles - perfect for international audiences and language learners!",
+      "funFact": "Unlike many countries where films are dubbed, Germany has a strong dubbing tradition (called 'OV' for German or 'original version'). OmU screenings are treasured by film purists and expats who want to hear the original performances!",
+      "tags": ["cinema", "language", "film-culture"]
+    },
+    {
+      "id": "monopol_kino_4",
+      "locationId": "monopol_kino",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What type of atmosphere can visitors expect at Monopol Kino?",
+      "options": [
+        "A cozy, intimate cinema with a personal touch",
+        "A massive modern multiplex",
+        "A luxury VIP cinema",
+        "A drive-in theater"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Monopol Kino offers an intimate, community-focused cinema experience with smaller screening rooms, personal service, and a real love for film - unlike impersonal multiplex chains.",
+      "funFact": "Regular visitors often chat with the staff about films, and the cinema sometimes hosts Q&A sessions with filmmakers. It's more like a film club than just a movie theater!",
+      "tags": ["cinema", "atmosphere", "community"]
+    },
+    {
+      "id": "beacharena_munich_1",
+      "locationId": "beacharena_munich",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What sport is Beacharena Munich primarily designed for?",
+      "options": [
+        "Beach volleyball",
+        "Beach soccer",
+        "Beach tennis",
+        "Surfing"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Beacharena Munich specializes in beach volleyball, with multiple sand courts for recreational play, leagues, and tournaments - bringing beach vibes to landlocked Munich!",
+      "funFact": "Beach volleyball became an Olympic sport at the 1996 Atlanta Games, and its popularity in Germany exploded. Now even cities far from the coast like Munich have dedicated facilities!",
+      "tags": ["sports", "beach-volleyball", "recreation"]
+    },
+    {
+      "id": "beacharena_munich_2",
+      "locationId": "beacharena_munich",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "Can complete beginners use Beacharena Munich?",
+      "options": [
+        "No, it's only for professional players",
+        "Yes, they offer courts for all skill levels and organize recreational leagues",
+        "Only during winter",
+        "Only if you bring your own equipment"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Beacharena welcomes players of all levels, from complete beginners to competitive athletes. They organize recreational leagues, offer court rentals, and sometimes host beginner-friendly events.",
+      "funFact": "Playing beach volleyball is easier on joints than indoor volleyball because the sand absorbs impact - and if you fall, sand is much more forgiving than a hardwood floor!",
+      "tags": ["sports", "beginner-friendly", "leagues"]
+    },
+    {
+      "id": "beacharena_munich_3",
+      "locationId": "beacharena_munich",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What additional amenities make Beacharena Munich a social venue?",
+      "options": [
+        "Bar area and lounge spaces for socializing",
+        "Only volleyball courts, nothing else",
+        "Swimming pool",
+        "Casino"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Beyond the courts, Beacharena features a bar and lounge area where players can relax with drinks after games, making it a social hub as much as a sports facility.",
+      "funFact": "In summer, the venue often hosts beach parties and events with DJs, combining sports and nightlife - very Munich to turn a sports facility into a party venue!",
+      "tags": ["sports", "social", "bar"]
+    },
+    {
+      "id": "beacharena_munich_4",
+      "locationId": "beacharena_munich",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "When can you typically play beach volleyball at Beacharena Munich?",
+      "options": [
+        "Only in summer",
+        "Year-round, including covered/heated courts for winter",
+        "Only on weekends",
+        "Only during Oktoberfest"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Beacharena operates year-round with both outdoor courts for summer and indoor/covered courts for winter, so you can enjoy beach volleyball even when there's snow on the ground outside!",
+      "funFact": "Playing beach volleyball in Munich in January, with sand between your toes while it's snowing outside, is a surreal but uniquely fun experience!",
+      "tags": ["sports", "year-round", "indoor-outdoor"]
+    },
+    {
+      "id": "panzerwiese_1",
+      "locationId": "panzerwiese",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What was Panzerwiese used for before becoming a sports and recreation area?",
+      "options": [
+        "A royal hunting ground",
+        "A military training ground and parade field",
+        "A airport",
+        "A farming cooperative"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Panzerwiese (literally 'Tank Meadow') was used as a military training ground and parade field, particularly during the Nazi era and later by American occupation forces.",
+      "funFact": "The name 'Panzerwiese' comes from its use for tank (Panzer) exercises. After WWII, American forces used it for military exercises until the early 1990s. Now it's peacefully used for picnics and sports!",
+      "tags": ["history", "military", "transformation"]
+    },
+    {
+      "id": "panzerwiese_2",
+      "locationId": "panzerwiese",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What makes Panzerwiese special as a nature area today?",
+      "options": [
+        "It's Munich's largest contiguous open grassland with rare plant species",
+        "It has a zoo",
+        "It's completely forested",
+        "It has hot springs"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Panzerwiese and neighboring Hartmannshofener Wald form one of Munich's largest open grassland areas, hosting rare plant species and serving as an important ecological zone within the city.",
+      "funFact": "Ironically, decades of military use prevented development and farming, accidentally preserving rare grassland plants and insects that have disappeared elsewhere. Sometimes history preserves nature in unexpected ways!",
+      "tags": ["nature", "ecology", "grassland"]
+    },
+    {
+      "id": "panzerwiese_3",
+      "locationId": "panzerwiese",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What recreational activities can people enjoy at Panzerwiese today?",
+      "options": [
+        "Kite flying, model airplane flying, picnics, and walking dogs",
+        "Swimming",
+        "Rock climbing",
+        "Ice skating"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The vast open space of Panzerwiese is perfect for activities that need room: kite flying, model airplane enthusiasts, dog walking, jogging, and picnicking with unobstructed views.",
+      "funFact": "The area is so popular with dog owners that on weekends you'll see dozens of dogs running free - it's one of the few places in Munich where dogs can really stretch their legs off-leash!",
+      "tags": ["recreation", "outdoor-activities", "dogs"]
+    },
+    {
+      "id": "panzerwiese_4",
+      "locationId": "panzerwiese",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What nearby area forms a nature conservation zone together with Panzerwiese?",
+      "options": [
+        "English Garden",
+        "Hartmannshofener Wald (Hartmannshofen Forest)",
+        "Olympic Park",
+        "Isar River"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Panzerwiese is part of a larger conservation area together with Hartmannshofener Wald, creating an important ecological corridor in northern Munich.",
+      "funFact": "This area is so ecologically valuable that parts are designated as protected landscape. In spring, you can find rare orchids and butterflies that have vanished from other parts of Munich!",
+      "tags": ["nature", "conservation", "ecology"]
+    }
+  ]
+}

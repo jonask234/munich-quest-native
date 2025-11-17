@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+import json
+import sys
+import os
+
+# Load all quiz batches
+all_quizzes = []
+
+# Batch 1
+if os.path.exists('quizzes_batch1_priority.json'):
+    with open('quizzes_batch1_priority.json', 'r', encoding='utf-8') as f:
+        batch1 = json.load(f)
+        all_quizzes.extend(batch1['quizzes'])
+        print(f"Loaded {len(batch1['quizzes'])} quizzes from batch 1")
+
+# Batch 2
+with open('quizzes_batch2_cultural_nature.json', 'r', encoding='utf-8') as f:
+    batch2 = json.load(f)
+    all_quizzes.extend(batch2['quizzes'])
+    print(f"Loaded {len(batch2['quizzes'])} quizzes from batch 2")
+
+# Load locations.json
+with open('MunichQuest/MunichQuest/Resources/locations.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+# Group quizzes by location
+quizzes_by_location = {}
+for quiz in all_quizzes:
+    loc_id = quiz['locationId']
+    if loc_id not in quizzes_by_location:
+        quizzes_by_location[loc_id] = []
+    quizzes_by_location[loc_id].append(quiz)
+
+# Add quizzes to the data
+if 'quizzes' not in data:
+    data['quizzes'] = {}
+
+added_count = 0
+for quiz in all_quizzes:
+    quiz_id = quiz['id']
+    if quiz_id not in data['quizzes']:
+        data['quizzes'][quiz_id] = quiz
+        added_count += 1
+        print(f"Added quiz: {quiz_id}")
+
+# Update location quizIds
+for loc_id, quizzes in quizzes_by_location.items():
+    if loc_id in data['locations']:
+        if 'quizIds' not in data['locations'][loc_id]:
+            data['locations'][loc_id]['quizIds'] = []
+
+        for quiz in quizzes:
+            quiz_id = quiz['id']
+            if quiz_id not in data['locations'][loc_id]['quizIds']:
+                data['locations'][loc_id]['quizIds'].append(quiz_id)
+                print(f"Added {quiz_id} to {loc_id}")
+
+# Save updated locations.json
+with open('MunichQuest/MunichQuest/Resources/locations.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"\n✅ Added {added_count} quizzes")
+print(f"✅ Updated {len(quizzes_by_location)} locations")
+print("\nLocations updated:")
+for loc_id, quizzes in quizzes_by_location.items():
+    print(f"  - {loc_id}: {len(quizzes)} quizzes")

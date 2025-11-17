@@ -1,0 +1,232 @@
+{
+  "quizzes": [
+    {
+      "id": "viktualienmarkt_1",
+      "locationId": "viktualienmarkt",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When did Viktualienmarkt move to its current location?",
+      "options": [
+        "1807",
+        "1900",
+        "1750",
+        "1850"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "After the old market at Marienplatz became too crowded, King Maximilian I Joseph relocated the market to its current spot in 1807 - over 200 years ago!",
+      "funFact": "The market was originally supposed to be temporary! But it became so popular that it's now one of Munich's most beloved permanent institutions.",
+      "tags": ["history", "market", "king-maxim"]
+    },
+    {
+      "id": "viktualienmarkt_2",
+      "locationId": "viktualienmarkt",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What does 'Viktualien' mean in old German?",
+      "options": [
+        "Victuals/food supplies",
+        "Victory",
+        "Village",
+        "Victorian"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "'Viktualien' is an old German word for victuals or food supplies - so Viktualienmarkt literally means 'food market'!",
+      "funFact": "The word comes from Latin 'victualia' (provisions). Munich locals affectionately call it just 'der Viktualienmarkt' or simply 'Markt'.",
+      "tags": ["language", "etymology", "culture"]
+    },
+    {
+      "id": "viktualienmarkt_3",
+      "locationId": "viktualienmarkt",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How many traditional maypoles stand at Viktualienmarkt?",
+      "options": [
+        "One large maypole",
+        "Three maypoles",
+        "Six maypoles representing Munich's six breweries",
+        "No maypoles"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "There are six maypoles, one for each of Munich's traditional breweries: Augustiner, Hacker-Pschorr, Hofbräu, Löwenbräu, Paulaner, and Spaten!",
+      "funFact": "The maypoles are decorated with the brewery emblems and replaced every few years in a traditional ceremony. They represent Munich's deep connection to beer culture.",
+      "tags": ["culture", "maypole", "breweries"]
+    },
+    {
+      "id": "viktualienmarkt_4",
+      "locationId": "viktualienmarkt",
+      "category": "food",
+      "difficulty": "medium",
+      "question": "What makes Viktualienmarkt special compared to modern supermarkets?",
+      "options": [
+        "It's completely free",
+        "Over 140 stalls selling fresh, high-quality local produce and specialties",
+        "It's open 24/7",
+        "Everything is imported"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The market has over 140 permanent stalls run by families, many for generations, selling premium fresh produce, meats, cheeses, flowers, and Bavarian specialties.",
+      "funFact": "Some vendor families have run the same stall for over 100 years! Regulars know their vendors by name and chat about life while buying their groceries - it's shopping as social ritual.",
+      "tags": ["food", "vendors", "tradition"]
+    },
+    {
+      "id": "neuschwanstein_1",
+      "locationId": "neuschwanstein_castle",
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Which Bavarian king commissioned Neuschwanstein Castle?",
+      "options": [
+        "King Ludwig I",
+        "King Ludwig II",
+        "King Maximilian II",
+        "King Otto I"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "King Ludwig II, the 'Fairy Tale King' or 'Mad King Ludwig', commissioned this castle as a personal retreat and homage to Richard Wagner.",
+      "funFact": "Ludwig was so obsessed with medieval romanticism that he spent enormous state funds building fantasy castles - his ministers eventually declared him insane and deposed him!",
+      "tags": ["history", "ludwig-ii", "royal"]
+    },
+    {
+      "id": "neuschwanstein_2",
+      "locationId": "neuschwanstein_castle",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What famous company was inspired by Neuschwanstein Castle?",
+      "options": [
+        "LEGO",
+        "Disney (for Cinderella's Castle)",
+        "Harry Potter films",
+        "BMW"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Walt Disney visited Neuschwanstein and used it as inspiration for Cinderella's Castle in Disneyland! The castle is the archetypal fairy tale castle.",
+      "funFact": "Ironically, Neuschwanstein was built in the 1800s to LOOK medieval - it's a romantic fantasy of the Middle Ages, not an actual medieval castle. Disney was inspired by a fantasy of a fantasy!",
+      "tags": ["culture", "disney", "influence"]
+    },
+    {
+      "id": "neuschwanstein_3",
+      "locationId": "neuschwanstein_castle",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "How many days did King Ludwig II actually spend in Neuschwanstein?",
+      "options": [
+        "Over 10 years",
+        "About 2 years",
+        "Only 172 days",
+        "He never lived there"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Despite spending 17 years building it and bankrupting Bavaria, Ludwig spent only 172 days in Neuschwanstein before his mysterious death in 1886!",
+      "funFact": "The castle was never actually finished! Many rooms remain incomplete, and Ludwig died before seeing his dream fully realized. He was found dead in Lake Starnberg under mysterious circumstances shortly after being deposed.",
+      "tags": ["history", "ludwig-ii", "mystery"]
+    },
+    {
+      "id": "neuschwanstein_4",
+      "locationId": "neuschwanstein_castle",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What modern technology did Neuschwanstein have that was advanced for the 1880s?",
+      "options": [
+        "Running hot water, flush toilets, and central heating",
+        "Electricity only",
+        "Telegraph only",
+        "No modern amenities"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The castle had cutting-edge technology including central heating, running water on all floors, automatic flush toilets, and even a telephone system - luxuries most castles lacked!",
+      "funFact": "While building a medieval fantasy, Ludwig insisted on modern comfort. The kitchen had hot and cold running water - something most homes wouldn't have for decades!",
+      "tags": ["technology", "luxury", "innovation"]
+    },
+    {
+      "id": "starnberger_see_1",
+      "locationId": "starnberger_see",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What happened to King Ludwig II at Starnberger See?",
+      "options": [
+        "He was crowned there",
+        "He drowned under mysterious circumstances",
+        "He built a castle there",
+        "He won a boat race"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "On June 13, 1886, King Ludwig II was found dead in the shallow water of Lake Starnberg along with his psychiatrist Dr. Gudden - the circumstances remain mysterious to this day!",
+      "funFact": "The water where he died was only waist-deep, and Ludwig was a strong swimmer. Theories range from suicide to murder to an escape attempt gone wrong. It's Bavaria's greatest unsolved mystery!",
+      "tags": ["history", "mystery", "ludwig-ii"]
+    },
+    {
+      "id": "starnberger_see_2",
+      "locationId": "starnberger_see",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What do Munich locals affectionately call Starnberger See?",
+      "options": [
+        "The King's Lake",
+        "Munich's Bathtub",
+        "The Blue Pearl",
+        "Bavaria's Ocean"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Munich locals call it 'Munich's Bathtub' (Münchens Badewanne) because it's so close to the city and perfect for swimming, sailing, and relaxing!",
+      "funFact": "On hot summer weekends, it feels like half of Munich migrates to the lake! The S6 train becomes packed with people heading to the beach.",
+      "tags": ["nature", "swimming", "local-culture"]
+    },
+    {
+      "id": "starnberger_see_3",
+      "locationId": "starnberger_see",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "How far is Starnberger See from Munich's city center?",
+      "options": [
+        "5 km",
+        "25 km (about 30 minutes by S-Bahn)",
+        "50 km",
+        "100 km"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The lake is only 25 km southwest of Munich and easily reachable by S-Bahn train in about 30 minutes - perfect for a day trip!",
+      "funFact": "The S6 train line to Starnberg is nicknamed the 'millionaires' railway' because the lakeshore is lined with expensive villas. It's Bavaria's Beverly Hills!",
+      "tags": ["transportation", "geography", "access"]
+    },
+    {
+      "id": "starnberger_see_4",
+      "locationId": "starnberger_see",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "What was Starnberger See called historically?",
+      "options": [
+        "Würmsee",
+        "Königssee",
+        "Isarsee",
+        "It was always called Starnberger See"
+      ],
+      "correctAnswer": 0,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The lake was historically called Würmsee (after the Würm River), but was renamed Starnberger See after World War I. Locals still sometimes use the old name!",
+      "funFact": "The name change happened in 1962! Before that, saying 'Starnberger See' would have sounded strange to locals who knew it as Würmsee for centuries.",
+      "tags": ["history", "names", "geography"]
+    }
+  ]
+}
