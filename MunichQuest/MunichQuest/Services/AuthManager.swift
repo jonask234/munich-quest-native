@@ -9,25 +9,38 @@ class AuthManager: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    private let auth = Auth.auth()
-    private let db = Firestore.firestore()
+    private var auth: Auth?
+    private var db: Firestore?
     private var cancellables = Set<AnyCancellable>()
     private var authStateHandle: AuthStateDidChangeListenerHandle?
 
     init() {
-        authStateHandle = auth.addStateDidChangeListener { [weak self] _, user in
-            self?.currentUser = user
-            self?.isAuthenticated = user != nil
+        // Only initialize Firebase services if Firebase is configured
+        if FirebaseApp.app() != nil {
+            auth = Auth.auth()
+            db = Firestore.firestore()
+
+            authStateHandle = auth?.addStateDidChangeListener { [weak self] _, user in
+                self?.currentUser = user
+                self?.isAuthenticated = user != nil
+            }
+        } else {
+            print("⚠️ AuthManager: Firebase not configured, running in offline mode")
         }
     }
 
     deinit {
-        if let handle = authStateHandle {
+        if let handle = authStateHandle, let auth = auth {
             auth.removeStateDidChangeListener(handle)
         }
     }
 
     func signUp(username: String, email: String, password: String) async -> Result<User, Error> {
+        guard let auth = auth, let db = db else {
+            errorMessage = "Firebase not configured"
+            return .failure(NSError(domain: "AuthManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "Firebase not configured"]))
+        }
+
         isLoading = true
         errorMessage = nil
 
@@ -76,13 +89,18 @@ class AuthManager: ObservableObject {
     }
 
     func checkEmailVerified() async {
-        guard let user = currentUser else { return }
+        guard let user = currentUser, let auth = auth else { return }
         try? await user.reload()
         // Update the current user to refresh verification status
         currentUser = auth.currentUser
     }
 
     func login(email: String, password: String) async -> Result<User, Error> {
+        guard let auth = auth else {
+            errorMessage = "Firebase not configured"
+            return .failure(NSError(domain: "AuthManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "Firebase not configured"]))
+        }
+
         isLoading = true
         errorMessage = nil
 
@@ -125,12 +143,17 @@ class AuthManager: ObservableObject {
     }
 
     func logout() {
-        try? auth.signOut()
+        try? auth?.signOut()
         currentUser = nil
         isAuthenticated = false
     }
 
     func getAllUsers() async -> [UserProgress] {
+        guard let db = db else {
+            print("⚠️ Firebase not configured, cannot fetch users")
+            return []
+        }
+
         do {
             let snapshot = try await db.collection("users").getDocuments()
             let users = snapshot.documents.compactMap { doc -> UserProgress? in
