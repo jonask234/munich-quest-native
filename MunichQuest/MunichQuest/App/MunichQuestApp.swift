@@ -8,7 +8,12 @@ struct MunichQuestApp: App {
     @StateObject private var locationManager = LocationManager()
 
     init() {
-        FirebaseApp.configure()
+        // Configure Firebase only if GoogleService-Info.plist exists
+        if Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist") != nil {
+            FirebaseApp.configure()
+        } else {
+            print("⚠️ GoogleService-Info.plist not found - running without Firebase")
+        }
 
         // Initialize managers
         let auth = AuthManager()
