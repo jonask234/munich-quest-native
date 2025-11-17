@@ -66,7 +66,7 @@ class GameManager: ObservableObject {
         print("✅ Found locations.json at: \(url.path)")
 
         // Load and decode data off the main actor
-        let result = await Task.detached(priority: .userInitiated) {
+        let result = await Task.detached(priority: .userInitiated) { @Sendable in
             do {
                 guard let data = try? Data(contentsOf: url) else {
                     print("❌ ERROR: Failed to load data from locations.json")
