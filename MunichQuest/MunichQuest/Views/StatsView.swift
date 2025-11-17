@@ -13,9 +13,6 @@ struct StatsView: View {
             if let progress = gameManager.userProgress {
                 ScrollView {
                     VStack(spacing: 25) {
-                        // Safe area spacer
-                        Spacer().frame(height: 0)
-
                         // Hero Section - Level & XP Progress
                         VStack(spacing: 15) {
                             Text(progress.username)
@@ -101,7 +98,9 @@ struct StatsView: View {
                     .padding(.bottom, 20)  // Extra bottom padding for tab bar safe area
                 }
                 .navigationBarHidden(true)
-                .ignoresSafeArea(edges: [])
+                .safeAreaInset(edge: .top) {
+                    Color.clear.frame(height: 0)
+                }
             } else {
                 ProgressView()
                     .navigationBarHidden(true)
@@ -252,7 +251,7 @@ struct ChallengeRow: View {
             }
         }
         .padding()
-        .background(Color(UIColor.tertiarySystemBackground))
+        .background(Color(UIColor.secondarySystemBackground))
         .cornerRadius(12)
     }
 }
@@ -401,7 +400,7 @@ struct LocationProgressRow: View {
                         .foregroundColor(isVisited ? .primary : .secondary)
 
                     if isVisited {
-                        Text("\(quizProgress.completed)/\(quizProgress.total) questions completed")
+                        Text("\(quizProgress.completed)/\(quizProgress.total) questions answered")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     } else {
@@ -462,7 +461,7 @@ struct LocationProgressRow: View {
             }
         }
         .padding()
-        .background(isVisited ? Color(UIColor.secondarySystemBackground) : Color(UIColor.tertiarySystemBackground))
+        .background(Color(UIColor.secondarySystemBackground))
         .cornerRadius(12)
     }
 
