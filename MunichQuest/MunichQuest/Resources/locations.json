@@ -3970,7 +3970,12 @@
           "Bavaria's largest market - authentic experience"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "riem_flea_market_1",
+        "riem_flea_market_2",
+        "riem_flea_market_3",
+        "riem_flea_market_4"
+      ]
     },
     "werksviertel_mitte": {
       "id": "werksviertel_mitte",
@@ -4049,7 +4054,12 @@
           "Food hall perfect for group dining (everyone finds something!)"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "werksviertel_mitte_1",
+        "werksviertel_mitte_2",
+        "werksviertel_mitte_3",
+        "werksviertel_mitte_4"
+      ]
     },
     "zephyr_bar": {
       "id": "zephyr_bar",
@@ -6459,7 +6469,12 @@
           "Reserve seats online - choose your spot"
         ]
       },
-      "quizIds": []
+      "quizIds": [
+        "mathaeser_filmpalast_1",
+        "mathaeser_filmpalast_2",
+        "mathaeser_filmpalast_3",
+        "mathaeser_filmpalast_4"
+      ]
     },
     "schwabing_street_basketball": {
       "id": "schwabing_street_basketball",
@@ -14386,6 +14401,282 @@
         "location",
         "maxvorstadt",
         "architecture"
+      ]
+    },
+    "werksviertel_mitte_1": {
+      "id": "werksviertel_mitte_1",
+      "locationId": "werksviertel_mitte",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was the Werksviertel-Mitte area originally used for?",
+      "options": [
+        "A royal hunting ground",
+        "Industrial factories and warehouses",
+        "A farmer's market",
+        "A military base"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Werksviertel-Mitte area was home to Pfanni potato processing factories and other industrial operations. The area is being transformed while preserving its industrial heritage!",
+      "funFact": "The famous Pfanni potato company processed potatoes here for decades. Now the old factory buildings house clubs, restaurants, and creative studios - it's Munich's coolest urban renewal project!",
+      "tags": [
+        "history",
+        "industrial",
+        "pfanni"
+      ]
+    },
+    "werksviertel_mitte_2": {
+      "id": "werksviertel_mitte_2",
+      "locationId": "werksviertel_mitte",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes Werksviertel-Mitte unique in Munich?",
+      "options": [
+        "It's the oldest part of Munich",
+        "It's a new creative district mixing culture, art, and nightlife",
+        "It's a traditional Bavarian village",
+        "It's a shopping mall"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Werksviertel-Mitte is Munich's newest creative district, transforming old industrial buildings into a vibrant mix of clubs, restaurants, art spaces, and innovation hubs!",
+      "funFact": "It's one of Europe's largest urban development projects! Where potatoes were once processed, you can now dance at clubs, watch concerts, eat street food, and explore art installations.",
+      "tags": [
+        "culture",
+        "creative",
+        "nightlife"
+      ]
+    },
+    "werksviertel_mitte_3": {
+      "id": "werksviertel_mitte_3",
+      "locationId": "werksviertel_mitte",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What iconic attraction is located in Werksviertel-Mitte?",
+      "options": [
+        "The world's largest beer garden",
+        "An observation wheel offering views over Munich",
+        "A replica of Neuschwanstein Castle",
+        "The Olympic Stadium"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Werksviertel-Mitte features the 'Umadum' observation wheel, offering stunning panoramic views over Munich and the Alps on clear days!",
+      "funFact": "The wheel is 78 meters tall - making it one of the largest observation wheels in Germany! You can even book a gondola with dinner service for a romantic night out.",
+      "tags": [
+        "attractions",
+        "views",
+        "umadum"
+      ]
+    },
+    "werksviertel_mitte_4": {
+      "id": "werksviertel_mitte_4",
+      "locationId": "werksviertel_mitte",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where is Werksviertel-Mitte located in Munich?",
+      "options": [
+        "In the city center",
+        "Near Munich Ostbahnhof (East Station)",
+        "In Schwabing",
+        "Near the airport"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Werksviertel-Mitte is located near Munich's Ostbahnhof (East Station), making it easily accessible and close to the city center!",
+      "funFact": "The location is perfect - just a few tram stops from Marienplatz but feels like a different world. It's where Munich's young creative scene hangs out!",
+      "tags": [
+        "location",
+        "ostbahnhof",
+        "access"
+      ]
+    },
+    "riem_flea_market_1": {
+      "id": "riem_flea_market_1",
+      "locationId": "riem_flea_market",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "How often does the München-Riem Flea Market take place?",
+      "options": [
+        "Every day",
+        "Every Saturday",
+        "Once a month",
+        "Only in summer"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The München-Riem Flea Market happens every Saturday, rain or shine, making it a beloved weekly tradition for treasure hunters!",
+      "funFact": "Locals arrive as early as 6 AM to snag the best deals! Professional dealers and casual sellers mix with bargain hunters looking for everything from antiques to old vinyl records.",
+      "tags": [
+        "schedule",
+        "weekly",
+        "tradition"
+      ]
+    },
+    "riem_flea_market_2": {
+      "id": "riem_flea_market_2",
+      "locationId": "riem_flea_market",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes the Riem Flea Market special compared to other flea markets?",
+      "options": [
+        "It's indoors only",
+        "It's one of the largest flea markets in Germany",
+        "It only sells books",
+        "It's free for sellers"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The München-Riem Flea Market is one of the largest and most famous flea markets in Germany, with over 2,000 vendors on busy days!",
+      "funFact": "You can find absolutely anything here - vintage Lederhosen, 1960s furniture, old cameras, vinyl records, antique jewelry, and even BMW car parts. It's a treasure hunter's paradise!",
+      "tags": [
+        "size",
+        "variety",
+        "famous"
+      ]
+    },
+    "riem_flea_market_3": {
+      "id": "riem_flea_market_3",
+      "locationId": "riem_flea_market",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "Where was the Riem Flea Market located before moving to its current site?",
+      "options": [
+        "It was always at this location",
+        "At the old Munich-Riem airport grounds",
+        "On Marienplatz",
+        "In the Olympiapark"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The market takes place on the grounds of the old Munich-Riem airport, which closed in 1992 when the new airport opened. The massive parking areas are perfect for the market!",
+      "funFact": "Before 1992, planes took off and landed here! Now instead of aircraft, you'll find vintage treasures. The location's history adds to its unique character.",
+      "tags": [
+        "history",
+        "airport",
+        "location"
+      ]
+    },
+    "riem_flea_market_4": {
+      "id": "riem_flea_market_4",
+      "locationId": "riem_flea_market",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's the best tip for shopping at the Riem Flea Market?",
+      "options": [
+        "Arrive in the afternoon for best deals",
+        "Arrive early morning and bring cash",
+        "Only credit cards are accepted",
+        "Everything is fixed price"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Arrive early (the market starts at 7 AM) and bring cash! The best items go quickly, and most vendors prefer cash. Bargaining is expected and part of the fun!",
+      "funFact": "Regular hunters have a strategy: they do a quick scan of the entire market first to spot treasures, then circle back to negotiate. And remember - if you see something you love, grab it! It won't be there an hour later.",
+      "tags": [
+        "tips",
+        "shopping",
+        "bargaining"
+      ]
+    },
+    "mathaeser_filmpalast_1": {
+      "id": "mathaeser_filmpalast_1",
+      "locationId": "mathaeser_filmpalast",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was the Mathäser building originally before becoming a cinema?",
+      "options": [
+        "A church",
+        "A famous beer hall (Mathäserbräu)",
+        "A royal palace",
+        "A department store"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Mathäser was originally home to the famous Mathäserbräu beer hall, one of Munich's largest and most beloved beer halls until it closed in 1994!",
+      "funFact": "The old Mathäserbräu could seat 5,000 people! It was a Munich institution. When it closed, locals were heartbroken. The name lives on through the modern cinema complex.",
+      "tags": [
+        "history",
+        "beer-hall",
+        "mathaeser"
+      ]
+    },
+    "mathaeser_filmpalast_2": {
+      "id": "mathaeser_filmpalast_2",
+      "locationId": "mathaeser_filmpalast",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What makes Mathäser Filmpalast notable as a cinema?",
+      "options": [
+        "It shows only silent films",
+        "It's one of the largest cinema complexes in Munich",
+        "It only shows German films",
+        "It's the oldest cinema in Germany"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Mathäser Filmpalast is one of Munich's largest and most modern cinema complexes with 14 screens, including IMAX and 4DX theaters!",
+      "funFact": "With state-of-the-art technology including IMAX laser projection and 4DX moving seats, it's the go-to place for blockbuster premieres in Munich!",
+      "tags": [
+        "cinema",
+        "entertainment",
+        "modern"
+      ]
+    },
+    "mathaeser_filmpalast_3": {
+      "id": "mathaeser_filmpalast_3",
+      "locationId": "mathaeser_filmpalast",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "When did the Mathäser Filmpalast cinema open in its current form?",
+      "options": [
+        "1950",
+        "1979",
+        "2003",
+        "2015"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The modern Mathäser Filmpalast opened in 2003, transforming the historic site into a state-of-the-art cinema complex while preserving the famous Mathäser name!",
+      "funFact": "The opening was a huge event! Many older Münchners remember both the beer hall AND the cinema - it's a place that spans generations of Munich memories.",
+      "tags": [
+        "opening",
+        "modern",
+        "renovation"
+      ]
+    },
+    "mathaeser_filmpalast_4": {
+      "id": "mathaeser_filmpalast_4",
+      "locationId": "mathaeser_filmpalast",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where is the Mathäser Filmpalast located?",
+      "options": [
+        "On Marienplatz",
+        "At Karlsplatz/Stachus",
+        "In the Olympiapark",
+        "Near the Hauptbahnhof"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Mathäser Filmpalast is located at Karlsplatz (also known as Stachus), right in the heart of Munich next to the main shopping area!",
+      "funFact": "The location couldn't be more central - it's at one of Munich's busiest squares, right where the pedestrian zone begins. Perfect for dinner and a movie!",
+      "tags": [
+        "location",
+        "karlsplatz",
+        "stachus"
       ]
     }
   }
