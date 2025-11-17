@@ -1,0 +1,308 @@
+{
+  "quizzes": [
+    {
+      "id": "muffathalle_1",
+      "locationId": "muffathalle",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was the Muffathalle building originally used for?",
+      "options": [
+        "A royal palace",
+        "A power plant for the city",
+        "A concert hall",
+        "A beer brewery"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Muffathalle was originally built as a power plant (Muffatwerk) to supply electricity to Munich! It was named after the Muffat family, who were influential Munich citizens.",
+      "funFact": "The power plant operated from 1899 to 1983. After it closed, the industrial building was converted into one of Munich's coolest cultural venues, preserving its industrial architecture!",
+      "tags": ["history", "industrial", "conversion"]
+    },
+    {
+      "id": "muffathalle_2",
+      "locationId": "muffathalle",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "Where is the Muffathalle located in Munich?",
+      "options": [
+        "In the city center",
+        "Along the Isar River in Haidhausen",
+        "In the Olympic Park",
+        "Near the English Garden entrance"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Muffathalle sits right along the Isar River in the Haidhausen district, offering beautiful riverside views and a perfect location for summer events!",
+      "funFact": "On warm days, you can enjoy concerts and then walk along the Isar banks or grab a beer at the outdoor area - it's a local favorite summer spot!",
+      "tags": ["location", "isar", "haidhausen"]
+    },
+    {
+      "id": "muffathalle_3",
+      "locationId": "muffathalle",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What type of events is the Muffathalle particularly known for hosting?",
+      "options": [
+        "Opera performances",
+        "Stand-up comedy only",
+        "Concerts, club nights, and cultural festivals",
+        "Classical symphony concerts"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Muffathalle is known for its diverse programming including indie concerts, electronic music nights, cultural festivals, and creative events - it's a hub for Munich's alternative culture scene!",
+      "funFact": "The venue hosts the famous Muffatwerk Café during the day and transforms into a concert hall and club at night. It's also a key venue during Tollwood Festival!",
+      "tags": ["events", "concerts", "festivals"]
+    },
+    {
+      "id": "muffathalle_4",
+      "locationId": "muffathalle",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What architectural features remain from its power plant days?",
+      "options": [
+        "Nothing - it was completely rebuilt",
+        "The industrial brick walls and high ceilings",
+        "Only the facade",
+        "The original turbines are still visible"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Muffathalle preserved its industrial character with original brick walls, exposed pipes, and soaring high ceilings - creating a unique industrial-chic atmosphere!",
+      "funFact": "The industrial aesthetic is so popular that many modern clubs try to recreate it, but Muffathalle has the real thing! The raw, authentic atmosphere adds to the experience.",
+      "tags": ["architecture", "industrial", "preservation"]
+    },
+    {
+      "id": "residenztheater_1",
+      "locationId": "residenztheater",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When was the Residenztheater (Cuvilliés Theatre) originally built?",
+      "options": [
+        "1651-1653",
+        "1751-1753",
+        "1851-1853",
+        "1901-1903"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The original Cuvilliés Theatre was built between 1751-1753 by court architect François de Cuvilliés. It's one of the finest Rococo theaters in Europe!",
+      "funFact": "The theater was so beautiful that during WWII, the entire interior was carefully dismantled and stored to protect it from bombs. It was rebuilt after the war using the original ornate carvings!",
+      "tags": ["history", "rococo", "architecture"]
+    },
+    {
+      "id": "residenztheater_2",
+      "locationId": "residenztheater",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "The Residenztheater is part of which larger complex?",
+      "options": [
+        "The Olympic Stadium complex",
+        "The Munich Residenz (Royal Palace)",
+        "Nymphenburg Palace",
+        "Marienplatz"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Residenztheater is part of the Munich Residenz, the former royal palace of the Bavarian monarchs. It served as the court theater for the royal family!",
+      "funFact": "The royals could watch performances from their private boxes, and the theater was designed to impress visiting dignitaries with Bavaria's wealth and culture!",
+      "tags": ["royal", "palace", "court-theater"]
+    },
+    {
+      "id": "residenztheater_3",
+      "locationId": "residenztheater",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What famous premiere took place at the Cuvilliés Theatre?",
+      "options": [
+        "Beethoven's 9th Symphony",
+        "Mozart's opera 'Idomeneo'",
+        "Wagner's 'Tristan und Isolde'",
+        "Strauss's 'Der Rosenkavalier'"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Mozart's opera 'Idomeneo' had its world premiere at the Cuvilliés Theatre in 1781! Mozart himself conducted the performance when he was just 25 years old.",
+      "funFact": "Mozart wasn't impressed with Munich at first, but the success of Idomeneo's premiere changed his mind. He wrote to his father: 'I cannot tell you what a success the opera has had!'",
+      "tags": ["mozart", "opera", "premiere"]
+    },
+    {
+      "id": "residenztheater_4",
+      "locationId": "residenztheater",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What makes the Residenztheater's interior particularly special?",
+      "options": [
+        "It's made entirely of gold",
+        "Elaborate Rococo decorations with carved and gilded wood",
+        "It has the world's largest chandelier",
+        "It's the oldest theater in Germany"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The theater features breathtaking Rococo decorations with intricately carved and gilded woodwork, creating an almost jewel-box effect. Every surface is a work of art!",
+      "funFact": "The theater seats only about 450 people, making it intimate despite its opulence. The acoustics are phenomenal - no microphones needed even today!",
+      "tags": ["rococo", "decoration", "architecture"]
+    },
+    {
+      "id": "gasteig_hp8_1",
+      "locationId": "gasteig_hp8",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What does 'HP8' in Gasteig HP8 stand for?",
+      "options": [
+        "High Performance Hall 8",
+        "Hans-Preißinger-Straße 8 (the temporary location address)",
+        "Historic Palace 8",
+        "Hauptplatz 8"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "HP8 refers to Hans-Preißinger-Straße 8 in Sendling, where Gasteig relocated temporarily while the original building undergoes extensive renovation until 2025!",
+      "funFact": "The temporary location is in a former industrial complex, continuing Munich's tradition of converting industrial buildings into cultural spaces (like Muffathalle)!",
+      "tags": ["location", "renovation", "temporary"]
+    },
+    {
+      "id": "gasteig_hp8_2",
+      "locationId": "gasteig_hp8",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is the Gasteig primarily known as?",
+      "options": [
+        "A shopping mall",
+        "A major cultural center for music, events, and education",
+        "A sports arena",
+        "An art museum"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Gasteig is Munich's largest cultural center, housing concert halls, the city library (Stadtbibliothek), adult education center (VHS), and hosting over 1,700 events annually!",
+      "funFact": "The Munich Philharmonic Orchestra calls Gasteig home! You can catch everything from classical concerts to jazz, rock, and world music all in one place.",
+      "tags": ["culture", "music", "education"]
+    },
+    {
+      "id": "gasteig_hp8_3",
+      "locationId": "gasteig_hp8",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "When was the original Gasteig building opened?",
+      "options": [
+        "1901",
+        "1945 (after WWII)",
+        "1985",
+        "2001"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The original Gasteig building opened in 1985 on the site of the former Bürgerbräukeller beer hall. It quickly became the heart of Munich's cultural life!",
+      "funFact": "The location has dark history: the Bürgerbräukeller was where Hitler's Beer Hall Putsch began in 1923, and where Georg Elser's assassination attempt on Hitler failed in 1939. Building a cultural center there symbolized renewal!",
+      "tags": ["history", "opening", "location"]
+    },
+    {
+      "id": "gasteig_hp8_4",
+      "locationId": "gasteig_hp8",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What can you do at Gasteig HP8 besides attend concerts?",
+      "options": [
+        "Only attend concerts",
+        "Use the library, take courses, attend lectures and workshops",
+        "Go shopping",
+        "Visit a zoo"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Gasteig is a multi-use cultural center! You can use the extensive public library (Stadtbibliothek), take adult education courses at the VHS, attend lectures, workshops, film screenings, and much more!",
+      "funFact": "The Stadtbibliothek at Gasteig is Munich's largest public library with over 3 million items. Students love studying there - it's always packed during exam season!",
+      "tags": ["library", "education", "activities"]
+    },
+    {
+      "id": "volkstheater_1",
+      "locationId": "volkstheater",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When was the Volkstheater München founded?",
+      "options": [
+        "1903",
+        "1945",
+        "1876",
+        "1800"
+      ],
+      "correctAnswer": 2,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Volkstheater was founded in 1876 as a 'people's theater' to make quality theater accessible to all social classes, not just the aristocracy!",
+      "funFact": "The theater was founded during the time when Germany was experiencing rapid industrialization. Workers and the middle class wanted their own cultural institutions!",
+      "tags": ["history", "founding", "democracy"]
+    },
+    {
+      "id": "volkstheater_2",
+      "locationId": "volkstheater",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What does 'Volkstheater' literally mean in German?",
+      "options": [
+        "Royal Theater",
+        "People's Theater",
+        "Folk Theater",
+        "Village Theater"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "'Volkstheater' means 'People's Theater' - it was created to bring theater to the common people, not just the elite who attended the royal theaters!",
+      "funFact": "Unlike the fancy Residenztheater for royalty, the Volkstheater had affordable tickets so workers and their families could enjoy quality performances. It was revolutionary for its time!",
+      "tags": ["language", "accessibility", "culture"]
+    },
+    {
+      "id": "volkstheater_3",
+      "locationId": "volkstheater",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What is the Volkstheater particularly known for performing?",
+      "options": [
+        "Only Shakespeare",
+        "Contemporary plays and Bavarian folk pieces",
+        "Only opera",
+        "Only children's theater"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Volkstheater is famous for its mix of contemporary plays, German classics, and traditional Bavarian folk theater pieces - often performed in Bavarian dialect!",
+      "funFact": "Many performances are in Bavarian dialect, which can be challenging even for German speakers from other regions! It keeps local traditions alive while also showcasing modern, provocative works.",
+      "tags": ["repertoire", "bavarian", "contemporary"]
+    },
+    {
+      "id": "volkstheater_4",
+      "locationId": "volkstheater",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where in Munich is the Volkstheater located?",
+      "options": [
+        "In the Residenz",
+        "Near Stiglmaierplatz in Maxvorstadt",
+        "In Schwabing",
+        "On Marienplatz"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Volkstheater is located near Stiglmaierplatz in the Maxvorstadt district, just a short walk from the main train station and Königsplatz!",
+      "funFact": "The current building dates from 1983 after the original was destroyed in WWII. The modernist architecture caused controversy initially, but locals have grown to love it!",
+      "tags": ["location", "maxvorstadt", "architecture"]
+    }
+  ]
+}

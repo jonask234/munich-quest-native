@@ -27,6 +27,13 @@ if os.path.exists('quizzes_batch3_cultural_lakes.json'):
         all_quizzes.extend(batch3['quizzes'])
         print(f"Loaded {len(batch3['quizzes'])} quizzes from batch 3")
 
+# Batch 4
+if os.path.exists('quizzes_batch4_theaters_culture.json'):
+    with open('quizzes_batch4_theaters_culture.json', 'r', encoding='utf-8') as f:
+        batch4 = json.load(f)
+        all_quizzes.extend(batch4['quizzes'])
+        print(f"Loaded {len(batch4['quizzes'])} quizzes from batch 4")
+
 # Load locations.json
 with open('MunichQuest/MunichQuest/Resources/locations.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
