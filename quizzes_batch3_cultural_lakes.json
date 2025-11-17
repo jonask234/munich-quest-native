@@ -1,0 +1,764 @@
+{
+  "quizzes": [
+    {
+      "id": "auer_dult_1",
+      "locationId": "auer_dult",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "How old is the Auer Dult tradition in Munich?",
+      "options": [
+        "Over 600 years old",
+        "About 200 years old",
+        "50 years old",
+        "100 years old"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Auer Dult dates back to the 14th century, making it over 600 years old! It started in 1310 as a small market and has been a Munich tradition ever since.",
+      "funFact": "The word 'Dult' comes from the old High German word 'Tult', meaning a religious celebration or festival. Originally, it was tied to church feast days!",
+      "tags": ["history", "tradition", "festival"]
+    },
+    {
+      "id": "auer_dult_2",
+      "locationId": "auer_dult",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "How many times per year does the Auer Dult take place?",
+      "options": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Four times"
+      ],
+      "correctAnswer": 2,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Auer Dult happens three times a year: Maidult (May), Jakobidult (July), and Kirchweihdult (October/November). Each lasts about 9 days!",
+      "funFact": "Locals have a saying: 'The year has three Dults and one Oktoberfest!' showing how important this tradition is to Munich culture.",
+      "tags": ["culture", "tradition", "festival"]
+    },
+    {
+      "id": "auer_dult_3",
+      "locationId": "auer_dult",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What is the Auer Dult primarily known for selling?",
+      "options": [
+        "Only food and beer",
+        "Antiques, housewares, pottery, and traditional items",
+        "Electronics",
+        "Only carnival rides"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The Auer Dult is famous for its traditional market selling antiques, pottery, housewares, and unique traditional items - it's like a combination of flea market and folk festival!",
+      "funFact": "The 'Schrannenhalle' at Auer Dult is where you'll find the traditional crockery and household goods market - some vendors' families have had the same stall for generations!",
+      "tags": ["culture", "market", "tradition"]
+    },
+    {
+      "id": "auer_dult_4",
+      "locationId": "auer_dult",
+      "category": "food",
+      "difficulty": "medium",
+      "question": "What traditional Bavarian food is especially popular at Auer Dult?",
+      "options": [
+        "Pizza",
+        "Steckerlfisch (grilled fish on a stick) and roasted almonds",
+        "Hamburgers",
+        "Sushi"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Steckerlfisch (mackerel grilled on a stick) and gebrannte Mandeln (roasted almonds) are Dult classics! The smell of grilled fish wafts through the festival grounds.",
+      "funFact": "The tradition of Steckerlfisch started because fish could be easily grilled and eaten while walking through the market - the original 'street food'!",
+      "tags": ["food", "tradition", "bavarian"]
+    },
+    {
+      "id": "muellers_volksbad_1",
+      "locationId": "muellers_volksbad",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When was Müller'sches Volksbad built?",
+      "options": [
+        "1850",
+        "1901",
+        "1925",
+        "1950"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Müller'sches Volksbad was built in 1901 during the height of the Art Nouveau movement, and it's considered one of the most beautiful historic pools in Europe!",
+      "funFact": "When it opened, it was revolutionary - one of the first public pools in Munich where ordinary people (not just the wealthy) could swim and bathe!",
+      "tags": ["history", "art-nouveau", "architecture"]
+    },
+    {
+      "id": "muellers_volksbad_2",
+      "locationId": "muellers_volksbad",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What architectural style is Müller'sches Volksbad built in?",
+      "options": [
+        "Gothic",
+        "Baroque",
+        "Art Nouveau (Jugendstil)",
+        "Modernist"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The bathhouse is a stunning example of Art Nouveau (Jugendstil) architecture with intricate tile work, ornate ironwork, and decorative elements typical of that era.",
+      "funFact": "The original Art Nouveau tiles and decorative elements have been carefully preserved through renovations - swimming there is like stepping into a time machine!",
+      "tags": ["architecture", "art-nouveau", "history"]
+    },
+    {
+      "id": "muellers_volksbad_3",
+      "locationId": "muellers_volksbad",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What unique feature did Müller'sches Volksbad have when it first opened?",
+      "options": [
+        "Separate Roman-Irish baths with different temperature rooms",
+        "Only cold water",
+        "A wave pool",
+        "Water slides"
+      ],
+      "correctAnswer": 0,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The bathhouse featured Roman-Irish baths - a sophisticated system of rooms with different temperatures, steam baths, and plunge pools, inspired by ancient Roman bathing culture!",
+      "funFact": "The Roman-Irish bath tradition involves moving through progressively hotter rooms, then cooling down with cold plunges - a ritual that's still practiced today in the sauna area!",
+      "tags": ["culture", "wellness", "tradition"]
+    },
+    {
+      "id": "muellers_volksbad_4",
+      "locationId": "muellers_volksbad",
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Where is Müller'sches Volksbad located in Munich?",
+      "options": [
+        "Right on the Isar River",
+        "In Olympic Park",
+        "Near the English Garden",
+        "In the city center"
+      ],
+      "correctAnswer": 0,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Müller'sches Volksbad sits directly on the Isar River, giving swimmers beautiful views and easy access to the riverside - perfect for combining a pool visit with a river walk!",
+      "funFact": "Before the bathhouse was built, people swam directly in the Isar. The pool was built to offer cleaner, safer swimming while still enjoying the riverside location!",
+      "tags": ["location", "isar", "swimming"]
+    },
+    {
+      "id": "alte_utting_1",
+      "locationId": "alte_utting",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was the Alte Utting originally?",
+      "options": [
+        "A restaurant",
+        "A passenger ship on Ammersee lake",
+        "A warehouse",
+        "A train car"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Alte Utting was a passenger ship that operated on Ammersee lake from 1950 until 2002, ferrying tourists and locals across the beautiful Bavarian lake!",
+      "funFact": "The ship sailed on Ammersee for over 50 years, carrying millions of passengers. After retirement, it was saved from the scrapyard and given new life!",
+      "tags": ["history", "ship", "transformation"]
+    },
+    {
+      "id": "alte_utting_2",
+      "locationId": "alte_utting",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How did the Alte Utting get to its current location in Munich?",
+      "options": [
+        "It was driven there on the road",
+        "It sailed up the Isar River",
+        "It was transported by truck and crane and placed on a railway bridge",
+        "It flew there by helicopter"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "In 2016, the 37-ton ship was transported by truck through Munich streets and lifted by crane onto an old railway bridge - a spectacular sight that stopped traffic!",
+      "funFact": "The transport operation took several nights and required closing major streets. Thousands of Munich residents watched the surreal sight of a ship being driven through the city!",
+      "tags": ["culture", "transformation", "engineering"]
+    },
+    {
+      "id": "alte_utting_3",
+      "locationId": "alte_utting",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is the Alte Utting used for today?",
+      "options": [
+        "Nothing, it's abandoned",
+        "A cultural venue, bar, and event space",
+        "A hotel",
+        "A museum only"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The ship is now a popular cultural venue with a bar, restaurant, event space, and deck area - a unique spot to hang out in Munich!",
+      "funFact": "On sunny days, the deck is packed with people enjoying drinks with views over the city. It's become one of Munich's coolest alternative hangouts!",
+      "tags": ["culture", "nightlife", "venue"]
+    },
+    {
+      "id": "alte_utting_4",
+      "locationId": "alte_utting",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "Where is the Alte Utting located in Munich?",
+      "options": [
+        "In Olympic Park",
+        "At Lagerhausstraße, perched on an old railway bridge",
+        "On the Isar River",
+        "At the main train station"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The ship sits on an old railway bridge at Lagerhausstraße in the creative Gärtnerplatz area - a surreal and Instagram-worthy sight!",
+      "funFact": "Seeing a full-sized lake steamer perched on a bridge in the middle of the city is so unexpected that first-time visitors often think it's a mirage!",
+      "tags": ["location", "culture", "unique"]
+    },
+    {
+      "id": "tegernsee_1",
+      "locationId": "tegernsee",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "When was Tegernsee Monastery founded?",
+      "options": [
+        "500 AD",
+        "746 AD",
+        "1000 AD",
+        "1500 AD"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Tegernsee Monastery was founded in 746 AD by Benedictine monks, making it over 1,275 years old! It's one of Bavaria's oldest monastic foundations.",
+      "funFact": "The monastery was so important in the Middle Ages that its library and scriptorium produced illuminated manuscripts that are now in museums worldwide!",
+      "tags": ["history", "monastery", "medieval"]
+    },
+    {
+      "id": "tegernsee_2",
+      "locationId": "tegernsee",
+      "category": "food",
+      "difficulty": "easy",
+      "question": "What is Tegernsee particularly famous for producing?",
+      "options": [
+        "Wine",
+        "Beer - the monastery has been brewing since 1050",
+        "Cheese",
+        "Chocolate"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Tegernsee beer has been brewed since 1050, making it one of the oldest continuously operating breweries in the world! The monastery's brewing tradition spans nearly 1,000 years.",
+      "funFact": "The Tegernsee brewery survived the Thirty Years' War, Napoleon's invasion, and two World Wars - and never stopped brewing beer through it all!",
+      "tags": ["food", "beer", "tradition"]
+    },
+    {
+      "id": "tegernsee_3",
+      "locationId": "tegernsee",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "How far is Tegernsee from Munich?",
+      "options": [
+        "10 km",
+        "About 50 km (accessible by BOB train)",
+        "100 km",
+        "200 km"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Tegernsee is only about 50 km south of Munich and easily reached by the BOB (Bayerische Oberlandbahn) train - making it a perfect day trip!",
+      "funFact": "Munich locals call Tegernsee their 'living room' (Wohnzimmer) because it's so close and they visit so often - especially on summer weekends!",
+      "tags": ["geography", "transportation", "day-trip"]
+    },
+    {
+      "id": "tegernsee_4",
+      "locationId": "tegernsee",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What happened to Tegernsee Monastery in 1803?",
+      "options": [
+        "It was destroyed by fire",
+        "It was secularized and became a royal palace",
+        "It was expanded",
+        "Nothing changed"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "In 1803, during secularization, the monastery was dissolved and the Bavarian royal family converted it into Schloss Tegernsee (Tegernsee Palace), though brewing continued!",
+      "funFact": "The brewery was so valuable that even when the monarchy took over the monastery, they made sure to keep the beer production going - priorities!",
+      "tags": ["history", "royal", "transformation"]
+    },
+    {
+      "id": "walchensee_1",
+      "locationId": "walchensee",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What makes Walchensee's water so distinctive?",
+      "options": [
+        "It's red",
+        "It's turquoise blue and incredibly clear",
+        "It's hot",
+        "It's salty"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Walchensee is famous for its stunning turquoise color and crystal-clear water - you can often see 10 meters deep! The color comes from limestone minerals.",
+      "funFact": "The water is so clear because the lake is fed by mountain streams and has little organic matter. It's like swimming in liquid turquoise!",
+      "tags": ["nature", "water", "beauty"]
+    },
+    {
+      "id": "walchensee_2",
+      "locationId": "walchensee",
+      "category": "nature",
+      "difficulty": "hard",
+      "question": "How deep is Walchensee at its deepest point?",
+      "options": [
+        "50 meters",
+        "100 meters",
+        "190 meters",
+        "300 meters"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Walchensee reaches a maximum depth of 190 meters (623 feet), making it one of Germany's deepest lakes! That's as deep as a 60-story building is tall.",
+      "funFact": "Despite being so deep, parts of the lake stay incredibly clear because it's an oligotrophic (nutrient-poor) alpine lake with minimal algae growth!",
+      "tags": ["nature", "geography", "depth"]
+    },
+    {
+      "id": "walchensee_3",
+      "locationId": "walchensee",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "What water sport is Walchensee particularly popular for?",
+      "options": [
+        "Surfing",
+        "Windsurfing and kitesurfing",
+        "Water skiing",
+        "Jet skiing"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Walchensee is Bavaria's windsurfing and kitesurfing capital! The reliable winds through the mountain valley create perfect conditions for wind sports.",
+      "funFact": "The lake is nicknamed 'Bavarian Caribbean' by windsurfers because of the turquoise water and reliable winds - though the water is much colder!",
+      "tags": ["sports", "windsurfing", "adventure"]
+    },
+    {
+      "id": "walchensee_4",
+      "locationId": "walchensee",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What's the approximate water temperature of Walchensee in summer?",
+      "options": [
+        "26°C (warm)",
+        "16-18°C (quite cold)",
+        "30°C (very warm)",
+        "10°C (freezing)"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Even in summer, Walchensee only reaches 16-18°C (61-64°F) - refreshingly cold! It's an alpine lake fed by mountain streams, so it never gets warm.",
+      "funFact": "Locals and regular swimmers jump in without hesitation, but first-timers often do the 'cold water dance' - lots of screaming and quick exits!",
+      "tags": ["nature", "swimming", "temperature"]
+    },
+    {
+      "id": "ammersee_1",
+      "locationId": "ammersee",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "How does Ammersee rank in size among Bavarian lakes?",
+      "options": [
+        "Largest",
+        "Second-largest",
+        "Third-largest",
+        "Smallest"
+      ],
+      "correctAnswer": 2,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Ammersee is Bavaria's third-largest lake, after Chiemsee and Starnberger See. It covers about 47 square kilometers - plenty of room for sailing!",
+      "funFact": "Despite being third in size, many locals prefer Ammersee because it's less crowded than Starnberger See but still easily accessible from Munich!",
+      "tags": ["nature", "geography", "lakes"]
+    },
+    {
+      "id": "ammersee_2",
+      "locationId": "ammersee",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "What famous monastery overlooks Ammersee from the hilltop?",
+      "options": [
+        "Tegernsee Monastery",
+        "Andechs Monastery",
+        "Ettal Abbey",
+        "Weltenburg Abbey"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Andechs Monastery sits on the 'Holy Mountain' (Heiliger Berg) overlooking Ammersee. It's one of Germany's most visited pilgrimage sites and has a famous brewery!",
+      "funFact": "The monastery brewery produces some of Bavaria's strongest beer - Andechser Doppelbock has 7% alcohol! It's been fueling pilgrims since the 15th century.",
+      "tags": ["culture", "monastery", "beer"]
+    },
+    {
+      "id": "ammersee_3",
+      "locationId": "ammersee",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "How can you reach Ammersee from Munich?",
+      "options": [
+        "Only by car",
+        "By S-Bahn train in about 40 minutes",
+        "By airplane",
+        "By boat on the Isar"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The S5 or S8 S-Bahn lines take you directly to Herrsching am Ammersee in about 40 minutes - super easy for a day trip without a car!",
+      "funFact": "On sunny summer weekends, the S-Bahn to Ammersee is packed with Munich families carrying beach gear, bicycles, and coolers - it's like a mobile beach party!",
+      "tags": ["transportation", "access", "day-trip"]
+    },
+    {
+      "id": "ammersee_4",
+      "locationId": "ammersee",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What popular water activities can you do on Ammersee?",
+      "options": [
+        "Only swimming",
+        "Sailing, swimming, paddleboarding, and boat tours",
+        "Surfing only",
+        "Ice skating in summer"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Ammersee is perfect for sailing (it has excellent winds), swimming, paddleboarding, and scenic boat tours. There are also beaches all around the lake!",
+      "funFact": "The Ammersee steamship company operates historic paddle steamers - some over 100 years old - that tour the lake daily in summer. It's a romantic step back in time!",
+      "tags": ["nature", "activities", "water-sports"]
+    },
+    {
+      "id": "eisbach_surfing_1",
+      "locationId": "eisbach_surfing",
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What makes the Eisbach wave unique for surfers?",
+      "options": [
+        "It's in the ocean",
+        "It's a standing wave in a city river - year-round surfing in Munich!",
+        "It's the world's largest wave",
+        "It only appears once a year"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Eisbach creates a permanent standing wave in the middle of Munich - surfers can ride it year-round, even in winter! It's world-famous urban surfing.",
+      "funFact": "Munich is about 500 km from the nearest ocean, but thanks to the Eisbach, it has one of the world's most famous surf spots!",
+      "tags": ["sports", "surfing", "unique"]
+    },
+    {
+      "id": "eisbach_surfing_2",
+      "locationId": "eisbach_surfing",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "When did surfing the Eisbach become legal?",
+      "options": [
+        "It was always legal",
+        "1990",
+        "2010",
+        "2020"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "Surfing the Eisbach was technically illegal until 2010! For decades, surfers did it anyway, and the city finally gave in and made it official.",
+      "funFact": "Before 2010, surfers had to 'fight' with police who tried to stop them. The surfers always won because new ones would just show up - it became a Munich tradition of friendly rebellion!",
+      "tags": ["history", "culture", "rebellion"]
+    },
+    {
+      "id": "eisbach_surfing_3",
+      "locationId": "eisbach_surfing",
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "What's the typical water temperature of the Eisbach?",
+      "options": [
+        "Warm - 25°C",
+        "Cold - usually 10-15°C, even in summer",
+        "Freezing - 0°C",
+        "Hot - 30°C"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Eisbach is fed by cold Alpine streams, so even in summer the water is only 10-15°C (50-59°F). Most surfers wear wetsuits year-round!",
+      "funFact": "In winter, when it's snowing, you'll still see surfers on the wave with snow falling around them - it's a surreal and very Munich sight!",
+      "tags": ["sports", "cold-water", "extreme"]
+    },
+    {
+      "id": "eisbach_surfing_4",
+      "locationId": "eisbach_surfing",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What's an important rule of surfing etiquette at the Eisbach?",
+      "options": [
+        "Anyone can jump in anytime",
+        "Wait your turn in line - only one surfer on the wave at a time",
+        "Only professionals allowed",
+        "No rules"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Eisbach has strict surf etiquette: one surfer at a time, wait in line, and respect the regulars. Breaking the rules will get you yelled at!",
+      "funFact": "The local surfers act as unofficial 'wave police' - they'll quickly let you know if you cut in line or don't follow the rules. It's all about respect!",
+      "tags": ["culture", "etiquette", "community"]
+    },
+    {
+      "id": "flaucher_1",
+      "locationId": "flaucher",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "What is the Flaucher?",
+      "options": [
+        "A mountain",
+        "A popular beach and recreation area along the Isar River",
+        "A museum",
+        "A shopping mall"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Flaucher is Munich's favorite 'beach' - a beautiful stretch of gravel banks and meadows along the Isar River where locals swim, sunbathe, and BBQ!",
+      "funFact": "On hot summer days, the Flaucher becomes packed with thousands of people - it's like Munich's free, riverside beach resort!",
+      "tags": ["nature", "isar", "beach"]
+    },
+    {
+      "id": "flaucher_2",
+      "locationId": "flaucher",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What activity is especially popular at the Flaucher?",
+      "options": [
+        "Skiing",
+        "Grilling (BBQ) on the gravel banks",
+        "Shopping",
+        "Rock climbing"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "BBQing (grilling) on the Flaucher's gravel banks is a Munich summer tradition! Groups of friends bring portable grills and have riverside cookouts.",
+      "funFact": "The Flaucher has become so associated with grilling that Munich fire department sometimes has to remind people to be careful - but they rarely stop the BBQ parties!",
+      "tags": ["culture", "bbq", "tradition"]
+    },
+    {
+      "id": "flaucher_3",
+      "locationId": "flaucher",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What makes the Isar at Flaucher safe for swimming?",
+      "options": [
+        "It's a pool, not a river",
+        "The water is shallow and flows slowly in this section",
+        "There are lifeguards everywhere",
+        "It's not safe - swimming is banned"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "The Isar at the Flaucher is relatively shallow with gentle current in most areas, making it safer for swimming than upstream sections with strong currents.",
+      "funFact": "The Isar's renaturalization project in the 2000s created these gentle swimming areas while maintaining the wild river character - it's engineered 'naturalness'!",
+      "tags": ["nature", "swimming", "safety"]
+    },
+    {
+      "id": "flaucher_4",
+      "locationId": "flaucher",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "Is the Flaucher free to access?",
+      "options": [
+        "No, expensive entrance fee",
+        "Yes, completely free - it's public riverside land",
+        "Only with membership",
+        "Free only on weekends"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "The Flaucher is completely free! It's public land along the Isar, so anyone can enjoy the river, meadows, and gravel banks without paying a cent.",
+      "funFact": "This is one reason the Flaucher is so popular - unlike commercial beaches or pools, anyone can enjoy it regardless of budget. It's truly democratic recreation!",
+      "tags": ["culture", "access", "free"]
+    },
+    {
+      "id": "partnachklamm_1",
+      "locationId": "partnachklamm",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What is the Partnachklamm?",
+      "options": [
+        "A mountain peak",
+        "A spectacular gorge with 80-meter-high rock walls",
+        "A lake",
+        "A castle"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Partnachklamm is a dramatic gorge near Garmisch-Partenkirchen where the Partnach River has carved through rock creating walls up to 80 meters high!",
+      "funFact": "Walking through the gorge, you're surrounded by towering rock walls with waterfalls cascading down - it's like stepping into a fantasy movie!",
+      "tags": ["nature", "gorge", "dramatic"]
+    },
+    {
+      "id": "partnachklamm_2",
+      "locationId": "partnachklamm",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "When was the Partnachklamm opened to tourists?",
+      "options": [
+        "1800",
+        "1912",
+        "1950",
+        "2000"
+      ],
+      "correctAnswer": 1,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "The gorge was made accessible to tourists in 1912 when paths and tunnels were carved into the rock face - an impressive engineering feat for that era!",
+      "funFact": "Before 1912, the gorge was considered impassable. Workers had to be lowered on ropes to carve the paths and tunnels by hand - incredibly dangerous work!",
+      "tags": ["history", "engineering", "tourism"]
+    },
+    {
+      "id": "partnachklamm_3",
+      "locationId": "partnachklamm",
+      "category": "nature",
+      "difficulty": "medium",
+      "question": "What spectacular sight can you see in winter at Partnachklamm?",
+      "options": [
+        "Cherry blossoms",
+        "Frozen waterfalls and ice formations",
+        "Swimming",
+        "Sunbathing"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "In winter, the waterfalls freeze into stunning ice formations and icicles, creating a magical ice cathedral inside the gorge!",
+      "funFact": "Ice climbers sometimes scale the frozen waterfalls in the gorge - it's an extreme sport playground in winter!",
+      "tags": ["nature", "winter", "ice"]
+    },
+    {
+      "id": "partnachklamm_4",
+      "locationId": "partnachklamm",
+      "category": "nature",
+      "difficulty": "easy",
+      "question": "Near which famous German town is Partnachklamm located?",
+      "options": [
+        "Munich",
+        "Berlin",
+        "Garmisch-Partenkirchen",
+        "Hamburg"
+      ],
+      "correctAnswer": 2,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Partnachklamm is located near Garmisch-Partenkirchen, Germany's famous Olympic skiing town at the foot of the Zugspitze, Germany's highest peak!",
+      "funFact": "Garmisch-Partenkirchen hosted the 1936 Winter Olympics and remains one of Germany's premier ski resorts - the gorge is a bonus natural wonder!",
+      "tags": ["geography", "location", "skiing"]
+    },
+    {
+      "id": "isar_flossfahrt_1",
+      "locationId": "isar_flossfahrt",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "What was the original purpose of Isar river rafting?",
+      "options": [
+        "Tourism",
+        "Transporting timber and goods downstream",
+        "Racing",
+        "Fishing"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Floßfahrt (raft trips) were originally used to transport timber from the Alps downstream to Munich - logs were tied into rafts and floated down the Isar!",
+      "funFact": "The timber trade on the Isar was so important that Munich's construction and growth depended on it for centuries - before trucks, rivers were highways!",
+      "tags": ["history", "transportation", "timber"]
+    },
+    {
+      "id": "isar_flossfahrt_2",
+      "locationId": "isar_flossfahrt",
+      "category": "culture",
+      "difficulty": "easy",
+      "question": "What is a modern Isar raft trip like?",
+      "options": [
+        "Silent meditation",
+        "A party with Bavarian food, beer, and music on a floating platform",
+        "Speed rafting",
+        "Solo journey"
+      ],
+      "correctAnswer": 1,
+      "points": 10,
+      "xpReward": 15,
+      "explanation": "Modern Floßfahrten are floating parties! Groups rent rafts with tables, benches, beer kegs, food, and often live brass band music - very Bavarian!",
+      "funFact": "Some rafts even have grills on board for cooking sausages while floating down the river - it's the ultimate Bavarian party experience!",
+      "tags": ["culture", "party", "bavarian"]
+    },
+    {
+      "id": "isar_flossfahrt_3",
+      "locationId": "isar_flossfahrt",
+      "category": "culture",
+      "difficulty": "hard",
+      "question": "How long does a typical Isar raft journey take?",
+      "options": [
+        "30 minutes",
+        "2 hours",
+        "4-8 hours depending on the route",
+        "2 days"
+      ],
+      "correctAnswer": 2,
+      "points": 20,
+      "xpReward": 30,
+      "explanation": "A typical Floßfahrt lasts 4-8 hours, starting upstream and floating down to Munich. The rafts move at the river's natural pace - slow and relaxing!",
+      "funFact": "The pace is perfect - slow enough to enjoy the scenery, food and beer, but fast enough to make progress. It's floating relaxation at its best!",
+      "tags": ["culture", "duration", "journey"]
+    },
+    {
+      "id": "isar_flossfahrt_4",
+      "locationId": "isar_flossfahrt",
+      "category": "culture",
+      "difficulty": "medium",
+      "question": "What kind of music typically accompanies a raft trip?",
+      "options": [
+        "Rock music",
+        "Traditional Bavarian brass band music",
+        "Classical orchestra",
+        "Techno"
+      ],
+      "correctAnswer": 1,
+      "points": 15,
+      "xpReward": 20,
+      "explanation": "Many raft trips feature live Bavarian brass bands playing traditional folk music - imagine an oompah band floating down the river!",
+      "funFact": "The combination of brass music, beer, beautiful scenery, and gentle river motion makes people incredibly happy - it's peak Bavarian culture!",
+      "tags": ["culture", "music", "tradition"]
+    }
+  ]
+}

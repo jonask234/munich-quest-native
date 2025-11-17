@@ -14,10 +14,18 @@ if os.path.exists('quizzes_batch1_priority.json'):
         print(f"Loaded {len(batch1['quizzes'])} quizzes from batch 1")
 
 # Batch 2
-with open('quizzes_batch2_cultural_nature.json', 'r', encoding='utf-8') as f:
-    batch2 = json.load(f)
-    all_quizzes.extend(batch2['quizzes'])
-    print(f"Loaded {len(batch2['quizzes'])} quizzes from batch 2")
+if os.path.exists('quizzes_batch2_cultural_nature.json'):
+    with open('quizzes_batch2_cultural_nature.json', 'r', encoding='utf-8') as f:
+        batch2 = json.load(f)
+        all_quizzes.extend(batch2['quizzes'])
+        print(f"Loaded {len(batch2['quizzes'])} quizzes from batch 2")
+
+# Batch 3
+if os.path.exists('quizzes_batch3_cultural_lakes.json'):
+    with open('quizzes_batch3_cultural_lakes.json', 'r', encoding='utf-8') as f:
+        batch3 = json.load(f)
+        all_quizzes.extend(batch3['quizzes'])
+        print(f"Loaded {len(batch3['quizzes'])} quizzes from batch 3")
 
 # Load locations.json
 with open('MunichQuest/MunichQuest/Resources/locations.json', 'r', encoding='utf-8') as f:
